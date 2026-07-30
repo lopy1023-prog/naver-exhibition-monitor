@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>네이버 기획전 감시기</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 880px; margin: 40px auto; padding: 0 20px; line-height: 1.55; color: #1f2937; }
+    h1 { margin-bottom: 8px; }
+    .muted { color: #6b7280; }
+    .card { border: 1px solid #d1d5db; border-radius: 12px; padding: 18px; margin-top: 18px; }
+    .ok { color: #047857; font-weight: 700; }
+    .error { color: #b91c1c; font-weight: 700; }
+    button { padding: 10px 14px; border: 0; border-radius: 8px; cursor: pointer; }
+    pre { overflow: auto; background: #f3f4f6; border-radius: 8px; padding: 14px; white-space: pre-wrap; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <h1>네이버 기획전 감시기</h1>
+  <p class="muted">네이버 쇼핑파트너 블로그를 매시간 확인합니다.</p>
+  <button id="run">지금 수집 실행</button>
+  <div class="card">
+    <div id="summary">상태를 불러오는 중입니다.</div>
+    <pre id="raw"></pre>
+  </div>
+  <script>
+    const summary = document.querySelector('#summary');
+    const raw = document.querySelector('#raw');
+    const run = document.querySelector('#run');
+
+    async function load(path = '/api/status') {
+      summary.textContent = '확인 중...';
+      try {
+        const response = await fetch(path, { cache: 'no-store' });
+        const data = await response.json();
+        summary.innerHTML = `<span class="${data.status === 'ok' ? 'ok' : 'error'}">${data.status}</span> · 마지막 성공: ${data.lastSuccessAt ?? '없음'} · 최신 글번호: ${data.latestLogNo ?? '없음'}`;
+        raw.textContent = JSON.stringify(data, null, 2);
+      } catch (error) {
+        summary.innerHTML = `<span class="error">불러오기 실패</span>`;
+        raw.textContent = String(error);
+      }
+    }
+
+    run.addEventListener('click', () => load('/api/collect'));
+    load();
+  </script>
+</body>
+</html>

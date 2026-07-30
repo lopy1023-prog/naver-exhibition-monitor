@@ -1,0 +1,15 @@
+{
+  "name": "naver-exhibition-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
