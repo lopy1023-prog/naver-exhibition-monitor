@@ -13,6 +13,6 @@
 
 [[redirects]]
   from = "/api/collect"
-  to = "/.netlify/functions/collect-rss"
+  to = "/.netlify/functions/collect-now"
   status = 200
   force = true
