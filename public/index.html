@@ -4,6 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>네이버 기획전 감시기</title>
+  <meta name="description" content="네이버 쇼핑파트너 블로그의 최근 게시물을 매시간 확인하는 공개 감시 페이지입니다.">
+  <link rel="alternate" type="text/html" href="/feed" title="최근 공고 피드">
+  <link rel="alternate" type="text/plain" href="/feed.txt" title="자동화용 텍스트 피드">
   <style>
     body { font-family: system-ui, sans-serif; max-width: 880px; margin: 40px auto; padding: 0 20px; line-height: 1.55; color: #1f2937; }
     h1 { margin-bottom: 8px; }
@@ -13,12 +16,20 @@
     .error { color: #b91c1c; font-weight: 700; }
     button { padding: 10px 14px; border: 0; border-radius: 8px; cursor: pointer; }
     pre { overflow: auto; background: #f3f4f6; border-radius: 8px; padding: 14px; white-space: pre-wrap; }
-    a { color: inherit; }
+    a { color: #1d4ed8; }
+    .links { display: flex; gap: 14px; flex-wrap: wrap; margin: 16px 0; }
   </style>
 </head>
 <body>
   <h1>네이버 기획전 감시기</h1>
   <p class="muted">네이버 쇼핑파트너 블로그를 매시간 확인합니다.</p>
+
+  <nav class="links" aria-label="공개 피드">
+    <a href="/feed">최근 공고 피드</a>
+    <a href="/feed.txt">자동화용 텍스트 피드</a>
+    <a href="/status">상태 페이지</a>
+  </nav>
+
   <button id="run">지금 수집 실행</button>
   <div class="card">
     <div id="summary">상태를 불러오는 중입니다.</div>
