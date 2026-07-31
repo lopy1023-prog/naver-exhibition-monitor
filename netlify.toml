@@ -16,3 +16,9 @@
   to = "/.netlify/functions/collect-now"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/status"
+  to = "/.netlify/functions/status-page"
+  status = 200
+  force = true
