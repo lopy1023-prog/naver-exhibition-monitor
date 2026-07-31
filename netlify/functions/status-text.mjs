@@ -26,6 +26,8 @@ export default async function handler() {
 
     const lines = [
       "NAVER_EXHIBITION_MONITOR",
+      "feedVersion=2",
+      "purpose=ChatGPT automation feed for Naver seller announcements",
       `status=${clean(data.status ?? "unknown")}`,
       `lastCheckedAt=${clean(data.lastCheckedAt ?? "")}`,
       `lastSuccessAt=${clean(data.lastSuccessAt ?? "")}`,
@@ -52,14 +54,16 @@ export default async function handler() {
       status: 200,
       headers: {
         "content-type": "text/plain; charset=utf-8",
-        "cache-control": "no-store, no-cache, must-revalidate",
-        "x-robots-tag": "noindex",
+        "cache-control": "public, max-age=60, s-maxage=60, stale-while-revalidate=300",
+        "access-control-allow-origin": "*",
+        "x-content-type-options": "nosniff",
       },
     });
   } catch (error) {
     return new Response(
       [
         "NAVER_EXHIBITION_MONITOR",
+        "feedVersion=2",
         "status=error",
         `message=${clean(error?.message ?? error)}`,
       ].join("\n"),
@@ -67,7 +71,9 @@ export default async function handler() {
         status: 500,
         headers: {
           "content-type": "text/plain; charset=utf-8",
-          "cache-control": "no-store",
+          "cache-control": "public, max-age=30, s-maxage=30",
+          "access-control-allow-origin": "*",
+          "x-content-type-options": "nosniff",
         },
       }
     );
