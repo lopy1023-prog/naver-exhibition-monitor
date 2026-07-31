@@ -22,3 +22,21 @@
   to = "/.netlify/functions/status-page"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/feed"
+  to = "/.netlify/functions/feed"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/feed.txt"
+  to = "/.netlify/functions/status-text"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/status.txt"
+  to = "/.netlify/functions/status-text"
+  status = 200
+  force = true
