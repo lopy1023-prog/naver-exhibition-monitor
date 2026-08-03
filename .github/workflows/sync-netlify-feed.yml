@@ -1,0 +1,58 @@
+name: Sync Netlify announcement feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "12 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-netlify-feed.yml"
+      - "scripts/sync-github-feed.mjs"
+      - "test/sync-github-feed.test.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-netlify-announcement-feed
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run parser tests
+        run: node --test test/sync-github-feed.test.mjs
+
+      - name: Fetch Netlify feed
+        env:
+          FEED_URL: https://naver-exhibition-monitor.netlify.app/feed.txt
+          OUTPUT_PATH: data/naver-feed.json
+        run: node scripts/sync-github-feed.mjs
+
+      - name: Commit changed feed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/naver-feed.json && \
+             git diff --cached --quiet -- data/naver-feed.json; then
+            echo "No feed change to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/naver-feed.json
+          git commit -m "chore: sync Naver announcement feed"
+          git push
