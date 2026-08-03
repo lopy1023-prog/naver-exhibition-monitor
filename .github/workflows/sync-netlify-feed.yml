@@ -45,8 +45,7 @@ jobs:
       - name: Commit changed feed
         shell: bash
         run: |
-          if git diff --quiet -- data/naver-feed.json && \
-             git diff --cached --quiet -- data/naver-feed.json; then
+          if [ -z "$(git status --porcelain -- data/naver-feed.json)" ]; then
             echo "No feed change to commit."
             exit 0
           fi
