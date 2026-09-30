@@ -3,7 +3,7 @@ name: LH Suwon notice monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: "37 * * * *"
+    - cron: "37 */1 * * *"
 
 permissions:
   contents: write
