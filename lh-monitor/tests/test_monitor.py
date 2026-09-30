@@ -4,6 +4,7 @@ import sys
 import unittest
 from unittest.mock import MagicMock, patch
 import zipfile
+import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -14,6 +15,7 @@ from monitor import link_families, validate
 from parser import classify, parse_detail, parse_list
 from lh_client import LHClient
 import requests
+import monitor
 
 
 class MonitorTests(unittest.TestCase):
@@ -27,7 +29,40 @@ class MonitorTests(unittest.TestCase):
         with patch("lh_client.time.monotonic", side_effect=[0, 1, 91]):
             with self.assertRaises(requests.Timeout):
                 client.content("https://apply.lh.or.kr/example")
-        response.__exit__.assert_not_called()
+        client.session.get.return_value.__exit__.assert_called_once()
+
+    def test_failed_collection_preserves_last_success_and_null_events(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory)
+            for filename in ("lh-state.json", "lh-tracked-state.json"):
+                (data / filename).write_text('{"marker":"last-success"}', encoding="utf-8")
+            client = MagicMock()
+            client.collect_category.side_effect = requests.Timeout("official list unavailable")
+            client.collect_presale.side_effect = requests.Timeout("official list unavailable")
+            with patch.object(monitor, "DATA", data), patch.object(monitor, "LHClient", return_value=client):
+                self.assertEqual(monitor.run(), 1)
+            for filename in ("lh-state.json", "lh-tracked-state.json"):
+                self.assertEqual(json.loads((data / filename).read_text())["marker"], "last-success")
+            report = json.loads((data / "lh-report.json").read_text(encoding="utf-8"))
+            self.assertEqual(report["sourceStatus"], "error")
+            self.assertIsNone(report["new"])
+            self.assertTrue(report["errors"])
+
+    def test_presale_identifiers_columns_and_direct_attachment(self):
+        html = ('<p class="bbs_total">전체 1건 1/1페이지</p><div class="bbs_ListA"><table><tbody><tr>'
+                '<td>1</td><td>공공임대</td><td><a class="slpaInfoBtn" data-id1="61" data-id2="50" data-id3="61">'
+                '<span>수원 사전청약</span></a></td><td>첨부</td><td>2024.01.04</td><td>2024.01.25</td>'
+                '<td>접수마감</td><td>100</td></tr></tbody></table></div>')
+        _, posts = parse_list(html, "presale", "1349", "now")
+        post = posts[0]
+        self.assertIn("slpaInfo.do?", post["detailUrl"])
+        self.assertEqual(post["postedAt"], "2024-01-04")
+        detail = ('<div class="bbs_ViewA"><h3>수원 사전청약</h3><ul class="bbsV_data">'
+                  '<li><strong>마감일</strong>2024년 01월 25일</li></ul>'
+                  '<div class="bbsV_atchmnfl"><a href="/lhapply/lhFile.do?fileid=123">공고.pdf</a></div></div>')
+        parse_detail(detail, post)
+        self.assertEqual(post["applicationEnd"], "2024-01-25")
+        self.assertEqual(post["attachments"][0]["fileId"], "123")
 
     def test_a_direct_suwon(self):
         post = {"title": "수원당수 A-3블록 신혼희망타운", "region": "경기도", "category": "sale"}

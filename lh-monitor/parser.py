@@ -60,7 +60,7 @@ def parse_list(html: str, category: str, mi: str, checked_at: str) -> tuple[dict
         raise ParseError(f"페이지 수 불일치: LH={total_pages}, 계산={expected_pages}, 건수={count}")
     posts = []
     for row in soup.select(".bbs_ListA tbody tr"):
-        link = row.select_one("a.wrtancInfoBtn")
+        link = row.select_one("a.slpaInfoBtn" if category == "presale" else "a.wrtancInfoBtn")
         if not link:
             continue
         cells = row.find_all("td", recursive=False)
@@ -70,24 +70,25 @@ def parse_list(html: str, category: str, mi: str, checked_at: str) -> tuple[dict
         ccr = link.get("data-id2", "").strip()
         upper = link.get("data-id3", "").strip()
         subtype = link.get("data-id4", "").strip()
-        if not all((pan_id, ccr, upper, subtype)):
+        if not all((pan_id, ccr, upper) if category == "presale" else (pan_id, ccr, upper, subtype)):
             raise ParseError("LH 공고 행 식별자 누락")
         title_node = link.select_one("span") or link
         day = title_node.select_one("em")
         if day:
             day.decompose()
         title = clean(title_node.get_text(" ", strip=True))
-        posted = clean(cells[5].get_text(" ", strip=True)).replace(".", "-")
-        deadline = clean(cells[6].get_text(" ", strip=True)).replace(".", "-")
+        offset = -1 if category == "presale" else 0
+        posted = clean(cells[5 + offset].get_text(" ", strip=True)).replace(".", "-")
+        deadline = clean(cells[6 + offset].get_text(" ", strip=True)).replace(".", "-")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", posted) or not title:
             raise ParseError(f"LH 공고 {pan_id} 제목 또는 게시일 누락")
         post = {
             "panId": pan_id, "title": title, "category": category,
             "type": clean(cells[1].get_text(" ", strip=True)),
-            "region": clean(cells[3].get_text(" ", strip=True)),
+            "region": "" if category == "presale" else clean(cells[3].get_text(" ", strip=True)),
             "postedAt": posted, "applicationStart": "", "applicationEnd": deadline,
-            "status": clean(cells[7].get_text(" ", strip=True)),
-            "detailUrl": detail_url(pan_id, ccr, upper, subtype, mi),
+            "status": clean(cells[7 + offset].get_text(" ", strip=True)),
+            "detailUrl": (BASE + "/lhapply/apply/bfh/slpa/slpaInfo.do?" + urlencode({"mi": mi, "panId": pan_id, "aisTpCd": ccr, "otxtPanId": upper})) if category == "presale" else detail_url(pan_id, ccr, upper, subtype, mi),
             "attachments": [], "correction": any(v in title for v in CORRECTIONS),
             "correctionOf": "", "firstSeenAt": checked_at, "lastSeenAt": checked_at,
             "needsReview": False, "reviewReason": [],
@@ -123,7 +124,11 @@ def parse_detail(html: str, post: dict) -> dict:
         value = clean(item.get_text(" ", strip=True).replace(key, "", 1))
         if key == "공고상태": post["status"] = value
         elif key == "유형": post["type"] = value
-        elif key == "마감일": post["applicationEnd"] = value.replace(".", "-")
+        elif key == "마감일":
+            match = re.search(r"(\d{4})\D+(\d{1,2})\D+(\d{1,2})", value)
+            if match:
+                year, month, day = map(int, match.groups())
+                post["applicationEnd"] = f"{year:04}-{month:02}-{day:02}"
     # LH closes .bbs_ViewA before some supply/schedule sections; #sub_container owns the full detail.
     main = soup.select_one("#sub_container") or view
     text = clean(main.get_text(" ", strip=True))
@@ -144,7 +149,7 @@ def parse_detail(html: str, post: dict) -> dict:
             post["applicationStart"] = match.group(1).replace(".", "-")
     attachments = []
     for link in view.select(".bbsV_atchmnfl a[href]"):
-        match = re.search(r"fileDownLoad\(['\"]?(\d+)", link.get("href", ""))
+        match = re.search(r"(?:fileDownLoad\(['\"]?|[?&]fileid=)(\d+)", link.get("href", ""))
         if match:
             name = clean(link.get_text(" ", strip=True))
             attachments.append({"fileId": match.group(1), "name": name, "url": BASE + "/lhapply/lhFile.do?fileid=" + match.group(1)})

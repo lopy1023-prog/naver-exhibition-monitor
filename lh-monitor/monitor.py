@@ -169,7 +169,7 @@ def run() -> int:
                                             "checkedAt": checked_at, "error": reason}
             feed["errors"].append(reason)
     try:
-        info, found = client.collect_presale(checked_at)
+        info, found = client.collect_presale(checked_at, start, today)
         feed["categories"]["presale"] = info
         posts.extend(found)
     except Exception as exc:

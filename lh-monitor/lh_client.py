@@ -47,6 +47,8 @@ class LHClient:
         started = time.monotonic()
         with self.session.get(url, timeout=self.timeout, stream=True) as response:
             response.raise_for_status()
+            if "text/html" in response.headers.get("Content-Type", "").lower():
+                raise requests.HTTPError("첨부파일 대신 HTML 오류 화면 수신")
             advertised = int(response.headers.get("Content-Length", "0"))
             if advertised > max_bytes:
                 raise ValueError(f"첨부파일 크기 제한 초과: {advertised} bytes")
@@ -55,6 +57,8 @@ class LHClient:
                 if time.monotonic() - started > max_seconds:
                     raise requests.Timeout(f"첨부 다운로드 전체 시간 {max_seconds}초 초과")
                 content.extend(chunk)
+                if content.lstrip()[:32].lower().startswith((b"<!doctype html", b"<html")):
+                    raise requests.HTTPError("첨부파일 대신 HTML 오류 화면 수신")
                 if len(content) > max_bytes:
                     raise ValueError(f"첨부파일 크기 제한 초과: {len(content)} bytes")
             return bytes(content)
@@ -111,20 +115,34 @@ class LHClient:
         response.raise_for_status()
         return response.text
 
-    def collect_presale(self, checked_at: str) -> tuple[dict, list[dict]]:
+    def collect_presale(self, checked_at: str, start: date | None = None, end: date | None = None) -> tuple[dict, list[dict]]:
         source = BASE + PRESALE_PATH + "?mi=1349"
-        html = self.get(source)
-        from bs4 import BeautifulSoup
-        import re
-        total = BeautifulSoup(html, "html.parser").select_one(".bbs_total")
-        if not total:
-            raise ParseError("사전청약 목록 구조 변경")
-        match = re.search(r"전체\s*([\d,]+)\s*건\s*([\d,]+)\s*/\s*([\d,]+)\s*페이지", total.get_text(" ", strip=True))
-        if not match:
-            raise ParseError("사전청약 건수 표시 해석 실패")
-        count, current, pages = (int(v.replace(",", "")) for v in match.groups())
-        if count != 0 or current != 0 or pages != 0:
-            # A separate format needs a verified parser before claiming success.
-            raise ParseError(f"사전청약 공고 {count}건 발견: 전용 페이지 파서 필요")
-        return {"totalCount": 0, "parsedCount": 0, "totalPages": 0, "checkedPages": 0,
-                "complete": True, "sourceUrl": source, "checkedAt": checked_at, "error": None}, []
+        end = end or date.today()
+        start = start or end - timedelta(days=45)
+        self.get(source)
+        fields = {"mi": "1349", "currPage": "1", "listCo": "100", "prevListCo": "100",
+                  "srchY": "N", "schTy": "0", "startDt": start.isoformat(), "endDt": end.isoformat(),
+                  "panSs": "", "panNm": ""}
+        posts = []
+        count = pages = None
+        checked = 0
+        try:
+            while True:
+                response = self.session.post(source, data=fields, timeout=self.timeout)
+                response.raise_for_status()
+                meta, found = parse_list(response.text, "presale", "1349", checked_at)
+                if count is None:
+                    count, pages = meta["totalCount"], meta["totalPages"]
+                if meta != {"totalCount": count, "totalPages": pages, "currentPage": int(fields["currPage"]) if pages else 0}:
+                    raise ParseError("사전청약 페이지 메타데이터 변경 또는 누락")
+                posts.extend(found)
+                checked += 1 if pages else 0
+                if checked == pages:
+                    break
+                fields["currPage"] = str(checked + 1)
+            if len(posts) != count or len({p["panId"] for p in posts}) != count:
+                raise ParseError("사전청약 전체 건수/중복 검증 실패")
+        except Exception as exc:
+            raise CollectionError(exc, count, pages, checked, len(posts)) from exc
+        return {"totalCount": count, "parsedCount": len(posts), "totalPages": pages, "checkedPages": checked,
+                "complete": True, "sourceUrl": source, "checkedAt": checked_at, "error": None}, posts
