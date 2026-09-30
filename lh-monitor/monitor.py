@@ -8,7 +8,8 @@ import json
 import re
 import sys
 import threading
-from concurrent.futures import ThreadPoolExecutor
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -59,6 +60,7 @@ def enrich(client: LHClient, post: dict, previous: dict | None, attachment_error
         return post
     attachment_text = []
     for attachment in post["attachments"]:
+        started = time.monotonic()
         try:
             name = attachment["name"]
             priority = any(word in name for word in ("공고문", "공급", "주택목록", "잔여", "정정", "변경")) or name.lower().endswith((".xls", ".xlsx"))
@@ -78,6 +80,10 @@ def enrich(client: LHClient, post: dict, previous: dict | None, attachment_error
             if "HTTP" in type(exc).__name__ or "Connection" in type(exc).__name__ or "Timeout" in type(exc).__name__:
                 with error_lock:
                     attachment_errors.append(reason)
+        finally:
+            elapsed = time.monotonic() - started
+            if elapsed >= 15 or attachment.get("error"):
+                print(f"attachment panId={post['panId']} fileId={attachment['fileId']} seconds={elapsed:.1f} result={attachment.get('error', 'ok')}", flush=True)
     detail_hit = post["directSuwon"]
     classify(post, detail_text, " ".join(attachment_text))
     post["directSuwon"] = post["directSuwon"] or detail_hit
@@ -221,8 +227,10 @@ def run() -> int:
         if not hasattr(worker_local, "client"):
             worker_local.client = LHClient()
         return enrich(worker_local.client, post, old_by_id.get(identity(post)), attachment_errors, error_lock)
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        for index, _ in enumerate(pool.map(enrich_one, posts), start=1):
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = [pool.submit(enrich_one, post) for post in posts]
+        for index, future in enumerate(as_completed(futures), start=1):
+            future.result()
             if index % 50 == 0:
                 print(f"details: {index}/{len(posts)}", flush=True)
     link_families(posts)

@@ -76,8 +76,13 @@ def extract_text(name: str, data: bytes, depth: int = 0) -> str:
         with tempfile.TemporaryDirectory() as temporary:
             path = Path(temporary) / "notice.hwp"
             path.write_bytes(data)
-            command = subprocess.run([executable, str(path)], capture_output=True, text=True, timeout=90, check=True)
-            result = command.stdout
+            try:
+                command = subprocess.run([executable, str(path)], capture_output=True, timeout=30, check=True)
+            except subprocess.TimeoutExpired as exc:
+                raise ValueError("HWP 해석 30초 제한 초과") from exc
+            except subprocess.CalledProcessError as exc:
+                raise ValueError(f"HWP 해석기 실패 (exit {exc.returncode})") from exc
+            result = command.stdout.decode("utf-8", errors="replace")
     else:
         raise ValueError(f"지원하지 않는 첨부 형식: {suffix}")
     result = clean(result)

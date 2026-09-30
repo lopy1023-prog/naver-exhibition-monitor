@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import math
+import time
 from datetime import date, timedelta
 
 import requests
@@ -42,14 +43,17 @@ class LHClient:
         response.raise_for_status()
         return response.text
 
-    def content(self, url: str, max_bytes: int = 25_000_000) -> bytes:
+    def content(self, url: str, max_bytes: int = 25_000_000, max_seconds: float = 90) -> bytes:
+        started = time.monotonic()
         with self.session.get(url, timeout=self.timeout, stream=True) as response:
             response.raise_for_status()
             advertised = int(response.headers.get("Content-Length", "0"))
             if advertised > max_bytes:
                 raise ValueError(f"첨부파일 크기 제한 초과: {advertised} bytes")
             content = bytearray()
-            for chunk in response.iter_content(chunk_size=1_048_576):
+            for chunk in response.iter_content(chunk_size=16_384):
+                if time.monotonic() - started > max_seconds:
+                    raise requests.Timeout(f"첨부 다운로드 전체 시간 {max_seconds}초 초과")
                 content.extend(chunk)
                 if len(content) > max_bytes:
                     raise ValueError(f"첨부파일 크기 제한 초과: {len(content)} bytes")

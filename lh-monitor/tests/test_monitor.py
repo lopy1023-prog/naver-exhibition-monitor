@@ -2,6 +2,7 @@ import io
 import json
 import sys
 import unittest
+from unittest.mock import MagicMock, patch
 import zipfile
 from pathlib import Path
 
@@ -11,9 +12,23 @@ from attachment_parser import extract_text
 from diff import compare
 from monitor import link_families, validate
 from parser import classify, parse_detail, parse_list
+from lh_client import LHClient
+import requests
 
 
 class MonitorTests(unittest.TestCase):
+    def test_slow_continuous_download_has_total_deadline(self):
+        client = LHClient()
+        response = MagicMock()
+        response.headers = {}
+        response.iter_content.return_value = iter([b"first", b"second"])
+        client.session.get = MagicMock()
+        client.session.get.return_value.__enter__.return_value = response
+        with patch("lh_client.time.monotonic", side_effect=[0, 1, 91]):
+            with self.assertRaises(requests.Timeout):
+                client.content("https://apply.lh.or.kr/example")
+        response.__exit__.assert_not_called()
+
     def test_a_direct_suwon(self):
         post = {"title": "수원당수 A-3블록 신혼희망타운", "region": "경기도", "category": "sale"}
         self.assertTrue(classify(post)["directSuwon"])

@@ -30,7 +30,7 @@ jobs:
       - name: Run LH tests
         run: python -m unittest discover -s lh-monitor/tests -v
       - name: Store failure report
-        if: failure()
+        if: failure() || cancelled()
         uses: actions/upload-artifact@v4
         with:
           name: lh-monitor-failure
@@ -48,4 +48,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/lh/lh-feed.json data/lh/lh-report.json data/lh/lh-state.json data/lh/lh-tracked-state.json
           git commit -m "chore: update LH monitoring data"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
