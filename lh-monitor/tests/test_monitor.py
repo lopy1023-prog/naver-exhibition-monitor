@@ -1,36 +1,20 @@
-import io
 import json
 import sys
 import unittest
 from unittest.mock import MagicMock, patch
-import zipfile
 import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from attachment_parser import extract_text
 from diff import compare
 from monitor import link_families, validate
 from parser import classify, parse_detail, parse_list
-from lh_client import LHClient
 import requests
 import monitor
 
 
 class MonitorTests(unittest.TestCase):
-    def test_slow_continuous_download_has_total_deadline(self):
-        client = LHClient()
-        response = MagicMock()
-        response.headers = {}
-        response.iter_content.return_value = iter([b"first", b"second"])
-        client.session.get = MagicMock()
-        client.session.get.return_value.__enter__.return_value = response
-        with patch("lh_client.time.monotonic", side_effect=[0, 1, 91]):
-            with self.assertRaises(requests.Timeout):
-                client.content("https://apply.lh.or.kr/example")
-        client.session.get.return_value.__exit__.assert_called_once()
-
     def test_failed_collection_preserves_last_success_and_null_events(self):
         with tempfile.TemporaryDirectory() as directory:
             data = Path(directory)
@@ -93,21 +77,16 @@ class MonitorTests(unittest.TestCase):
         self.assertIn("additionalRecruitment", event["kinds"])
 
     def test_e_same_pan_id_date_and_attachment_change(self):
-        old = {"panId": "same", "title": "공고", "applicationEnd": "2026-10-01", "attachments": [{"fileId": "1", "sha256": "a"}]}
-        new = {"panId": "same", "title": "공고", "applicationEnd": "2026-10-02", "attachments": [{"fileId": "1", "sha256": "b"}]}
+        old = {"panId": "same", "title": "공고", "applicationEnd": "2026-10-01", "attachments": [{"fileId": "1"}]}
+        new = {"panId": "same", "title": "공고", "applicationEnd": "2026-10-02", "attachments": [{"fileId": "2"}]}
         event = compare([old], [new])[0]
         self.assertIn("deadlineChanged", event["kinds"])
         self.assertIn("attachmentChanged", event["kinds"])
 
-    def test_unreadable_attachment_is_not_silently_accepted(self):
-        with self.assertRaises(ValueError):
-            extract_text("houses.pdf", b"not a PDF")
-
-    def test_hwpx_xml_extracts_suwon(self):
-        output = io.BytesIO()
-        with zipfile.ZipFile(output, "w") as archive:
-            archive.writestr("Contents/section0.xml", "<root><p>수원시 공급주택 목록</p></root>")
-        self.assertIn("수원시", extract_text("notice.hwpx", output.getvalue()))
+    def test_previous_attachment_text_hash_is_not_a_new_alert(self):
+        old = {"panId": "same", "title": "수원 공고", "attachments": [{"fileId": "1", "name": "공고.pdf", "url": "official", "sha256": "old"}]}
+        new = {"panId": "same", "title": "수원 공고", "attachments": [{"fileId": "1", "name": "공고.pdf", "url": "official"}]}
+        self.assertEqual(compare([old], [new]), [])
 
     def test_page_count_detects_partial_table(self):
         html = '<p class="bbs_total">전체 <strong>2</strong>건 <strong>1</strong>/1페이지</p><div class="bbs_ListA"><table><tbody></tbody></table></div>'

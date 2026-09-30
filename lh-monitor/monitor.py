@@ -3,17 +3,14 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import re
 import sys
 import threading
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from attachment_parser import extract_text, should_inspect
 from diff import compare, family_key
 from lh_client import CATEGORIES, LHClient
 from parser import ParseError, classify, content_hash, identity, parse_detail
@@ -57,13 +54,13 @@ def mark_failure(reason: str) -> None:
     feed["syncedAt"] = now()
     feed["errors"] = list(dict.fromkeys([*feed.get("errors", []), reason]))
     report = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": feed["syncedAt"],
-              "new": None, "changed": None, "directSuwon": None, "broadCandidates": None,
+              "new": None, "changed": None, "alerts": None, "directSuwon": None, "broadCandidates": None,
               "needsReview": None, "tracked": None, "errors": feed["errors"]}
     write_json(DATA / "lh-feed.json", feed)
     write_json(DATA / "lh-report.json", report)
 
 
-def enrich(client: LHClient, post: dict, previous: dict | None, attachment_errors: list[str], error_lock: threading.Lock):
+def enrich(client: LHClient, post: dict):
     # Check every detail: a generic list title may hide Suwon only in the supply location.
     try:
         post = parse_detail(client.get(post["detailUrl"]), post)
@@ -72,39 +69,9 @@ def enrich(client: LHClient, post: dict, previous: dict | None, attachment_error
         post["reviewReason"].append(f"상세페이지 확인 실패: {type(exc).__name__}: {exc}")
         return post
     detail_text = post.pop("_detailText", "")
-    if not (post["directSuwon"] or post["broadCandidate"] or post.get("tracked")):
-        return post
-    attachment_text = []
-    for attachment in post["attachments"]:
-        started = time.monotonic()
-        try:
-            name = attachment["name"]
-            priority = any(word in name for word in ("공고문", "공급", "주택목록", "잔여", "정정", "변경")) or name.lower().endswith((".xls", ".xlsx"))
-            content = client.content(attachment["url"], max_bytes=100_000_000 if priority else 25_000_000)
-            attachment["sha256"] = hashlib.sha256(content).hexdigest()
-            if not should_inspect(attachment["name"]):
-                continue
-            text = extract_text(attachment["name"], content)
-            attachment["textExcerpt"] = text[:500]
-            attachment["directSuwon"] = any(word in text for word in ("수원", "장안구", "권선구", "팔달구", "영통구"))
-            attachment_text.append(text)
-        except Exception as exc:
-            reason = f"{attachment['name']} 확인 실패: {type(exc).__name__}: {exc}"
-            post["needsReview"] = True
-            post["reviewReason"].append(reason)
-            attachment["error"] = reason
-            if "HTTP" in type(exc).__name__ or "Connection" in type(exc).__name__ or "Timeout" in type(exc).__name__:
-                with error_lock:
-                    attachment_errors.append(reason)
-        finally:
-            elapsed = time.monotonic() - started
-            if elapsed >= 15 or attachment.get("error"):
-                print(f"attachment panId={post['panId']} fileId={attachment['fileId']} seconds={elapsed:.1f} result={attachment.get('error', 'ok')}", flush=True)
-    detail_hit = post["directSuwon"]
-    classify(post, detail_text, " ".join(attachment_text))
-    post["directSuwon"] = post["directSuwon"] or detail_hit
+    classify(post, detail_text)
     if post.get("tracked"):
-        searchable = " ".join((post["title"], detail_text, *attachment_text))
+        searchable = " ".join((post["title"], detail_text))
         post["trackedSignals"] = {}
         for label, pattern in TRACK_PATTERNS.items():
             match = re.search(pattern, searchable)
@@ -199,7 +166,7 @@ def run() -> int:
         feed["posts"] = posts
         feed["postCount"] = len(posts)
         report = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
-                  "new": None, "changed": None, "directSuwon": None, "broadCandidates": None,
+                  "new": None, "changed": None, "alerts": None, "directSuwon": None, "broadCandidates": None,
                   "needsReview": None, "tracked": None, "errors": feed["errors"]}
         write_json(DATA / "lh-feed.json", feed)
         write_json(DATA / "lh-report.json", report)
@@ -223,7 +190,7 @@ def run() -> int:
     if feed["errors"]:
         write_json(DATA / "lh-feed.json", feed)
         write_json(DATA / "lh-report.json", {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
-                                                 "new": None, "changed": None, "directSuwon": None,
+                                                 "new": None, "changed": None, "alerts": None, "directSuwon": None,
                                                  "broadCandidates": None, "needsReview": None, "tracked": None,
                                                  "errors": feed["errors"]})
         return 1
@@ -232,8 +199,6 @@ def run() -> int:
     for post in tracked_posts:
         by_id.setdefault(identity(post), post)["tracked"] = post["tracked"]
     posts = list(by_id.values())
-    attachment_errors = []
-    error_lock = threading.Lock()
     worker_local = threading.local()
     for post in posts:
         previous = old_by_id.get(identity(post))
@@ -242,7 +207,7 @@ def run() -> int:
     def enrich_one(post: dict) -> dict:
         if not hasattr(worker_local, "client"):
             worker_local.client = LHClient()
-        return enrich(worker_local.client, post, old_by_id.get(identity(post)), attachment_errors, error_lock)
+        return enrich(worker_local.client, post)
     with ThreadPoolExecutor(max_workers=8) as pool:
         futures = [pool.submit(enrich_one, post) for post in posts]
         for index, future in enumerate(as_completed(futures), start=1):
@@ -267,9 +232,6 @@ def run() -> int:
                 feed["errors"].append("panId=0000061181 공식 상세는 존재하지만 목록에서 누락")
         except Exception as exc:
             feed["errors"].append(f"panId=0000061181 확인 실패: {type(exc).__name__}: {exc}")
-    inspected_count = sum(len(post.get("attachments", [])) for post in posts if post.get("directSuwon") or post.get("broadCandidate") or post.get("tracked"))
-    if inspected_count >= 5 and len(attachment_errors) * 2 >= inspected_count:
-        feed["errors"].append(f"광범위한 첨부파일 접근/해석 실패: {len(attachment_errors)}/{inspected_count}")
     feed["posts"] = sorted(posts, key=lambda p: (p.get("postedAt", ""), p.get("panId", "")), reverse=True)
     feed["postCount"] = len(feed["posts"])
     feed["sourceStatus"] = "error" if feed["errors"] else "ok"
@@ -278,16 +240,19 @@ def run() -> int:
         feed["sourceStatus"] = "error"
         feed["errors"] = errors
         report = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
-                  "new": None, "changed": None, "directSuwon": None, "broadCandidates": None,
+                  "new": None, "changed": None, "alerts": None, "directSuwon": None, "broadCandidates": None,
                   "needsReview": None, "tracked": None, "errors": errors}
         write_json(DATA / "lh-feed.json", feed)
         write_json(DATA / "lh-report.json", report)
         print("LH validation error: " + "; ".join(errors), file=sys.stderr)
         return 1
     events = compare(last.get("posts", []), feed["posts"])
+    current_by_id = {identity(post): post for post in feed["posts"]}
+    alerts = [event for event in events if current_by_id.get(event.get("panId"), {}).get("directSuwon")]
     report = {"schemaVersion": 1, "sourceStatus": "ok", "syncedAt": checked_at,
               "new": [e for e in events if e["kind"] in ("new", "correction")],
               "changed": [e for e in events if e["kind"] == "changed"],
+              "alerts": alerts if last.get("posts") else [],
               "directSuwon": [summary(p) for p in feed["posts"] if p["directSuwon"]],
               "broadCandidates": [summary(p) for p in feed["posts"] if p["broadCandidate"]],
               "needsReview": [summary(p) for p in feed["posts"] if p["needsReview"]],

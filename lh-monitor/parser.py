@@ -31,8 +31,8 @@ def digest(value: object) -> str:
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 
-def classify(post: dict, detail_text: str = "", attachment_text: str = "") -> dict:
-    text = " ".join((post.get("title", ""), post.get("region", ""), detail_text, attachment_text))
+def classify(post: dict, detail_text: str = "") -> dict:
+    text = " ".join((post.get("title", ""), post.get("region", ""), detail_text))
     post["directSuwon"] = any(word in text for word in DIRECT)
     post["broadCandidate"] = post.get("category") in ("rental", "sale", "presale") and any(word in text for word in BROAD)
     return post
@@ -155,6 +155,6 @@ def parse_detail(html: str, post: dict) -> dict:
             name = clean(link.get_text(" ", strip=True))
             attachments.append({"fileId": match.group(1), "name": name, "url": BASE + "/lhapply/lhFile.do?fileid=" + match.group(1)})
     post["attachments"] = attachments
-    classify(post, text, " ".join(a["name"] for a in attachments))
+    classify(post, text)
     post["contentHash"] = content_hash(post)
     return post
