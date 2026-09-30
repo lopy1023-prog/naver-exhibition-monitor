@@ -1,0 +1,11 @@
+{
+  "notices": [
+    {
+      "id": "gyeonggi-south-2026-general-purchase-rental",
+      "search": "매입임대",
+      "containsAll": ["경기남부", "2026년", "일반", "매입임대주택"],
+      "watch": ["잔여주택 공개", "수원 잔여물량", "열람기간", "신청 시작", "신청 종료", "정정공고", "물량변경", "결과 발표"],
+      "stopAutomatically": false
+    }
+  ]
+}
