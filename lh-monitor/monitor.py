@@ -248,17 +248,20 @@ def run() -> int:
         return 1
     events = compare(last.get("posts", []), feed["posts"])
     current_by_id = {identity(post): post for post in feed["posts"]}
-    alerts = [event for event in events if current_by_id.get(event.get("panId"), {}).get("directSuwon")]
+    alert_events = [event for event in events if current_by_id.get(event.get("panId"), {}).get("directSuwon")] if last.get("posts") else []
+    alerts = [{**event, "alertId": f"{event['panId']}:{checked_at}", "detectedAt": checked_at} for event in alert_events]
+    alert_history = [*last.get("alertHistory", []), *alerts]
     report = {"schemaVersion": 1, "sourceStatus": "ok", "syncedAt": checked_at,
               "new": [e for e in events if e["kind"] in ("new", "correction")],
               "changed": [e for e in events if e["kind"] == "changed"],
-              "alerts": alerts if last.get("posts") else [],
+              "alerts": alerts, "alertHistory": alert_history,
               "directSuwon": [summary(p) for p in feed["posts"] if p["directSuwon"]],
               "broadCandidates": [summary(p) for p in feed["posts"] if p["broadCandidate"]],
               "needsReview": [summary(p) for p in feed["posts"] if p["needsReview"]],
               "tracked": [summary(p) for p in feed["posts"] if p.get("tracked")], "errors": []}
     tracked_state = {"schemaVersion": 1, "syncedAt": checked_at, "posts": report["tracked"]}
-    state = {"schemaVersion": 1, "syncedAt": checked_at, "baselineStart": start.isoformat(), "posts": feed["posts"]}
+    state = {"schemaVersion": 1, "syncedAt": checked_at, "baselineStart": start.isoformat(),
+             "alertHistory": alert_history, "posts": feed["posts"]}
     write_json(DATA / "lh-feed.json", feed)
     write_json(DATA / "lh-report.json", report)
     write_json(DATA / "lh-tracked-state.json", tracked_state)
