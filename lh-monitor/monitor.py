@@ -13,7 +13,7 @@ from pathlib import Path
 
 from diff import compare, family_key
 from lh_client import CATEGORIES, LHClient
-from parser import ParseError, classify, content_hash, identity, parse_detail
+from parser import ParseError, classify, content_hash, digest, identity, parse_detail
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "lh"
@@ -123,6 +123,48 @@ def link_families(posts: list[dict]) -> None:
             if post.get("correction"):
                 post["correctionOf"] = originals[0]["panId"]
                 post["contentHash"] = content_hash(post)
+
+
+def build_alerts(events: list[dict], old_posts: list[dict], new_posts: list[dict],
+                 prior_history: list[dict], checked_at: str, baseline_established: bool) -> tuple[list[dict], list[dict]]:
+    history = list(prior_history)
+    if not baseline_established:
+        return [], history
+    old_by_id = {identity(post): post for post in old_posts}
+    current_by_id = {identity(post): post for post in new_posts}
+    alerts = []
+    for event in events:
+        pan_id = event.get("panId")
+        current = current_by_id.get(pan_id)
+        if not current or not (current.get("directSuwon") or current.get("broadCandidate") or current.get("tracked")):
+            continue
+        old = old_by_id.get(pan_id, {})
+        fields = sorted(set(event.get("fields", [])))
+        changes = {field: {"before": old.get(field), "after": current.get(field)} for field in fields}
+        if "attachments" in changes:
+            changes["attachments"] = {
+                "before": [(item.get("fileId"), item.get("name"), item.get("url")) for item in old.get("attachments", [])],
+                "after": [(item.get("fileId"), item.get("name"), item.get("url")) for item in current.get("attachments", [])],
+            }
+        signature = {"panId": pan_id, "kind": event.get("kind"), "kinds": sorted(set(event.get("kinds", []))),
+                     "relatedPanId": event.get("relatedPanId", ""), "fields": fields, "changes": changes}
+        if event.get("kind") != "changed":
+            signature["notice"] = {key: current.get(key) for key in
+                                   ("title", "category", "region", "postedAt", "applicationStart",
+                                    "applicationEnd", "status", "contentHash", "correctionOf")}
+        event_signature = digest(signature)
+        previous_alert = next((item for item in reversed(history) if item.get("panId") == pan_id), None)
+        if previous_alert and previous_alert.get("eventSignature") == event_signature:
+            continue
+        alert_id = "lh:" + digest({"event": event_signature,
+                                    "previousAlertId": previous_alert.get("alertId") if previous_alert else ""})[:32]
+        match_type = "direct" if current.get("directSuwon") else "tracked" if current.get("tracked") else "broadCandidate"
+        alert = {**event, "alertId": alert_id, "detectedAt": checked_at,
+                 "eventSignature": event_signature, "suwonMatch": match_type,
+                 "requiresSuwonReview": match_type != "direct"}
+        alerts.append(alert)
+        history.append(alert)
+    return alerts, history
 
 
 def run() -> int:
@@ -247,10 +289,8 @@ def run() -> int:
         print("LH validation error: " + "; ".join(errors), file=sys.stderr)
         return 1
     events = compare(last.get("posts", []), feed["posts"])
-    current_by_id = {identity(post): post for post in feed["posts"]}
-    alert_events = [event for event in events if current_by_id.get(event.get("panId"), {}).get("directSuwon")] if last.get("posts") else []
-    alerts = [{**event, "alertId": f"{event['panId']}:{checked_at}", "detectedAt": checked_at} for event in alert_events]
-    alert_history = [*last.get("alertHistory", []), *alerts]
+    alerts, alert_history = build_alerts(events, last.get("posts", []), feed["posts"],
+                                          last.get("alertHistory", []), checked_at, bool(baseline_start))
     report = {"schemaVersion": 1, "sourceStatus": "ok", "syncedAt": checked_at,
               "new": [e for e in events if e["kind"] in ("new", "correction")],
               "changed": [e for e in events if e["kind"] == "changed"],

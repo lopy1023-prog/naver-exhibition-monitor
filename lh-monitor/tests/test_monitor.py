@@ -63,6 +63,76 @@ class MonitorTests(unittest.TestCase):
         self.assertFalse(classify(post)["directSuwon"])
         self.assertTrue(post["broadCandidate"])
 
+    def test_other_region_and_generic_scope_words_are_not_broad(self):
+        for title, region in (
+            ("[부산지역본부] 통합모집", "부산광역시"),
+            ("[대구지역본부] 일괄모집", "대구광역시"),
+            ("[광주전남지역본부] 여러 지역 모집", "광주광역시"),
+            ("[충북지역본부] 권역별 모집", "충청북도"),
+            ("[경기북부지역본부] 모집", "경기도"),
+            ("경기장 인근 공급", ""),
+        ):
+            with self.subTest(title=title):
+                post = classify({"title": title, "region": region, "category": "rental"},
+                                "LH 본사 주소 경기도, 전국 지역본부 공통 안내")
+                self.assertFalse(post["broadCandidate"])
+
+    def test_real_suwon_scope_remains_broad(self):
+        for title in ("경기남부지역본부 모집", "경기도 모집", "경기지역 모집", "수도권 모집", "전국 모집", "경기 모집"):
+            with self.subTest(title=title):
+                post = classify({"title": title, "region": "", "category": "rental"})
+                self.assertTrue(post["broadCandidate"])
+        post = classify({"title": "청년 임대주택 모집", "region": "", "category": "rental"},
+                        "공급지역: 경기남부, 신청기간 2026.10.01")
+        self.assertTrue(post["broadCandidate"])
+
+    def test_new_broad_and_tracked_events_reach_history_without_baseline_backfill(self):
+        posts = [
+            classify({"panId": "broad", "title": "경기남부지역본부 모집", "region": "", "category": "rental"}),
+            {"panId": "tracked", "title": "추적 중인 모집", "tracked": "family-a"},
+            {"panId": "other", "title": "부산지역본부 모집", "directSuwon": False, "broadCandidate": False},
+        ]
+        events = compare([], posts)
+        alerts, history = monitor.build_alerts(events, [], posts, [], "2026-09-30T10:00:00+09:00", False)
+        self.assertEqual((alerts, history), ([], []))
+        alerts, history = monitor.build_alerts(events, [], posts, [], "2026-09-30T10:00:00+09:00", True)
+        self.assertEqual({item["panId"] for item in alerts}, {"broad", "tracked"})
+        self.assertEqual(len(history), 2)
+
+    def test_same_event_id_is_stable_and_history_is_deduplicated(self):
+        post = classify({"panId": "0000061181", "title": "수원당수 A-3 추가입주자 모집", "region": "경기도", "category": "sale"})
+        events = compare([], [post])
+        first, history = monitor.build_alerts(events, [], [post], [], "2026-09-30T10:00:00+09:00", True)
+        repeated, repeated_history = monitor.build_alerts(events, [], [post], history,
+                                                          "2026-09-30T11:00:00+09:00", True)
+        self.assertEqual(len(first), 1)
+        self.assertEqual(first[0]["alertId"], monitor.build_alerts(events, [], [post], [],
+                         "2026-09-30T12:00:00+09:00", True)[0][0]["alertId"])
+        self.assertEqual(repeated, [])
+        self.assertEqual(repeated_history, history)
+
+    def test_new_values_and_correction_get_new_ids_for_same_notice(self):
+        old = {"panId": "same", "title": "수원 공고", "status": "공고중", "applicationEnd": "2026-10-01", "directSuwon": True}
+        middle = {**old, "status": "접수중", "applicationEnd": "2026-10-02"}
+        latest = {**middle, "status": "접수마감", "applicationEnd": "2026-10-03"}
+        first = monitor.build_alerts(compare([old], [middle]), [old], [middle], [], "first", True)[0][0]
+        second = monitor.build_alerts(compare([middle], [latest]), [middle], [latest], [], "second", True)[0][0]
+        correction = {**latest, "title": "[정정공고] 수원 공고", "correction": True}
+        third = monitor.build_alerts(compare([latest], [correction]), [latest], [correction], [], "third", True)[0][0]
+        self.assertEqual(len({first["alertId"], second["alertId"], third["alertId"]}), 3)
+        self.assertIn("deadlineChanged", first["kinds"])
+        self.assertIn("statusChanged", second["kinds"])
+
+    def test_repeated_status_cycle_is_a_new_event(self):
+        closed = {"panId": "same", "title": "수원 모집", "status": "접수마감", "directSuwon": True}
+        open_post = {**closed, "status": "접수중"}
+        first, history = monitor.build_alerts(compare([closed], [open_post]), [closed], [open_post], [], "first", True)
+        _, history = monitor.build_alerts(compare([open_post], [closed]), [open_post], [closed], history, "second", True)
+        repeated, history = monitor.build_alerts(compare([closed], [open_post]), [closed], [open_post], history, "third", True)
+        self.assertEqual(len(repeated), 1)
+        self.assertNotEqual(first[0]["alertId"], repeated[0]["alertId"])
+        self.assertEqual(len(history), 3)
+
     def test_c_missing_page_fails_validation(self):
         category = {"totalCount": 2, "parsedCount": 2, "totalPages": 2, "checkedPages": 1, "complete": True}
         feed = {"sourceStatus": "ok", "categories": {name: category for name in ("rental", "sale", "land", "commercial", "presale")}, "postCount": 0, "posts": []}

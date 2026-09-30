@@ -15,7 +15,9 @@ BASE = "https://apply.lh.or.kr"
 LIST_PATH = "/lhapply/apply/wt/wrtanc/selectWrtancList.do"
 DETAIL_PATH = "/lhapply/apply/wt/wrtanc/selectWrtancInfo.do"
 DIRECT = ("수원", "수원시", "수원당수", "장안구", "권선구", "팔달구", "영통구")
-BROAD = ("경기남부", "경기남부지역본부", "경기", "경기도", "경기지역", "수도권", "전국", "지역본부", "복수지역", "여러 지역", "통합모집", "일괄모집", "권역", "광역")
+BROAD_SCOPE = re.compile(r"경기\s*남부(?:지역본부)?|경기도|경기지역|수도권|전국|(?<![가-힣])경기(?![가-힣])")
+OTHER_SCOPE = re.compile(r"경기\s*북부|부산|대구|광주|충북|충청북도|충남|충청남도|경북|경상북도|경남|경상남도|전북|전라북도|전남|전라남도|대전|울산|인천|강원|제주|세종")
+DETAIL_SCOPE = re.compile(r"(?:공급|모집|대상|입주|사업)\s*(?:지역|주택|대상|지구|소재지)\s*[:：]?\s*.{0,40}?(?:" + BROAD_SCOPE.pattern + r")")
 CORRECTIONS = ("정정공고", "수정공고", "변경공고", "추가안내", "첨부파일 교체", "공급주택 목록 교체")
 
 
@@ -32,9 +34,17 @@ def digest(value: object) -> str:
 
 
 def classify(post: dict, detail_text: str = "") -> dict:
-    text = " ".join((post.get("title", ""), post.get("region", ""), detail_text))
+    title, region = post.get("title", ""), post.get("region", "")
+    text = " ".join((title, region, detail_text))
     post["directSuwon"] = any(word in text for word in DIRECT)
-    post["broadCandidate"] = post.get("category") in ("rental", "sale", "presale") and any(word in text for word in BROAD)
+    headline_scope = bool(BROAD_SCOPE.search(title))
+    region_scope = bool(BROAD_SCOPE.search(region))
+    detail_scope = bool(DETAIL_SCOPE.search(detail_text))
+    # A named non-Suwon jurisdiction takes precedence over a generic list region
+    # or an unrelated address in the common detail-page text.
+    named_elsewhere = bool(OTHER_SCOPE.search(title) or OTHER_SCOPE.search(region))
+    post["broadCandidate"] = (post.get("category") in ("rental", "sale", "presale")
+                              and (headline_scope or detail_scope or (region_scope and not named_elsewhere)))
     return post
 
 
