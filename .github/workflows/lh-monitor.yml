@@ -67,6 +67,8 @@ jobs:
           git add data/lh/lh-feed.json data/lh/lh-report.json
           if [ "${{ job.status }}" = "success" ]; then
             git add data/lh/lh-state.json data/lh/lh-tracked-state.json
+          else
+            git restore -- data/lh/lh-state.json data/lh/lh-tracked-state.json
           fi
           git commit -m "chore: update LH monitoring data"
           for attempt in 1 2 3; do

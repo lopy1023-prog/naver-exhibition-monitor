@@ -8,6 +8,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree
@@ -16,6 +17,7 @@ from parser import DIRECT, clean
 
 MAX_UNCOMPRESSED = 120_000_000
 SUPPORTED = {".pdf", ".hwp", ".hwpx", ".xls", ".xlsx", ".zip"}
+PDF_LOCK = threading.Lock()
 
 
 def should_inspect(name: str) -> bool:
@@ -31,10 +33,11 @@ def extract_text(name: str, data: bytes, depth: int = 0) -> str:
     if suffix == ".pdf":
         import pymupdf
         try:
-            with pymupdf.open(stream=data, filetype="pdf") as document:
-                if document.page_count > 300:
-                    raise ValueError("PDF 300페이지 초과")
-                result = " ".join(page.get_text() or "" for page in document)
+            with PDF_LOCK:
+                with pymupdf.open(stream=data, filetype="pdf") as document:
+                    if document.page_count > 300:
+                        raise ValueError("PDF 300페이지 초과")
+                    result = " ".join(page.get_text() or "" for page in document)
         except Exception as exc:
             raise ValueError(f"PDF 해석 실패: {exc}") from exc
     elif suffix in (".hwpx", ".zip"):

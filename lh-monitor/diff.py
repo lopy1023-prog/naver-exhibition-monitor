@@ -28,7 +28,10 @@ def compare(old_posts: list[dict], new_posts: list[dict]) -> list[dict]:
             if post.get("correction") and related:
                 post["correctionOf"] = related[0].get("panId", "")
             kind = "correction" if post.get("correction") else "new"
-            events.append({"kind": kind, "panId": post.get("panId"), "title": post.get("title"), "detailUrl": post.get("detailUrl"), "relatedPanId": post.get("correctionOf", "")})
+            kinds = [kind]
+            if "추가모집" in post.get("title", "") or "추가입주자" in post.get("title", ""):
+                kinds.append("additionalRecruitment")
+            events.append({"kind": kind, "kinds": kinds, "panId": post.get("panId"), "title": post.get("title"), "detailUrl": post.get("detailUrl"), "relatedPanId": post.get("correctionOf", "")})
             continue
         changes = []
         for field in ("title", "type", "region", "postedAt", "applicationStart", "applicationEnd", "status", "detailTextHash", "attachments", "directSuwon"):

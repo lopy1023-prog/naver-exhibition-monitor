@@ -87,6 +87,11 @@ class MonitorTests(unittest.TestCase):
     def test_d_new_pan_id(self):
         self.assertEqual(compare([], [{"panId": "new", "title": "새 공고"}])[0]["kind"], "new")
 
+    def test_new_additional_recruitment_keeps_new_event(self):
+        event = compare([], [{"panId": "0000061181", "title": "수원당수 추가입주자 모집"}])[0]
+        self.assertEqual(event["kind"], "new")
+        self.assertIn("additionalRecruitment", event["kinds"])
+
     def test_e_same_pan_id_date_and_attachment_change(self):
         old = {"panId": "same", "title": "공고", "applicationEnd": "2026-10-01", "attachments": [{"fileId": "1", "sha256": "a"}]}
         new = {"panId": "same", "title": "공고", "applicationEnd": "2026-10-02", "attachments": [{"fileId": "1", "sha256": "b"}]}
