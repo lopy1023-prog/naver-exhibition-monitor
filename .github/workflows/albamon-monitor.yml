@@ -1,0 +1,57 @@
+name: Albamon candidate monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: albamon-candidate-monitor
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Test Albamon collector
+        run: node --test albamon-monitor/test/*.test.mjs
+      - name: Collect public Albamon listings
+        run: node albamon-monitor/collect.mjs
+      - name: Validate JSON feed
+        run: node albamon-monitor/collect.mjs --validate
+      - name: Publish collection failure
+        if: failure()
+        run: node albamon-monitor/collect.mjs --mark-failure "알바몬 수집 또는 검증 실패; Actions 로그 확인 필요"
+      - name: Commit Albamon JSON only
+        if: success() || failure()
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- data/albamon-feed.json data/albamon-seen.json data/collector-status.json)" ]; then
+            echo "No Albamon data change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/collector-status.json
+          if [ "${{ job.status }}" = "success" ]; then
+            git add data/albamon-feed.json data/albamon-seen.json
+          else
+            git restore -- data/albamon-feed.json data/albamon-seen.json
+          fi
+          git commit -m "chore: update albamon feed"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
