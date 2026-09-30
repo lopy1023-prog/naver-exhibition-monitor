@@ -116,6 +116,7 @@ def parse_detail(html: str, post: dict) -> dict:
     if title != post["title"]:
         # A live correction may change the displayed title between list/detail requests.
         post["title"] = title
+    post["correction"] = any(value in title for value in CORRECTIONS)
     for item in view.select(".bbsV_data li"):
         label = item.select_one("strong")
         if not label:

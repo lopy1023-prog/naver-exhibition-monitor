@@ -47,6 +47,12 @@ class MonitorTests(unittest.TestCase):
             self.assertEqual(report["sourceStatus"], "error")
             self.assertIsNone(report["new"])
             self.assertTrue(report["errors"])
+            with patch.object(monitor, "DATA", data):
+                monitor.mark_failure("Actions 수집 시간 초과")
+            report = json.loads((data / "lh-report.json").read_text(encoding="utf-8"))
+            self.assertIn("Actions 수집 시간 초과", report["errors"])
+            self.assertIsNone(report["new"])
+            self.assertEqual(json.loads((data / "lh-state.json").read_text())["marker"], "last-success")
 
     def test_presale_identifiers_columns_and_direct_attachment(self):
         html = ('<p class="bbs_total">전체 1건 1/1페이지</p><div class="bbs_ListA"><table><tbody><tr>'

@@ -15,7 +15,7 @@ python lh-monitor/monitor.py --validate
 
 모든 공고의 상세를 확인하고, 수원·광역 후보의 PDF/HWP/HWPX/XLS/XLSX/ZIP 첨부를 분석합니다. 읽기 실패는 `needsReview`와 `reviewReason`에 기록하며 공고를 제외하지 않습니다. HWP는 `hwp5txt`를 사용합니다. 스캔 PDF와 해석 불가 HWP는 검토 대상으로 남깁니다. 첨부파일 접근 실패가 광범위하면 실행 전체가 실패합니다.
 
-`data/lh/lh-feed.json`은 현재 공식 수집 결과, `lh-report.json`은 이벤트와 후보, `lh-state.json`은 마지막 정상 스냅샷, `lh-tracked-state.json`은 별도 추적 상태입니다. 실패 시 feed/report에 `sourceStatus: error`와 원인을 기록하고 프로세스를 실패 종료합니다. 정상 스냅샷 두 파일은 갱신하지 않으며, GitHub Actions도 실패하므로 오류 결과는 자동 커밋되지 않습니다. 실패 산출물은 Actions artifact에서 확인할 수 있습니다.
+`data/lh/lh-feed.json`은 현재 공식 수집 결과, `lh-report.json`은 이벤트와 후보, `lh-state.json`은 마지막 정상 스냅샷, `lh-tracked-state.json`은 별도 추적 상태입니다. 실패 시 feed/report에 `sourceStatus: error`와 원인을 기록하고 프로세스를 실패 종료합니다. Actions는 수집을 최대 48분에 중단하고 오류 feed/report만 커밋합니다. 정상 스냅샷 두 파일은 보존하며, workflow도 실패 상태를 유지합니다. 실패 산출물은 Actions artifact에서도 확인할 수 있습니다.
 
 `tracked.json`의 경기남부 일반 매입임대 공고는 별도로 2026년 전체를 검색합니다. 자동 추적 종료는 하지 않습니다.
 

@@ -24,11 +24,28 @@ jobs:
       - name: Install LH dependencies
         run: python -m pip install -r lh-monitor/requirements.txt
       - name: Collect LH notices
-        run: python lh-monitor/monitor.py
+        id: collect
+        shell: bash
+        run: |
+          set +e
+          timeout --signal=INT 48m python lh-monitor/monitor.py
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit "$result"
       - name: Validate LH data
         run: python lh-monitor/monitor.py --validate
       - name: Run LH tests
         run: python -m unittest discover -s lh-monitor/tests -v
+      - name: Publish LH failure status
+        if: failure()
+        shell: bash
+        run: |
+          if [ "${{ steps.collect.outputs.exit_code }}" = "124" ]; then
+            reason="LH 수집 48분 제한 초과; Actions 로그 확인 필요"
+          else
+            reason="LH 수집 또는 검증 실패; Actions 로그 확인 필요"
+          fi
+          python lh-monitor/monitor.py --mark-failure "$reason"
       - name: Store failure report
         if: failure() || cancelled()
         uses: actions/upload-artifact@v4
@@ -38,6 +55,7 @@ jobs:
             data/lh/lh-feed.json
             data/lh/lh-report.json
       - name: Commit LH JSON only
+        if: success() || failure()
         shell: bash
         run: |
           if [ -z "$(git status --porcelain -- data/lh)" ]; then
@@ -46,7 +64,10 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/lh/lh-feed.json data/lh/lh-report.json data/lh/lh-state.json data/lh/lh-tracked-state.json
+          git add data/lh/lh-feed.json data/lh/lh-report.json
+          if [ "${{ job.status }}" = "success" ]; then
+            git add data/lh/lh-state.json data/lh/lh-tracked-state.json
+          fi
           git commit -m "chore: update LH monitoring data"
           for attempt in 1 2 3; do
             git pull --rebase origin main

@@ -47,6 +47,22 @@ def write_json(path: Path, value):
     temp.replace(path)
 
 
+def mark_failure(reason: str) -> None:
+    """Publish a failed run without advancing the last successful snapshot."""
+    feed = read_json(DATA / "lh-feed.json", {})
+    if feed.get("sourceStatus") != "error":
+        feed = {"schemaVersion": 1, "baselineStart": feed.get("baselineStart"),
+                "categories": {}, "postCount": 0, "posts": [], "errors": []}
+    feed["sourceStatus"] = "error"
+    feed["syncedAt"] = now()
+    feed["errors"] = list(dict.fromkeys([*feed.get("errors", []), reason]))
+    report = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": feed["syncedAt"],
+              "new": None, "changed": None, "directSuwon": None, "broadCandidates": None,
+              "needsReview": None, "tracked": None, "errors": feed["errors"]}
+    write_json(DATA / "lh-feed.json", feed)
+    write_json(DATA / "lh-report.json", report)
+
+
 def enrich(client: LHClient, post: dict, previous: dict | None, attachment_errors: list[str], error_lock: threading.Lock):
     # Check every detail: a generic list title may hide Suwon only in the supply location.
     try:
@@ -243,8 +259,12 @@ def run() -> int:
         known_url = "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061181&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
         try:
             heading = BeautifulSoup(client.get(known_url), "html.parser").select_one(".bbs_ViewA h3")
-            if heading and "수원" in heading.get_text():
+            if not heading:
+                feed["errors"].append("panId=0000061181 공식 상세 제목 확인 실패")
+            elif "수원" in heading.get_text():
                 feed["errors"].append("공식 상세에 존재하는 panId=0000061181 수원 공고가 목록/분류에서 누락")
+            elif not known:
+                feed["errors"].append("panId=0000061181 공식 상세는 존재하지만 목록에서 누락")
         except Exception as exc:
             feed["errors"].append(f"panId=0000061181 확인 실패: {type(exc).__name__}: {exc}")
     inspected_count = sum(len(post.get("attachments", [])) for post in posts if post.get("directSuwon") or post.get("broadCandidate") or post.get("tracked"))
@@ -290,7 +310,11 @@ def run() -> int:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--validate", action="store_true")
+    parser.add_argument("--mark-failure", metavar="REASON")
     args = parser.parse_args()
+    if args.mark_failure:
+        mark_failure(args.mark_failure)
+        return 0
     if args.validate:
         feed = read_json(DATA / "lh-feed.json", {})
         errors = validate(feed)
