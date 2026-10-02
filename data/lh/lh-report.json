@@ -1891,52 +1891,7 @@
       "type": "매입임대"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008006&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "fields": [
-        "applicationEnd",
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged",
-        "deadlineChanged"
-      ],
-      "panId": "BN-0008006",
-      "title": "괴산미니복합타운 이주자택지 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020680&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020680",
-      "title": "김천부곡2 영구임대주택 예비입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020625&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020625",
-      "title": "청주산남2-1 영구임대주택 예비입주자 모집 공고(2026.08.28)"
-    }
-  ],
+  "changed": [],
   "directSuwon": [
     {
       "applicationEnd": "2026-10-23",
@@ -2396,7 +2351,7 @@
   "new": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-03T04:06:46+09:00",
+  "syncedAt": "2026-10-03T07:57:07+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
