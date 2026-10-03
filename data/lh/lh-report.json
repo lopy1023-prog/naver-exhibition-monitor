@@ -1891,20 +1891,7 @@
       "type": "매입임대"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020636&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020636",
-      "title": "익산시 국민임대주택 예비입주자 모집 공고('26.09.03)"
-    }
-  ],
+  "changed": [],
   "directSuwon": [
     {
       "applicationEnd": "2026-10-23",
@@ -2364,7 +2351,7 @@
   "new": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-03T10:51:04+09:00",
+  "syncedAt": "2026-10-03T16:25:50+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
