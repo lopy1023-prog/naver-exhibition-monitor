@@ -708,14 +708,12 @@
       "requiresSuwonReview": true,
       "suwonMatch": "broadCandidate",
       "title": "26-4차 인천본부 든든전세주택 입주자 모집공고(인천, 부천)"
-    }
-  ],
-  "alerts": [
+    },
     {
-      "alertId": "lh:f04be707de3e623ae0c7c6c00565ca39",
+      "alertId": "lh:142ec2df2547dd4b49bb4e380287806c",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-07T04:16:12+09:00",
-      "eventSignature": "0cb731360e5a78e91eebba8353b01eb567cda14b7ea75e3ea5425f2bff796ae7",
+      "detectedAt": "2026-10-07T08:06:54+09:00",
+      "eventSignature": "3f6e99e6cd5aedf16becf5b75aac32a8902e469c671efe3ac035b66c3d0e1b3e",
       "fields": [
         "detailTextHash"
       ],
@@ -727,12 +725,14 @@
       "requiresSuwonReview": true,
       "suwonMatch": "broadCandidate",
       "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
-    },
+    }
+  ],
+  "alerts": [
     {
-      "alertId": "lh:7c652d74263b40ad3ed660cb6a0b4201",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020725&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-07T04:16:12+09:00",
-      "eventSignature": "b22ce0492e7afc5f2e6346e1051d99997d82bcd666ad61d8dfadc61591d83e56",
+      "alertId": "lh:142ec2df2547dd4b49bb4e380287806c",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-07T08:06:54+09:00",
+      "eventSignature": "3f6e99e6cd5aedf16becf5b75aac32a8902e469c671efe3ac035b66c3d0e1b3e",
       "fields": [
         "detailTextHash"
       ],
@@ -740,27 +740,10 @@
       "kinds": [
         "changed"
       ],
-      "panId": "2015122300020725",
+      "panId": "2015122300020811",
       "requiresSuwonReview": true,
       "suwonMatch": "broadCandidate",
-      "title": "[정정공고]26-4차 인천본부 든든전세주택 입주자 모집공고(인천, 부천)"
-    },
-    {
-      "alertId": "lh:dc34d87a6dc9e4beeae7095def3323b3",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020715&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-07T04:16:12+09:00",
-      "eventSignature": "7815c38c4dd2aca242e9e2dc527fbd06e633e10a9f79e024258904f13b975c6d",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020715",
-      "requiresSuwonReview": true,
-      "suwonMatch": "broadCandidate",
-      "title": "26-4차 인천본부 든든전세주택 입주자 모집공고(인천, 부천)"
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
     }
   ],
   "broadCandidates": [
@@ -1933,20 +1916,6 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020822&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020822",
-      "title": "군산나운4 영구임대주택 입주자격완화 예비입주자 모집 공고"
-    },
-    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -1957,102 +1926,6 @@
       ],
       "panId": "2015122300020811",
       "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020808&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020808",
-      "title": "[정정공고][인천]26년 7차 신혼·신생아Ⅱ(전세형) 예비입주자 모집공고(인천,부천)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020797&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020797",
-      "title": "[인천]26년 7차 신혼·신생아Ⅱ(전세형) 예비입주자 모집공고(인천,부천)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020795&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020795",
-      "title": "[인천]26년 7차 신혼·신생아Ⅰ 예비입주자 모집공고(인천,부천)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020725&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020725",
-      "title": "[정정공고]26-4차 인천본부 든든전세주택 입주자 모집공고(인천, 부천)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020715&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020715",
-      "title": "26-4차 인천본부 든든전세주택 입주자 모집공고(인천, 부천)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020661&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020661",
-      "title": "[정정공고][인천지역본부]26년 6차 신혼·신생아Ⅱ(전세형) 예비입주자 모집공고(인천,부천)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020634&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020634",
-      "title": "[인천지역본부]26년 6차 신혼·신생아Ⅰ 예비입주자 모집공고(인천,부천)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020633&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020633",
-      "title": "[인천지역본부]26년 6차 신혼·신생아Ⅱ(전세형) 예비입주자 모집공고(인천,부천)"
     }
   ],
   "directSuwon": [
@@ -2495,7 +2368,7 @@
   "new": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-07T04:16:12+09:00",
+  "syncedAt": "2026-10-07T08:06:54+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
