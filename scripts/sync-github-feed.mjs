@@ -79,24 +79,45 @@ export function parseFeedText(text) {
 }
 
 function createSnapshot(parsed, feedUrl) {
-  const postCount = Number(parsed.metadata.postCount);
+  const sourceStatus = clean(parsed.metadata.status || "unknown");
+  if (sourceStatus !== "ok") {
+    throw new Error(
+      `Source status is ${sourceStatus}: ${clean(parsed.metadata.message || "collection did not succeed")}`,
+    );
+  }
+
+  const postCount = parsed.metadata.postCount === undefined
+    ? parsed.posts.length
+    : Number(parsed.metadata.postCount);
+  if (!Number.isInteger(postCount) || postCount !== parsed.posts.length) {
+    throw new Error(
+      `Feed post count mismatch: declared=${parsed.metadata.postCount} parsed=${parsed.posts.length}`,
+    );
+  }
 
   return {
     schemaVersion: 1,
     sourceUrl: feedUrl,
-    sourceStatus: clean(parsed.metadata.status || "unknown"),
+    sourceStatus,
     sourceUsed: clean(parsed.metadata.sourceUsed),
+    sourceLastCheckedAt: clean(parsed.metadata.lastCheckedAt),
+    sourceLastSuccessAt: clean(parsed.metadata.lastSuccessAt),
     latestLogNo: clean(
       parsed.metadata.latestLogNo || parsed.posts[0]?.logNo,
     ),
-    postCount: Number.isFinite(postCount) ? postCount : parsed.posts.length,
+    postCount,
     syncedAt: new Date().toISOString(),
     posts: parsed.posts,
   };
 }
 
 export function stableSnapshot(snapshot) {
-  const { syncedAt: _ignored, ...stable } = snapshot;
+  const {
+    syncedAt: _syncedAt,
+    sourceLastCheckedAt: _sourceLastCheckedAt,
+    sourceLastSuccessAt: _sourceLastSuccessAt,
+    ...stable
+  } = snapshot;
   return JSON.stringify(stable);
 }
 
@@ -135,8 +156,10 @@ export async function syncFeed({
   });
 
   if (!response.ok) {
+    const detail = clean(await response.text()).replace(/\s+/g, " ").slice(0, 500);
+    const requestId = response.headers.get("x-nf-request-id");
     throw new Error(
-      `Feed request failed: ${response.status} ${response.statusText}`,
+      `Feed request failed: HTTP ${response.status} ${response.statusText}; ${detail || "empty response"}${requestId ? `; requestId=${requestId}` : ""}`,
     );
   }
 
@@ -145,27 +168,17 @@ export async function syncFeed({
   const absoluteOutputPath = resolve(outputPath);
   const currentSnapshot = await readExistingSnapshot(absoluteOutputPath);
 
-  if (
-    currentSnapshot &&
-    stableSnapshot(currentSnapshot) === stableSnapshot(nextSnapshot)
-  ) {
-    console.log(
-      `No announcement change. latestLogNo=${nextSnapshot.latestLogNo}`,
-    );
-    return {
-      changed: false,
-      latestLogNo: nextSnapshot.latestLogNo,
-      outputPath: absoluteOutputPath,
-    };
-  }
+  const announcementsChanged = !currentSnapshot ||
+    stableSnapshot(currentSnapshot) !== stableSnapshot(nextSnapshot);
 
   await writeJsonAtomically(absoluteOutputPath, nextSnapshot);
   console.log(
-    `Feed updated. latestLogNo=${nextSnapshot.latestLogNo} posts=${nextSnapshot.posts.length}`,
+    `Feed synchronized. sourceStatus=${nextSnapshot.sourceStatus} latestLogNo=${nextSnapshot.latestLogNo} posts=${nextSnapshot.posts.length} announcementsChanged=${announcementsChanged} syncedAt=${nextSnapshot.syncedAt} sourceLastCheckedAt=${nextSnapshot.sourceLastCheckedAt} sourceLastSuccessAt=${nextSnapshot.sourceLastSuccessAt}`,
   );
 
   return {
     changed: true,
+    announcementsChanged,
     latestLogNo: nextSnapshot.latestLogNo,
     outputPath: absoluteOutputPath,
   };
