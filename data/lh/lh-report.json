@@ -846,27 +846,7 @@
       "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:3fb4a75eb70d02946c0a7898a0b7f5ca",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-08T16:29:35+09:00",
-      "eventSignature": "04bdb861f2056e51ba3711ae62ee6f1b3c010798eb5487261d9392a998503771",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020811",
-      "requiresSuwonReview": true,
-      "suwonMatch": "broadCandidate",
-      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "2026-10-23",
@@ -1980,7 +1960,7 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008022&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020824&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "fields": [
         "status",
         "detailTextHash"
@@ -1990,11 +1970,11 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "BN-0008022",
-      "title": "화성동탄2 일반상업용지(일상9) 재공급공고"
+      "panId": "2015122300020824",
+      "title": "전주평화1 영구임대주택 입주자격완화 예비입주자 모집공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020818&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "fields": [
         "status",
         "detailTextHash"
@@ -2004,23 +1984,11 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "2015122300020811",
-      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
+      "panId": "2015122300020818",
+      "title": "2026년 하반기 부산광역시 영구임대주택 예비입주자 모집 공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020743&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020743",
-      "title": "군산구암 국민임대주택 예비입주자 모집 공고('26.9.15.)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020742&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020806&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
       "fields": [
         "status",
         "detailTextHash"
@@ -2030,19 +1998,33 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "2015122300020742",
-      "title": "전주동서학 통합공공임대(일자리연계형 지원주택) 최초 입주자 모집"
+      "panId": "2015122300020806",
+      "title": "부산문현2 1블록(문현 푸르지오 트레시엘) 행복주택 최초 입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020781&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020781",
+      "title": "익산부송1 영구임대주택 예비입주자 모집공고"
     },
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020606&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "fields": [
-        "applicationEnd",
+        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
         "changed",
-        "deadlineChanged"
+        "statusChanged"
       ],
       "panId": "2015122300020606",
       "title": "무안 오룡마을 남악휴먼시아 잔여세대 일반매각 공고(상시, 유주택)"
@@ -2485,111 +2467,10 @@
       "type": "매입임대"
     }
   ],
-  "new": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008066&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "correction",
-      "kinds": [
-        "correction"
-      ],
-      "panId": "BN-0008066",
-      "relatedPanId": "BN-0008061",
-      "title": "[정정공고] 성남금토 주차장, 점포겸용 단독주택 및 성남신촌 주차장용지 선착순 수의계약 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008064&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008064",
-      "relatedPanId": "",
-      "title": "화성태안3 근린생활시설·일반상업·단독주택용지 수의계약 공급 공고 [2년 무이자할부]"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008063&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008063",
-      "relatedPanId": "",
-      "title": "화성향남2 단독주택 및 텃밭용지 수의계약 공급공고[2년 무이자]"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008062&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008062",
-      "relatedPanId": "",
-      "title": "이천중리(상업, 업무, 근린생활시설, 주차장, 단독주택) 및 이천마장(상업, 근린생활시설, 지원시설, 단독주택) 선착순 수의계약 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008061&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008061",
-      "relatedPanId": "",
-      "title": "성남금토 주차장, 점포겸용 단독주택 및 성남신촌 주차장용지 선착순 수의계약 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008057&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008057",
-      "relatedPanId": "",
-      "title": "남양주진접2 공공주택지구 업무시설용지 공급공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008020&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008020",
-      "relatedPanId": "",
-      "title": "남양주양정역세권 점포겸용 단독주택용지 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020893&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020893",
-      "relatedPanId": "",
-      "title": "익산한스빌 국민임대주택 예비입주자 자격완화 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020892&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "kind": "correction",
-      "kinds": [
-        "correction"
-      ],
-      "panId": "2015122300020892",
-      "relatedPanId": "2015122300020743",
-      "title": "[정정공고]군산구암 국민임대주택 예비입주자 모집 공고('26.9.15.)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020889&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020889",
-      "relatedPanId": "",
-      "title": "(재공고)서울양원S1 희망상가 입점자 모집공고(공공지원형)"
-    }
-  ],
+  "new": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-08T16:29:35+09:00",
+  "syncedAt": "2026-10-08T23:53:28+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
