@@ -808,14 +808,31 @@
       "requiresSuwonReview": true,
       "suwonMatch": "broadCandidate",
       "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
+    },
+    {
+      "alertId": "lh:4888c60d66aefe6fa415e6c4ea651580",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-08T10:13:15+09:00",
+      "eventSignature": "3177c9312aab027ae4df59e504376a6bb5cfefb708b200f065d9c614d6a72068",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020811",
+      "requiresSuwonReview": true,
+      "suwonMatch": "broadCandidate",
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
     }
   ],
   "alerts": [
     {
-      "alertId": "lh:8a31a58c922be42bcfa1c47e03798a4f",
+      "alertId": "lh:4888c60d66aefe6fa415e6c4ea651580",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-08T06:26:29+09:00",
-      "eventSignature": "c3102f5638762657750d0cfccba20c88f685e5e8f904aa83642fda7927e0908d",
+      "detectedAt": "2026-10-08T10:13:15+09:00",
+      "eventSignature": "3177c9312aab027ae4df59e504376a6bb5cfefb708b200f065d9c614d6a72068",
       "fields": [
         "detailTextHash"
       ],
@@ -1942,6 +1959,20 @@
   ],
   "changed": [
     {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008022&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008022",
+      "title": "화성동탄2 일반상업용지(일상9) 재공급공고"
+    },
+    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -1952,18 +1983,6 @@
       ],
       "panId": "2015122300020811",
       "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020517&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020517",
-      "title": "중동 경남아너스빌 잔여세대 일반매각 공고"
     }
   ],
   "directSuwon": [
@@ -2403,10 +2422,21 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008058&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008058",
+      "relatedPanId": "",
+      "title": "울산태화강변 근린생활시설용지 공급공고"
+    }
+  ],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-08T06:26:29+09:00",
+  "syncedAt": "2026-10-08T10:13:15+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
