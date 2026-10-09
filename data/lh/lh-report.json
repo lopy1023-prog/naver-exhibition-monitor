@@ -1958,24 +1958,7 @@
       "type": "공공분양(신혼희망)"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008028&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "fields": [
-        "applicationEnd",
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged",
-        "deadlineChanged"
-      ],
-      "panId": "BN-0008028",
-      "title": "의정부우정 협의양도종교용지 공급공고"
-    }
-  ],
+  "changed": [],
   "directSuwon": [
     {
       "applicationEnd": "2026-10-23",
@@ -2416,7 +2399,7 @@
   "new": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-09T05:29:21+09:00",
+  "syncedAt": "2026-10-09T09:36:35+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
