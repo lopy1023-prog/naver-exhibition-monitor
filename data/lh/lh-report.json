@@ -958,9 +958,48 @@
       "requiresSuwonReview": true,
       "suwonMatch": "broadCandidate",
       "title": "의왕청계2 A1블록 신혼희망타운 행복주택 입주자 모집공고"
+    },
+    {
+      "alertId": "lh:b401cb472700b2a56b94ff6802a487d3",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020859&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-10-14T18:47:17+09:00",
+      "eventSignature": "a0673999e288b0d2496ed18e2d90ae0b9b7412d0c630d39a811cd73e73640ed4",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020859",
+      "requiresSuwonReview": true,
+      "suwonMatch": "broadCandidate",
+      "title": "하남시 신혼희망타운 행복주택 예비입주자 모집공고(2026.10.01)"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:b401cb472700b2a56b94ff6802a487d3",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020859&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-10-14T18:47:17+09:00",
+      "eventSignature": "a0673999e288b0d2496ed18e2d90ae0b9b7412d0c630d39a811cd73e73640ed4",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020859",
+      "requiresSuwonReview": true,
+      "suwonMatch": "broadCandidate",
+      "title": "하남시 신혼희망타운 행복주택 예비입주자 모집공고(2026.10.01)"
+    }
+  ],
   "broadCandidates": [
     {
       "applicationEnd": "2026-10-23",
@@ -996,7 +1035,7 @@
       "postedAt": "2026-10-01",
       "region": "경기도",
       "reviewReason": [],
-      "status": "접수중",
+      "status": "접수마감",
       "title": "하남시 신혼희망타운 행복주택 예비입주자 모집공고(2026.10.01)",
       "type": "행복주택"
     },
@@ -1953,7 +1992,7 @@
       "title": "[정정공고]2026년 3차 대구경북지역 신혼ㆍ신생아Ⅰ매입임대 입주자 모집공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020872&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008024&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "fields": [
         "status",
         "detailTextHash"
@@ -1963,39 +2002,23 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "2015122300020872",
-      "title": "광주송화8, 영암용앙3, 여수서교 LH희망상가 입점자 모집공고(일반형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020871&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020871",
-      "title": "군산내흥7 행복주택 입주자격완화 예비입주자 모집 공고('26.10.02)"
+      "panId": "BN-0008024",
+      "title": "화성봉담2 및 남양뉴타운 단독주택(주거전용) 공급공고[2년 무이자]"
     },
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020842&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
-        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed",
-        "statusChanged"
+        "changed"
       ],
       "panId": "2015122300020842",
       "title": "[제주지역본부-제주시] 청년 매입임대주택 예비입주자 모집 공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020859&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
       "fields": [
         "status",
         "detailTextHash"
@@ -2004,6 +2027,18 @@
       "kinds": [
         "changed",
         "statusChanged"
+      ],
+      "panId": "2015122300020859",
+      "title": "하남시 신혼희망타운 행복주택 예비입주자 모집공고(2026.10.01)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
       ],
       "panId": "2015122300020843",
       "title": "[서울지역본부] 26년 2차 비분양전환형 든든전세주택 입주자 모집공고"
@@ -2021,13 +2056,53 @@
       "title": "[경기북부] 2026년 4차 비분양전환형 든든전세주택 입주자 모집공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020821&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020844&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020844",
+      "title": "양주회천 A25BL(양주회천 25단지) LH희망상가 입점자 모집공고(일반형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020835&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
         "changed"
+      ],
+      "panId": "2015122300020835",
+      "title": "[제주지역본부-제주시] 든든전세주택 (예비)입주자 모집 공고(분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020834&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020834",
+      "title": "[제주지역본부-서귀포시] 든든전세주택 (예비)입주자 모집 공고(비분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020821&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
       ],
       "panId": "2015122300020821",
       "title": "[전북지역본부]2026년 3차 청년매입임대주택 예비입주자 모집공고"
@@ -2035,11 +2110,13 @@
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020815&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
+        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed"
+        "changed",
+        "statusChanged"
       ],
       "panId": "2015122300020815",
       "title": "[전북지역본부]2026년 3차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고"
@@ -2047,14 +2124,72 @@
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020814&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
+        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed"
+        "changed",
+        "statusChanged"
       ],
       "panId": "2015122300020814",
       "title": "[전북지역본부]2026년 3차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020852&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020852",
+      "title": "부천상동 행복주택 LH희망상가(공공지원형) 입점자 모집공고(2026. 9. 29.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020848&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020848",
+      "title": "인천검단 LH20단지(AA9블록) LH희망상가(공공지원형) 입점자 모집공고(2026. 9. 29.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020847&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020847",
+      "title": "인천영종 LH67단지(A67블록) LH희망상가(공공지원형) 입점자 모집공고(2026. 9. 29.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020846&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020846",
+      "title": "인천가정2 A-1블록 LH희망상가(공공지원형) 입점자 모집공고(2026. 9. 29.)"
     },
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020841&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
@@ -2107,11 +2242,13 @@
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020787&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
+        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed"
+        "changed",
+        "statusChanged"
       ],
       "panId": "2015122300020787",
       "title": "[대전충남] 2026년 9월 신혼·신생아 II (전세형) 매입임대주택 예비입주자 모집 공고"
@@ -2119,17 +2256,19 @@
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020761&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
+        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed"
+        "changed",
+        "statusChanged"
       ],
       "panId": "2015122300020761",
       "title": "[대전충남] 2026년 9월 신혼·신생아 I 매입임대주택 예비입주자 모집 공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061176&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061180&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "fields": [
         "status",
         "detailTextHash"
@@ -2139,11 +2278,11 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "0000061176",
-      "title": "대전천동3 5블록 10년 분양전환공공임대주택 예비입주자 모집공고('26.09.29)"
+      "panId": "0000061180",
+      "title": "원주무실 A-2블록 공공분양주택 자격완화 추가 입주자모집 공고(유주택자 가능)"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020809&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020726&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "fields": [
         "status",
         "detailTextHash"
@@ -2153,22 +2292,8 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "2015122300020809",
-      "title": "[정정공고]대구서부권 고령다산2 국민임대 입주자격완화 모집공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020746&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020746",
-      "title": "대구서부권 고령다산2 국민임대 입주자격완화 모집공고"
+      "panId": "2015122300020726",
+      "title": "아산지역 국민임대주택 예비입주자 모집공고(2026.09.15)"
     },
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007860&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
@@ -2183,6 +2308,22 @@
       ],
       "panId": "BN-0007860",
       "title": "[5년 무이자 할부]파주운정3 및 파주운정 점포겸용 단독주택용지 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001342&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "fields": [
+        "applicationEnd",
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged",
+        "deadlineChanged"
+      ],
+      "panId": "BN-0001342",
+      "title": "인천계양 A3블록 단지내상가 수의계약 공고"
     }
   ],
   "directSuwon": [
@@ -2605,39 +2746,59 @@
   ],
   "new": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008071&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008073&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "BN-0008071",
+      "panId": "BN-0008073",
       "relatedPanId": "",
-      "title": "대구연호 자족시설용지(자2-1~2) 일괄공급 재공고"
+      "title": "광주전남 보유토지(광주효천1, 여천돌산, 고흥남계, 목포용해2) 재입찰 공급 공고(12~18개월 거치 포함 3~5년 무이자)"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020908&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008072&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "2015122300020908",
+      "panId": "BN-0008072",
       "relatedPanId": "",
-      "title": "김제하동 국민임대주택 모집공고"
+      "title": "병점복합타운 일반상업용지 및 남양뉴타운 일반상업·준주거·단독주택(점포겸용)용지 등 공급공고[2년 또는 3년 무이자할부]"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020879&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001350&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "2015122300020879",
+      "panId": "BN-0001350",
       "relatedPanId": "",
-      "title": "음성금왕1 50년공공임대주택 예비입주자 모집 공고[2026.10.14]"
+      "title": "[중단공고] 인천계양 A3블록 단지내상가 수의계약 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020906&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020906",
+      "relatedPanId": "",
+      "title": "광주전남혁신 빛가람LH3단지 잔여세대 일반매각 공고(상시, 선착순 동호지정)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020528&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020528",
+      "relatedPanId": "",
+      "title": "전북 군산시 기존주택 등 매입임대주택 예비입주자 모집 공고"
     }
   ],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-14T13:46:15+09:00",
+  "syncedAt": "2026-10-14T18:47:17+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
