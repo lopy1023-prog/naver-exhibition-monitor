@@ -1937,40 +1937,9 @@
       "status": "접수마감",
       "title": "부천영상 지역전략산업지원 행복주택 예비입주자 모집공고('26.08.18)",
       "type": "행복주택"
-    },
-    {
-      "applicationEnd": "2026-08-25",
-      "applicationStart": "2026-08-24",
-      "broadCandidate": true,
-      "category": "rental",
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020552&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "directSuwon": false,
-      "needsReview": false,
-      "noticeFamily": "의왕고천A-1BL[리츠]·안양명학A-1BL행복주택예비입주자모집",
-      "panId": "2015122300020552",
-      "postedAt": "2026-08-14",
-      "region": "경기도",
-      "reviewReason": [],
-      "status": "접수마감",
-      "title": "의왕고천A-1BL[리츠]·안양명학A-1BL 행복주택 예비입주자 모집",
-      "type": "행복주택"
     }
   ],
   "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020876&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020876",
-      "title": "[정정공고]2026년 3차 대구경북지역 신혼ㆍ신생아Ⅰ매입임대 입주자 모집공고"
-    },
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020842&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
@@ -2008,6 +1977,22 @@
       "title": "[경기북부] 2026년 4차 비분양전환형 든든전세주택 입주자 모집공고"
     },
     {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008013&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "applicationEnd",
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged",
+        "deadlineChanged"
+      ],
+      "panId": "BN-0008013",
+      "title": "남양주진접2 공공주택지구 공장이주대책용지 공급 공고"
+    },
+    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020841&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -2020,18 +2005,6 @@
       "title": "2026년 3차 대구경북지역 신혼ㆍ신생아Ⅱ(전세형) 입주자 모집공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020840&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020840",
-      "title": "2026년 3차 대구경북지역 신혼ㆍ신생아Ⅰ매입임대 입주자 모집공고"
-    },
-    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020838&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -2042,20 +2015,6 @@
       ],
       "panId": "2015122300020838",
       "title": "2026년 3차 대구경북지역 청년매입임대 입주자 모집공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020737&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020737",
-      "title": "[전북지역본부] 2026년 일반 매입임대주택 입주자 모집 공고"
     }
   ],
   "directSuwon": [
@@ -2479,7 +2438,7 @@
   "new": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
-  "syncedAt": "2026-10-14T23:49:27+09:00",
+  "syncedAt": "2026-10-15T04:07:06+09:00",
   "tracked": [
     {
       "applicationEnd": "2026-09-23",
