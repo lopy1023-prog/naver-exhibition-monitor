@@ -32,25 +32,25 @@
 
 ## Task 1: Validate and normalize official supplemental sources
 Files: create `additional_sources.py`, `tests/test_additional_sources.py`.
-- [ ] Write and observe failing parser/count/identity/calendar tests.
-- [ ] Implement calendar-month/day, bulletin-list/detail, plan-table and first-come parsers.
-- [ ] Implement GET requests using observed official form fields; reject malformed/count-mismatched responses.
-- [ ] Verify actual downloaded official pages and the parser tests.
+- [x] Write and observe failing parser/count/identity/calendar tests.
+- [x] Implement calendar-month/day, bulletin-list/detail, plan-table and first-come parsers.
+- [x] Implement GET requests using observed official form fields; reject malformed/count-mismatched responses.
+- [x] Verify actual downloaded official pages and the parser tests.
 
 ## Task 2: Merge sources and maintain history safely
 Files: modify `monitor.py`, `parser.py`, `diff.py`; extend tests.
-- [ ] Write and observe failing baseline/dedup/failure/migration/region tests.
-- [ ] Integrate supplemental collection and canonical notice enrichment into the existing run.
-- [ ] Add per-source baseline state, stable semantic content, calendar reception schedules, and explicit geography/unknown metadata.
-- [ ] Preserve prior history in every error report and preserve successful state on any source failure.
-- [ ] Verify repeated runs, source order changes, date/attachment/follow-up changes, and failure/recovery simulations in temporary directories only.
+- [x] Write and observe failing baseline/dedup/failure/migration/region tests.
+- [x] Integrate supplemental collection and canonical notice enrichment into the existing run.
+- [x] Add per-source baseline state, stable semantic content, calendar reception schedules, and explicit geography/unknown metadata.
+- [x] Preserve prior history in every error report and preserve successful state on any source failure.
+- [x] Verify repeated runs, source order changes, date/attachment/follow-up changes, and failure/recovery simulations in temporary directories only.
 
 ## Task 3: Publish and verify operation
 Files: update LH README; add final task prompt and validation report under `lh-monitor/docs/`.
-- [ ] Run LH suite and complete existing Node suite.
-- [ ] Run live collection in an isolated temporary data directory using a copy of operating state.
-- [ ] Compare complete old history prefix; run a second/third unchanged snapshot simulation, with zero duplicate events.
-- [ ] Review the complete change; fix material findings with regression tests.
-- [ ] Publish only LH changes atomically against the current GitHub main tree; preserve concurrently updated data.
-- [ ] Update the existing ChatGPT task only, retaining schedule and dedup continuity.
-- [ ] Verify GitHub execution, resulting JSON and task settings; report concrete limitations.
+- [x] Run LH suite and complete existing Node suite.
+- [x] Run live collection in an isolated temporary data directory using a copy of operating state.
+- [x] Compare complete old history prefix; run a second/third unchanged snapshot simulation, with zero duplicate events.
+- [x] Review the complete change; fix material findings with regression tests.
+- [x] Publish only LH changes atomically against the current GitHub main tree; preserve concurrently updated data.
+- [x] Update the existing ChatGPT task only, retaining schedule and dedup continuity.
+- [x] Verify GitHub execution, resulting JSON and task settings; report concrete limitations.
