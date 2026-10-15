@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 
-from parser import identity
+from parser import identity, digest
 
 
 def family_key(post: dict) -> str:
@@ -15,8 +15,13 @@ def family_key(post: dict) -> str:
 
 
 def attachment_refs(post: dict) -> list[tuple[str, str, str]]:
-    return [(item.get("fileId", ""), item.get("name", ""), item.get("url", ""))
-            for item in post.get("attachments", [])]
+    return sorted((item.get("fileId", ""), item.get("name", ""), item.get("url", ""))
+                  for item in post.get("attachments", []))
+
+
+def schedule_refs(post, field):
+    return sorted(digest({k: v for k, v in s.items() if field != "calendarSchedules" or k != "label"})
+                  for s in post.get(field, []))
 
 
 def compare(old_posts: list[dict], new_posts: list[dict]) -> list[dict]:
@@ -39,19 +44,25 @@ def compare(old_posts: list[dict], new_posts: list[dict]) -> list[dict]:
             events.append({"kind": kind, "kinds": kinds, "panId": post.get("panId"), "title": post.get("title"), "detailUrl": post.get("detailUrl"), "relatedPanId": post.get("correctionOf", "")})
             continue
         changes = []
-        for field in ("title", "type", "region", "postedAt", "applicationStart", "applicationEnd", "status", "detailTextHash", "attachments", "directSuwon"):
+        for field in ("title", "type", "region", "postedAt", "applicationStart", "applicationEnd", "status", "detailTextHash", "attachments", "directSuwon", "calendarSchedules", "applicationSchedules"):
             before = attachment_refs(old) if field == "attachments" else old.get(field)
             after = attachment_refs(post) if field == "attachments" else post.get(field)
+            if field in ("calendarSchedules", "applicationSchedules"):
+                before, after = schedule_refs(old, field), schedule_refs(post, field)
             if before != after:
                 changes.append(field)
+        if post.get("category", "").startswith("firstCome") and old.get("currentlyListed", True) != post.get("currentlyListed", True):
+            changes.append("currentlyListed")
         if not changes:
             continue
         kinds = ["changed"]
+        if "currentlyListed" in changes:
+            kinds.append("inventoryAvailable" if post.get("currentlyListed") else "inventoryUnavailable")
         if "status" in changes:
             kinds.append("statusChanged")
             if old.get("status") == "접수마감" and post.get("status") in ("공고중", "접수중"):
                 kinds.append("reopened")
-        if "applicationStart" in changes or "applicationEnd" in changes:
+        if any(field in changes for field in ("applicationStart", "applicationEnd", "calendarSchedules", "applicationSchedules")):
             kinds.append("deadlineChanged")
         if "attachments" in changes:
             kinds.append("attachmentChanged")
@@ -59,3 +70,4 @@ def compare(old_posts: list[dict], new_posts: list[dict]) -> list[dict]:
             kinds.append("additionalRecruitment")
         events.append({"kind": "changed", "kinds": kinds, "panId": post.get("panId"), "title": post.get("title"), "detailUrl": post.get("detailUrl"), "fields": changes})
     return events
+

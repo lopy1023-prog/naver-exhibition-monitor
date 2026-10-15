@@ -14,6 +14,8 @@ from pathlib import Path
 from diff import compare, family_key
 from lh_client import CATEGORIES, LHClient
 from parser import ParseError, classify, content_hash, digest, identity, parse_detail
+from additional_sources import SOURCE_NAMES, BOARDS, collect_source, parse_bulletin_detail
+from pipeline import annotate, comparison_baseline, is_target, merge_sources, reception_events
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "lh"
@@ -53,23 +55,37 @@ def mark_failure(reason: str) -> None:
     feed["sourceStatus"] = "error"
     feed["syncedAt"] = now()
     feed["errors"] = list(dict.fromkeys([*feed.get("errors", []), reason]))
-    report = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": feed["syncedAt"],
-              "new": None, "changed": None, "alerts": None, "directSuwon": None, "broadCandidates": None,
-              "needsReview": None, "tracked": None, "errors": feed["errors"]}
+    report = failure_report(feed["syncedAt"], feed["errors"])
     write_json(DATA / "lh-feed.json", feed)
     write_json(DATA / "lh-report.json", report)
+
+
+def failure_report(checked_at, errors):
+    last = read_json(DATA / "lh-state.json", {})
+    previous = read_json(DATA / "lh-report.json", {})
+    return {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
+            "lastSuccessfulAt": last.get("syncedAt"),
+            "new": None, "changed": None, "alerts": None, "directSuwon": None,
+            "broadCandidates": None, "needsReview": None, "tracked": None,
+            "alertHistory": last.get("alertHistory", previous.get("alertHistory", [])), "errors": errors}
 
 
 def enrich(client: LHClient, post: dict):
     # Check every detail: a generic list title may hide Suwon only in the supply location.
     try:
-        post = parse_detail(client.get(post["detailUrl"]), post)
+        if post.get("currentlyListed") is False or post.get("category") not in (*CATEGORIES, "presale", *BOARDS):
+            return post
+        if post.get("category") in BOARDS:
+            post = parse_bulletin_detail(client.get(post["detailUrl"]), post)
+        else:
+            post = parse_detail(client.get(post["detailUrl"]), post)
     except Exception as exc:
         post["needsReview"] = True
         post["reviewReason"].append(f"상세페이지 확인 실패: {type(exc).__name__}: {exc}")
         return post
     detail_text = post.pop("_detailText", "")
-    classify(post, detail_text)
+    if post.get("category") not in BOARDS:
+        classify(post, detail_text)
     if post.get("tracked"):
         searchable = " ".join((post["title"], detail_text))
         post["trackedSignals"] = {}
@@ -97,6 +113,14 @@ def validate(feed: dict) -> list[str]:
             errors.append(f"{category}: 페이지 또는 공고 건수 불일치")
     if len(feed.get("posts", [])) != feed.get("postCount"):
         errors.append("전체 공고 건수 불일치")
+    if feed.get("collectionVersion") == 2:
+        for source in SOURCE_NAMES:
+            info = feed.get("supplementalSources", {}).get(source, {})
+            if not info.get("complete") or info.get("totalCount") != info.get("parsedCount") or info.get("totalPages") != info.get("checkedPages"):
+                errors.append(f"{source}: 보강 출처 수집/건수 검증 실패")
+    ids = [identity(p) for p in feed.get("posts", [])]
+    if len(ids) != len(set(ids)):
+        errors.append("통합 공고 식별자 중복")
     if feed.get("sourceStatus") != "ok":
         errors.extend(feed.get("errors", []))
     return list(dict.fromkeys(errors))
@@ -105,7 +129,9 @@ def validate(feed: dict) -> list[str]:
 def summary(post: dict) -> dict:
     keys = ("panId", "title", "category", "type", "region", "postedAt", "applicationStart",
             "applicationEnd", "status", "detailUrl", "directSuwon", "broadCandidate", "needsReview",
-            "reviewReason", "correction", "correctionOf", "noticeFamily", "tracked", "trackedSignals")
+            "reviewReason", "correction", "correctionOf", "noticeFamily", "tracked", "trackedSignals",
+            "sourceNames", "confirmedRegions", "calendarSchedules", "applicationSchedules", "roomCount",
+            "roomCountStatus", "eligibilityStatus", "recruitmentKind", "informationOnly", "currentlyListed")
     return {key: post[key] for key in keys if key in post}
 
 
@@ -136,7 +162,7 @@ def build_alerts(events: list[dict], old_posts: list[dict], new_posts: list[dict
     for event in events:
         pan_id = event.get("panId")
         current = current_by_id.get(pan_id)
-        if not current or not (current.get("directSuwon") or current.get("broadCandidate") or current.get("tracked")):
+        if not current or not is_target(current):
             continue
         old = old_by_id.get(pan_id, {})
         fields = sorted(set(event.get("fields", [])))
@@ -152,6 +178,8 @@ def build_alerts(events: list[dict], old_posts: list[dict], new_posts: list[dict
             signature["notice"] = {key: current.get(key) for key in
                                    ("title", "category", "region", "postedAt", "applicationStart",
                                     "applicationEnd", "status", "contentHash", "correctionOf")}
+        if "receptionStarted" in event.get("kinds", []):
+            signature["officialStarts"] = event.get("officialStarts", [])
         event_signature = digest(signature)
         previous_alert = next((item for item in reversed(history) if item.get("panId") == pan_id), None)
         if previous_alert and previous_alert.get("eventSignature") == event_signature:
@@ -159,7 +187,7 @@ def build_alerts(events: list[dict], old_posts: list[dict], new_posts: list[dict
         alert_id = "lh:" + digest({"event": event_signature,
                                     "previousAlertId": previous_alert.get("alertId") if previous_alert else ""})[:32]
         match_type = "direct" if current.get("directSuwon") else "tracked" if current.get("tracked") else "broadCandidate"
-        alert = {**event, "alertId": alert_id, "detectedAt": checked_at,
+        alert = {**summary(current), **event, "alertId": alert_id, "detectedAt": checked_at,
                  "eventSignature": event_signature, "suwonMatch": match_type,
                  "requiresSuwonReview": match_type != "direct"}
         alerts.append(alert)
@@ -174,7 +202,7 @@ def run() -> int:
     today = datetime.now(KST).date()
     start = date.fromisoformat(baseline_start) if baseline_start else today - timedelta(days=45)
     client = LHClient()
-    feed = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
+    feed = {"schemaVersion": 1, "collectionVersion": 2, "sourceStatus": "error", "syncedAt": checked_at,
             "baselineStart": start.isoformat(), "categories": {}, "postCount": 0, "posts": [], "errors": []}
     old_by_id = {identity(post): post for post in last.get("posts", [])}
     posts = []
@@ -207,9 +235,7 @@ def run() -> int:
     if feed["errors"]:
         feed["posts"] = posts
         feed["postCount"] = len(posts)
-        report = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
-                  "new": None, "changed": None, "alerts": None, "directSuwon": None, "broadCandidates": None,
-                  "needsReview": None, "tracked": None, "errors": feed["errors"]}
+        report = failure_report(checked_at, feed["errors"])
         write_json(DATA / "lh-feed.json", feed)
         write_json(DATA / "lh-report.json", report)
         print("LH source error: " + "; ".join(feed["errors"]), file=sys.stderr)
@@ -231,16 +257,39 @@ def run() -> int:
             feed["errors"].append(f"tracked {config['id']}: {type(exc).__name__}: {exc}")
     if feed["errors"]:
         write_json(DATA / "lh-feed.json", feed)
-        write_json(DATA / "lh-report.json", {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
-                                                 "new": None, "changed": None, "alerts": None, "directSuwon": None,
-                                                 "broadCandidates": None, "needsReview": None, "tracked": None,
-                                                 "errors": feed["errors"]})
+        write_json(DATA / "lh-report.json", failure_report(checked_at, feed["errors"]))
         return 1
 
     by_id = {identity(post): post for post in posts}
     for post in tracked_posts:
         by_id.setdefault(identity(post), post)["tracked"] = post["tracked"]
     posts = list(by_id.values())
+    for post in posts:
+        post["sourceNames"] = [post["category"]]
+    supplemental = []
+    feed["supplementalSources"] = {}
+    # Use independent sessions for parallel read-only source requests.
+    def collect_extra(source):
+        return collect_source(LHClient(), source, today, checked_at)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {pool.submit(collect_extra, source): source for source in SOURCE_NAMES}
+        for future in as_completed(futures):
+            source = futures[future]
+            try:
+                info, found = future.result()
+                feed["supplementalSources"][source] = info
+                supplemental.extend(found)
+                print(f"{source}: {info['parsedCount']} records, {info['checkedPages']}/{info['totalPages']} pages", flush=True)
+            except Exception as exc:
+                reason = f"{source}: {type(exc).__name__}: {exc}"
+                feed["supplementalSources"][source] = {"complete": False, "error": reason}
+                feed["errors"].append(reason)
+    if feed["errors"]:
+        write_json(DATA / "lh-feed.json", feed)
+        write_json(DATA / "lh-report.json", failure_report(checked_at, feed["errors"]))
+        print("LH supplemental error: " + "; ".join(feed["errors"]), file=sys.stderr)
+        return 1
+    posts = merge_sources(posts, supplemental, last.get("posts", []))
     worker_local = threading.local()
     for post in posts:
         previous = old_by_id.get(identity(post))
@@ -257,9 +306,11 @@ def run() -> int:
             if index % 50 == 0:
                 print(f"details: {index}/{len(posts)}", flush=True)
     link_families(posts)
-    detail_failures = sum(any(reason.startswith("상세페이지 확인 실패") for reason in post["reviewReason"]) for post in posts)
-    if len(posts) >= 10 and detail_failures * 5 >= len(posts):
-        feed["errors"].append(f"광범위한 상세페이지 확인 실패: {detail_failures}/{len(posts)}")
+    detail_failures = sum(post.get("currentlyListed") is not False and any(reason.startswith("상세페이지 확인 실패") for reason in post["reviewReason"]) for post in posts)
+    if detail_failures:
+        feed["errors"].append(f"상세페이지 확인 실패: {detail_failures}/{len(posts)}; 정상 상태 보존")
+    for post in posts:
+        annotate(post)
     known = next((post for post in posts if post.get("panId") == "0000061181"), None)
     if not known or not known.get("directSuwon"):
         from bs4 import BeautifulSoup
@@ -281,27 +332,34 @@ def run() -> int:
     if errors:
         feed["sourceStatus"] = "error"
         feed["errors"] = errors
-        report = {"schemaVersion": 1, "sourceStatus": "error", "syncedAt": checked_at,
-                  "new": None, "changed": None, "alerts": None, "directSuwon": None, "broadCandidates": None,
-                  "needsReview": None, "tracked": None, "errors": errors}
+        report = failure_report(checked_at, errors)
         write_json(DATA / "lh-feed.json", feed)
         write_json(DATA / "lh-report.json", report)
         print("LH validation error: " + "; ".join(errors), file=sys.stderr)
         return 1
-    events = compare(last.get("posts", []), feed["posts"])
+    before = comparison_baseline(last.get("posts", []), feed["posts"], last.get("sourceBaselines", {}))
+    events = compare(before, feed["posts"])
+    events, reception_seen = reception_events(events, before, feed["posts"], last.get("receptionSeen", {}),
+                                               last.get("syncedAt", ""), checked_at,
+                                               last.get("receptionVersion") == 1)
     alerts, alert_history = build_alerts(events, last.get("posts", []), feed["posts"],
                                           last.get("alertHistory", []), checked_at, bool(baseline_start))
     report = {"schemaVersion": 1, "sourceStatus": "ok", "syncedAt": checked_at,
               "new": [e for e in events if e["kind"] in ("new", "correction")],
               "changed": [e for e in events if e["kind"] == "changed"],
               "alerts": alerts, "alertHistory": alert_history,
+              "collectionVersion": 2, "supplementalSources": feed["supplementalSources"],
+              "receptionStarts": [e for e in alerts if "receptionStarted" in e.get("kinds", [])],
+              "targetRegions": [summary(p) for p in feed["posts"] if p.get("confirmedRegions")],
               "directSuwon": [summary(p) for p in feed["posts"] if p["directSuwon"]],
               "broadCandidates": [summary(p) for p in feed["posts"] if p["broadCandidate"]],
               "needsReview": [summary(p) for p in feed["posts"] if p["needsReview"]],
               "tracked": [summary(p) for p in feed["posts"] if p.get("tracked")], "errors": []}
     tracked_state = {"schemaVersion": 1, "syncedAt": checked_at, "posts": report["tracked"]}
     state = {"schemaVersion": 1, "syncedAt": checked_at, "baselineStart": start.isoformat(),
-             "alertHistory": alert_history, "posts": feed["posts"]}
+             "alertHistory": alert_history, "posts": feed["posts"],
+             "sourceBaselines": {source: True for source in SOURCE_NAMES},
+             "receptionVersion": 1, "receptionSeen": reception_seen}
     write_json(DATA / "lh-feed.json", feed)
     write_json(DATA / "lh-report.json", report)
     write_json(DATA / "lh-tracked-state.json", tracked_state)
@@ -316,10 +374,14 @@ def run() -> int:
 
 
 def main() -> int:
+    global DATA
     parser = argparse.ArgumentParser()
     parser.add_argument("--validate", action="store_true")
     parser.add_argument("--mark-failure", metavar="REASON")
+    parser.add_argument("--data-dir", type=Path, help="Isolated validation/simulation output directory")
     args = parser.parse_args()
+    if args.data_dir:
+        DATA = args.data_dir.resolve()
     if args.mark_failure:
         mark_failure(args.mark_failure)
         return 0
@@ -335,3 +397,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

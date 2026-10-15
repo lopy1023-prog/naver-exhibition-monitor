@@ -36,15 +36,18 @@ def digest(value: object) -> str:
 def classify(post: dict, detail_text: str = "") -> dict:
     title, region = post.get("title", ""), post.get("region", "")
     text = " ".join((title, region, detail_text))
-    post["directSuwon"] = any(word in text for word in DIRECT)
+    geography = " ".join(re.findall(r"(?:공급(?:지역|위치|대상|주택)|모집지역|대상지역|사업지구|지구명|단지명)\s*[:：]?\s*.{0,80}", detail_text))
+    evidence = " ".join((title, region, geography, " ".join(a.get("name", "") for a in post.get("attachments", []))))
+    post["directSuwon"] = any(word in evidence for word in DIRECT)
     headline_scope = bool(BROAD_SCOPE.search(title))
     region_scope = bool(BROAD_SCOPE.search(region))
     detail_scope = bool(DETAIL_SCOPE.search(detail_text))
     # A named non-Suwon jurisdiction takes precedence over a generic list region
     # or an unrelated address in the common detail-page text.
     named_elsewhere = bool(OTHER_SCOPE.search(title) or OTHER_SCOPE.search(region))
-    post["broadCandidate"] = (post.get("category") in ("rental", "sale", "presale")
-                              and (headline_scope or detail_scope or (region_scope and not named_elsewhere)))
+    possible_local = any(city in detail_text for city in ("수원", "화성", "오산")) and not named_elsewhere
+    post["broadCandidate"] = bool(headline_scope or detail_scope or possible_local or (region_scope and not named_elsewhere))
+    post["confirmedRegions"] = [city for city in ("수원", "화성", "오산") if city in evidence]
     return post
 
 
@@ -145,7 +148,15 @@ def parse_detail(html: str, post: dict) -> dict:
     text = clean(main.get_text(" ", strip=True))
     if not text:
         raise ParseError(f"LH 상세 본문 누락: {post['panId']}")
-    post["detailTextHash"] = hashlib.sha256(text.encode()).hexdigest()
+    semantic = BeautifulSoup(str(main), "html.parser")
+    for item in semantic.select(".bbsV_data li"):
+        label = item.select_one("strong")
+        if label and clean(label.get_text()) in ("조회수", "조회", "열람수"):
+            item.decompose()
+    for node in semantic.select("script, style, .bbsV_btn, .bbs_btn, .btn_wrap"):
+        node.decompose()
+    post["detailTextHash"] = hashlib.sha256(clean(semantic.get_text(" ", strip=True)).encode()).hexdigest()
+    post["hashVersion"] = 2
     post["detailExcerpt"] = text[:500]
     post["_detailText"] = text
     date_pattern = r"\d{4}[.\-]\d{2}[.\-]\d{2}"
@@ -154,6 +165,22 @@ def parse_detail(html: str, post: dict) -> dict:
         dates = re.findall(date_pattern, schedule.get_text(" ", strip=True))
         if dates:
             post["applicationStart"] = dates[0].replace(".", "-")
+        post["applicationSchedules"] = []
+        from additional_sources import normalize_date
+        for row in schedule.select("tbody tr, tr"):
+            cells = row.find_all("td", recursive=False)
+            if not cells:
+                continue
+            row_text = clean(row.get_text(" ", strip=True))
+            label = clean(cells[0].get_text(" ", strip=True))
+            if any(word in label for word in ("당첨", "발표", "서류", "계약", "입주지정")):
+                continue
+            # Supply schedule tables explicitly describe application rows.
+            found = re.findall(r"\d{4}[.\-]\d{2}[.\-]\d{2}(?:\s+\d{2}:\d{2})?", row_text)
+            if found:
+                post["applicationSchedules"].append({"start": normalize_date(found[0]),
+                                                     "end": normalize_date(found[1]) if len(found) > 1 else "",
+                                                     "label": label})
     if not post["applicationStart"]:
         match = re.search(r"(?:접수기간|신청일시|신청기간)\s*[:：]?\s*(" + date_pattern + r")", text)
         if match:
@@ -168,3 +195,4 @@ def parse_detail(html: str, post: dict) -> dict:
     classify(post, text)
     post["contentHash"] = content_hash(post)
     return post
+
