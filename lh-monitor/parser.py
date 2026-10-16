@@ -51,7 +51,8 @@ def classify(post: dict, detail_text: str = "") -> dict:
     # or an unrelated address in the common detail-page text.
     named_elsewhere = bool(OTHER_SCOPE.search(title) or OTHER_SCOPE.search(region))
     possible_local = any(city in detail_text for city in ("수원", "화성", "오산")) and not named_elsewhere
-    post["broadCandidate"] = bool(headline_scope or detail_scope or possible_local or post.get("supplyBroadCandidate") or (region_scope and not named_elsewhere))
+    post["broadCandidate"] = bool(headline_scope or (
+        not named_elsewhere and (detail_scope or possible_local or post.get("supplyBroadCandidate") or region_scope)))
     post["confirmedRegions"] = [city for city in ("수원", "화성", "오산") if city in evidence]
     post["geographyVersion"] = 2
     return post

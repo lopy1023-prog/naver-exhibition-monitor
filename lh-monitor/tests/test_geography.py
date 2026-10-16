@@ -74,6 +74,17 @@ class HistoricalGeographyTests(unittest.TestCase):
         })
         self.assertTrue(actual["directSuwon"])
 
+    def test_real_northern_only_notice_is_not_broadened_by_generic_gyeonggi(self):
+        title = "[경기북부] 청년 매입임대주택 선착순 예비입주자 모집공고 (김포시, 포천시)"
+        table = ('<p>모집지역 : 경기도</p><table><caption>공급정보 : 지역, 상세지역</caption>'
+                 '<thead><tr><th>지역</th><th>상세지역</th></tr></thead>'
+                 '<tbody><tr><td>경기도</td><td>김포시, 포천시</td></tr></tbody></table>')
+        actual = parse_detail(detail(table, title), post(title))
+        self.assertFalse(actual["directSuwon"])
+        self.assertFalse(actual["broadCandidate"])
+        supplied_suwon = parse_detail(detail(table.replace("김포시, 포천시</td>", "수원시</td>"), title), post(title))
+        self.assertTrue(supplied_suwon["directSuwon"])
+
     def test_body_rowspan_cannot_shift_contact_text_into_location_column(self):
         table = ('<table><caption>공급정보 : 지역, 문의처</caption>'
                  '<thead><tr><th>지역</th><th>문의처</th></tr></thead>'
