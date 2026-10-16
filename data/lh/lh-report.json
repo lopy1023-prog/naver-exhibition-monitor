@@ -42685,6 +42685,19 @@
       ],
       "panId": "2015122300020843",
       "title": "[서울지역본부] 26년 2차 비분양전환형 든든전세주택 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002877&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "LN-0002877",
+      "title": "서울등촌1 영구임대상가 입점자 모집공고(7701-지하1호)(장기미임대)"
     }
   ],
   "collectionVersion": 2,
@@ -44400,20 +44413,51 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008089&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008089",
+      "relatedPanId": "",
+      "title": "행정중심복합도시 블록형단독주택용지 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008085&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008085",
+      "relatedPanId": "",
+      "title": "빛그린 국가산업단지 보유토지(관리구역) 입찰 공급 공고(18개월 거치 5년 무이자)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001351&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0001351",
+      "relatedPanId": "",
+      "title": "인천계양 A3블록 단지내상가 분양공고"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 1013,
-      "checkedAt": "2026-10-16T13:15:02+09:00",
+      "calendarRowCount": 1019,
+      "checkedAt": "2026-10-16T14:13:09+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 445,
+      "parsedCount": 448,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 445,
+      "totalCount": 448,
       "totalPages": 2
     },
     "documents": {
@@ -44554,7 +44598,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-16T13:15:02+09:00",
+  "syncedAt": "2026-10-16T14:13:09+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
