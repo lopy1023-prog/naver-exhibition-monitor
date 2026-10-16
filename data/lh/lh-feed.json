@@ -277,7 +277,7 @@
           "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68993551"
         }
       ],
-      "broadCandidate": true,
+      "broadCandidate": false,
       "calendarSchedules": [
         {
           "end": "2026-10-29",
