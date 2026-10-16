@@ -42813,6 +42813,20 @@
   ],
   "changed": [
     {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002879&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "LN-0002879",
+      "title": "인천만수주공7단지 임대상가 입점자 모집공고"
+    },
+    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -44423,14 +44437,25 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432404&ccrCnntSysDsCd=02&mi=1330",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:02:9102432404",
+      "relatedPanId": "",
+      "title": "위례 A2-7BL LHQ+ 웰컴데이(입주자 사전방문) 행사안내"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1007,
-      "checkedAt": "2026-10-16T06:59:28+09:00",
+      "checkedAt": "2026-10-16T09:19:11+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -44512,9 +44537,9 @@
       "checkedPages": 1,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 66,
+      "parsedCount": 67,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=05&mi=1330",
-      "totalCount": 66,
+      "totalCount": 67,
       "totalPages": 1
     },
     "movePlan": {
@@ -44577,7 +44602,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-16T06:59:28+09:00",
+  "syncedAt": "2026-10-16T09:19:11+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
