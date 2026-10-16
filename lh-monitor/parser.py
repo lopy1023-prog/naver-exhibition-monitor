@@ -23,6 +23,7 @@ SUPPLY_LOCATION_COLUMNS = {
     "지역", "상세지역", "지역명", "시도", "시군구명", "지자체명", "모집지역",
     "소재지", "주소", "위치", "공급위치", "단지명", "지구명", "주택정보",
 }
+GEOGRAPHY_BOUNDARY = re.compile(r"문의처|접수처|연락처|전화번호|상담센터|공급일정|접수기간|신청기간|신청방법|유의사항")
 
 
 class ParseError(ValueError):
@@ -40,7 +41,10 @@ def digest(value: object) -> str:
 def classify(post: dict, detail_text: str = "") -> dict:
     title, region = post.get("title", ""), post.get("region", "")
     text = " ".join((title, region, detail_text))
-    geography = " ".join(re.findall(r"(?:공급(?:지역|위치|대상|주택)|모집지역|대상지역|사업지구|지구명|단지명)\s*[:：]?\s*.{0,80}", detail_text))
+    markers = list(re.finditer(r"(?:공급(?:지역|위치|대상|주택)|모집지역|대상지역|사업지구|지구명|단지명)\s*[:：]?\s*", detail_text))
+    fragments = [detail_text[m.start():min(m.end() + 80, markers[i + 1].start() if i + 1 < len(markers) else len(detail_text))]
+                 for i, m in enumerate(markers)]
+    geography = " ".join(GEOGRAPHY_BOUNDARY.split(fragment, maxsplit=1)[0] for fragment in fragments)
     evidence = " ".join((title, region, geography, " ".join(post.get("supplyRegions", [])),
                          " ".join(a.get("name", "") for a in post.get("attachments", []))))
     post["directSuwon"] = any(word in evidence for word in DIRECT)
@@ -54,8 +58,16 @@ def classify(post: dict, detail_text: str = "") -> dict:
     post["broadCandidate"] = bool(headline_scope or (
         not named_elsewhere and (detail_scope or possible_local or post.get("supplyBroadCandidate") or region_scope)))
     post["confirmedRegions"] = [city for city in ("수원", "화성", "오산") if city in evidence]
-    post["geographyVersion"] = 2
+    post["geographyVersion"] = 3
     return post
+
+
+def cell_span(cell, name):
+    try:
+        value = int(cell.get(name) or 1)
+        return value if value > 0 else None
+    except (TypeError, ValueError):
+        return None
 
 
 def supply_scope(main) -> tuple[list[str], bool]:
@@ -72,19 +84,27 @@ def supply_scope(main) -> tuple[list[str], bool]:
         # Body rowspans can shift later cells under a different header. Until
         # that layout is supported, retain the broad candidate without treating
         # a shifted contact cell as confirmed supply geography.
-        if any(int(cell.get("rowspan", 1)) != 1 for cell in table.select("tbody td[rowspan]")):
+        if any(cell_span(cell, "rowspan") != 1 for cell in table.select("tbody td[rowspan]")):
             continue
         header = table.select_one("thead tr")
         if header is None:
             continue
         labels = []
         for cell in header.find_all("th", recursive=False):
-            labels.extend([clean(cell.get_text())] * int(cell.get("colspan", 1)))
+            span = cell_span(cell, "colspan")
+            if span is None:
+                labels = []
+                break
+            labels.extend([clean(cell.get_text())] * span)
         indices = [i for i, label in enumerate(labels) if label in SUPPLY_LOCATION_COLUMNS]
         for row in table.select("tbody tr"):
             values = []
             for cell in row.find_all("td", recursive=False):
-                values.extend([clean(cell.get_text(" ", strip=True))] * int(cell.get("colspan", 1)))
+                span = cell_span(cell, "colspan")
+                if span is None:
+                    values = []
+                    break
+                values.extend([clean(cell.get_text(" ", strip=True))] * span)
             if len(values) == len(labels):
                 locations.extend(values[i] for i in indices)
     evidence = " ".join(locations)
@@ -163,6 +183,7 @@ def content_hash(post: dict) -> str:
 
 
 def parse_detail(html: str, post: dict) -> dict:
+    previous_status = post.pop("_previousStatus", None)
     soup = BeautifulSoup(html, "html.parser")
     view = soup.select_one(".bbs_ViewA")
     if not view or not view.select_one("h3"):
@@ -197,8 +218,23 @@ def parse_detail(html: str, post: dict) -> dict:
             item.decompose()
     for node in semantic.select("script, style, .bbsV_btn, .bbs_btn, .btn_wrap"):
         node.decompose()
+    # Counterfactual v2 text lets the first v3 run distinguish a policy-only
+    # change from a simultaneous real body correction, even with a status update.
+    legacy = BeautifulSoup(str(semantic), "html.parser")
+    for item in legacy.select(".bbsV_data li"):
+        label = item.select_one("strong")
+        if previous_status is not None and label and clean(label.get_text()) == "공고상태":
+            label.extract()
+            item.clear()
+            item.append(label)
+            item.append(str(previous_status))
+    post["_legacyPreviousStatusHash"] = hashlib.sha256(clean(legacy.get_text(" ", strip=True)).encode()).hexdigest()
+    for item in semantic.select(".bbsV_data li"):
+        label = item.select_one("strong")
+        if label and clean(label.get_text()) == "공고상태":
+            item.decompose()
     post["detailTextHash"] = hashlib.sha256(clean(semantic.get_text(" ", strip=True)).encode()).hexdigest()
-    post["hashVersion"] = 2
+    post["hashVersion"] = 3
     post["detailExcerpt"] = text[:500]
     post["_detailText"] = text
     date_pattern = r"\d{4}[.\-]\d{2}[.\-]\d{2}"

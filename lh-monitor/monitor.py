@@ -70,7 +70,7 @@ def failure_report(checked_at, errors):
             "alertHistory": last.get("alertHistory", previous.get("alertHistory", [])), "errors": errors}
 
 
-def enrich(client: LHClient, post: dict):
+def enrich(client: LHClient, post: dict, previous: dict | None = None):
     # Check every detail: a generic list title may hide Suwon only in the supply location.
     try:
         if post.get("currentlyListed") is False or post.get("category") not in (*CATEGORIES, "presale", *BOARDS):
@@ -78,7 +78,10 @@ def enrich(client: LHClient, post: dict):
         if post.get("category") in BOARDS:
             post = parse_bulletin_detail(client.get(post["detailUrl"]), post)
         else:
-            post = parse_detail(client.get(post["detailUrl"]), post)
+            html = client.get(post["detailUrl"])
+            if previous is not None:
+                post["_previousStatus"] = previous.get("status", "")
+            post = parse_detail(html, post)
     except Exception as exc:
         post["needsReview"] = True
         post["reviewReason"].append(f"상세페이지 확인 실패: {type(exc).__name__}: {exc}")
@@ -298,7 +301,7 @@ def run() -> int:
     def enrich_one(post: dict) -> dict:
         if not hasattr(worker_local, "client"):
             worker_local.client = LHClient()
-        return enrich(worker_local.client, post)
+        return enrich(worker_local.client, post, old_by_id.get(identity(post)))
     with ThreadPoolExecutor(max_workers=8) as pool:
         futures = [pool.submit(enrich_one, post) for post in posts]
         for index, future in enumerate(as_completed(futures), start=1):
@@ -330,6 +333,7 @@ def run() -> int:
     feed["sourceStatus"] = "error" if feed["errors"] else "ok"
     errors = validate(feed)
     if errors:
+        for post in feed["posts"]: post.pop("_legacyPreviousStatusHash", None)
         feed["sourceStatus"] = "error"
         feed["errors"] = errors
         report = failure_report(checked_at, errors)
@@ -338,6 +342,7 @@ def run() -> int:
         print("LH validation error: " + "; ".join(errors), file=sys.stderr)
         return 1
     before = comparison_baseline(last.get("posts", []), feed["posts"], last.get("sourceBaselines", {}))
+    for post in feed["posts"]: post.pop("_legacyPreviousStatusHash", None)
     events = compare(before, feed["posts"])
     events, reception_seen = reception_events(events, before, feed["posts"], last.get("receptionSeen", {}),
                                                last.get("syncedAt", ""), checked_at,

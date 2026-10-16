@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import copy
-from datetime import datetime, time, timedelta, timezone
+from datetime import datetime, timedelta, timezone
 
 from parser import classify, digest, identity
 
@@ -61,7 +61,9 @@ def comparison_baseline(old_posts, current, source_baselines):
         if old.get("hashVersion") != item.get("hashVersion"):
             # The legacy text included view counters. Establish the semantic
             # hash without rewriting any previously emitted alert IDs.
-            old["detailTextHash"] = item.get("detailTextHash")
+            v2_to_v3 = old.get("hashVersion") == 2 and item.get("hashVersion") == 3
+            if not v2_to_v3 or old.get("detailTextHash") == item.get("_legacyPreviousStatusHash"):
+                old["detailTextHash"] = item.get("detailTextHash")
             old["directSuwon"] = item.get("directSuwon")
         if old.get("geographyVersion", 1) != item.get("geographyVersion", 1):
             # Stronger supply-table evidence is a classifier migration, not a
@@ -88,6 +90,28 @@ def starts(post):
     return sorted(v for v in values if v and ("T" in v or v[:10] not in precise_days))
 
 
+def reception_time(value, end=False):
+    when = datetime.fromisoformat(value)
+    if when.tzinfo is None: when = when.replace(tzinfo=KST)
+    if end and "T" not in value:
+        when += timedelta(days=1, microseconds=-1)
+    return when.astimezone(KST)
+
+
+def window_open(post, start, current_time):
+    ends = {s.get("end") for field in ("applicationSchedules", "calendarSchedules")
+            for s in post.get(field, []) if s.get("start") == start and s.get("end")}
+    if not ends and post.get("applicationEnd"):
+        ends.add(post["applicationEnd"])
+    precise_days = {v[:10] for v in ends if "T" in v}
+    ends = {v for v in ends if "T" in v or v[:10] not in precise_days}
+    try:
+        return not ends or any(reception_time(v, end=True) >= current_time for v in ends)
+    except (ValueError, TypeError):
+        # An unknown optional end date cannot prove that a known start expired.
+        return True
+
+
 def reception_events(events, old_posts, posts, previous_seen, previous_at, checked_at, initialized):
     seen = dict(previous_seen)
     output = copy.deepcopy(events)
@@ -99,20 +123,21 @@ def reception_events(events, old_posts, posts, previous_seen, previous_at, check
         ident = identity(post)
         before = old.get(ident)
         transition = bool(before and before.get("status") != "접수중" and post.get("status") == "접수중")
+        terminal = post.get("status") in ("접수마감", "마감", "접수종료", "공고취소", "모집취소", "취소", "접수중단", "공고중단")
         due = []
         for start in starts(post):
-            when = datetime.fromisoformat(start) if "T" in start else datetime.combine(datetime.fromisoformat(start).date(), time.min, KST)
-            if when.tzinfo is None: when = when.replace(tzinfo=KST)
+            when = reception_time(start)
             token = digest([ident, start])
             if not initialized:
                 if when <= current_time: seen[token] = checked_at
                 continue
-            if prior_time < when <= current_time and token not in seen: due.append((start, token))
+            if not terminal and window_open(post, start, current_time) and prior_time < when <= current_time and token not in seen:
+                due.append((start, token))
         if transition:
             # The same schedule observed via time and via a delayed LH status
             # transition is one reception event, even across separate runs.
             values = starts(post)
-            start = next((s for s in reversed(values) if s[:10] <= checked_at[:10]), values[0] if values else "")
+            start = next((s for s in reversed(values) if reception_time(s) <= current_time), "")
             token = digest([ident, start])
             reopening = before.get("status") in ("접수마감", "마감", "접수종료")
             if reopening:
@@ -128,7 +153,7 @@ def reception_events(events, old_posts, posts, previous_seen, previous_at, check
                                            "title": post["title"], "detailUrl": post["detailUrl"]}
         event["kinds"] = sorted(set(event.get("kinds", []) + ["receptionStarted"]))
         event["receptionEvidence"] = "officialStatus" if transition else "officialStartTime" if "T" in due[0][0] else "officialStartDate"
-        event["officialStarts"] = sorted({s for s, _ in due})
+        event["officialStarts"] = sorted({s for s, _ in due if s})
         event["requiresEligibilityReview"] = True
         if not matches: output.append(event)
         for _, token in due: seen[token] = checked_at
