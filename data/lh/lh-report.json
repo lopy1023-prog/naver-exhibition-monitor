@@ -1213,50 +1213,96 @@
       "suwonMatch": "broadCandidate",
       "title": "양주회천 A25BL 영구임대주택 추가입주자 모집 공고('26.09.21)",
       "type": "영구임대"
-    }
-  ],
-  "alerts": [
+    },
     {
-      "alertId": "lh:cfba8e6227e9b1b909f83dbd20fdc6b5",
+      "alertId": "lh:625b7858a16876170e1893b0f18fbd41",
       "applicationEnd": "2026-10-16",
-      "applicationStart": "2026-10-12",
+      "applicationStart": "",
       "broadCandidate": true,
-      "category": "rental",
+      "category": "land",
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
       "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020727&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "detectedAt": "2026-10-16T23:08:07+09:00",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008023&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-17T03:06:06+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "ee36dd65507fb947c0e4209927cbc165a3edae56a7464a8fadc55e3bbb41aa24",
+      "eventSignature": "4e66543701f035feabc680e24b91d0e468d58173b7adc5a38f985548b095532d",
       "fields": [
-        "status"
+        "applicationEnd",
+        "status",
+        "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
         "changed",
         "statusChanged",
-        "additionalRecruitment"
+        "deadlineChanged"
       ],
       "needsReview": false,
-      "noticeFamily": "양주회천A25BL영구임대주택추가입주자모집공고('26.09.21)",
-      "panId": "2015122300020727",
-      "postedAt": "2026-09-21",
-      "recruitmentKind": "추가모집",
+      "noticeFamily": "의정부우정이주자택지(점포겸용단독주택용지)공급공고",
+      "panId": "BN-0008023",
+      "postedAt": "2026-09-30",
+      "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
       "requiresSuwonReview": true,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "rental"
+        "land"
       ],
       "status": "접수마감",
       "suwonMatch": "broadCandidate",
-      "title": "양주회천 A25BL 영구임대주택 추가입주자 모집 공고('26.09.21)",
-      "type": "영구임대"
+      "title": "의정부우정 이주자택지(점포겸용 단독주택용지) 공급공고",
+      "type": "토지"
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "lh:625b7858a16876170e1893b0f18fbd41",
+      "applicationEnd": "2026-10-16",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008023&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-17T03:06:06+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "4e66543701f035feabc680e24b91d0e468d58173b7adc5a38f985548b095532d",
+      "fields": [
+        "applicationEnd",
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "의정부우정이주자택지(점포겸용단독주택용지)공급공고",
+      "panId": "BN-0008023",
+      "postedAt": "2026-09-30",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "의정부우정 이주자택지(점포겸용 단독주택용지) 공급공고",
+      "type": "토지"
     }
   ],
   "broadCandidates": [
@@ -2790,7 +2836,7 @@
       "type": "토지"
     },
     {
-      "applicationEnd": "",
+      "applicationEnd": "2026-10-16",
       "applicationStart": "",
       "broadCandidate": true,
       "category": "land",
@@ -2813,7 +2859,7 @@
       "sourceNames": [
         "land"
       ],
-      "status": "상담요청",
+      "status": "접수마감",
       "title": "의정부우정 이주자택지(점포겸용 단독주택용지) 공급공고",
       "type": "토지"
     },
@@ -42868,31 +42914,20 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020692&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008023&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020692",
-      "title": "마산중리1 영구임대주택 예비입주자 모집공고(2026.10.01.)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020727&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status"
+        "applicationEnd",
+        "status",
+        "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
         "changed",
         "statusChanged",
-        "additionalRecruitment"
+        "deadlineChanged"
       ],
-      "panId": "2015122300020727",
-      "title": "양주회천 A25BL 영구임대주택 추가입주자 모집 공고('26.09.21)"
+      "panId": "BN-0008023",
+      "title": "의정부우정 이주자택지(점포겸용 단독주택용지) 공급공고"
     }
   ],
   "collectionVersion": 2,
@@ -44615,7 +44650,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1026,
-      "checkedAt": "2026-10-16T23:08:07+09:00",
+      "checkedAt": "2026-10-17T03:06:06+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -44762,7 +44797,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-16T23:08:07+09:00",
+  "syncedAt": "2026-10-17T03:06:06+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
