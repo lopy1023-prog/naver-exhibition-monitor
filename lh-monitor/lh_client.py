@@ -6,6 +6,7 @@ import math
 from datetime import date, timedelta
 
 import requests
+from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -56,7 +57,8 @@ class LHClient:
             fields = {
             "mi": mi, "currPage": "1", "listCo": "100", "prevListCo": "100",
             "panSs": "", "uppAisTpCd": upper, "srchUppAisTpCd": upper,
-            "panStDt": start.strftime("%Y%m%d"), "panEdDt": end.strftime("%Y%m%d"),
+            "startDt": start.isoformat(), "endDt": end.isoformat(),
+            "schTy": "0", "srchY": "N",
             "xssChk": "N", "maxSn": "100", "minSn": "0",
             "cnpCd": "", "aisTpCd": "", "mvinQf": "", "viewType": "",
             "panNm": keyword,
@@ -81,17 +83,29 @@ class LHClient:
             ids = [p["panId"] for p in posts]
             if len(posts) != total_count or len(set(ids)) != len(ids) or checked != pages:
                 raise ParseError(f"{category}: 총 건수/중복/페이지 검증 실패 ({len(posts)}/{total_count}, {checked}/{pages})")
+            for post in posts:
+                if not start <= date.fromisoformat(post["postedAt"]) <= end:
+                    raise ParseError(f"{category}: 요청 검색기간 밖 공고 반환 ({post['panId']}, {post['postedAt']})")
         except Exception as exc:
             raise CollectionError(exc, total_count, pages, checked, len(posts)) from exc
         return {
             "totalCount": total_count, "parsedCount": len(posts), "totalPages": pages,
             "checkedPages": checked, "complete": True, "sourceUrl": source,
+            "requestedStart": start.isoformat(), "requestedEnd": end.isoformat(),
+            "dateWindowVerified": True,
             "checkedAt": checked_at, "error": None,
         }, posts
 
     def _page(self, fields: dict, referer: str) -> str:
         response = self.session.post(BASE + LIST_PATH, data=fields, headers={"Referer": referer}, timeout=self.timeout)
         response.raise_for_status()
+        # LH silently ignores unknown search fields. Even a valid empty list must
+        # echo the requested dates before it can count as a successful collection.
+        soup = BeautifulSoup(response.text, "html.parser")
+        for name in ("startDt", "endDt"):
+            node = soup.select_one(f'input[name="{name}"]')
+            if node is None or node.get("value") != fields[name]:
+                raise ParseError(f"LH 요청 검색기간 미반영: {name}")
         return response.text
 
     def collect_presale(self, checked_at: str, start: date | None = None, end: date | None = None) -> tuple[dict, list[dict]]:

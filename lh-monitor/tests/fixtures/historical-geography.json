@@ -1,0 +1,4410 @@
+{
+  "source": "LH official public listing pages",
+  "requestedStart": "2022-01-01",
+  "requestedEnd": "2026-10-16",
+  "collectedAt": "2026-10-16T08:02:01+09:00",
+  "scope": "selected keyword examples; broad candidates are not all confirmed Suwon supply",
+  "attachmentsOpened": 0,
+  "examples": [
+    {
+      "panId": "2015122300020802",
+      "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "0000061181",
+      "title": "수원당수 A-3블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고(입주 후 해약세대)",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2026-09-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061181&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020769",
+      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "LN-0002865",
+      "title": "수원우만3단지 영구임대상가 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2026-09-14",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002865&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020731",
+      "title": "[온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-10",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020731&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007938",
+      "title": "[알선장려금 시행] 수원고등지구 주차장용지 선착순 수의계약 공급공고[중개알선대상토지포함]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-09-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007938&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020703",
+      "title": "[경기남부] 화성시·평택시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 [후순번] 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020703&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020702",
+      "title": "[경기남부] 용인시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020702&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020699",
+      "title": "[경기남부] 용인시 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020699&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020690",
+      "title": "[정정공고][경기남부] 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020690&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020688",
+      "title": "[정정공고][경기남부] 26년 3차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020688&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020687",
+      "title": "[정정공고][경기남부] 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-09-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020687&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007944",
+      "title": "[3년 무이자] 수원당수2지구 상업용지(상업1-1) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-09-01",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007944&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007937",
+      "title": "[알선장려금 시행] 수원당수지구 상업,업무시설,주차장용지 선착순 수의계약 공고[중개알선대상토지포함]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-08-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007937&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007936",
+      "title": "[알선장려금 시행] 수원당수지구 점포겸용단독주택용지 선착순 수의계약 공고[중개알선대상토지포함]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-08-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007936&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007922",
+      "title": "수원고등지구 근린생활시설용지 선착순 수의계약 공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-08-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007922&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020629",
+      "title": "[경기남부] 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-08-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020629&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020628",
+      "title": "[경기남부] 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-08-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020628&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020621",
+      "title": "[경기남부] 26년 3차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-08-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020621&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020560",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-08-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020480",
+      "title": "[청년신혼부부매입임대리츠]_경기남부지역 예비입주자 모집",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-08-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020480&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007818",
+      "title": "수원고등지구 주차장용지 선착순 수의계약 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-07-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007818&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007816",
+      "title": "수원고등지구 근린생활시설용지 재공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-07-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007816&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020462",
+      "title": "[경기남부][온라인 접수 불가, 행정복지센터 접수] 고령자 매입임대주택 예비입주자 모집 공고",
+      "region": "전국",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-07-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020462&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "0000061116",
+      "title": "수원당수 A-3블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고(입주 후 해약세대)",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2026-07-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061116&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "0000061150",
+      "title": "[정정공고]수원당수 A5블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2026-07-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061150&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "0000061142",
+      "title": "수원당수 A5블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2026-07-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061142&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007792",
+      "title": "수원당수지구 상업,업무시설,주차장용지 선착순 수의계약 공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-07-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007792&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007782",
+      "title": "수원세류 유치원용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-07-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007782&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020296",
+      "title": "수원시 수원매탄6 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2026-07-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020296&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:매탄",
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020255",
+      "title": "[경기남부] 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-06-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020255&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020240",
+      "title": "[경기남부] 26년 2차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-06-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020240&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300020239",
+      "title": "[경기남부] 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-06-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020239&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007685",
+      "title": "수원당수지구 상업,업무시설,주차장용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-06-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007685&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007684",
+      "title": "수원당수지구 점포겸용단독주택용지 선착순 수의계약 공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-06-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007684&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007652",
+      "title": "수원고등지구 근린생활시설용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-06-16",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007652&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007650",
+      "title": "수원고등지구 주차장용지 재공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-06-16",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007650&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020116",
+      "title": "[정정공고]수원당수 신혼희망타운 행복주택 예비입주자 모집",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2026-06-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007620",
+      "title": "수원당수지구 일반업무시설용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-06-09",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007620&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020053",
+      "title": "수원당수 신혼희망타운 행복주택 예비입주자 모집",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2026-06-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020053&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0001317",
+      "title": "[정정공고] 과천지식정보타운 S-3, 수원당수 A-3, 의왕초평 A-3, 평택고덕 A-54, 화성능동 B-1블록 단지내상가 선착순 수의계약 공고",
+      "region": "전국",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2026-06-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001317&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300020029",
+      "title": "[경기남부권 이천부발 국민임대주택 예비입주자 모집(2026.05.29.)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2026-05-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020029&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007530",
+      "title": "수원당수지구 상업,근린생활,주차장용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-05-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007530&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0001310",
+      "title": "과천지식정보타운 S-3, 수원당수 A-3, 의왕초평 A-3, 평택고덕 A-54, 화성능동 B-1블록 단지내상가 선착순 수의계약 공고",
+      "region": "전국",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2026-05-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001310&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019891",
+      "title": "[경기남부] 2026년 든든전세 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-05-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019891&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007523",
+      "title": "수원당수지구 점포겸용단독주택용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-05-19",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007523&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007521",
+      "title": "수원고등지구 주차장용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-05-19",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007521&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0001299",
+      "title": "과천지식정보타운 S-3, 수원당수 A-3, 의왕초평 A-3, 평택고덕 A-54, 화성능동 B-1블록 단지내상가 재분양 공고",
+      "region": "경기도",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2026-05-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001299&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019901",
+      "title": "[정정공고][경기남부권 용인시 및 이천시 행복주택 예비입주자 모집(2026.04.29.)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2026-05-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019901&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019846",
+      "title": "[경기남부권 용인시 및 이천시 행복주택 예비입주자 모집(2026.04.29.)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2026-04-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019846&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019751",
+      "title": "수원당수 LH 1단지(A-1 블록)_LH 희망상가 입점자 추가모집공고 (일반형)",
+      "region": "경기도",
+      "type": "임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2026-04-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019751&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019742",
+      "title": "수원당수 LH 1단지(A-1 블록)_LH 희망상가 입점자 추가모집공고 (공공지원형)",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2026-04-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019742&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019720",
+      "title": "[정정공고][경기남부] 26년 1차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019720&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019665",
+      "title": "[정정공고][경기남부] 26년 1차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019665&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019664",
+      "title": "[정정공고][경기남부] 26년 1차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019664&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019649",
+      "title": "[경기남부] 26년 1차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019649&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019648",
+      "title": "[경기남부] 26년 1차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019648&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019626",
+      "title": "[경기남부] 26년 1차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019626&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019523",
+      "title": "[정정공고]경기남부권 수원시 지역 국민임대주택 예비입주자 모집(2026.03.16)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2026-03-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019523&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:경기남부",
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007443",
+      "title": "수원당수지구 점포겸용단독주택용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-03-19",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007443&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019457",
+      "title": "[정정공고][경기남부권 용인시 지역 국민임대주택 예비입주자 모집(2026.03.16.)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2026-03-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019457&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019429",
+      "title": "경기남부권 수원시 지역 국민임대주택 예비입주자 모집(2026.03.16)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2026-03-16",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019429&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:경기남부",
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019347",
+      "title": "[청년신혼부부매입임대리츠] 경기남부지역 예비입주자 모집",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-02-19",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019347&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007399",
+      "title": "수원당수지구 협의양도인택지(점포겸용단독) 2차 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2026-02-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007399&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019335",
+      "title": "[온라인 접수 불가, 행정복지센터 현장접수]2026년 경기남부지역본부 기존주택 등 매입임대주택 예비입주자 모집 공고",
+      "region": "전국",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2026-02-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019335&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007325",
+      "title": "수원당수지구 협의양도인택지(점포겸용단독) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-12-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007325&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019211",
+      "title": "[경기남부] 25년 4차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-12-18",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019211&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019193",
+      "title": "[경기남부] 25년 4차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-12-18",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019193&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019190",
+      "title": "[경기남부] 25년 4차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-12-18",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019190&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007277",
+      "title": "수원당수 대토(점포겸용단독) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-11-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007277&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300019092",
+      "title": "[경기남부] 2025년 오산시 든든전세주택 예비입주자 모집공고(현장접수, 비분양전환형, 다락층이 있는 합벽형 단독(다가구)주택)",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-11-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019092&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300019090",
+      "title": "수원당수 A-5블록 신혼희망타운 행복주택 입주자 모집공고",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2025-11-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019090&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007256",
+      "title": "[정정공고] 수원당수 점포겸용 단독주택용지 일반공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-11-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007256&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007253",
+      "title": "수원당수 점포겸용 단독주택용지 일반공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-11-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007253&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0007243",
+      "title": "수원당수지구 이주자택지(점포겸용단독) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-10-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007243&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0001220",
+      "title": "[분양상가] 수원당수 A-3BL 단지내상가 수의계약 공고",
+      "region": "전국",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2025-09-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001220&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018766",
+      "title": "[정정공고][경기남부지역본부] 2025년 경기남부 기존주택 등 매입임대주택 입주자 모집공고(현장접수)",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-09-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018766&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018745",
+      "title": "[경기남부지역본부] 2025년 경기남부 기존주택 등 매입임대주택 입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-09-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018745&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018678",
+      "title": "[정정공고][경기남부] 25년 3차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-09-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018678&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018675",
+      "title": "[정정공고][경기남부] 25년 3차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-09-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018675&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018645",
+      "title": "[경기남부] 25년 3차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-08-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018645&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018644",
+      "title": "[경기남부] 25년 3차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-08-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018644&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018642",
+      "title": "[경기남부] 25년 3차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-08-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018642&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018635",
+      "title": "경기남부권(성남·수원·안양·오산·화성) 공가세대 일반매각 공고(무순위, 무주택, 수도권거주제한, 잔금납부 70일 이내)",
+      "region": "경기도",
+      "type": "분양주택",
+      "category": "sale",
+      "postedAt": "2025-08-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018635&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018604",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 3호 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-08-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018604&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018491",
+      "title": "[청년신혼부부매입임대리츠] 경기남부지역 입주자 모집",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-07-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018491&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018448",
+      "title": "[정정공고]수원시 지역 행복주택 예비입주자 모집 공고(2025.07.03.)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2025-07-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018448&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018338",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2025.07.03.)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2025-07-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018338&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018354",
+      "title": "[정정공고][경기남부] 25년 2차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-07-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018354&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018347",
+      "title": "[정정공고][경기남부] 25년 2차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-07-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018347&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018317",
+      "title": "[경기남부] 25년 2차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-06-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018317&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018295",
+      "title": "[경기남부] 25년 2차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-06-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018295&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0007059",
+      "title": "[3년무이자]수원당수지구 상업용지(상업2-2) 재공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-06-18",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007059&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018187",
+      "title": "수원당수 A-2블록 행복주택 입주자격완화 예비입주자 모집(25.06.09)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2025-06-09",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018187&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "LN-0002627",
+      "title": "수원매탄6 단지내 관리동 어린이집 임차운영자 선정공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2025-06-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002627&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018180",
+      "title": "[정정공고][정정][경기남부지역본부] 2025년 고령자 매입임대주택 예비입주자 모집공고",
+      "region": "전국",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-05-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018180&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0006975",
+      "title": "[3년무이자] 수원당수지구 도시지원(도시3,4) 및 종교용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-05-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006975&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006970",
+      "title": "[취소공고] 수원당수지구 공동주택용지 C-4BL 공급공고 [2순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-05-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006970&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006969",
+      "title": "[취소공고] 수원당수지구 공동주택용지 C-4BL 공급공고 [1순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-05-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006969&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300018145",
+      "title": "[경기남부지역본부]2025년 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-05-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018145&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300018120",
+      "title": "[경기남부지역본부] 2025년 고령자 매입임대주택 예비입주자 모집공고",
+      "region": "전국",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-05-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300018120&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0006959",
+      "title": "수원고등지구 주차장용지 재공급공고(계약조건 선택형)",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-05-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006959&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006958",
+      "title": "수원고등지구 준주거용지 재공급공고(1년 거치 포함 3년 무이자)",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-05-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006958&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "LN-0002621",
+      "title": "수원우만3단지 영구임대상가 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2025-05-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002621&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006936",
+      "title": "[3년무이자]수원당수지구 상업용지(상업2) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-05-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006936&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017976",
+      "title": "[정정공고]경기남부권(수원·안양·오산) 공가세대 일반매각 공고(선착순동·호지정, 유주택자 계약가능, 잔금납부 90일 이내)",
+      "region": "경기도",
+      "type": "분양주택",
+      "category": "sale",
+      "postedAt": "2025-05-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017976&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006897",
+      "title": "수원당수지구 공동주택용지 C-4BL 공급공고 [2순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-04-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006897&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006896",
+      "title": "수원당수지구 공동주택용지 C-4BL 공급공고 [1순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-04-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006896&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006895",
+      "title": "수원당수지구 공동주택용지 C-4BL 공급공고 [우선순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-04-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006895&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006892",
+      "title": "수원고등지구 준주거, 주차장용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-04-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006892&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017854",
+      "title": "[정정공고][경기남부] 25년 1차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-04-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017854&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017853",
+      "title": "[정정공고][경기남부] 25년 1차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-04-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017853&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017852",
+      "title": "[정정공고][경기남부] 25년 1차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-04-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017852&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017799",
+      "title": "[수원시] 2025년 기존주택 등 매입임대주택 예비입주자 모집 공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-03-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017799&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017796",
+      "title": "[경기남부] 25년 1차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-03-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017796&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017793",
+      "title": "[경기남부] 25년 1차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-03-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017793&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017787",
+      "title": "[경기남부] 25년 1차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-03-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017787&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0006802",
+      "title": "수원고등지구 준주거, 주차장용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2025-03-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006802&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017650",
+      "title": "수원시 지역 국민임대주택 예비입주자 모집 공고(2025.03.14)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2025-03-14",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017650&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "LN-0002577",
+      "title": "수원매탄6 단지내 관리동 어린이집 임차운영자 선정공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2025-03-12",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002577&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017551",
+      "title": "[수원시·용인시·시흥시] 매입임대상가 선착순 수의계약 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(공모ㆍ심사)",
+      "category": "commercial",
+      "postedAt": "2025-02-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017551&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017530",
+      "title": "경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-02-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017530&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017508",
+      "title": "LH 수원당수 2단지(A2블록)_LH 희망상가 입점자 추가모집공고 (공공지원1형)",
+      "region": "경기도",
+      "type": "임대상가(공모ㆍ심사)",
+      "category": "commercial",
+      "postedAt": "2025-01-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017508&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017507",
+      "title": "LH 수원당수 1단지(A1블록)_LH 희망상가 입점자 추가모집공고 (공공지원2형)",
+      "region": "경기도",
+      "type": "임대상가(공모ㆍ심사)",
+      "category": "commercial",
+      "postedAt": "2025-01-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017507&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017469",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2025.01.20)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2025-01-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017469&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017443",
+      "title": "[정정공고][경기남부] 24년 4차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-01-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017443&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017442",
+      "title": "[정정공고][경기남부] 24년 4차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-01-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017442&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017440",
+      "title": "[정정공고][경기남부] 24년 4차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2025-01-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017440&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017427",
+      "title": "수원매산 A1블록 행복주택 입주자 모집 공고",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2024-12-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017427&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017396",
+      "title": "[경기남부] 24년 4차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-12-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017396&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017393",
+      "title": "[경기남부] 24년 4차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-12-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017393&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017392",
+      "title": "[경기남부] 24년 4차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-12-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017392&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300017342",
+      "title": "[수원시·용인시·시흥시] 매입임대상가 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2024-12-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017342&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "0000060776",
+      "title": "수원당수 A5블록 신혼희망타운(공공분양) 입주자모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2024-11-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060776&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "LN-0002516",
+      "title": "수원매탄6 단지내 관리동 어린이집 임차운영자 선정공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2024-11-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002516&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "0000060772",
+      "title": "수원역푸르지오자이 5년 공공임대주택 예비입주자 모집공고(2024.11.08)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2024-11-08",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060772&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017085",
+      "title": "[정정공고]경기남부권(의왕·안양·수원·오산) 공가세대 일반매각 공고(선착순 동·호지정)",
+      "region": "경기도",
+      "type": "분양주택",
+      "category": "sale",
+      "postedAt": "2024-10-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017085&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300017078",
+      "title": "경기남부권(의왕·안양·수원·오산) 공가세대 일반매각 공고(선착순 동·호지정)",
+      "region": "경기도",
+      "type": "분양주택",
+      "category": "sale",
+      "postedAt": "2024-10-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300017078&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "LN-0002497",
+      "title": "수원매탄6 단지내 관리동 어린이집 임차운영자 선정공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2024-10-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002497&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016984",
+      "title": "[정정공고][경기남부] 24년 3차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-10-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016984&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016981",
+      "title": "[정정공고][경기남부] 24년 3차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-10-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016981&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016980",
+      "title": "[정정공고][경기남부] 24년 3차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-10-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016980&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016924",
+      "title": "[경기남부] 24년 3차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016924&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016922",
+      "title": "[경기남부] 24년 3차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016922&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016920",
+      "title": "[접수마감][경기 수원시] 집주인 임대주택 선착순 수시모집 공고",
+      "region": "경기도",
+      "type": "집주인임대",
+      "category": "rental",
+      "postedAt": "2024-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016920&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=37&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016916",
+      "title": "[경기남부] 24년 3차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016916&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016950",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 2호 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-09-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016950&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016787",
+      "title": "수원시 영구임대주택 예비입주자 모집공고(2024. 9. 6.)",
+      "region": "경기도",
+      "type": "영구임대",
+      "category": "rental",
+      "postedAt": "2024-09-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016787&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016767",
+      "title": "수원당수 신혼희망타운 행복주택 입주자격완화 예비입주자 모집공고(2024.09.06)",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2024-09-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016767&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006232",
+      "title": "[취소공고] 수원고등지구 준주거용지(C-6-2) 수의계약 공급공고",
+      "region": "전국",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-08-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006232&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "LN-0002470",
+      "title": "[취소공고]수원우만3단지 영구임대상가 입점자 모집취소(24.08.02)",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2024-08-14",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002470&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006187",
+      "title": "[취소공고] [토지리턴제] 수원당수지구 공동주택용지(C2BL) 수의계약 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-08-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006187&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016639",
+      "title": "수원, 오산권 공가세대 일반매각 공고(무순위)",
+      "region": "경기도",
+      "type": "분양주택",
+      "category": "sale",
+      "postedAt": "2024-08-08",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016639&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016611",
+      "title": "[정정공고]경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-08-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016611&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "LN-0002463",
+      "title": "수원우만3단지 영구임대상가 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2024-08-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002463&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016515",
+      "title": "경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-07-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016515&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016398",
+      "title": "수원당수 신혼희망타운 행복주택 입주자격완화 예비입주자 모집공고(2024.07.18)",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2024-07-18",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016398&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006119",
+      "title": "수원고등지구 준주거용지(C-6-2) 수의계약 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-07-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006119&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016330",
+      "title": "[정정공고][경기남부] 24년 2차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-07-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016330&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016329",
+      "title": "[정정공고][경기남부] 24년 2차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-07-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016329&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016328",
+      "title": "[정정공고][경기남부] 24년 2차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-07-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016328&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016269",
+      "title": "[경기남부] 24년 2차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-06-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016269&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016268",
+      "title": "[경기남부] 24년 2차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-06-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016268&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300016260",
+      "title": "[경기 수원·시흥·용인·이천·여주·안산·부천] 24년 1차 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-06-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016260&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016259",
+      "title": "[경기남부] 24년 2차 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-06-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016259&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0006058",
+      "title": "수원고등지구 준주거용지 재공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-06-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006058&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "0000060653",
+      "title": "수원지역 10년 공공임대주택 예비입주자 모집 공고(2024.06.20)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2024-06-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060653&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0006012",
+      "title": "[1년거치 3년유이자] 수원당수지구 상업용지 및 근린생활시설용지 수의계약 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-06-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0006012&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300016028",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2024.06.03)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2024-06-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300016028&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005960",
+      "title": "수원고등지구 준주거용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-05-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005960&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005909",
+      "title": "[토지리턴제] 수원당수지구 공동주택용지(C2BL) 수의계약 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-05-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005909&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015858",
+      "title": "[수원시] 2024년도 기존주택 등 매입임대주택 예비입주자 모집 공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-05-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015858&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005839",
+      "title": "[1년 거치포함 3년 분할] 수원당수지구 상업용지 및 근린생활시설용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-04-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005839&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015708",
+      "title": "[접수마감][경기 수원시] 집주인 임대주택 선착순 수시모집 공고",
+      "region": "경기도",
+      "type": "집주인임대",
+      "category": "rental",
+      "postedAt": "2024-04-09",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015708&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=36&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015690",
+      "title": "[정정공고][경기남부] 24년 1차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-04-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015690&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015689",
+      "title": "[정정공고][경기남부] 24년 1차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-04-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015689&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015679",
+      "title": "[정정공고][경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-04-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015679&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0005777",
+      "title": "[토지리턴제] 수원당수지구 공동주택용지(C2BL) 공급공고[2순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-03-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005777&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005770",
+      "title": "[토지리턴제] 수원당수지구 공동주택용지(C2BL) 공급공고[1순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-03-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005770&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015635",
+      "title": "[경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-03-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015635&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015590",
+      "title": "[경기남부] 24년 1차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-03-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015590&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015589",
+      "title": "[경기남부] 24년 1차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-03-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015589&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015442",
+      "title": "수원정자2 국민임대 예비입주자 모집",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2024-03-14",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015442&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005730",
+      "title": "[취소공고] 수원고등 주거환경개선사업지구 준주거(C-2) 수의계약 공급공고",
+      "region": "전국",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-03-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005730&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "0000060594",
+      "title": "수원당수 A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2024-02-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060594&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005698",
+      "title": "수원당수지구 도시지원시설용지(도시7) 재공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2024-01-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005698&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0001101",
+      "title": "[분양상가] 수원당수 A-3BL 단지내상가 수의계약 공고",
+      "region": "전국",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2024-01-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001101&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015291",
+      "title": "수원시 지역 국민임대주택 예비입주자 모집 공고(2024.01.23)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2024-01-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015291&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015300",
+      "title": "경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2024-01-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015300&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015271",
+      "title": "수원당수 A-2블록 행복주택입주자 추가모집(입주자격완화)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2024-01-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015271&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015273",
+      "title": "수원당수 A-2블록 가정어린이집 운영예정자 모집 공고",
+      "region": "경기도",
+      "type": "가정어린이집",
+      "category": "rental",
+      "postedAt": "2024-01-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015273&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=40&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300015235",
+      "title": "[정정공고][경기남부] 23년 4차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-12-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015235&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015234",
+      "title": "[정정공고][경기남부] 23년 4차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-12-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015234&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015228",
+      "title": "[정정공고][경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-12-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015228&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015191",
+      "title": "[경기남부] 23년 4차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-12-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015191&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015188",
+      "title": "[경기남부] 23년 4차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-12-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015188&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300015179",
+      "title": "[경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-12-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300015179&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0005658",
+      "title": "수원고등 주거환경개선사업지구 준주거(C-2) 수의계약 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-12-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005658&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014872",
+      "title": "[경기 부천·수원·안산·성남] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-12-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014872&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014888",
+      "title": "오산세교2 A-6, 수원당수 A-3 대체공급 입주자 모집",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2023-11-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014888&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005557",
+      "title": "수원고등 주거환경개선사업지구 준주거용지(C-2BL 외 2) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-11-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005557&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005546",
+      "title": "수원당수지구 공동주택용지(C2BL) 공급공고[2순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-11-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005546&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005545",
+      "title": "수원당수지구 공동주택용지(C2BL) 공급공고[1순위]",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-11-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005545&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005523",
+      "title": "수원당수지구 도시지원시설용지(도시7) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-11-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005523&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014828",
+      "title": "수원당수 A2블록 LH 희망상가 (공공지원형) 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(공모ㆍ심사)",
+      "category": "commercial",
+      "postedAt": "2023-11-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014828&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014827",
+      "title": "수원당수 A2블록 LH 희망상가 (일반형) 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2023-11-03",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014827&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014737",
+      "title": "수원당수 신혼희망타운 행복주택 예비입주자 모집공고(2023.10.25)",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2023-10-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014737&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014736",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2023.10.25)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2023-10-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014736&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005450",
+      "title": "수원당수지구 상업용지 및 근린생활시설용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-10-18",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005450&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "0000060531",
+      "title": "수원지역 10년 공공임대·분납임대주택 예비입주자 모집 공고(2023.10.16)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2023-10-16",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060531&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "0000060527",
+      "title": "수원당수 A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2023-10-16",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060527&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014661",
+      "title": "[정정공고][경기남부] 23년 3차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014661&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300014659",
+      "title": "[정정공고][경기남부] 23년 3차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014659&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300014623",
+      "title": "수원당수 LH 1단지(수원당수 A1블록) LH 희망상가 (공공지원형) 입점자 추가모집공고",
+      "region": "경기도",
+      "type": "임대상가(공모ㆍ심사)",
+      "category": "commercial",
+      "postedAt": "2023-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014623&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005388",
+      "title": "수원당수지구 주상복합용지(M1BL) 재공급 공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-09-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005388&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014602",
+      "title": "[경기남부] 23년 3차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-09-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014602&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300014585",
+      "title": "[경기남부] 23년 3차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-09-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014585&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300014565",
+      "title": "[경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-09-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014565&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0005362",
+      "title": "[정정공고] 임대주택건설형 공동주택용지 공모(수원당수)",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-09-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005362&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005345",
+      "title": "임대주택건설형 공동주택용지 공모(수원당수)",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-09-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005345&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014448",
+      "title": "가정어린이집 운영예정자 모집(의왕고천 A-2, 평택고덕 A3, 수원당수 A-3 및 A-4블록)",
+      "region": "경기도",
+      "type": "가정어린이집",
+      "category": "rental",
+      "postedAt": "2023-09-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014448&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=40&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014386",
+      "title": "[정정공고]수원시 지역 국민임대주택 예비입주자 모집 공고(2023.08.23)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2023-08-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014386&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014261",
+      "title": "수원시 지역 국민임대주택 예비입주자 모집 공고(2023.08.23)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2023-08-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014261&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014257",
+      "title": "수원시 지역 영구임대주택 예비입주자 모집 공고(2023.08.23)",
+      "region": "경기도",
+      "type": "영구임대",
+      "category": "rental",
+      "postedAt": "2023-08-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014257&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005316",
+      "title": "[정정공고] 수원당수지구 주상복합용지(M1, M2BL) 공급 공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-08-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005316&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014286",
+      "title": "[접수마감][경기 수원시] 집주인 임대주택 선착순 수시모집 공고",
+      "region": "경기도",
+      "type": "집주인임대",
+      "category": "rental",
+      "postedAt": "2023-08-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014286&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=37&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005299",
+      "title": "[정정공고] 수원당수지구 주상복합용지(M1, M2BL) 공급 공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-08-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005299&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005296",
+      "title": "수원당수지구 주상복합용지(M1, M2BL) 공급 공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-08-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005296&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005284",
+      "title": "수원고등 주거환경개선사업지구 준주거용지(C-2BL) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-08-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005284&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014134",
+      "title": "경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-07-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014134&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0001024",
+      "title": "수원당수 A-3BL 단지내상가 수의계약 분양공고",
+      "region": "전국",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2023-07-10",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001024&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014097",
+      "title": "[경기 수원·안산·시흥·성남·부천] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-07-10",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014097&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014106",
+      "title": "수원당수 A-1블록 행복주택 입주자 추가 모집(입주자격완화모집)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2023-07-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014106&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014050",
+      "title": "[정정공고][경기남부] 23년 2차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-06-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014050&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300014049",
+      "title": "[정정공고][경기남부] 23년 2차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-06-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014049&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300014048",
+      "title": "[정정공고][경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-06-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014048&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0001023",
+      "title": "[수의계약 중단공고] 수원당수 A-3블록 단지내상가 수의계약 중단공고",
+      "region": "전국",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2023-06-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001023&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "BN-0001021",
+      "title": "수원당수 A-3BL, 화성능동 B-1BL 단지내상가 수의계약 분양공고",
+      "region": "전국",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2023-06-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001021&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300014001",
+      "title": "[경기남부] 23년 2차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-06-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014001&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300014000",
+      "title": "[경기남부] 23년 2차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-06-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300014000&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013919",
+      "title": "[경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-06-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013919&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "0000060421",
+      "title": "[정정공고]수원당수 A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2023-06-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060421&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "0000060413",
+      "title": "수원당수 A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2023-06-16",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060413&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "BN-0005094",
+      "title": "수원당수지구 도시지원시설용지(도시5) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-06-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0005094&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013829",
+      "title": "평택고덕 A57-1, 수원당수 A-3 및 A-4BL 가정어린이집 운영예정자 모집 공고(3차)",
+      "region": "경기도",
+      "type": "가정어린이집",
+      "category": "rental",
+      "postedAt": "2023-06-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013829&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=40&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013773",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2023.06.05)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2023-06-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013773&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013601",
+      "title": "수원시 지역 국민임대주택 예비입주자 모집 공고(2023.05.08)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2023-05-08",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013601&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013592",
+      "title": "평택고덕 A57-1, 수원당수 A-3 및 A-4BL 가정어린이집 운영예정자 모집 공고(2차)",
+      "region": "경기도",
+      "type": "가정어린이집",
+      "category": "rental",
+      "postedAt": "2023-04-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013592&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=40&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013556",
+      "title": "[경기남부] 2023년 1차 공공전세주택 입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-04-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013556&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013570",
+      "title": "수원당수 A-3블록 신혼희망타운 행복주택 입주자격완화 추가모집",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2023-04-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013570&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "0000060341",
+      "title": "[정정공고]수원당수 A-3, A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2023-04-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060341&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "0000060335",
+      "title": "수원당수 A-3, A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2023-04-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060335&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013480",
+      "title": "평택고덕 A57-1, 수원당수 A-3 및 A-4BL 가정어린이집 운영예정자 모집 공고",
+      "region": "경기도",
+      "type": "가정어린이집",
+      "category": "rental",
+      "postedAt": "2023-04-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013480&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=40&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013399",
+      "title": "[경기 수원·안산·용인·안성·평택] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-04-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013399&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013414",
+      "title": "[경기 수원시] 기존주택 등 매입임대주택 예비입주자 모집 공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-04-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013414&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013412",
+      "title": "[정정공고][경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-03-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013412&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013407",
+      "title": "[정정공고][경기남부] 23년 1차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-03-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013407&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013385",
+      "title": "[정정공고][경기남부] 23년 1차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-03-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013385&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013382",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2023.03.30)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2023-03-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013382&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0004929",
+      "title": "수원고등 주거환경개선사업지구 준주거용지(C-6) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2023-03-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0004929&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013369",
+      "title": "[경기남부] 23년 1차 신혼부부 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-03-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013369&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013367",
+      "title": "[경기남부] 23년 1차 신혼부부 매입임대주택Ⅰ 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-03-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013367&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013327",
+      "title": "[경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-03-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013327&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "0000060300",
+      "title": "수원지역 10년 공공임대·분납임대주택 예비입주자 모집 공고(2023.03.09)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2023-03-09",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060300&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013193",
+      "title": "수원매탄6 국민임대주택 예비입주자 모집(2023.03.06.공고분)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2023-03-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013193&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:매탄",
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013141",
+      "title": "수원당수 A-1블록 LH희망상가(공공지원형) 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(공모ㆍ심사)",
+      "category": "commercial",
+      "postedAt": "2023-02-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013141&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013140",
+      "title": "수원당수 A-1블록 LH희망상가(일반형) 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2023-02-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013140&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013078",
+      "title": "경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-01-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013078&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300013075",
+      "title": "수원당수 A-4블록 신혼희망타운 행복주택 입주자격완화 추가모집",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2023-01-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013075&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013066",
+      "title": "[정정공고]수원시 지역 국민임대주택 예비입주자 모집 공고(2023.01.17)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2023-01-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013066&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013051",
+      "title": "수원시 지역 국민임대주택 예비입주자 모집 공고(2023.01.17)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2023-01-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013051&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013041",
+      "title": "[경기 수원시] 새빛청년존(Zone) 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-01-17",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013041&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0000986",
+      "title": "수원당수 A-3BL 단지내상가 재분양공고",
+      "region": "경기도",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2023-01-13",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0000986&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300013027",
+      "title": "[정정공고][오산·이천·수원·성남·안산·안성·용인·평택] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2023-01-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300013027&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012973",
+      "title": "[정정공고][경기 수원·성남·광주시] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-12-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012973&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012970",
+      "title": "[경기남부] 2022년 제4차 신혼부부Ⅱ(전세형) 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-12-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012970&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300012968",
+      "title": "[경기남부] 2022년 제4차 신혼부부Ⅰ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-12-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012968&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300012907",
+      "title": "[오산·이천·수원·성남·안산·안성·용인·평택] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-12-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012907&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012904",
+      "title": "[경기 수원·성남·광주시] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-12-12",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012904&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012858",
+      "title": "수원당수 A-2블록 행복주택 입주자 모집",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2022-12-01",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012858&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0004760",
+      "title": "수원당수 공공주택지구 업무시설용지(업무2) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2022-11-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0004760&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012840",
+      "title": "수원시 영구임대주택 예비입주자 모집공고(2022. 11. 24.)",
+      "region": "경기도",
+      "type": "영구임대",
+      "category": "rental",
+      "postedAt": "2022-11-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012840&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012812",
+      "title": "수원당수 A-1블록 영구임대주택 입주자 모집",
+      "region": "경기도",
+      "type": "영구임대",
+      "category": "rental",
+      "postedAt": "2022-11-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012812&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012804",
+      "title": "수원당수 A-1블록 행복주택 입주자격완화 추가모집",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2022-11-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012804&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012779",
+      "title": "[수원시] 기존주택 등 매입임대 예비입주자 모집 공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-11-14",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012779&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0004697",
+      "title": "수원당수 공공주택지구 근린생활시설용지(근생3) 재공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2022-11-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0004697&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012646",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2022.11.08)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2022-11-08",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012646&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0004677",
+      "title": "수원당수 공공주택지구 도시지원시설용지(도시6) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2022-11-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0004677&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "BN-0000976",
+      "title": "수원당수 A-3, A-4블록 단지내상가 분양공고",
+      "region": "경기도",
+      "type": "분양ㆍ(구)임대상가(입찰)",
+      "category": "commercial",
+      "postedAt": "2022-11-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0000976&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "0000060234",
+      "title": "수원지역 10년 공공임대주택 예비입주자 모집 공고(2022.10.20)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2022-10-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060234&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012378",
+      "title": "[정정공고]경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-10-14",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012378&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0004636",
+      "title": "수원당수 공공주택지구 상업용지 및 근린생활시설용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2022-10-12",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0004636&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012513",
+      "title": "[정정공고][경기 수원·성남·안산·용인시] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-10-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012513&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012433",
+      "title": "[정정공고][경기남부] 2022년 제3차 신혼부부Ⅰ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-09-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012433&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300012444",
+      "title": "[정정공고][수원·용인·안산·오산·이천·평택·안성·성남·군포] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-09-27",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012444&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012390",
+      "title": "[경기 수원·성남·안산·용인시] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-09-26",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012390&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012424",
+      "title": "[경기남부] 2022년 제3차 신혼부부Ⅱ(전세형) 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-09-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012424&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300012420",
+      "title": "[경기남부] 2022년 제3차 신혼부부Ⅰ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-09-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012420&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300012382",
+      "title": "[수원·용인·안산·오산·이천·평택·안성·성남·군포] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-09-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012382&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012351",
+      "title": "[경기 수원시] 집주인 임대주택 선착순 수시모집 공고",
+      "region": "경기도",
+      "type": "집주인임대",
+      "category": "rental",
+      "postedAt": "2022-09-19",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012351&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=37&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012122",
+      "title": "[정정공고][수원시] 기존주택 등 매입임대주택 입주자 모집 공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-08-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012122&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012111",
+      "title": "[수원시] 기존주택 등 매입임대주택 입주자 모집 공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-08-22",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012111&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300012069",
+      "title": "[경기지역본부] 공공전세주택 2022년 2차 입주자 모집공고(수원시·안양시)",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-08-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300012069&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "0000060184",
+      "title": "[정정공고]수원지역 10년 공공임대주택 예비입주자 모집 공고(2022.08.10)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2022-08-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060184&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "0000060176",
+      "title": "수원지역 10년 공공임대주택 예비입주자 모집 공고(2022.08.10)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2022-08-10",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060176&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011808",
+      "title": "경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-07-08",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011808&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300011689",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2022.07.05)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2022-07-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011689&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011729",
+      "title": "[정정공고][경기남부] 2022년 제2차 신혼부부Ⅱ(전세형) 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-07-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011729&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300011781",
+      "title": "[정정공고][경기 용인·수원·안산·성남·오산·평택시] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-07-01",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011781&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011746",
+      "title": "수원당수 A-3블록 신혼희망타운 행복주택 입주자 모집",
+      "region": "경기도",
+      "type": "행복주택(신혼희망)",
+      "category": "rental",
+      "postedAt": "2022-06-30",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011746&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "LN-0001994",
+      "title": "수원오목천 LH 임대아파트 내 관리동 어린이집 임차인 선정 공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2022-06-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0001994&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011713",
+      "title": "[경기남부] 2022년 제2차 신혼부부Ⅰ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-06-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011713&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300011712",
+      "title": "[경기남부] 2022년 제2차 신혼부부Ⅱ(전세형) 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-06-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011712&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300011652",
+      "title": "[경기 용인·수원·안산·성남·오산·평택시] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-06-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011652&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011610",
+      "title": "수원시 지역 국민임대주택 예비입주자 모집 공고(2022.06.21)",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2022-06-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011610&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "LN-0001987",
+      "title": "수원우만3단지 임대상가 입점자 모집공고",
+      "region": "경기도",
+      "type": "임대상가(추첨)",
+      "category": "commercial",
+      "postedAt": "2022-06-20",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0001987&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "commercial:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011561",
+      "title": "[정정공고][경기 수원·용인·여주·광주·이천·평택] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-06-02",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011561&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011554",
+      "title": "[정정공고]경기지역본부 관할[수원시, 의왕시, 안양시] 공가세대 일반분양 입주자모집공고",
+      "region": "경기도",
+      "type": "분양주택",
+      "category": "sale",
+      "postedAt": "2022-05-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011554&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011513",
+      "title": "경기지역본부 관할[수원시, 의왕시, 안양시] 공가세대 일반분양 입주자모집공고",
+      "region": "경기도",
+      "type": "분양주택",
+      "category": "sale",
+      "postedAt": "2022-05-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011513&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011507",
+      "title": "[경기 수원·용인·여주·광주·이천] 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-05-25",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011507&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "BN-0004379",
+      "title": "수원고등 주거환경개선사업지구 주차장용지 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2022-05-16",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0004379&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011273",
+      "title": "[정정공고][경기남부] 공공전세주택 2022년 1차 예비입주자 모집공고(수원, 안양, 용인, 여주)",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-04-29",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011273&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:경기남부",
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011252",
+      "title": "[경기남부] 공공전세주택 2022년 1차 예비입주자 모집공고(수원, 안양, 용인, 여주)",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-04-28",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011252&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:경기남부",
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011077",
+      "title": "[정정공고][경기남부] 신혼부부Ⅱ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-04-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011077&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300011076",
+      "title": "[정정공고][경기남부] 신혼부부Ⅰ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-04-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011076&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "0000060088",
+      "title": "수원지역 10년 공공임대주택 예비입주자 모집 공고(2022.04.11)",
+      "region": "경기도",
+      "type": "공공임대",
+      "category": "rental",
+      "postedAt": "2022-04-11",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060088&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011097",
+      "title": "수원시 다가구 등 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-04-06",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011097&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300010987",
+      "title": "수원시 지역 행복주택 예비입주자 모집 공고(2022.04.05)",
+      "region": "경기도",
+      "type": "행복주택",
+      "category": "rental",
+      "postedAt": "2022-04-05",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300010987&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300011064",
+      "title": "[정정공고][경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-04-04",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011064&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300011043",
+      "title": "[경기남부] 신혼부부Ⅱ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011043&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300011042",
+      "title": "[경기남부] 신혼부부Ⅰ 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300011042&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "2015122300010970",
+      "title": "[경기남부] 청년 매입임대주택 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-03-31",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300010970&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "BN-0004260",
+      "title": "수원고등 주거환경개선사업지구 준주거용지(C-3) 공급공고",
+      "region": "경기도",
+      "type": "토지",
+      "category": "land",
+      "postedAt": "2022-03-24",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0004260&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "land:수원"
+      ]
+    },
+    {
+      "panId": "2015122300010959",
+      "title": "[정정공고](경기수원시) 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-03-23",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300010959&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300010804",
+      "title": "(경기수원시) 다자녀 매입임대 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-03-15",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300010804&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300010772",
+      "title": "수원시 지역 국민임대주택 예비입주자 모집 공고",
+      "region": "경기도",
+      "type": "국민임대",
+      "category": "rental",
+      "postedAt": "2022-03-07",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300010772&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "rental:수원"
+      ]
+    },
+    {
+      "panId": "2015122300010444",
+      "title": "경기남부 청년신혼부부 매입임대리츠 재임대 및 예비입주자 모집공고",
+      "region": "경기도",
+      "type": "매입임대",
+      "category": "rental",
+      "postedAt": "2022-01-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300010444&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "expectedDirectSuwon": false,
+      "auditQueries": [
+        "rental:경기남부"
+      ]
+    },
+    {
+      "panId": "0000060043",
+      "title": "수원당수 A-3, A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자 모집공고",
+      "region": "경기도",
+      "type": "공공분양(신혼희망)",
+      "category": "sale",
+      "postedAt": "2022-01-21",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000060043&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "expectedDirectSuwon": true,
+      "auditQueries": [
+        "sale:수원"
+      ]
+    }
+  ]
+}

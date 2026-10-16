@@ -63,6 +63,10 @@ def comparison_baseline(old_posts, current, source_baselines):
             # hash without rewriting any previously emitted alert IDs.
             old["detailTextHash"] = item.get("detailTextHash")
             old["directSuwon"] = item.get("directSuwon")
+        if old.get("geographyVersion", 1) != item.get("geographyVersion", 1):
+            # Stronger supply-table evidence is a classifier migration, not a
+            # publisher update. Actual text/status/schedule changes still differ.
+            old["directSuwon"] = item.get("directSuwon")
         if "calendarSchedules" not in old and "calendarSchedules" in item:
             old["calendarSchedules"] = copy.deepcopy(item["calendarSchedules"])
             for field in ("applicationStart", "applicationEnd"):

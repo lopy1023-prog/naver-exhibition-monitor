@@ -19,6 +19,10 @@ BROAD_SCOPE = re.compile(r"경기\s*남부(?:지역본부)?|경기도|경기지�
 OTHER_SCOPE = re.compile(r"경기\s*북부|부산|대구|광주|충북|충청북도|충남|충청남도|경북|경상북도|경남|경상남도|전북|전라북도|전남|전라남도|대전|울산|인천|강원|제주|세종")
 DETAIL_SCOPE = re.compile(r"(?:공급|모집|대상|입주|사업)\s*(?:지역|주택|대상|지구|소재지)\s*[:：]?\s*.{0,40}?(?:" + BROAD_SCOPE.pattern + r")")
 CORRECTIONS = ("정정공고", "수정공고", "변경공고", "추가안내", "첨부파일 교체", "공급주택 목록 교체")
+SUPPLY_LOCATION_COLUMNS = {
+    "지역", "상세지역", "지역명", "시도", "시군구명", "지자체명", "모집지역",
+    "소재지", "주소", "위치", "공급위치", "단지명", "지구명", "주택정보",
+}
 
 
 class ParseError(ValueError):
@@ -37,7 +41,8 @@ def classify(post: dict, detail_text: str = "") -> dict:
     title, region = post.get("title", ""), post.get("region", "")
     text = " ".join((title, region, detail_text))
     geography = " ".join(re.findall(r"(?:공급(?:지역|위치|대상|주택)|모집지역|대상지역|사업지구|지구명|단지명)\s*[:：]?\s*.{0,80}", detail_text))
-    evidence = " ".join((title, region, geography, " ".join(a.get("name", "") for a in post.get("attachments", []))))
+    evidence = " ".join((title, region, geography, " ".join(post.get("supplyRegions", [])),
+                         " ".join(a.get("name", "") for a in post.get("attachments", []))))
     post["directSuwon"] = any(word in evidence for word in DIRECT)
     headline_scope = bool(BROAD_SCOPE.search(title))
     region_scope = bool(BROAD_SCOPE.search(region))
@@ -46,9 +51,45 @@ def classify(post: dict, detail_text: str = "") -> dict:
     # or an unrelated address in the common detail-page text.
     named_elsewhere = bool(OTHER_SCOPE.search(title) or OTHER_SCOPE.search(region))
     possible_local = any(city in detail_text for city in ("수원", "화성", "오산")) and not named_elsewhere
-    post["broadCandidate"] = bool(headline_scope or detail_scope or possible_local or (region_scope and not named_elsewhere))
+    post["broadCandidate"] = bool(headline_scope or detail_scope or possible_local or post.get("supplyBroadCandidate") or (region_scope and not named_elsewhere))
     post["confirmedRegions"] = [city for city in ("수원", "화성", "오산") if city in evidence]
+    post["geographyVersion"] = 2
     return post
+
+
+def supply_scope(main) -> tuple[list[str], bool]:
+    """Read location columns in official supply tables, never contact columns.
+
+    LH has multiple empty tables before populated ones and merged header cells.
+    A row with incompatible column spans cannot establish a supply location.
+    """
+    locations = []
+    for table in main.select("table"):
+        caption = table.select_one("caption")
+        if not caption or not re.match(r"공급정보\s*[:：]", clean(caption.get_text())):
+            continue
+        # Body rowspans can shift later cells under a different header. Until
+        # that layout is supported, retain the broad candidate without treating
+        # a shifted contact cell as confirmed supply geography.
+        if any(int(cell.get("rowspan", 1)) != 1 for cell in table.select("tbody td[rowspan]")):
+            continue
+        header = table.select_one("thead tr")
+        if header is None:
+            continue
+        labels = []
+        for cell in header.find_all("th", recursive=False):
+            labels.extend([clean(cell.get_text())] * int(cell.get("colspan", 1)))
+        indices = [i for i, label in enumerate(labels) if label in SUPPLY_LOCATION_COLUMNS]
+        for row in table.select("tbody tr"):
+            values = []
+            for cell in row.find_all("td", recursive=False):
+                values.extend([clean(cell.get_text(" ", strip=True))] * int(cell.get("colspan", 1)))
+            if len(values) == len(labels):
+                locations.extend(values[i] for i in indices)
+    evidence = " ".join(locations)
+    regions = (["수원"] if any(word in evidence for word in DIRECT) else [])
+    regions.extend(city for city in ("화성", "오산") if city in evidence)
+    return regions, bool(BROAD_SCOPE.search(evidence))
 
 
 def identity(post: dict) -> str:
@@ -192,6 +233,7 @@ def parse_detail(html: str, post: dict) -> dict:
             name = clean(link.get_text(" ", strip=True))
             attachments.append({"fileId": match.group(1), "name": name, "url": BASE + "/lhapply/lhFile.do?fileid=" + match.group(1)})
     post["attachments"] = attachments
+    post["supplyRegions"], post["supplyBroadCandidate"] = supply_scope(main)
     classify(post, text)
     post["contentHash"] = content_hash(post)
     return post
