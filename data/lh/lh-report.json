@@ -1257,10 +1257,112 @@
       "suwonMatch": "broadCandidate",
       "title": "의정부우정 이주자택지(점포겸용 단독주택용지) 공급공고",
       "type": "토지"
+    },
+    {
+      "alertId": "lh:106096af7bc882ad12c638ff7640e592",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "notice",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102835627&ccrCnntSysDsCd=03&mi=1079",
+      "detectedAt": "2026-10-19T13:31:05+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "8075fc8142188da32d9f1c34afbdc9ae474c3006c6c29292ec477e23110452b8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[신청현황게시]의왕청계2A1블록신혼희망타운행복주택청약접수결과(26.09.29공고)",
+      "panId": "bbs:03:9102835627",
+      "postedAt": "2026-10-16",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기남부지역본부",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "notice"
+      ],
+      "status": "",
+      "suwonMatch": "broadCandidate",
+      "title": "[신청현황게시] 의왕청계2 A1블록 신혼희망타운 행복주택 청약접수결과(26.09.29 공고)",
+      "type": "행복주택"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:106096af7bc882ad12c638ff7640e592",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "notice",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102835627&ccrCnntSysDsCd=03&mi=1079",
+      "detectedAt": "2026-10-19T13:31:05+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "8075fc8142188da32d9f1c34afbdc9ae474c3006c6c29292ec477e23110452b8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[신청현황게시]의왕청계2A1블록신혼희망타운행복주택청약접수결과(26.09.29공고)",
+      "panId": "bbs:03:9102835627",
+      "postedAt": "2026-10-16",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기남부지역본부",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "notice"
+      ],
+      "status": "",
+      "suwonMatch": "broadCandidate",
+      "title": "[신청현황게시] 의왕청계2 A1블록 신혼희망타운 행복주택 청약접수결과(26.09.29 공고)",
+      "type": "행복주택"
+    }
+  ],
   "broadCandidates": [
+    {
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "notice",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102835627&ccrCnntSysDsCd=03&mi=1079",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "[신청현황게시]의왕청계2A1블록신혼희망타운행복주택청약접수결과(26.09.29공고)",
+      "panId": "bbs:03:9102835627",
+      "postedAt": "2026-10-16",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기남부지역본부",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "notice"
+      ],
+      "status": "",
+      "title": "[신청현황게시] 의왕청계2 A1블록 신혼희망타운 행복주택 청약접수결과(26.09.29 공고)",
+      "type": "행복주택"
+    },
     {
       "applicationEnd": "",
       "applicationStart": "",
@@ -42869,7 +42971,7 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020869&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020904&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
       "fields": [
         "status",
         "detailTextHash"
@@ -42879,8 +42981,105 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "2015122300020869",
-      "title": "인천산곡솔마루(A1블록) LH희망상가(일반형) 입점자 모집공고(2026. 10. 2.)"
+      "panId": "2015122300020904",
+      "title": "[정정공고](정정) 창녕영산 1BL 행복주택 예비입주자 모집 공고 ('26.10.07. 공고)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020898&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020898",
+      "title": "[정정공고][조기접수마감]양산 삼성파크빌 자격완화 입주자 선착순 모집(2026.09.30)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008058&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008058",
+      "title": "울산태화강변 근린생활시설용지 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020885&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020885",
+      "title": "부산모라 LH희망상가 입점자 모집 공고(일반형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020873&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020873",
+      "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020867&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020867",
+      "title": "인천산곡솔마루(A1블록) LH희망상가(공공지원형) 입점자 모집공고(2026. 10. 2.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020825&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "status"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020825",
+      "title": "양산 삼성파크빌 자격완화 입주자 선착순 모집(2026.09.30)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061179&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "0000061179",
+      "title": "인천계양 A17블록 신혼희망타운(공공분양) 입주자모집공고"
     }
   ],
   "collectionVersion": 2,
@@ -44596,14 +44795,45 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432409&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:02:9102432409",
+      "relatedPanId": "",
+      "title": "영천해피포유 일반매각 분양유치금제 시행 안내 [개업 공인중개사 대상]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020903&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020903",
+      "relatedPanId": "",
+      "title": "홍성군 영구임대 예비자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102835627&ccrCnntSysDsCd=03&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:03:9102835627",
+      "relatedPanId": "",
+      "title": "[신청현황게시] 의왕청계2 A1블록 신혼희망타운 행복주택 청약접수결과(26.09.29 공고)"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1026,
-      "checkedAt": "2026-10-19T08:57:50+09:00",
+      "checkedAt": "2026-10-19T13:31:05+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -44704,9 +44934,9 @@
       "checkedPages": 15,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1440,
+      "parsedCount": 1442,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1440,
+      "totalCount": 1442,
       "totalPages": 15
     },
     "supplyCommercial": {
@@ -44750,7 +44980,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-19T08:57:50+09:00",
+  "syncedAt": "2026-10-19T13:31:05+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
