@@ -1586,115 +1586,107 @@
       "suwonMatch": "broadCandidate",
       "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
       "type": "매입임대"
+    },
+    {
+      "alertId": "lh:25655d1b19f1d772dc94d5716728cb5a",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-24",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-20",
+          "start": "2026-08-24"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-20T06:27:15+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "fba0a2c108e8412e00d7fae489e7e390c30781f670b3aeb5670705b8a139198f",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[수원시]수원시역세권새빛청년존(Zone)4호및1호예비입주자모집공고",
+      "panId": "2015122300020560",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
+      "type": "매입임대"
     }
   ],
   "alerts": [
     {
-      "alertId": "lh:0f303e1d5484ac7aeacb9952d4a18bbf",
-      "applicationEnd": "2026-10-20",
-      "applicationStart": "2026-10-20",
+      "alertId": "lh:25655d1b19f1d772dc94d5716728cb5a",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-24",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-10-20",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-10-20",
-          "start": "2026-10-20"
-        },
-        {
-          "end": "2026-10-20",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-20"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008067&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-10-20T02:00:35+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "39d08e18b89f7f48b329d3a8bf316fb7f15f935bb6a3ffe4ce01088521cbae54",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "하남미사지구자족시설용지공급공고(18개월거치,5년무이자)",
-      "officialStarts": [
-        "2026-10-20"
-      ],
-      "panId": "BN-0008067",
-      "postedAt": "2026-10-13",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "land"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "하남미사지구 자족시설용지 공급 공고(18개월거치, 5년무이자)",
-      "type": "토지"
-    },
-    {
-      "alertId": "lh:d12079b4cbe93bc323e0cfe06d52459e",
-      "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-20",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-23",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-20"
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-20",
+          "start": "2026-08-24"
         }
       ],
       "category": "rental",
-      "confirmedRegions": [],
+      "confirmedRegions": [
+        "수원"
+      ],
       "correction": false,
       "correctionOf": "",
       "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-20T02:00:35+09:00",
-      "directSuwon": false,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-20T06:27:15+09:00",
+      "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "6db43a6652ea9b64784356686c3d9e25c34d862c6f8e0e6a60f49baa12840a6c",
-      "kind": "receptionStart",
+      "eventSignature": "fba0a2c108e8412e00d7fae489e7e390c30781f670b3aeb5670705b8a139198f",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
       "kinds": [
-        "receptionStarted"
+        "changed"
       ],
       "needsReview": false,
-      "noticeFamily": "장애인자립특화형주택여기가입주자모집공고(경기도김포시)",
-      "officialStarts": [
-        "2026-10-20"
-      ],
-      "panId": "2015122300020880",
-      "postedAt": "2026-10-07",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "전국",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
+      "noticeFamily": "[수원시]수원시역세권새빛청년존(Zone)4호및1호예비입주자모집공고",
+      "panId": "2015122300020560",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": false,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
-        "rental"
+        "calendar"
       ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
       "type": "매입임대"
     }
   ],
@@ -43403,7 +43395,7 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020873&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
       ],
@@ -43411,8 +43403,8 @@
       "kinds": [
         "changed"
       ],
-      "panId": "2015122300020873",
-      "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(분양전환형)"
+      "panId": "2015122300020560",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고"
     }
   ],
   "collectionVersion": 2,
@@ -45169,122 +45161,13 @@
     }
   ],
   "new": [],
-  "receptionStarts": [
-    {
-      "alertId": "lh:0f303e1d5484ac7aeacb9952d4a18bbf",
-      "applicationEnd": "2026-10-20",
-      "applicationStart": "2026-10-20",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-20",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-10-20",
-          "start": "2026-10-20"
-        },
-        {
-          "end": "2026-10-20",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-20"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008067&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-10-20T02:00:35+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "39d08e18b89f7f48b329d3a8bf316fb7f15f935bb6a3ffe4ce01088521cbae54",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "하남미사지구자족시설용지공급공고(18개월거치,5년무이자)",
-      "officialStarts": [
-        "2026-10-20"
-      ],
-      "panId": "BN-0008067",
-      "postedAt": "2026-10-13",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "land"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "하남미사지구 자족시설용지 공급 공고(18개월거치, 5년무이자)",
-      "type": "토지"
-    },
-    {
-      "alertId": "lh:d12079b4cbe93bc323e0cfe06d52459e",
-      "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-20",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-23",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-20"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-20T02:00:35+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "6db43a6652ea9b64784356686c3d9e25c34d862c6f8e0e6a60f49baa12840a6c",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "장애인자립특화형주택여기가입주자모집공고(경기도김포시)",
-      "officialStarts": [
-        "2026-10-20"
-      ],
-      "panId": "2015122300020880",
-      "postedAt": "2026-10-07",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "전국",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "rental"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
-      "type": "매입임대"
-    }
-  ],
+  "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1030,
-      "checkedAt": "2026-10-20T02:00:35+09:00",
+      "checkedAt": "2026-10-20T06:27:15+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -45431,7 +45314,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-20T02:00:35+09:00",
+  "syncedAt": "2026-10-20T06:27:15+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-10-23",
