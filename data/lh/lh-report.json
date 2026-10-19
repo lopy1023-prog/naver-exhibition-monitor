@@ -42867,7 +42867,22 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [],
+  "changed": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020869&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020869",
+      "title": "인천산곡솔마루(A1블록) LH희망상가(일반형) 입점자 모집공고(2026. 10. 2.)"
+    }
+  ],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -44588,7 +44603,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1026,
-      "checkedAt": "2026-10-19T06:55:09+09:00",
+      "checkedAt": "2026-10-19T08:57:50+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -44735,7 +44750,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-19T06:55:09+09:00",
+  "syncedAt": "2026-10-19T08:57:50+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
