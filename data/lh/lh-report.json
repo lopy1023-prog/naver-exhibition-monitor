@@ -1636,10 +1636,483 @@
       "suwonMatch": "direct",
       "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
       "type": "매입임대"
+    },
+    {
+      "alertId": "lh:38315966030f1a572c2e9ba1b0cb33d2",
+      "applicationEnd": "2026-11-25",
+      "applicationStart": "2026-11-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-25",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-25",
+          "start": "2026-11-25"
+        },
+        {
+          "end": "2026-11-25",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-25"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008096&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "8fc17a3ea337137889adc798c2271fb6dc6ac4a51969b8d20668cfb06053b920",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "수원세류유치원용지공급공고[1년거치5년무이자]",
+      "panId": "BN-0008096",
+      "postedAt": "2026-10-20",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "direct",
+      "title": "수원세류 유치원용지 공급공고[1년거치 5년무이자]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:e6e7610d24b52278d7251ba960fa3c90",
+      "applicationEnd": "2026-10-20",
+      "applicationStart": "2026-10-20",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-20",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-20"
+        },
+        {
+          "end": "2026-10-20",
+          "label": "ì ìì¤",
+          "resultAt": "2026-10-20",
+          "start": "2026-10-20"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008067&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "7b9e7da7e8b5954ac7ed0782f8b3cf3414bddb567a5a6d21995f5a0a3f64cfa8",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "하남미사지구자족시설용지공급공고(18개월거치,5년무이자)",
+      "panId": "BN-0008067",
+      "postedAt": "2026-10-13",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "하남미사지구 자족시설용지 공급 공고(18개월거치, 5년무이자)",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:d9e41b63dcb25f8b91b5d48f472a73ef",
+      "applicationEnd": "2026-10-13",
+      "applicationStart": "2026-10-13",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-13"
+        },
+        {
+          "end": "2026-10-13",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-10-13",
+          "start": "2026-10-13"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007859&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "633f4807e8304e87c9b8f2d78c36e95449e4db525a099eb31ff2d50094361faf",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[5년무이자할부]파주운정3주거전용단독주택용지공급공고",
+      "panId": "BN-0007859",
+      "postedAt": "2026-08-26",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[5년 무이자 할부]파주운정3 주거전용 단독주택용지 공급공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:615528fb6d60692ee3cca37d8ab7157f",
+      "applicationEnd": "2026-08-12",
+      "applicationStart": "2026-08-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-12",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-10-20",
+          "start": "2026-08-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020466&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "7796fff18a423dbfdb082ed11d57e064f50d11d2ebfd9cee2215ca351ccc402f",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "인천광역시,경기도부천시다자녀매입임대주택예비입주자모집공고",
+      "panId": "2015122300020466",
+      "postedAt": "2026-07-30",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고",
+      "type": "매입임대"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:38315966030f1a572c2e9ba1b0cb33d2",
+      "applicationEnd": "2026-11-25",
+      "applicationStart": "2026-11-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-25",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-25",
+          "start": "2026-11-25"
+        },
+        {
+          "end": "2026-11-25",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-25"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008096&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "8fc17a3ea337137889adc798c2271fb6dc6ac4a51969b8d20668cfb06053b920",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "수원세류유치원용지공급공고[1년거치5년무이자]",
+      "panId": "BN-0008096",
+      "postedAt": "2026-10-20",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "direct",
+      "title": "수원세류 유치원용지 공급공고[1년거치 5년무이자]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:e6e7610d24b52278d7251ba960fa3c90",
+      "applicationEnd": "2026-10-20",
+      "applicationStart": "2026-10-20",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-20",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-20"
+        },
+        {
+          "end": "2026-10-20",
+          "label": "ì ìì¤",
+          "resultAt": "2026-10-20",
+          "start": "2026-10-20"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008067&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "7b9e7da7e8b5954ac7ed0782f8b3cf3414bddb567a5a6d21995f5a0a3f64cfa8",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "하남미사지구자족시설용지공급공고(18개월거치,5년무이자)",
+      "panId": "BN-0008067",
+      "postedAt": "2026-10-13",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "하남미사지구 자족시설용지 공급 공고(18개월거치, 5년무이자)",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:d9e41b63dcb25f8b91b5d48f472a73ef",
+      "applicationEnd": "2026-10-13",
+      "applicationStart": "2026-10-13",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-13"
+        },
+        {
+          "end": "2026-10-13",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-10-13",
+          "start": "2026-10-13"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007859&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "633f4807e8304e87c9b8f2d78c36e95449e4db525a099eb31ff2d50094361faf",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[5년무이자할부]파주운정3주거전용단독주택용지공급공고",
+      "panId": "BN-0007859",
+      "postedAt": "2026-08-26",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[5년 무이자 할부]파주운정3 주거전용 단독주택용지 공급공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:615528fb6d60692ee3cca37d8ab7157f",
+      "applicationEnd": "2026-08-12",
+      "applicationStart": "2026-08-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-12",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-10-20",
+          "start": "2026-08-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020466&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-20T14:17:27+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "7796fff18a423dbfdb082ed11d57e064f50d11d2ebfd9cee2215ca351ccc402f",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "인천광역시,경기도부천시다자녀매입임대주택예비입주자모집공고",
+      "panId": "2015122300020466",
+      "postedAt": "2026-07-30",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고",
+      "type": "매입임대"
+    }
+  ],
   "broadCandidates": [
+    {
+      "applicationEnd": "2026-11-25",
+      "applicationStart": "2026-11-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-25",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-25",
+          "start": "2026-11-25"
+        },
+        {
+          "end": "2026-11-25",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-25"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008096&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "수원세류유치원용지공급공고[1년거치5년무이자]",
+      "panId": "BN-0008096",
+      "postedAt": "2026-10-20",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "title": "수원세류 유치원용지 공급공고[1년거치 5년무이자]",
+      "type": "토지"
+    },
     {
       "applicationEnd": "",
       "applicationStart": "",
@@ -1946,14 +2419,14 @@
       "calendarSchedules": [
         {
           "end": "2026-10-20",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-10-20",
+          "label": "ì ì",
+          "resultAt": "",
           "start": "2026-10-20"
         },
         {
           "end": "2026-10-20",
-          "label": "ì ì",
-          "resultAt": "",
+          "label": "ì ìì¤",
+          "resultAt": "2026-10-20",
           "start": "2026-10-20"
         }
       ],
@@ -1978,7 +2451,7 @@
         "calendar",
         "land"
       ],
-      "status": "공고중",
+      "status": "접수중",
       "title": "하남미사지구 자족시설용지 공급 공고(18개월거치, 5년무이자)",
       "type": "토지"
     },
@@ -43344,6 +43817,58 @@
   ],
   "changed": [
     {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020887&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020887",
+      "title": "광주우산·영광단주 행복주택 입주자격완화 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020886&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020886",
+      "title": "광주선운2 신혼희망타운 A-1, A-3블록 행복주택(주거약자용) 입주자격완화 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008067&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008067",
+      "title": "하남미사지구 자족시설용지 공급 공고(18개월거치, 5년무이자)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008065&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008065",
+      "title": "음성금석 근린생활시설용지 공급 공고"
+    },
+    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020873&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -43354,10 +43879,146 @@
       ],
       "panId": "2015122300020873",
       "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020869&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "fields": [
+        "status"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020869",
+      "title": "인천산곡솔마루(A1블록) LH희망상가(일반형) 입점자 모집공고(2026. 10. 2.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002873&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "LN-0002873",
+      "title": "상주냉림3 임대상가 입점자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008030&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008030",
+      "title": "광주선운2 공공주택지구 상업 및 자족시설용지 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020860&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020860",
+      "title": "경남 김해시·양산시 다세대주택 잔여세대 일반매각(무순위)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020856&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300020856",
+      "title": "부산당감1단지 50년공공임대주택 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007859&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "BN-0007859",
+      "title": "[5년 무이자 할부]파주운정3 주거전용 단독주택용지 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020466&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020466",
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
     }
   ],
   "collectionVersion": 2,
   "directSuwon": [
+    {
+      "applicationEnd": "2026-11-25",
+      "applicationStart": "2026-11-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-25",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-25",
+          "start": "2026-11-25"
+        },
+        {
+          "end": "2026-11-25",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-25"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008096&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "수원세류유치원용지공급공고[1년거치5년무이자]",
+      "panId": "BN-0008096",
+      "postedAt": "2026-10-20",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "title": "수원세류 유치원용지 공급공고[1년거치 5년무이자]",
+      "type": "토지"
+    },
     {
       "applicationEnd": "2026-10-23",
       "applicationStart": "2026-10-21",
@@ -45109,20 +45770,61 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002895&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "LN-0002895",
+      "relatedPanId": "",
+      "title": "광주쌍촌 임대상가 입점자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002894&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "LN-0002894",
+      "relatedPanId": "",
+      "title": "여천무선1 임대상가 입점자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008096&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008096",
+      "relatedPanId": "",
+      "title": "수원세류 유치원용지 공급공고[1년거치 5년무이자]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020897&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020897",
+      "relatedPanId": "",
+      "title": "여수미평1 영구임대주택 예비입주자 모집공고(모집공고일 : 2026.10.20.)"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 1030,
-      "checkedAt": "2026-10-20T09:37:07+09:00",
+      "calendarRowCount": 1044,
+      "checkedAt": "2026-10-20T14:17:27+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 452,
+      "parsedCount": 458,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 452,
+      "totalCount": 458,
       "totalPages": 2
     },
     "documents": {
@@ -45263,8 +45965,52 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-20T09:37:07+09:00",
+  "syncedAt": "2026-10-20T14:17:27+09:00",
   "targetRegions": [
+    {
+      "applicationEnd": "2026-11-25",
+      "applicationStart": "2026-11-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-25",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-25",
+          "start": "2026-11-25"
+        },
+        {
+          "end": "2026-11-25",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-25"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008096&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "수원세류유치원용지공급공고[1년거치5년무이자]",
+      "panId": "BN-0008096",
+      "postedAt": "2026-10-20",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "title": "수원세류 유치원용지 공급공고[1년거치 5년무이자]",
+      "type": "토지"
+    },
     {
       "applicationEnd": "2026-10-23",
       "applicationStart": "2026-10-21",
