@@ -2221,232 +2221,107 @@
       "suwonMatch": "direct",
       "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
       "type": "매입임대"
+    },
+    {
+      "alertId": "lh:fdb6263b84737e0f46976054d01462ba",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-24",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-20",
+          "start": "2026-08-24"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-21T04:19:12+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "14a83847b166f88bb58d5b4571568d0a3586859aec016fb645f43fa176bb737f",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[수원시]수원시역세권새빛청년존(Zone)4호및1호예비입주자모집공고",
+      "panId": "2015122300020560",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
+      "type": "매입임대"
     }
   ],
   "alerts": [
     {
-      "alertId": "lh:2929165cc36443466cd91219839eae09",
-      "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-21",
+      "alertId": "lh:fdb6263b84737e0f46976054d01462ba",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-24",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-10-23",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-20",
+          "start": "2026-08-24"
         }
       ],
       "category": "rental",
       "confirmedRegions": [
-        "수원",
-        "화성",
-        "오산"
+        "수원"
       ],
-      "correction": true,
-      "correctionOf": "2015122300020802",
+      "correction": false,
+      "correctionOf": "",
       "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-21T04:19:12+09:00",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "1713a1a618b3933e7d0eb5544d19f028c37848ab9723de0e24a62861cf73327d",
-      "kind": "receptionStart",
+      "eventSignature": "14a83847b166f88bb58d5b4571568d0a3586859aec016fb645f43fa176bb737f",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
       "kinds": [
-        "receptionStarted"
+        "changed"
       ],
       "needsReview": false,
-      "noticeFamily": "[경기남부]든든전세매입임대주택예비입주자모집공고(비분양전환)",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "2015122300020927",
-      "postedAt": "2026-10-19",
-      "receptionEvidence": "officialStartDate",
+      "noticeFamily": "[수원시]수원시역세권새빛청년존(Zone)4호및1호예비입주자모집공고",
+      "panId": "2015122300020560",
+      "postedAt": "2026-08-13",
       "recruitmentKind": "예비입주자",
       "region": "경기도",
-      "requiresEligibilityReview": true,
       "requiresSuwonReview": false,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
-        "rental"
+        "calendar"
       ],
-      "status": "공고중",
+      "status": "접수마감",
       "suwonMatch": "direct",
-      "title": "[정정공고][경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
-      "type": "매입임대"
-    },
-    {
-      "alertId": "lh:db1179f5c76a475bc514365954672406",
-      "applicationEnd": "2026-10-22",
-      "applicationStart": "2026-10-21",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-22",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-10-22",
-          "start": "2026-10-21"
-        },
-        {
-          "end": "2026-10-22",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [
-        "화성"
-      ],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008027&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "4f19b6842ab7eab485f00cbdbc7beb6bc7974af902bcdd0e39e17857c95d194a",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "화성향남2근린생활시설·일반상업·단독주택[점포겸용]등공급공고[2년또는3년무이자할부]",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "BN-0008027",
-      "postedAt": "2026-10-13",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "land"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "화성향남2 근린생활시설·일반상업·단독주택[점포겸용] 등 공급 공고 [2년 또는 3년 무이자할부]",
-      "type": "토지"
-    },
-    {
-      "alertId": "lh:e97fc8f5a008fcc4bce5bfb8acd066ab",
-      "applicationEnd": "2026-10-27",
-      "applicationStart": "2026-10-21",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-27",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-10-30",
-          "start": "2026-10-21"
-        },
-        {
-          "end": "2026-10-27",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008018&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "43bc3ad0a5f38b438ff595954d5ffdf1c4728b1a9d5dc35df7573c55861040c7",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "시흥거모공공주택지구협의양도인택지(주거전용단독주택용지)2차(최종)공급공고",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "BN-0008018",
-      "postedAt": "2026-09-30",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "land"
-      ],
-      "status": "수기추첨",
-      "suwonMatch": "broadCandidate",
-      "title": "시흥거모 공공주택지구 협의양도인택지(주거전용단독주택용지) 2차(최종) 공급공고",
-      "type": "토지"
-    },
-    {
-      "alertId": "lh:b490637171b1c19d40ff492a58292a04",
-      "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-28",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-23",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [
-        "수원",
-        "화성",
-        "오산"
-      ],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
-      "directSuwon": true,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "b9bedb2846c581bc41842fbdb0902944cdabec9ec76eeb893becdfd0cf1bd934",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "[경기남부]든든전세매입임대주택예비입주자모집공고(비분양전환)",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "2015122300020802",
-      "postedAt": "2026-09-30",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "예비입주자",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": false,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "rental"
-      ],
-      "status": "정정공고중",
-      "suwonMatch": "direct",
-      "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
       "type": "매입임대"
     }
   ],
@@ -44295,20 +44170,16 @@
       "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(분양전환형)"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0007918&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
-        "applicationEnd",
-        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed",
-        "statusChanged",
-        "deadlineChanged"
+        "changed"
       ],
-      "panId": "BN-0007918",
-      "title": "인천남동도시첨단산업단지 생활대책용지 공급공고"
+      "panId": "2015122300020560",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고"
     }
   ],
   "collectionVersion": 2,
@@ -46110,239 +45981,13 @@
     }
   ],
   "new": [],
-  "receptionStarts": [
-    {
-      "alertId": "lh:2929165cc36443466cd91219839eae09",
-      "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-21",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-23",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [
-        "수원",
-        "화성",
-        "오산"
-      ],
-      "correction": true,
-      "correctionOf": "2015122300020802",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
-      "directSuwon": true,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "1713a1a618b3933e7d0eb5544d19f028c37848ab9723de0e24a62861cf73327d",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "[경기남부]든든전세매입임대주택예비입주자모집공고(비분양전환)",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "2015122300020927",
-      "postedAt": "2026-10-19",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "예비입주자",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": false,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "rental"
-      ],
-      "status": "공고중",
-      "suwonMatch": "direct",
-      "title": "[정정공고][경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
-      "type": "매입임대"
-    },
-    {
-      "alertId": "lh:db1179f5c76a475bc514365954672406",
-      "applicationEnd": "2026-10-22",
-      "applicationStart": "2026-10-21",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-22",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-10-22",
-          "start": "2026-10-21"
-        },
-        {
-          "end": "2026-10-22",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [
-        "화성"
-      ],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008027&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "4f19b6842ab7eab485f00cbdbc7beb6bc7974af902bcdd0e39e17857c95d194a",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "화성향남2근린생활시설·일반상업·단독주택[점포겸용]등공급공고[2년또는3년무이자할부]",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "BN-0008027",
-      "postedAt": "2026-10-13",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "land"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "화성향남2 근린생활시설·일반상업·단독주택[점포겸용] 등 공급 공고 [2년 또는 3년 무이자할부]",
-      "type": "토지"
-    },
-    {
-      "alertId": "lh:e97fc8f5a008fcc4bce5bfb8acd066ab",
-      "applicationEnd": "2026-10-27",
-      "applicationStart": "2026-10-21",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-27",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-10-30",
-          "start": "2026-10-21"
-        },
-        {
-          "end": "2026-10-27",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008018&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "43bc3ad0a5f38b438ff595954d5ffdf1c4728b1a9d5dc35df7573c55861040c7",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "시흥거모공공주택지구협의양도인택지(주거전용단독주택용지)2차(최종)공급공고",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "BN-0008018",
-      "postedAt": "2026-09-30",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "land"
-      ],
-      "status": "수기추첨",
-      "suwonMatch": "broadCandidate",
-      "title": "시흥거모 공공주택지구 협의양도인택지(주거전용단독주택용지) 2차(최종) 공급공고",
-      "type": "토지"
-    },
-    {
-      "alertId": "lh:b490637171b1c19d40ff492a58292a04",
-      "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-28",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-23",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-21"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [
-        "수원",
-        "화성",
-        "오산"
-      ],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-21T00:10:49+09:00",
-      "directSuwon": true,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "b9bedb2846c581bc41842fbdb0902944cdabec9ec76eeb893becdfd0cf1bd934",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "[경기남부]든든전세매입임대주택예비입주자모집공고(비분양전환)",
-      "officialStarts": [
-        "2026-10-21"
-      ],
-      "panId": "2015122300020802",
-      "postedAt": "2026-09-30",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "예비입주자",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": false,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "rental"
-      ],
-      "status": "정정공고중",
-      "suwonMatch": "direct",
-      "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
-      "type": "매입임대"
-    }
-  ],
+  "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1052,
-      "checkedAt": "2026-10-21T00:10:49+09:00",
+      "checkedAt": "2026-10-21T04:19:12+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -46489,7 +46134,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-21T00:10:49+09:00",
+  "syncedAt": "2026-10-21T04:19:12+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-25",
