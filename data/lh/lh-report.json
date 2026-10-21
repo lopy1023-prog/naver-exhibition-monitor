@@ -2394,129 +2394,7 @@
       "type": "매입임대"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:57f8509c3d53d1cbe7f877be9c1f68f6",
-      "applicationEnd": "2026-10-28",
-      "applicationStart": "2026-10-26",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-28",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-26"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [
-        "수원",
-        "화성",
-        "오산"
-      ],
-      "correction": true,
-      "correctionOf": "2015122300020731",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-21T07:28:51+09:00",
-      "directSuwon": true,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "6cbe6c52cc6fa85b4e0efd1faaa42b1ebe3e474f49eec1713e847243d72cd6d4",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "needsReview": false,
-      "noticeFamily": "[온라인접수불가,관할주거복지지사현장접수]경기남부지역본부2026년일반매입임대주택입주자모집공고",
-      "panId": "2015122300020769",
-      "postedAt": "2026-09-15",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresSuwonReview": false,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "rental"
-      ],
-      "status": "공고중",
-      "suwonMatch": "direct",
-      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
-      "tracked": "gyeonggi-south-2026-general-purchase-rental",
-      "trackedSignals": {
-        "결과 발표": "한 정보 제공 홍보물 닫기 ※ 신청건수 : 현재 인터넷 청약신청자 현황을 의미합니다. 공급일정 접수기간 : 당첨자발표일 : 2026.12.09 계약기간 : 2026.12.09 ~ 2027.01.31 임대기간 2년, 재계약 14회 가능(입주자격 유지시 최장 30년까지 거주가능) 임대조건 시중임대료",
-        "물량변경": null,
-        "수원 잔여물량": null,
-        "신청 시작": "2026-10-26",
-        "신청 종료": "2026-10-28",
-        "열람기간": null,
-        "잔여주택 공개": null,
-        "정정공고": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고 지도 상세보기 닫기 이미지 확대보기 닫기 평면도 동영상보기 - 닫기"
-      },
-      "type": "매입임대"
-    },
-    {
-      "alertId": "lh:21690e2f278f8835599e14800ddd501f",
-      "applicationEnd": "2026-10-28",
-      "applicationStart": "",
-      "broadCandidate": true,
-      "category": "rental",
-      "confirmedRegions": [
-        "수원",
-        "화성",
-        "오산"
-      ],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020731&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-21T07:28:51+09:00",
-      "directSuwon": true,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "0a2d47bf309a516a409123cc9a79bfe6d087fcbfa96fff6dc70bd4069c137941",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "needsReview": true,
-      "noticeFamily": "[온라인접수불가,관할주거복지지사현장접수]경기남부지역본부2026년일반매입임대주택입주자모집공고",
-      "panId": "2015122300020731",
-      "postedAt": "2026-09-10",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresSuwonReview": false,
-      "reviewReason": [
-        "추적 공고 신청 시작일 자동 확인 불가"
-      ],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "rental"
-      ],
-      "status": "정정공고중",
-      "suwonMatch": "direct",
-      "title": "[온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
-      "tracked": "gyeonggi-south-2026-general-purchase-rental",
-      "trackedSignals": {
-        "결과 발표": "한 정보 제공 홍보물 닫기 ※ 신청건수 : 현재 인터넷 청약신청자 현황을 의미합니다. 공급일정 접수기간 : 당첨자발표일 : 2026.12.09 계약기간 : 2026.12.09 ~ 2027.01.31 임대기간 2년, 재계약 14회 가능(입주자격 유지시 최장 30년까지 거주가능) 임대조건 시중임대료",
-        "물량변경": null,
-        "수원 잔여물량": null,
-        "신청 시작": null,
-        "신청 종료": "2026-10-28",
-        "열람기간": null,
-        "잔여주택 공개": null,
-        "정정공고": "수 있습니다. 한국부동산원 청약홈 바로가기 닫기 투시도 이미지 정보 닫기 당첨자조회 예비자조회 소득계산방법 정정공고 바로가기 취소공고 바로가기 원본공고 바로가기 목록 [온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고 공고상태 정정공고"
-      },
-      "type": "매입임대"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "2026-11-25",
@@ -44360,30 +44238,6 @@
       ],
       "panId": "2015122300020873",
       "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(분양전환형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020769",
-      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020731&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020731",
-      "title": "[온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고"
     }
   ],
   "collectionVersion": 2,
@@ -46184,14 +46038,55 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432417&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:02:9102432417",
+      "relatedPanId": "",
+      "title": "광주전남혁신 빛가람LH1단지 일반매각 공고 잔여세대 목록(2026.10.21 기준)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432416&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:02:9102432416",
+      "relatedPanId": "",
+      "title": "울산다운2 A-9 신혼희망타운(공공분양) 잔여세대 동호표 알림(‘26.10.21. 기준)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019947&ccrCnntSysDsCd=01&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:01:7000019947",
+      "relatedPanId": "",
+      "title": "「정읍첨단 산업시설용지 공급공고」심사결과 및 계약안내"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020930&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020930",
+      "relatedPanId": "",
+      "title": "LH임대주택 기장군 중소기업 근로자 공공임대주택 기관공급 사업 대상기업 모집계획 공고"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1052,
-      "checkedAt": "2026-10-21T07:28:51+09:00",
+      "checkedAt": "2026-10-21T09:52:19+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -46292,9 +46187,9 @@
       "checkedPages": 15,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1448,
+      "parsedCount": 1451,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1448,
+      "totalCount": 1451,
       "totalPages": 15
     },
     "supplyCommercial": {
@@ -46338,7 +46233,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-21T07:28:51+09:00",
+  "syncedAt": "2026-10-21T09:52:19+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-25",
