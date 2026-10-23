@@ -4962,58 +4962,7 @@
       "type": "매입임대"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:7600b0ddfa32734f2bed4e10cf8836c7",
-      "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-20",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-10-23",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-10-20"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-24T02:25:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "62789191c383dc3a1ad38974459208336679419c4b66bf04dc4b436d56b00537",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "needsReview": false,
-      "noticeFamily": "장애인자립특화형주택여기가입주자모집공고(경기도김포시)",
-      "panId": "2015122300020880",
-      "postedAt": "2026-10-07",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "전국",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "rental"
-      ],
-      "status": "접수마감",
-      "suwonMatch": "broadCandidate",
-      "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
-      "type": "매입임대"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "2026-11-17",
@@ -47282,47 +47231,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020880",
-      "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020865&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020865",
-      "title": "강릉입암3 영구임대주택 예비입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020800&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020800",
-      "title": "철원갈말 영구임대 예비입주자 모집공고"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -49128,7 +49037,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1107,
-      "checkedAt": "2026-10-24T02:25:31+09:00",
+      "checkedAt": "2026-10-24T05:35:32+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -49275,7 +49184,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-24T02:25:31+09:00",
+  "syncedAt": "2026-10-24T05:35:32+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
