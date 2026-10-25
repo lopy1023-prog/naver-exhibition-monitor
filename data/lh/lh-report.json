@@ -49202,7 +49202,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1107,
-      "checkedAt": "2026-10-26T03:58:40+09:00",
+      "checkedAt": "2026-10-26T06:41:39+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -49349,7 +49349,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-26T03:58:40+09:00",
+  "syncedAt": "2026-10-26T06:41:39+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
