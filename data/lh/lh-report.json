@@ -4960,9 +4960,340 @@
       "suwonMatch": "broadCandidate",
       "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
       "type": "매입임대"
+    },
+    {
+      "alertId": "lh:46054ecbfd1c931ebf9d2698ab60cd7a",
+      "applicationEnd": "2026-10-30",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020924&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "76a18f9c6dd1c27dc0ae03386cbe7d582f16ccf1e0154a93a59959d5de8a2fa4",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "판교제2테크노밸리기업지원허브업무지원시설(지상1층115호실)임대공급입점자모집공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "2015122300020924",
+      "postedAt": "2026-10-20",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "commercial"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "판교 제2테크노밸리 기업지원허브 업무지원시설(지상1층 115호실) 임대공급 입점자 모집공고",
+      "type": "임대상가(추첨)"
+    },
+    {
+      "alertId": "lh:b5f81917cb69c3803e59e896b611ec8a",
+      "applicationEnd": "2026-10-26",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-26",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-26",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-26",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008074&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "c6cb5b8e410d0dbdae280a82b439d99bdf845dc262cc3bc3190e599f729bd2f7",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "의왕초평상업시설용지공급공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "BN-0008074",
+      "postedAt": "2026-10-15",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "의왕초평 상업시설용지 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:10969fdadab242ed53549d3a912c7a50",
+      "applicationEnd": "2026-10-28",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-28",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원",
+        "화성",
+        "오산"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300020731",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a27f4b69de2e4d268d15b7bb30986259c889c945b2c716c95d399e2175f382ce",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[온라인접수불가,관할주거복지지사현장접수]경기남부지역본부2026년일반매입임대주택입주자모집공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "2015122300020769",
+      "postedAt": "2026-09-15",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "direct",
+      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "tracked": "gyeonggi-south-2026-general-purchase-rental",
+      "trackedSignals": {
+        "결과 발표": "한 정보 제공 홍보물 닫기 ※ 신청건수 : 현재 인터넷 청약신청자 현황을 의미합니다. 공급일정 접수기간 : 당첨자발표일 : 2026.12.09 계약기간 : 2026.12.09 ~ 2027.01.31 임대기간 2년, 재계약 14회 가능(입주자격 유지시 최장 30년까지 거주가능) 임대조건 시중임대료",
+        "물량변경": null,
+        "수원 잔여물량": null,
+        "신청 시작": "2026-10-26",
+        "신청 종료": "2026-10-28",
+        "열람기간": null,
+        "잔여주택 공개": null,
+        "정정공고": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고 지도 상세보기 닫기 이미지 확대보기 닫기 평면도 동영상보기 - 닫기"
+      },
+      "type": "매입임대"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:46054ecbfd1c931ebf9d2698ab60cd7a",
+      "applicationEnd": "2026-10-30",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020924&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "76a18f9c6dd1c27dc0ae03386cbe7d582f16ccf1e0154a93a59959d5de8a2fa4",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "판교제2테크노밸리기업지원허브업무지원시설(지상1층115호실)임대공급입점자모집공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "2015122300020924",
+      "postedAt": "2026-10-20",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "commercial"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "판교 제2테크노밸리 기업지원허브 업무지원시설(지상1층 115호실) 임대공급 입점자 모집공고",
+      "type": "임대상가(추첨)"
+    },
+    {
+      "alertId": "lh:b5f81917cb69c3803e59e896b611ec8a",
+      "applicationEnd": "2026-10-26",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-26",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-26",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-26",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008074&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "c6cb5b8e410d0dbdae280a82b439d99bdf845dc262cc3bc3190e599f729bd2f7",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "의왕초평상업시설용지공급공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "BN-0008074",
+      "postedAt": "2026-10-15",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "의왕초평 상업시설용지 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:10969fdadab242ed53549d3a912c7a50",
+      "applicationEnd": "2026-10-28",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-28",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원",
+        "화성",
+        "오산"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300020731",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a27f4b69de2e4d268d15b7bb30986259c889c945b2c716c95d399e2175f382ce",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[온라인접수불가,관할주거복지지사현장접수]경기남부지역본부2026년일반매입임대주택입주자모집공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "2015122300020769",
+      "postedAt": "2026-09-15",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "direct",
+      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "tracked": "gyeonggi-south-2026-general-purchase-rental",
+      "trackedSignals": {
+        "결과 발표": "한 정보 제공 홍보물 닫기 ※ 신청건수 : 현재 인터넷 청약신청자 현황을 의미합니다. 공급일정 접수기간 : 당첨자발표일 : 2026.12.09 계약기간 : 2026.12.09 ~ 2027.01.31 임대기간 2년, 재계약 14회 가능(입주자격 유지시 최장 30년까지 거주가능) 임대조건 시중임대료",
+        "물량변경": null,
+        "수원 잔여물량": null,
+        "신청 시작": "2026-10-26",
+        "신청 종료": "2026-10-28",
+        "열람기간": null,
+        "잔여주택 공개": null,
+        "정정공고": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고 지도 상세보기 닫기 이미지 확대보기 닫기 평면도 동영상보기 - 닫기"
+      },
+      "type": "매입임대"
+    }
+  ],
   "broadCandidates": [
     {
       "applicationEnd": "2026-11-17",
@@ -49031,13 +49362,179 @@
     }
   ],
   "new": [],
-  "receptionStarts": [],
+  "receptionStarts": [
+    {
+      "alertId": "lh:46054ecbfd1c931ebf9d2698ab60cd7a",
+      "applicationEnd": "2026-10-30",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020924&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "76a18f9c6dd1c27dc0ae03386cbe7d582f16ccf1e0154a93a59959d5de8a2fa4",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "판교제2테크노밸리기업지원허브업무지원시설(지상1층115호실)임대공급입점자모집공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "2015122300020924",
+      "postedAt": "2026-10-20",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "commercial"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "판교 제2테크노밸리 기업지원허브 업무지원시설(지상1층 115호실) 임대공급 입점자 모집공고",
+      "type": "임대상가(추첨)"
+    },
+    {
+      "alertId": "lh:b5f81917cb69c3803e59e896b611ec8a",
+      "applicationEnd": "2026-10-26",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-26",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-26",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-26",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008074&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "c6cb5b8e410d0dbdae280a82b439d99bdf845dc262cc3bc3190e599f729bd2f7",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "의왕초평상업시설용지공급공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "BN-0008074",
+      "postedAt": "2026-10-15",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "의왕초평 상업시설용지 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:10969fdadab242ed53549d3a912c7a50",
+      "applicationEnd": "2026-10-28",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-28",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원",
+        "화성",
+        "오산"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300020731",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-26T01:04:42+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a27f4b69de2e4d268d15b7bb30986259c889c945b2c716c95d399e2175f382ce",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[온라인접수불가,관할주거복지지사현장접수]경기남부지역본부2026년일반매입임대주택입주자모집공고",
+      "officialStarts": [
+        "2026-10-26"
+      ],
+      "panId": "2015122300020769",
+      "postedAt": "2026-09-15",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "direct",
+      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "tracked": "gyeonggi-south-2026-general-purchase-rental",
+      "trackedSignals": {
+        "결과 발표": "한 정보 제공 홍보물 닫기 ※ 신청건수 : 현재 인터넷 청약신청자 현황을 의미합니다. 공급일정 접수기간 : 당첨자발표일 : 2026.12.09 계약기간 : 2026.12.09 ~ 2027.01.31 임대기간 2년, 재계약 14회 가능(입주자격 유지시 최장 30년까지 거주가능) 임대조건 시중임대료",
+        "물량변경": null,
+        "수원 잔여물량": null,
+        "신청 시작": "2026-10-26",
+        "신청 종료": "2026-10-28",
+        "열람기간": null,
+        "잔여주택 공개": null,
+        "정정공고": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고 지도 상세보기 닫기 이미지 확대보기 닫기 평면도 동영상보기 - 닫기"
+      },
+      "type": "매입임대"
+    }
+  ],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1107,
-      "checkedAt": "2026-10-25T20:57:08+09:00",
+      "checkedAt": "2026-10-26T01:04:42+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -49184,7 +49681,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-25T20:57:08+09:00",
+  "syncedAt": "2026-10-26T01:04:42+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
