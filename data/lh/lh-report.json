@@ -49037,7 +49037,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1107,
-      "checkedAt": "2026-10-25T08:18:22+09:00",
+      "checkedAt": "2026-10-25T10:22:43+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -49184,7 +49184,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-25T08:18:22+09:00",
+  "syncedAt": "2026-10-25T10:22:43+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
