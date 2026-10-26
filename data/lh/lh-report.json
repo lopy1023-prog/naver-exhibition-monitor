@@ -6027,594 +6027,450 @@
       "suwonMatch": "broadCandidate",
       "title": "고양삼송 A12BL(원흥마을12단지) LH희망상가 입점자 모집공고(일반형)",
       "type": "임대상가(입찰)"
+    },
+    {
+      "alertId": "lh:69d93c0bd1ea2c6dd570399c1b2998ce",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-24",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-20",
+          "start": "2026-08-24"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "55e3e5c487ffe0df71850491bc635df4a025e3fd1c629d34b243919105a15717",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[수원시]수원시역세권새빛청년존(Zone)4호및1호예비입주자모집공고",
+      "panId": "2015122300020560",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:831af77927b83bb1bbcc93e8b2f1b91b",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-27"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008051&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "97d79209d0b2ef11a002c0e3864163409f12644aa9beb42875b59dc469a0326f",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남고등근린생활시설,이천중리일반상업및점포겸용단독주택공급공고",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008051",
+      "postedAt": "2026-10-06",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남고등 근린생활시설, 이천중리 일반상업 및 점포겸용 단독주택 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:2f2401e0827cfa84aca0bc4f07a350cc",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-27"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008050&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "4c0accfd07f9ca19ebee2aa02a0880225d4f695e98d0a405345e9ee63ef66127",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남낙생근린생활시설용지및성남고등일반업무시설용지공급공고",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008050",
+      "postedAt": "2026-10-06",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남낙생 근린생활시설용지 및 성남고등 일반업무시설용지 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:0d585fccc1dbf82829ac7d1649291b9a",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-27"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008019&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a51ae195583a37b9b393c448302aa2135e55ad74abbd739599ee29e1a80974b1",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥장현지구블록형단독주택용지공급공고(1순위)",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008019",
+      "postedAt": "2026-10-01",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥장현지구 블록형단독주택용지 공급공고(1순위)",
+      "type": "토지"
     }
   ],
   "alerts": [
     {
-      "alertId": "lh:d58986168b0c28c36de66c8f5fe2c7e4",
-      "applicationEnd": "",
-      "applicationStart": "",
-      "broadCandidate": true,
-      "category": "notice",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019955&ccrCnntSysDsCd=01&mi=1079",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "6a2031ca0f730c0cea04c0624baced23a591cb6d515cdaff20272de6dbac7585",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "의왕초평상업시설용지개찰결과게시",
-      "panId": "bbs:01:7000019955",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기남부지역본부",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "notice"
-      ],
-      "status": "",
-      "suwonMatch": "broadCandidate",
-      "title": "의왕초평 상업시설용지 개찰결과 게시",
-      "type": "상가용지"
-    },
-    {
-      "alertId": "lh:af7123ac0ed109f0c1f535caea662f0d",
-      "applicationEnd": "2026-11-06",
-      "applicationStart": "2026-11-04",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020957&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "5e292a38ec91655c65550ad75e056e525d6ba42af1192a1c0a5510881f7ee7a6",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "파주운정3A24BL(물향기마을11단지)LH희망상가입점자모집공고(공공지원형)",
-      "panId": "2015122300020957",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "파주운정3 A24BL(물향기마을11단지) LH희망상가 입점자 모집공고(공공지원형)",
-      "type": "임대상가(추첨)"
-    },
-    {
-      "alertId": "lh:9f24c3f2272326e1d75fa34d27b35198",
-      "applicationEnd": "2026-11-06",
-      "applicationStart": "2026-11-04",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020956&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "b31a991fee87b00fabb1adc86f21d6b99ecfbcec18322ac1bcb96814155cb74f",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "파주운정3A37BL(물향기마을1단지)LH희망상가입점자모집공고(공공지원형)",
-      "panId": "2015122300020956",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "파주운정3 A37BL(물향기마을1단지) LH희망상가 입점자 모집공고(공공지원형)",
-      "type": "임대상가(추첨)"
-    },
-    {
-      "alertId": "lh:0a1935ca03caef94475bc57f7915ae51",
-      "applicationEnd": "2026-11-06",
-      "applicationStart": "2026-11-04",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020955&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "834f28ca88ba84e3396b1cf737b8a98081b9d482c3b4c53d3ece0f83427eb032",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "양주회천A15BL(양주회천15단지)LH희망상가입점자모집공고(공공지원형)",
-      "panId": "2015122300020955",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "양주회천 A15BL(양주회천15단지) LH희망상가 입점자 모집공고(공공지원형)",
-      "type": "임대상가(추첨)"
-    },
-    {
-      "alertId": "lh:c3749e13b6d820ffd49e77d99193bca9",
-      "applicationEnd": "2026-11-06",
-      "applicationStart": "2026-11-04",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020954&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "4f2fb61e843ed2b75a21be32f33ee21bb00139f72ed8271b568fa9f37eb29755",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "양주회천A10(2)BL(양주회천10단지)LH희망상가입점자모집공고(공공지원형)",
-      "panId": "2015122300020954",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "양주회천 A10(2)BL(양주회천10단지) LH희망상가 입점자 모집공고(공공지원형)",
-      "type": "임대상가(추첨)"
-    },
-    {
-      "alertId": "lh:929c102483eb06911c1b6640f781c813",
-      "applicationEnd": "2026-11-06",
-      "applicationStart": "2026-11-04",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020953&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "7cfe33f21326d6e72073f7a538971e918da6601d732235807d1c9932317abf55",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "김포마송B5BL(김포마송LH5단지)LH희망상가입점자모집공고(공공지원형)",
-      "panId": "2015122300020953",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "김포마송 B5BL(김포마송LH5단지) LH희망상가 입점자 모집공고(공공지원형)",
-      "type": "임대상가(추첨)"
-    },
-    {
-      "alertId": "lh:83aaeda286ba9a5651ed91ded1df4a1e",
-      "applicationEnd": "2026-11-06",
-      "applicationStart": "2026-11-04",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020952&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "ec879b08ec99e539809a77d085d941c5fac1a9b7f2a6636abef9196f7d742e3e",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "김포한강Aa12BL(김포한강LH1단지)LH희망상가입점자모집공고(공공지원형)",
-      "panId": "2015122300020952",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "김포한강 Aa12BL(김포한강LH1단지) LH희망상가 입점자 모집공고(공공지원형)",
-      "type": "임대상가(추첨)"
-    },
-    {
-      "alertId": "lh:486e1bb4314994d6ee3f663f523bd55a",
-      "applicationEnd": "2026-11-03",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-02",
-          "label": "최초입찰",
-          "start": "2026-11-02"
-        },
-        {
-          "end": "2026-11-03",
-          "label": "재입찰",
-          "start": "2026-11-03"
-        }
-      ],
-      "applicationStart": "2026-11-02",
+      "alertId": "lh:69d93c0bd1ea2c6dd570399c1b2998ce",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-24",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-11-03",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-02"
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-20",
+          "start": "2026-08-24"
         }
       ],
-      "category": "commercial",
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "55e3e5c487ffe0df71850491bc635df4a025e3fd1c629d34b243919105a15717",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[수원시]수원시역세권새빛청년존(Zone)4호및1호예비입주자모집공고",
+      "panId": "2015122300020560",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:831af77927b83bb1bbcc93e8b2f1b91b",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-27"
+        }
+      ],
+      "category": "land",
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020951&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008051&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "c2e8ca1180ef25106530485f57932d46ab94f53d9aebb6c806d50a454d289a75",
-      "kind": "new",
+      "eventSignature": "97d79209d0b2ef11a002c0e3864163409f12644aa9beb42875b59dc469a0326f",
+      "kind": "receptionStart",
       "kinds": [
-        "new"
+        "receptionStarted"
       ],
       "needsReview": false,
-      "noticeFamily": "파주운정3A37BL(물향기마을1단지)LH희망상가입점자모집공고(일반형)",
-      "panId": "2015122300020951",
-      "postedAt": "2026-10-26",
+      "noticeFamily": "성남고등근린생활시설,이천중리일반상업및점포겸용단독주택공급공고",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008051",
+      "postedAt": "2026-10-06",
+      "receptionEvidence": "officialStartDate",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
-      "relatedPanId": "",
+      "requiresEligibilityReview": true,
       "requiresSuwonReview": true,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
-        "commercial"
+        "land"
       ],
       "status": "공고중",
       "suwonMatch": "broadCandidate",
-      "title": "파주운정3 A37BL(물향기마을1단지) LH희망상가 입점자 모집공고(일반형)",
-      "type": "임대상가(입찰)"
+      "title": "성남고등 근린생활시설, 이천중리 일반상업 및 점포겸용 단독주택 공급 공고",
+      "type": "토지"
     },
     {
-      "alertId": "lh:e00cc5e916db4bc43527fa4a5f24afc6",
-      "applicationEnd": "2026-11-03",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-02",
-          "label": "최초입찰",
-          "start": "2026-11-02"
-        },
-        {
-          "end": "2026-11-03",
-          "label": "재입찰",
-          "start": "2026-11-03"
-        }
-      ],
-      "applicationStart": "2026-11-02",
+      "alertId": "lh:2f2401e0827cfa84aca0bc4f07a350cc",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-11-03",
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
           "label": "ì ì",
           "resultAt": "",
-          "start": "2026-11-02"
+          "start": "2026-10-27"
         }
       ],
-      "category": "commercial",
+      "category": "land",
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020950&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008050&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "264f9767cd1f09b9a888768aa0efde849e76b6d21f7364f50af118d4543a646f",
-      "kind": "new",
+      "eventSignature": "4c0accfd07f9ca19ebee2aa02a0880225d4f695e98d0a405345e9ee63ef66127",
+      "kind": "receptionStart",
       "kinds": [
-        "new"
+        "receptionStarted"
       ],
       "needsReview": false,
-      "noticeFamily": "양주회천A10(2)BL(양주회천10단지)LH희망상가입점자모집공고(일반형)",
-      "panId": "2015122300020950",
-      "postedAt": "2026-10-26",
+      "noticeFamily": "성남낙생근린생활시설용지및성남고등일반업무시설용지공급공고",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008050",
+      "postedAt": "2026-10-06",
+      "receptionEvidence": "officialStartDate",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
-      "relatedPanId": "",
+      "requiresEligibilityReview": true,
       "requiresSuwonReview": true,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
-        "commercial"
+        "land"
       ],
       "status": "공고중",
       "suwonMatch": "broadCandidate",
-      "title": "양주회천 A10(2)BL(양주회천10단지) LH희망상가 입점자 모집공고(일반형)",
-      "type": "임대상가(입찰)"
+      "title": "성남낙생 근린생활시설용지 및 성남고등 일반업무시설용지 공급 공고",
+      "type": "토지"
     },
     {
-      "alertId": "lh:ffe70b32a38e0e49a288ad35727e6cca",
-      "applicationEnd": "2026-11-03",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-02",
-          "label": "최초입찰",
-          "start": "2026-11-02"
-        },
-        {
-          "end": "2026-11-03",
-          "label": "재입찰",
-          "start": "2026-11-03"
-        }
-      ],
-      "applicationStart": "2026-11-02",
+      "alertId": "lh:0d585fccc1dbf82829ac7d1649291b9a",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-11-03",
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
           "label": "ì ì",
           "resultAt": "",
-          "start": "2026-11-02"
+          "start": "2026-10-27"
         }
       ],
-      "category": "commercial",
+      "category": "land",
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020949&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008019&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "55e538d2af8429eca6981584bc807c26d252e2f0e87a357d202f6b531840b15c",
-      "kind": "new",
+      "eventSignature": "a51ae195583a37b9b393c448302aa2135e55ad74abbd739599ee29e1a80974b1",
+      "kind": "receptionStart",
       "kinds": [
-        "new"
+        "receptionStarted"
       ],
       "needsReview": false,
-      "noticeFamily": "양주회천A15BL(양주회천15단지)LH희망상가입점자모집공고(일반형)",
-      "panId": "2015122300020949",
-      "postedAt": "2026-10-26",
+      "noticeFamily": "시흥장현지구블록형단독주택용지공급공고(1순위)",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008019",
+      "postedAt": "2026-10-01",
+      "receptionEvidence": "officialStartDate",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
-      "relatedPanId": "",
+      "requiresEligibilityReview": true,
       "requiresSuwonReview": true,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
-        "commercial"
+        "land"
       ],
       "status": "공고중",
       "suwonMatch": "broadCandidate",
-      "title": "양주회천 A15BL(양주회천15단지) LH희망상가 입점자 모집공고(일반형)",
-      "type": "임대상가(입찰)"
-    },
-    {
-      "alertId": "lh:9db2507c486edf0dbe2906a2903226b0",
-      "applicationEnd": "2026-11-06",
-      "applicationStart": "2026-11-04",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020948&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "48e23a21795c904b4e8764a1f23be80b87147c85d8e9b359ebddcd2187d8a5e0",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "김포마송B7BL(김포마송LH4단지)LH희망상가입점자모집공고(공공지원형)",
-      "panId": "2015122300020948",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "김포마송 B7BL(김포마송LH4단지) LH희망상가 입점자 모집공고(공공지원형)",
-      "type": "임대상가(추첨)"
-    },
-    {
-      "alertId": "lh:4622a4cdf0fbda8484cb1cb546272308",
-      "applicationEnd": "2026-11-03",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-02",
-          "label": "최초입찰",
-          "start": "2026-11-02"
-        },
-        {
-          "end": "2026-11-03",
-          "label": "재입찰",
-          "start": "2026-11-03"
-        }
-      ],
-      "applicationStart": "2026-11-02",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-03",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-02"
-        }
-      ],
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020947&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "86af5d654411b020a42b95ed501a2ef96d9ff6d0771ee78608f1b4177429f8c3",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "김포마송B5BL(김포마송LH5단지)LH희망상가입점자모집공고(일반형)",
-      "panId": "2015122300020947",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "김포마송 B5BL(김포마송LH5단지) LH희망상가 입점자 모집공고(일반형)",
-      "type": "임대상가(입찰)"
-    },
-    {
-      "alertId": "lh:d584f020fb9a45db44f0ee55394eecff",
-      "applicationEnd": "2026-11-03",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-02",
-          "label": "최초입찰",
-          "start": "2026-11-02"
-        },
-        {
-          "end": "2026-11-03",
-          "label": "재입찰",
-          "start": "2026-11-03"
-        }
-      ],
-      "applicationStart": "2026-11-02",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-03",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-02"
-        }
-      ],
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020946&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "detectedAt": "2026-10-26T23:09:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "add6fad6a2423d32626d1281714803cc76f1c6f1814a3d6bad663ed88b189cd0",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "고양삼송A12BL(원흥마을12단지)LH희망상가입점자모집공고(일반형)",
-      "panId": "2015122300020946",
-      "postedAt": "2026-10-26",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "고양삼송 A12BL(원흥마을12단지) LH희망상가 입점자 모집공고(일반형)",
-      "type": "임대상가(입찰)"
+      "title": "시흥장현지구 블록형단독주택용지 공급공고(1순위)",
+      "type": "토지"
     }
   ],
   "broadCandidates": [
@@ -6626,6 +6482,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019955&ccrCnntSysDsCd=01&mi=1079",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6696,6 +6553,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020957&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6723,6 +6581,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020956&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6750,6 +6609,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020955&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6777,6 +6637,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020954&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6804,6 +6665,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020953&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6831,6 +6693,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020952&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6878,6 +6741,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020951&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6926,6 +6790,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020950&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -6974,6 +6839,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020949&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -7002,6 +6868,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020948&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -7049,6 +6916,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020947&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -7097,6 +6965,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020946&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -49385,19 +49254,6 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008113&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "fields": [
-        "calendarSchedules"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "deadlineChanged"
-      ],
-      "panId": "BN-0008113",
-      "title": "음성금석 근린생활시설용지 재공급 공고"
-    },
-    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020934&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -49408,18 +49264,6 @@
       ],
       "panId": "2015122300020934",
       "title": "[정정공고][경남지역본부]26년 4차 분양전환형 든든전세주택 예비입주자 모집 공고(모집권역 완화)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020902&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020902",
-      "title": "[경남지역본부]26년 4차 비분양전환형 든든전세주택 입주자 모집 공고"
     },
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020901&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
@@ -49434,18 +49278,16 @@
       "title": "[경남지역본부]26년 4차 분양전환형 든든전세주택 예비입주자 모집 공고(모집권역 완화)"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020895&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
-        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed",
-        "statusChanged"
+        "changed"
       ],
-      "panId": "2015122300020895",
-      "title": "익산부송3단지 50년 공공임대 예비입주자 모집"
+      "panId": "2015122300020560",
+      "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고"
     }
   ],
   "collectionVersion": 2,
@@ -51246,195 +51088,186 @@
       "type": "매입임대"
     }
   ],
-  "new": [
+  "new": [],
+  "receptionStarts": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432431&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
+      "alertId": "lh:831af77927b83bb1bbcc93e8b2f1b91b",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-27"
+        }
       ],
-      "panId": "bbs:02:9102432431",
-      "relatedPanId": "",
-      "title": "[26.10.12공고]충북혁신4단지(진천군) 10년 분양전환공공임대주택 예비입주자 신청현황"
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008051&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "97d79209d0b2ef11a002c0e3864163409f12644aa9beb42875b59dc469a0326f",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남고등근린생활시설,이천중리일반상업및점포겸용단독주택공급공고",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008051",
+      "postedAt": "2026-10-06",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남고등 근린생활시설, 이천중리 일반상업 및 점포겸용 단독주택 공급 공고",
+      "type": "토지"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019957&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
+      "alertId": "lh:2f2401e0827cfa84aca0bc4f07a350cc",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-27"
+        }
       ],
-      "panId": "bbs:01:7000019957",
-      "relatedPanId": "",
-      "title": "남양주진접2 공공주택지구 공장이주대책용지 필지지정 결과 및 계약체결 안내"
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008050&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "4c0accfd07f9ca19ebee2aa02a0880225d4f695e98d0a405345e9ee63ef66127",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남낙생근린생활시설용지및성남고등일반업무시설용지공급공고",
+      "officialStarts": [
+        "2026-10-27"
+      ],
+      "panId": "BN-0008050",
+      "postedAt": "2026-10-06",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남낙생 근린생활시설용지 및 성남고등 일반업무시설용지 공급 공고",
+      "type": "토지"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019956&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
+      "alertId": "lh:0d585fccc1dbf82829ac7d1649291b9a",
+      "applicationEnd": "2026-10-27",
+      "applicationStart": "2026-10-27",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-10-27",
+          "start": "2026-10-27"
+        },
+        {
+          "end": "2026-10-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-27"
+        }
       ],
-      "panId": "bbs:01:7000019956",
-      "relatedPanId": "",
-      "title": "울산효문 지원시설용지 입찰 공급 공고 개찰결과 및 계약체결 안내"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019955&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008019&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-10-27T04:58:22+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a51ae195583a37b9b393c448302aa2135e55ad74abbd739599ee29e1a80974b1",
+      "kind": "receptionStart",
       "kinds": [
-        "new"
+        "receptionStarted"
       ],
-      "panId": "bbs:01:7000019955",
-      "relatedPanId": "",
-      "title": "의왕초평 상업시설용지 개찰결과 게시"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020964&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "kind": "correction",
-      "kinds": [
-        "correction"
+      "needsReview": false,
+      "noticeFamily": "시흥장현지구블록형단독주택용지공급공고(1순위)",
+      "officialStarts": [
+        "2026-10-27"
       ],
-      "panId": "2015122300020964",
-      "relatedPanId": "2015122300020895",
-      "title": "[정정공고]익산부송3단지 50년 공공임대 예비입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020961&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "kind": "new",
-      "kinds": [
-        "new"
+      "panId": "BN-0008019",
+      "postedAt": "2026-10-01",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
       ],
-      "panId": "2015122300020961",
-      "relatedPanId": "",
-      "title": "충남권(아산시, 보령시, 천안시, 공주시) 미분양매입 일반매각 잔여세대 선착순 동·호 지정 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020957&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020957",
-      "relatedPanId": "",
-      "title": "파주운정3 A24BL(물향기마을11단지) LH희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020956&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020956",
-      "relatedPanId": "",
-      "title": "파주운정3 A37BL(물향기마을1단지) LH희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020955&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020955",
-      "relatedPanId": "",
-      "title": "양주회천 A15BL(양주회천15단지) LH희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020954&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020954",
-      "relatedPanId": "",
-      "title": "양주회천 A10(2)BL(양주회천10단지) LH희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020953&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020953",
-      "relatedPanId": "",
-      "title": "김포마송 B5BL(김포마송LH5단지) LH희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020952&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020952",
-      "relatedPanId": "",
-      "title": "김포한강 Aa12BL(김포한강LH1단지) LH희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020951&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020951",
-      "relatedPanId": "",
-      "title": "파주운정3 A37BL(물향기마을1단지) LH희망상가 입점자 모집공고(일반형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020950&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020950",
-      "relatedPanId": "",
-      "title": "양주회천 A10(2)BL(양주회천10단지) LH희망상가 입점자 모집공고(일반형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020949&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020949",
-      "relatedPanId": "",
-      "title": "양주회천 A15BL(양주회천15단지) LH희망상가 입점자 모집공고(일반형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020948&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020948",
-      "relatedPanId": "",
-      "title": "김포마송 B7BL(김포마송LH4단지) LH희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020947&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020947",
-      "relatedPanId": "",
-      "title": "김포마송 B5BL(김포마송LH5단지) LH희망상가 입점자 모집공고(일반형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020946&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020946",
-      "relatedPanId": "",
-      "title": "고양삼송 A12BL(원흥마을12단지) LH희망상가 입점자 모집공고(일반형)"
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥장현지구 블록형단독주택용지 공급공고(1순위)",
+      "type": "토지"
     }
   ],
-  "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1123,
-      "checkedAt": "2026-10-26T23:09:31+09:00",
+      "checkedAt": "2026-10-27T04:58:22+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -51581,7 +51414,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-26T23:09:31+09:00",
+  "syncedAt": "2026-10-27T04:58:22+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
