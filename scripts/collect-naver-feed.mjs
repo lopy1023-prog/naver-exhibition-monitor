@@ -76,7 +76,14 @@ export async function collectNaverFeed({
       latestLogNo: merged[0].logNo,
       postCount: merged.length,
       syncedAt: checkedAt,
-      posts: merged.map((post, index) => ({ ...post, position: index + 1 })),
+      posts: merged.map((post, index) => ({
+        position: index + 1,
+        title: post.title,
+        logNo: post.logNo,
+        url: post.url,
+        publishedAt: post.publishedAt ?? null,
+        detectedAt: post.detectedAt ?? checkedAt,
+      })),
       sourceErrors: result.errors ?? [],
       error: null,
     };

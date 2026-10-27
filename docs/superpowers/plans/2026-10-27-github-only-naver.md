@@ -29,9 +29,14 @@
 - No active collector, workflow or final prompt may read a Netlify endpoint.
 
 ## Tasks
-- [ ] 1. Baseline: 19 tests pass. Write failing collector tests for migration, unchanged refresh, new/changed notices, cap, malformed input, failure persistence and recovery.
-- [ ] 2. Move reusable modules to lib/naver; implement scripts/collect-naver-feed.mjs. Run the focused tests and full suite.
-- [ ] 3. Replace the bridge workflow with a direct-collection workflow. Remove bridge tests/script, Netlify functions/dependency, and update deployment tests/README.
-- [ ] 4. Run a real local collection into a temporary output; verify no unrelated paths changed. Push an isolated branch and validate in GitHub through a pull request before merging.
-- [ ] 5. Publish to main, observe the GitHub job and public JSON, and retire this project's Netlify functions without deleting unrelated sites.
-- [ ] 6. Deliver a final company-account prompt, setup message, and verification record. Distinguish completed collection migration from pending company-account mail verification.
+- [x] 1. Baseline: 19 tests passed; collector and failure regression tests were written before implementation.
+- [x] 2. Reused modules in lib/naver and implemented the atomic collector. Compact public post records exclude large descriptions and transient source metadata.
+- [x] 3. Replaced the bridge workflow; removed functions and runtime dependency; updated tests/README.
+- [x] 4. Local direct collection returned 50 posts. LH/Albamon paths have no diff. An isolated branch was pushed. PR creation returned integration permission error 403, so no PR was created.
+- [x] 5. User-authorized main deployment: run 40464089161 passed tests, direct RSS collection, and data publication. A skip-host validation commit kept the old host until GitHub succeeded. Its feed commit then deployed retirement page 6ae04b30b986201c6d86f0ac with zero functions and zero schedules. Old API returns 404.
+- [x] 6. Company-account prompt and setup message are delivered outside the public repository. Actual company-account Gmail connection and scheduled delivery remain for that account to verify.
+
+## Execution rulings
+- Native execution was already requested by the user; no additional planning/branch approval was requested.
+- GitHub connector cannot create PRs in this installation. The authorized native Git push was used; the main run provided hosted end-to-end verification.
+- No Netlify project/account was permanently deleted. Production scheduled functions are removed, and further feed-only commits skip the retired site's build.

@@ -46,6 +46,15 @@ test("unchanged successful collection refreshes all collection timestamps", asyn
   assert.equal(result.sourceLastSuccessAt, after);
 });
 
+test("public feed excludes large source descriptions and per-fetch metadata", async () => {
+  const options = await setup();
+  await collectNaverFeed({ ...options, collect: collected([{ ...post(), description: "x".repeat(1500), source: "rss" }]) });
+  const result = await read(options);
+  assert.equal(result.posts[0].description, undefined);
+  assert.equal(result.posts[0].lastSeenAt, undefined);
+  assert.equal(result.posts[0].source, undefined);
+});
+
 test("short fallback merges history and updates an existing notice", async () => {
   const options = await setup(previous([post(), post("224455000002")]));
   await collectNaverFeed({ ...options, collect: collected([post("224455000001", "리빙 모집 기간 연장")]) });
