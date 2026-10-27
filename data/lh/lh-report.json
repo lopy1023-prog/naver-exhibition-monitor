@@ -50414,18 +50414,6 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020934&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020934",
-      "title": "[정정공고][경남지역본부]26년 4차 분양전환형 든든전세주택 예비입주자 모집 공고(모집권역 완화)"
-    },
-    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020922&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
         "detailTextHash"
@@ -50436,30 +50424,6 @@
       ],
       "panId": "2015122300020922",
       "title": "[제주지역본부-제주시] 든든전세주택 (예비)입주자 모집 공고(분양전환형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020902&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020902",
-      "title": "[경남지역본부]26년 4차 비분양전환형 든든전세주택 입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020901&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020901",
-      "title": "[경남지역본부]26년 4차 분양전환형 든든전세주택 예비입주자 모집 공고(모집권역 완화)"
     }
   ],
   "collectionVersion": 2,
@@ -52267,7 +52231,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1167,
-      "checkedAt": "2026-10-28T05:10:14+09:00",
+      "checkedAt": "2026-10-28T08:47:35+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -52414,7 +52378,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-28T05:10:14+09:00",
+  "syncedAt": "2026-10-28T08:47:35+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-12",
