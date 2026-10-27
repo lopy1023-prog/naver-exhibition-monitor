@@ -1,42 +1,6 @@
+# Only a static retirement page is deployed to the former hosting project.
+# The production collector runs exclusively in GitHub Actions.
 [build]
+  command = ""
   publish = "public"
-  functions = "netlify/functions"
-
-[functions]
-  node_bundler = "esbuild"
-
-[[redirects]]
-  from = "/api/status"
-  to = "/.netlify/functions/status"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/api/collect"
-  to = "/.netlify/functions/collect-now"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/status"
-  to = "/.netlify/functions/status-page"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/feed"
-  to = "/.netlify/functions/feed"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/feed.txt"
-  to = "/.netlify/functions/status-text"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/status.txt"
-  to = "/.netlify/functions/status-text"
-  status = 200
-  force = true
+  ignore = "git diff --quiet \"$CACHED_COMMIT_REF\" \"$COMMIT_REF\" -- public netlify.toml"

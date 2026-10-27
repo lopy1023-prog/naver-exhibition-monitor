@@ -4,10 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test"
-  },
-  "dependencies": {
-    "@netlify/blobs": "latest"
+    "test": "node --test",
+    "collect:naver": "node scripts/collect-naver-feed.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { extractLogNo, extractLogNosFromHtml, mergePosts, parsePostHtml, parseRss } from "../netlify/functions/_shared/parser.mjs";
+import { extractLogNo, extractLogNosFromHtml, mergePosts, parsePostHtml, parseRss } from "../lib/naver/parser.mjs";
 
 test("extractLogNo handles canonical blog URLs", () => {
   assert.equal(extractLogNo("https://blog.naver.com/naver_seller/224354025826"), "224354025826");

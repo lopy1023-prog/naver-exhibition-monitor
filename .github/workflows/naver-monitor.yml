@@ -1,0 +1,65 @@
+name: Naver shopping partner notice monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "12 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/naver-monitor.yml"
+      - "lib/naver/**"
+      - "scripts/collect-naver-feed.mjs"
+      - "test/**"
+      - "package.json"
+  pull_request:
+    paths:
+      - ".github/workflows/naver-monitor.yml"
+      - "lib/naver/**"
+      - "scripts/collect-naver-feed.mjs"
+      - "test/**"
+      - "package.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: naver-notice-monitor-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run regression tests
+        run: node --test
+      - name: Collect official Naver notices directly
+        id: collect
+        run: node scripts/collect-naver-feed.mjs
+      - name: Publish collection state
+        if: ${{ always() && github.ref == 'refs/heads/main' && steps.collect.outcome != 'skipped' }}
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- data/naver-feed.json)" ]; then
+            echo "No collection state to publish."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/naver-feed.json
+          git commit -m "chore: collect official Naver notices"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          echo "::error::Could not publish Naver collection state after three attempts."
+          exit 1
