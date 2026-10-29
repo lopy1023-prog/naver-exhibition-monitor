@@ -8902,45 +8902,7 @@
       "type": "토지"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:6ef2ad325be44edeb53eed3fa8842a2d",
-      "applicationEnd": "2026-12-01",
-      "applicationStart": "2026-12-01",
-      "broadCandidate": true,
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008127&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-10-29T23:10:21+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "def526f09e8e29307e4b162c50bbd4ca61d764abefaf2fd43ac65bc4e9470024",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "고양장항상업시설용지공급공고(1년6개월거치,5년무이자)",
-      "panId": "BN-0008127",
-      "postedAt": "2026-10-29",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "land"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "고양장항 상업시설용지 공급공고(1년 6개월 거치, 5년 무이자)",
-      "type": "토지"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "2026-12-01",
@@ -8950,6 +8912,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008127&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -52375,112 +52338,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061191&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "0000061191",
-      "title": "[정정공고]대곡 호정포레스트, 풍경그린, 옥포 르상트레빌, 테크노4 10년공공임대주택 예비입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061187&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "0000061187",
-      "title": "대곡 호정포레스트, 풍경그린, 옥포 르상트레빌, 테크노4 10년공공임대주택 예비입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020922&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020922",
-      "title": "[제주지역본부-제주시] 든든전세주택 (예비)입주자 모집 공고(분양전환형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020900",
-      "title": "[경기북부] 청년 매입임대주택 선착순 예비입주자 모집공고 (김포시, 포천시)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020889&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020889",
-      "title": "(재공고)서울양원S1 희망상가 입점자 모집공고(공공지원형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020882&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020882",
-      "title": "[강원지역본부] 26년 2차 일반 매입임대주택 입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020874&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020874",
-      "title": "공주옥룡1 영구임대주택 예비입주자 모집 공고(공고일:2026.10.06)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020533&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020533",
-      "title": "(대구동구, 대구수성구, 경산시) 청년매입임대주택 예비입주자 모집공고"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -54324,75 +54182,14 @@
       "type": "매입임대"
     }
   ],
-  "new": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102835636&ccrCnntSysDsCd=03&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:03:9102835636",
-      "relatedPanId": "",
-      "title": "[신청현황게시] 음성금왕1단지 50년 공공임대주택 예비입주자 모집 접수결과"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432432&ccrCnntSysDsCd=02&mi=1330",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:02:9102432432",
-      "relatedPanId": "",
-      "title": "위례A2-7BL(위례자이 더 파크) 입주안내문 게시"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019963&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:01:7000019963",
-      "relatedPanId": "",
-      "title": "울산태화강변 근린생활시설용지 재공급 공고 개찰 결과 안내"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019962&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:01:7000019962",
-      "relatedPanId": "",
-      "title": "고양장항 생활대책용지 1차 매입신청 결과안내"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008128&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008128",
-      "relatedPanId": "",
-      "title": "[취소공고] 울산효문 지원시설 및 주차장용지 선착순 수의계약 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008127&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008127",
-      "relatedPanId": "",
-      "title": "고양장항 상업시설용지 공급공고(1년 6개월 거치, 5년 무이자)"
-    }
-  ],
+  "new": [],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1209,
-      "checkedAt": "2026-10-29T23:10:21+09:00",
+      "checkedAt": "2026-10-30T04:40:30+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -54539,7 +54336,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-29T23:10:21+09:00",
+  "syncedAt": "2026-10-30T04:40:30+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
