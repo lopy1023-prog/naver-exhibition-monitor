@@ -52340,7 +52340,7 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020906&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001339&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
       "fields": [
         "detailTextHash"
       ],
@@ -52348,44 +52348,8 @@
       "kinds": [
         "changed"
       ],
-      "panId": "2015122300020906",
-      "title": "광주전남혁신 빛가람LH3단지 잔여세대 일반매각 공고(상시, 선착순 동호지정)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020799&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020799",
-      "title": "광주전남혁신 빛가람LH1단지 잔여세대 일반매각 공고(상시, 선착순 동호지정)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020606&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020606",
-      "title": "무안 오룡마을 남악휴먼시아 잔여세대 일반매각 공고(상시, 유주택)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020425&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020425",
-      "title": "광주전남혁신 빛가람LH3단지 잔여세대 일반매각 공고(상시, 선착순 동호지정)"
+      "panId": "BN-0001339",
+      "title": "인천가정2 A2블록 단지내상가 분양공고"
     }
   ],
   "collectionVersion": 2,
@@ -54231,20 +54195,61 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008132&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008132",
+      "relatedPanId": "",
+      "title": "부산강동 공동주택용지 B2 재공급 공고(2순위)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008131&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008131",
+      "relatedPanId": "",
+      "title": "부산강동 공동주택용지 B2 재공급 공고(1순위)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020993&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020993",
+      "relatedPanId": "",
+      "title": "평창장평 통합공공임대주택(고령자복지형) 입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020992&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020992",
+      "relatedPanId": "",
+      "title": "평창장평 통합공공임대주택(일반형) 입주자 모집"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 1209,
-      "checkedAt": "2026-10-30T08:37:48+09:00",
+      "calendarRowCount": 1221,
+      "checkedAt": "2026-10-30T11:59:30+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 512,
+      "parsedCount": 515,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 512,
+      "totalCount": 515,
       "totalPages": 2
     },
     "documents": {
@@ -54385,7 +54390,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-30T08:37:48+09:00",
+  "syncedAt": "2026-10-30T11:59:30+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
