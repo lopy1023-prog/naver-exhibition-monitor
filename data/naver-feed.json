@@ -4,14 +4,30 @@
   "sourceUrl": "https://rss.blog.naver.com/naver_seller.xml",
   "sourceStatus": "ok",
   "sourceUsed": "rss",
-  "sourceLastCheckedAt": "2026-10-29T23:54:39.427Z",
-  "sourceLastSuccessAt": "2026-10-29T23:54:39.427Z",
-  "latestLogNo": "224457920806",
+  "sourceLastCheckedAt": "2026-10-30T05:38:54.211Z",
+  "sourceLastSuccessAt": "2026-10-30T05:38:54.211Z",
+  "latestLogNo": "224458815372",
   "postCount": 50,
-  "syncedAt": "2026-10-29T23:54:39.427Z",
+  "syncedAt": "2026-10-30T05:38:54.211Z",
   "posts": [
     {
       "position": 1,
+      "title": "[브랜드 커넥트] 26년 12월 홀리데이 세일 '인플 PICK 패키지' 신청 (~11월 10일 접수 마감)",
+      "logNo": "224458815372",
+      "url": "https://blog.naver.com/naver_seller/224458815372",
+      "publishedAt": "2026-10-30T02:12:35.000Z",
+      "detectedAt": "2026-10-30T05:38:54.211Z"
+    },
+    {
+      "position": 2,
+      "title": "[해외직구][제안] 26년 홀리데이+세일 | 행사일정 12/10~12/24 | 제안마감 11/08(일)",
+      "logNo": "224458807062",
+      "url": "https://blog.naver.com/naver_seller/224458807062",
+      "publishedAt": "2026-10-30T02:06:01.000Z",
+      "detectedAt": "2026-10-30T05:38:54.211Z"
+    },
+    {
+      "position": 3,
       "title": "[홀리데이+세일] 26년 홀리데이+세일 행사 제안 안내드립니다.(~11/8(일) 23시 59분까지)",
       "logNo": "224457920806",
       "url": "https://blog.naver.com/naver_seller/224457920806",
@@ -19,15 +35,15 @@
       "detectedAt": "2026-10-29T14:12:11.428Z"
     },
     {
-      "position": 2,
-      "title": "[가구][제안] 가구 위클리 페스타 | 행사일정 11/16~11/23 | 제안마감 11/4(수)",
+      "position": 4,
+      "title": "[가구][제안] 월간 가구 라이브 | 행사일정 11/16~11/23 | 제안마감 11/4(수)",
       "logNo": "224457909617",
       "url": "https://blog.naver.com/naver_seller/224457909617",
       "publishedAt": "2026-10-29T06:51:07.000Z",
       "detectedAt": "2026-10-29T07:00:07.854Z"
     },
     {
-      "position": 3,
+      "position": 5,
       "title": "[리빙][제안] 리빙 목요 라이브ㅣ행사일정 11/12ㅣ제안마감 11/4(수)",
       "logNo": "224457817517",
       "url": "https://blog.naver.com/naver_seller/224457817517",
@@ -35,7 +51,7 @@
       "detectedAt": "2026-10-29T07:00:07.854Z"
     },
     {
-      "position": 4,
+      "position": 6,
       "title": "[쇼핑라이브][제안] 주말 재방 기획전 참여 안내, 주말 재방송 신청 방법 변경 안내 및 자주 묻는 질문 | 행사일정 10/31~11/01 | 제안마감 10/30 16:00",
       "logNo": "224457640911",
       "url": "https://blog.naver.com/naver_seller/224457640911",
@@ -43,7 +59,7 @@
       "detectedAt": "2026-10-29T07:00:07.854Z"
     },
     {
-      "position": 5,
+      "position": 7,
       "title": "[N배송][제안] 주말배송 | 행사일정 11/06~11/08 | 제안마감 11/04(수) 낮 12시",
       "logNo": "224457501478",
       "url": "https://blog.naver.com/naver_seller/224457501478",
@@ -51,7 +67,7 @@
       "detectedAt": "2026-10-29T07:00:07.854Z"
     },
     {
-      "position": 6,
+      "position": 8,
       "title": "[오늘끝딜][제안] 오늘끝딜 | 행사일정 11/9~11/15 | 제안마감 11/2(월) 낮 12시",
       "logNo": "224456558145",
       "url": "https://blog.naver.com/naver_seller/224456558145",
@@ -59,7 +75,7 @@
       "detectedAt": "2026-10-29T07:00:07.854Z"
     },
     {
-      "position": 7,
+      "position": 9,
       "title": "[리빙][제안] 11월 네이버 라이프 위크ㅣ행사일정 11/23~11/29ㅣ제안마감 11/9(월)",
       "logNo": "224456614865",
       "url": "https://blog.naver.com/naver_seller/224456614865",
@@ -67,7 +83,7 @@
       "detectedAt": "2026-10-28T08:23:46.421Z"
     },
     {
-      "position": 8,
+      "position": 10,
       "title": "[자동차/공구/문구][제안] 11월 네이버 라이프 위크ㅣ행사일정 11/23~11/29ㅣ제안마감 11/09(월)",
       "logNo": "224456606759",
       "url": "https://blog.naver.com/naver_seller/224456606759",
@@ -75,7 +91,7 @@
       "detectedAt": "2026-10-28T08:23:46.421Z"
     },
     {
-      "position": 9,
+      "position": 11,
       "title": "[네이버펫][제안] 11월 네이버 라이프위크 | 행사일정 11/23~11/29 | 제안마감 11/9(월)",
       "logNo": "224456596134",
       "url": "https://blog.naver.com/naver_seller/224456596134",
@@ -83,7 +99,7 @@
       "detectedAt": "2026-10-28T08:23:46.421Z"
     },
     {
-      "position": 10,
+      "position": 12,
       "title": "[하이엔드][선정] 브랜드콘텐츠 카드 | 행사일정 11/09~11/15 | 세팅마감 10/30(금)",
       "logNo": "224456447543",
       "url": "https://blog.naver.com/naver_seller/224456447543",
@@ -91,7 +107,7 @@
       "detectedAt": "2026-10-28T08:23:46.421Z"
     },
     {
-      "position": 11,
+      "position": 13,
       "title": "[하이엔드][선정] 홈배너 기획전 | 행사일정 11/09~11/15 | 세팅마감 10/30(금)",
       "logNo": "224456446874",
       "url": "https://blog.naver.com/naver_seller/224456446874",
@@ -99,7 +115,7 @@
       "detectedAt": "2026-10-28T08:23:46.421Z"
     },
     {
-      "position": 12,
+      "position": 14,
       "title": "[헬시][제안] 11월 '웰니스페스타' | 행사일정11/23~11/29 | 제안마감 11/8(일)",
       "logNo": "224456292955",
       "url": "https://blog.naver.com/naver_seller/224456292955",
@@ -107,7 +123,7 @@
       "detectedAt": "2026-10-28T02:09:19.602Z"
     },
     {
-      "position": 13,
+      "position": 15,
       "title": "[쇼핑라이브][공지] [12월] 네쇼라 셀럽 오리지널 쇼! 함께할 브랜드사를 모집합니다",
       "logNo": "224455477101",
       "url": "https://blog.naver.com/naver_seller/224455477101",
@@ -115,7 +131,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 14,
+      "position": 16,
       "title": "[쇼핑라이브][공지] [12월] 라이브 참여 브랜드사 모집",
       "logNo": "224455476634",
       "url": "https://blog.naver.com/naver_seller/224455476634",
@@ -123,7 +139,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 15,
+      "position": 17,
       "title": "[가구][선정] 가구 위클리 페스타 | 행사일정 11/9~11/15 | 세팅마감 11/5(목)",
       "logNo": "224455362885",
       "url": "https://blog.naver.com/naver_seller/224455362885",
@@ -131,7 +147,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 16,
+      "position": 18,
       "title": "[디지털/가전][선정] 쇼핑판(쇼핑투데이-테크/취미) 테마기획전ㅣ행사일정 11/30~12/6ㅣ세팅마감 11/29(일)",
       "logNo": "224455218072",
       "url": "https://blog.naver.com/naver_seller/224455218072",
@@ -139,7 +155,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 17,
+      "position": 19,
       "title": "[디지털/가전][제안] 쇼핑판(쇼핑투데이-테크/취미) 테마 기획전ㅣ행사일정 12/7~12/13ㅣ제안마감 11/2(월)",
       "logNo": "224455209590",
       "url": "https://blog.naver.com/naver_seller/224455209590",
@@ -147,7 +163,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 18,
+      "position": 20,
       "title": "[도서][제안] 11월 2차 월별 프로모션ㅣ행사일정 11/16 ~ 11/30ㅣ제안마감 11/2(월)",
       "logNo": "224455132812",
       "url": "https://blog.naver.com/naver_seller/224455132812",
@@ -155,7 +171,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 19,
+      "position": 21,
       "title": "[가구][제안] 가구 브랜드 페스타 | 행사일정 11/16~11/23 | 제안마감 11/02(월)",
       "logNo": "224454345763",
       "url": "https://blog.naver.com/naver_seller/224454345763",
@@ -163,7 +179,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 20,
+      "position": 22,
       "title": "[가구][제안] 가구 위클리 페스타 | 행사일정 11/16~11/22 | 제안마감 11/1(일)",
       "logNo": "224454318924",
       "url": "https://blog.naver.com/naver_seller/224454318924",
@@ -171,7 +187,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 21,
+      "position": 23,
       "title": "[가구][선정] 브랜드스페셜위크 | 행사일정 11/09~11/15 | 세팅마감 11/05(목)",
       "logNo": "224454309137",
       "url": "https://blog.naver.com/naver_seller/224454309137",
@@ -179,7 +195,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 22,
+      "position": 24,
       "title": "[가구][제안] 브랜드스페셜위크 | 행사일정 11/16~11/22 | 제안마감 11/01(일)",
       "logNo": "224454305972",
       "url": "https://blog.naver.com/naver_seller/224454305972",
@@ -187,7 +203,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 23,
+      "position": 25,
       "title": "[스마트스토어 광고][모집] SME 성장 지원 캠페인 | 첫 광고비, 쓴 만큼 최대 50만원 추가 지원 | 신청마감 10/31(토)",
       "logNo": "224454095727",
       "url": "https://blog.naver.com/naver_seller/224454095727",
@@ -195,7 +211,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 24,
+      "position": 26,
       "title": "[N배송][제안] 새벽배송DAY | 행사일정 11/13~11/15 | 제안마감 11/1(일)",
       "logNo": "224454047245",
       "url": "https://blog.naver.com/naver_seller/224454047245",
@@ -203,7 +219,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 25,
+      "position": 27,
       "title": "[푸드][제안] 라이징템 | 행사일정 11/16~11/22 | 제안마감 11/01(일)",
       "logNo": "224453900480",
       "url": "https://blog.naver.com/naver_seller/224453900480",
@@ -211,7 +227,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 26,
+      "position": 28,
       "title": "[모집] 상세페이지 업그레이드를 위한 스마트폰 사진 촬영 노하우",
       "logNo": "224446485854",
       "url": "https://blog.naver.com/naver_seller/224446485854",
@@ -219,7 +235,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 27,
+      "position": 29,
       "title": "[스포츠/레저][제안] 11/16주차 단독전 | 행사일정 11/16~11/22 | 제안마감 11/01(일)",
       "logNo": "224453817487",
       "url": "https://blog.naver.com/naver_seller/224453817487",
@@ -227,7 +243,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 28,
+      "position": 30,
       "title": "[스포츠/레저][제안] 11/09주차 숏클립 | 행사일정 11/09~11/15 | 제안마감 10/28(수)",
       "logNo": "224453813073",
       "url": "https://blog.naver.com/naver_seller/224453813073",
@@ -235,7 +251,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 29,
+      "position": 31,
       "title": "[푸드][제안] 11월 '네이버 푸드 페스타' | 행사일정 11/23~11/29 | 제안마감 11/1(일)",
       "logNo": "224453792659",
       "url": "https://blog.naver.com/naver_seller/224453792659",
@@ -243,7 +259,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 30,
+      "position": 32,
       "title": "[스포츠/레저][제안] 레저 윈터위크 | 행사일정 11/16~11/30 | 제안마감 11/02(월)13:00",
       "logNo": "224451484540",
       "url": "https://blog.naver.com/naver_seller/224451484540",
@@ -251,7 +267,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 31,
+      "position": 33,
       "title": "[신선][제안] aT '우리 술 담다' 프로모션 | 행사일정11/09(월) ~ 11/15(일) | 제안마감 11/1(일)",
       "logNo": "224451018975",
       "url": "https://blog.naver.com/naver_seller/224451018975",
@@ -259,7 +275,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 32,
+      "position": 34,
       "title": "[가공][제안] 11월 '같이발견회' | 행사일정11/14 | 제안마감 10/28(수)",
       "logNo": "224450978015",
       "url": "https://blog.naver.com/naver_seller/224450978015",
@@ -267,7 +283,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 33,
+      "position": 35,
       "title": "[리빙][제안] 리빙 목요 라이브ㅣ행사일정 11/5ㅣ제안마감 10/28(수)",
       "logNo": "224450293621",
       "url": "https://blog.naver.com/naver_seller/224450293621",
@@ -275,7 +291,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 34,
+      "position": 36,
       "title": "[디지털/가전][제안] '겨울 가전 특별전' | 행사일정 11/30~12/6 | 제안마감 11/10(화)",
       "logNo": "224450064978",
       "url": "https://blog.naver.com/naver_seller/224450064978",
@@ -283,7 +299,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 35,
+      "position": 37,
       "title": "[쇼핑라이브][제안] 주말 재방 기획전 참여 안내, 주말 재방송 신청 방법 변경 안내 및 자주 묻는 질문 | 행사일정 10/24~10/25 | 제안마감 10/23 16:00",
       "logNo": "224449973789",
       "url": "https://blog.naver.com/naver_seller/224449973789",
@@ -291,7 +307,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 36,
+      "position": 38,
       "title": "[N배송][제안] 주말배송 | 행사일정10/30~11/01 | 제안마감 10/28(수) 낮 12시",
       "logNo": "224449905937",
       "url": "https://blog.naver.com/naver_seller/224449905937",
@@ -299,7 +315,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 37,
+      "position": 39,
       "title": "[오늘끝딜][제안] 오늘끝딜 | 행사일정 11/2~11/8 | 제안마감 10/26(월) 낮 12시",
       "logNo": "224448711702",
       "url": "https://blog.naver.com/naver_seller/224448711702",
@@ -307,7 +323,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 38,
+      "position": 40,
       "title": "[하이엔드][선정] 브랜드콘텐츠 카드 | 행사일정 11/02~11/08 | 세팅마감 10/23(금)",
       "logNo": "224449252846",
       "url": "https://blog.naver.com/naver_seller/224449252846",
@@ -315,7 +331,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 39,
+      "position": 41,
       "title": "[하이엔드][선정] 홈배너 기획전 | 행사일정 11/02~11/08 | 세팅마감 10/23(금)",
       "logNo": "224449251695",
       "url": "https://blog.naver.com/naver_seller/224449251695",
@@ -323,7 +339,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 40,
+      "position": 42,
       "title": "[스포츠/레저][종료] 목요 레저부스터 라이브",
       "logNo": "224449106928",
       "url": "https://blog.naver.com/naver_seller/224449106928",
@@ -331,7 +347,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 41,
+      "position": 43,
       "title": "[해외직구][제안] 해외직구 상시 행사장 | 행사일정 11/09~12/13 | 제안마감 10/28(수) 낮 12시",
       "logNo": "224447970009",
       "url": "https://blog.naver.com/naver_seller/224447970009",
@@ -339,7 +355,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 42,
+      "position": 44,
       "title": "[가구][선정] 가구 위클리 페스타 | 행사일정 11/2~11/8 | 세팅마감 10/29(목)",
       "logNo": "224447846749",
       "url": "https://blog.naver.com/naver_seller/224447846749",
@@ -347,7 +363,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 43,
+      "position": 45,
       "title": "[가구][선정] 브랜드스페셜위크 | 행사일정 11/02~11/08 | 세팅마감 10/29(목)",
       "logNo": "224447815428",
       "url": "https://blog.naver.com/naver_seller/224447815428",
@@ -355,7 +371,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 44,
+      "position": 46,
       "title": "[신선][제안] 11월 미국육류수출협회와 함께하는, 고기페스타 | 행사일정11/9~11/18 | 제안마감 10/25(일)",
       "logNo": "224447664990",
       "url": "https://blog.naver.com/naver_seller/224447664990",
@@ -363,7 +379,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 45,
+      "position": 47,
       "title": "[신선][제안] 11월 '네이버 푸드 페스타' | 행사일정11/9~11/15 | 제안마감 10/25(일)",
       "logNo": "224447655358",
       "url": "https://blog.naver.com/naver_seller/224447655358",
@@ -371,7 +387,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 46,
+      "position": 48,
       "title": "[디지털/가전][선정] 쇼핑판(쇼핑투데이-테크/취미) 테마기획전ㅣ행사일정 11/23~11/29ㅣ세팅마감 11/22(일)",
       "logNo": "224447464309",
       "url": "https://blog.naver.com/naver_seller/224447464309",
@@ -379,7 +395,7 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 47,
+      "position": 49,
       "title": "[디지털/가전][제안] 쇼핑판(쇼핑투데이-테크/취미) 테마 기획전ㅣ행사일정 11/30~12/6ㅣ제안마감 10/26(월)",
       "logNo": "224447461434",
       "url": "https://blog.naver.com/naver_seller/224447461434",
@@ -387,27 +403,11 @@
       "detectedAt": "2026-10-27T06:56:44.778Z"
     },
     {
-      "position": 48,
+      "position": 50,
       "title": "[가구][제안] 가구 위클리 페스타 | 행사일정 11/9~11/15 | 제안마감 10/25(일)",
       "logNo": "224446545114",
       "url": "https://blog.naver.com/naver_seller/224446545114",
       "publishedAt": "2026-10-19T05:24:45.000Z",
-      "detectedAt": "2026-10-27T06:56:44.778Z"
-    },
-    {
-      "position": 49,
-      "title": "[스포츠/레저][제안] 11월 카드사 프로모션 | 행사일정 11/01~11/30 | 제안마감 10/26(월) 16:00",
-      "logNo": "224446336319",
-      "url": "https://blog.naver.com/naver_seller/224446336319",
-      "publishedAt": "2026-10-19T02:14:18.000Z",
-      "detectedAt": "2026-10-27T06:56:44.778Z"
-    },
-    {
-      "position": 50,
-      "title": "[리빙][제안] 11월 리빙 슈퍼신상 프로모션ㅣ행사일정 11/2~12/6ㅣ제안마감 11/29(일)",
-      "logNo": "224446328220",
-      "url": "https://blog.naver.com/naver_seller/224446328220",
-      "publishedAt": "2026-10-19T02:07:24.000Z",
       "detectedAt": "2026-10-27T06:56:44.778Z"
     }
   ],
