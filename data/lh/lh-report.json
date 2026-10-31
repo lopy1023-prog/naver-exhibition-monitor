@@ -9612,59 +9612,7 @@
       "type": "매입임대"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:a28c55429e97334f6e9b46a6e6fb34f3",
-      "applicationEnd": "2026-11-04",
-      "applicationStart": "2026-11-02",
-      "broadCandidate": false,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-04",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-02"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [
-        "화성"
-      ],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020923&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "detectedAt": "2026-10-31T06:00:33+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "310634b9923d1c94f8a44fbaf776a3a35de2f5bcfdadebe0a1c0bed77ff49118",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "needsReview": false,
-      "noticeFamily": "2026년2차대구경북지역든든전세주택입주자모집공고(비분양전환형)",
-      "panId": "2015122300020923",
-      "postedAt": "2026-10-21",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "대구광역시 외",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "rental"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(비분양전환형)",
-      "type": "매입임대"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -53302,33 +53250,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020923&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020923",
-      "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(비분양전환형)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "fields": [
-        "currentlyListed"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "inventoryAvailable"
-      ],
-      "panId": "first:firstComeRentalCommercial:9cbbc935eedd51e5bd25a879",
-      "title": "인천검단 AA35-1"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -55179,7 +55101,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1252,
-      "checkedAt": "2026-10-31T06:00:33+09:00",
+      "checkedAt": "2026-10-31T09:42:48+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -55326,7 +55248,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-31T06:00:33+09:00",
+  "syncedAt": "2026-10-31T09:42:48+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
