@@ -9610,9 +9610,2102 @@
       "suwonMatch": "broadCandidate",
       "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(비분양전환형)",
       "type": "매입임대"
+    },
+    {
+      "alertId": "lh:f63b4b57373bf961227fd1bef045990a",
+      "applicationEnd": "2026-11-24",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-23T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-04",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-24",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2cc88428ad77048ec0de851e72f133b0a9fc18b4e0d52bf8a5644c05fde6f916",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "안산신길2A-6블록신혼희망타운(공공분양)입주자모집공고",
+      "panId": "0000061189",
+      "postedAt": "2026-10-30",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "안산신길2 A-6블록 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    },
+    {
+      "alertId": "lh:e052c71d9604c96c277c9bce9a8ed399",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-09",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "cb2a104e0fc6315f7eae5c7c6b7d9ac49ab9429f618d5cf36e3e41f7f8587603",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "화성시동탄지역행복주택입주자모집공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "panId": "2015122300020958",
+      "postedAt": "2026-10-27",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "화성시 동탄지역 행복주택 입주자 모집 공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:288d47e21336d1fa0872d4ab95c1f0ab",
+      "applicationEnd": "2026-11-04",
+      "applicationStart": "2026-11-02",
+      "broadCandidate": false,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-04",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-03",
+          "start": "2026-11-02"
+        },
+        {
+          "end": "2026-11-04",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-02"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020923&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "05b699ee80817afeba3b8bfdea3b4acdba0a535699d66923e1003dfd82870cfa",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "2026년2차대구경북지역든든전세주택입주자모집공고(비분양전환형)",
+      "panId": "2015122300020923",
+      "postedAt": "2026-10-21",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "대구광역시 외",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(비분양전환형)",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:28bbdaa7a4fd4ee47241a3726147247c",
+      "applicationEnd": "2026-10-23",
+      "applicationStart": "2026-10-21",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-21"
+        },
+        {
+          "end": "2026-10-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
+          "start": "2026-10-21"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원",
+        "화성",
+        "오산"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300020802",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "13e538d1124534ccb8e623b7f523c8ffd46c88f57e0ef8d4d4ad5bd5c7ce7f79",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]든든전세매입임대주택예비입주자모집공고(비분양전환)",
+      "panId": "2015122300020927",
+      "postedAt": "2026-10-19",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[정정공고][경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:906619aa02a90d1497f0bcdac47dc7bd",
+      "applicationEnd": "2026-10-23",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-20"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2f6c1b3ceb253f668fa5b86dd1351183a9a6a0d87ba83446ec8c4907bcc71712",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "장애인자립특화형주택여기가입주자모집공고(경기도김포시)",
+      "panId": "2015122300020880",
+      "postedAt": "2026-10-07",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:6a5e64475ca6ecda8c87ec8de324fc71",
+      "applicationEnd": "2026-10-08",
+      "applicationStart": "2026-10-06",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-08",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-08",
+          "start": "2026-10-06"
+        },
+        {
+          "end": "2026-10-08",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-06"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "88cd59734928ddb37d20bdf6f53505011179564850a99730e210daff08ab3372",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "인천광역시,경기도부천시다자녀매입임대주택예비입주자모집공고",
+      "panId": "2015122300020811",
+      "postedAt": "2026-09-22",
+      "recruitmentKind": "예비입주자",
+      "region": "인천광역시 외",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:c3b9dd14fcc912a4f32ad3907c5068e6",
+      "applicationEnd": "2026-10-28",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-28",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원",
+        "화성",
+        "오산"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300020731",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "0f2ec7c8ad9e8c5d59f093c2f41cfb6877621f3d4b47a6732312882f8030c253",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[온라인접수불가,관할주거복지지사현장접수]경기남부지역본부2026년일반매입임대주택입주자모집공고",
+      "panId": "2015122300020769",
+      "postedAt": "2026-09-15",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "tracked": "gyeonggi-south-2026-general-purchase-rental",
+      "trackedSignals": {
+        "결과 발표": "한 정보 제공 홍보물 닫기 ※ 신청건수 : 현재 인터넷 청약신청자 현황을 의미합니다. 공급일정 접수기간 : 당첨자발표일 : 2026.12.09 계약기간 : 2026.12.09 ~ 2027.01.31 임대기간 2년, 재계약 14회 가능(입주자격 유지시 최장 30년까지 거주가능) 임대조건 시중임대료",
+        "물량변경": null,
+        "수원 잔여물량": null,
+        "신청 시작": "2026-10-26",
+        "신청 종료": "2026-10-28",
+        "열람기간": null,
+        "잔여주택 공개": null,
+        "정정공고": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고 지도 상세보기 닫기 이미지 확대보기 닫기 평면도 동영상보기 - 닫기"
+      },
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:cbc3f52e236e3f0a6aacd0a371ea014f",
+      "applicationEnd": "2026-09-21",
+      "applicationStart": "2026-09-17",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-15",
+          "start": "2026-09-17"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020703&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "fb788ea46f9623dbc4bf8870991f6b587f48ef1838223f11bb72796971d4a593",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]화성시·평택시신혼·신생아매입임대주택Ⅱ(전세형)예비입주자[후순번]모집공고",
+      "panId": "2015122300020703",
+      "postedAt": "2026-09-07",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[경기남부] 화성시·평택시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 [후순번] 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:3ea5799e87f5e06d95cc1a5f1dcfba17",
+      "applicationEnd": "2026-09-21",
+      "applicationStart": "2026-09-17",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-09-17"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020702&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "9bfa53093e4c990b4c46b8af4d4afb12926d5337feec530cbc43982dc30e3fd6",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]용인시신혼·신생아매입임대주택Ⅱ(전세형)예비입주자모집공고",
+      "panId": "2015122300020702",
+      "postedAt": "2026-09-07",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[경기남부] 용인시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:54e035bf3423d6ad74ba6b706886d91a",
+      "applicationEnd": "2026-09-21",
+      "applicationStart": "2026-09-17",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-09-17"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020699&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "d6041afe4e32688e9d0f6659db57a69e2dc601a8499ec9abeb29db529c5a5234",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]용인시청년매입임대주택예비입주자모집공고",
+      "panId": "2015122300020699",
+      "postedAt": "2026-09-07",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[경기남부] 용인시 청년 매입임대주택 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:b0045cc606656d744cbfab37315f4336",
+      "applicationEnd": "2026-12-31",
+      "applicationStart": "2026-09-14",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-12-31",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-09-14"
+        },
+        {
+          "end": "2026-12-31",
+          "label": "ì ìì¤",
+          "resultAt": "2026-12-31",
+          "start": "2026-09-14"
+        }
+      ],
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002866&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "11cf208b057c60927bf4892fa40d5d71d404510a3fb3d49f7968a6bf1c4b498a",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "문산당동3단지내어린이집임차운영자선착순모집공고",
+      "panId": "LN-0002866",
+      "postedAt": "2026-09-04",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "commercial"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "(정정)문산당동3 단지내 어린이집 임차운영자 선착순 모집 공고",
+      "type": "임대상가(추첨)"
+    },
+    {
+      "alertId": "lh:23ae939b19d8da9990de0449a1e6a2e8",
+      "applicationEnd": "2026-09-09",
+      "applicationStart": "2026-09-14",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-09",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-10-30",
+          "start": "2026-09-07"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": true,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020689&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "57d46b16bfa72320dd68036dfa52c928adfefa0cd448e79419e4de18824db506",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기군포·안산·안성·화성시]26년2차기숙사형청년주택예비입주자모집공고",
+      "panId": "2015122300020689",
+      "postedAt": "2026-09-04",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고][경기 군포·안산·안성·화성시] 26년 2차 기숙사형 청년주택 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:464ca57fc9aca5fd4ea480358e953e1d",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-22",
+          "start": "2026-08-25"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020545&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "5d50d533d8757c90f88d35358487e7420ab0b3c3b60feaf6f848618591791681",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "남양주진접2A-4BL신혼희망타운행복주택최초입주자모집공고('26.08.13)",
+      "panId": "2015122300020545",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "남양주진접2 A-4BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.08.13)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:421dc727e32531166d3a621267336831",
+      "applicationEnd": "2026-08-27",
+      "applicationStart": "2026-08-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-27",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-08",
+          "start": "2026-08-25"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020531&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "6d51b6dc8b3d584e219a743afd462ab938b2941448575dfe1f67f76a0e7baf9f",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "이천장호원B2블록통합공공임대주택예비입주자모집공고",
+      "panId": "2015122300020531",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "이천장호원 B2블록 통합공공임대주택 예비입주자 모집공고",
+      "type": "통합공공임대"
+    },
+    {
+      "alertId": "lh:097d43987615eed59e1f17dca168604a",
+      "applicationEnd": "2026-08-20",
+      "applicationStart": "2026-08-18",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-20",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
+          "start": "2026-08-18"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020525&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "e23bf2bee79d4bd1e1012ef6a635395be0d177fe23dbe1f23570a705d476d5d8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "김포시행복주택입주자격완화예비입주자모집('26.08.06.)",
+      "panId": "2015122300020525",
+      "postedAt": "2026-08-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "김포시 행복주택 입주자격완화 예비입주자 모집('26.08.06.)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:e58f08aaf4c650c0da3547f2ea25e4ea",
+      "applicationEnd": "2026-08-13",
+      "applicationStart": "2026-08-11",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-13",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-17",
+          "start": "2026-08-11"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "d160a0935d037683d5515771b0f56025464d8233608583aa8c5d18c94e3bddc7",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "부천대장A5·A6블록신혼희망타운행복주택입주자최초모집",
+      "panId": "2015122300020448",
+      "postedAt": "2026-07-23",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "부천대장 A5·A6블록 신혼희망타운 행복주택 입주자 최초모집",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:8b2ddb25f34595444ec16030500c482f",
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020296&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "45ee0f8ce55baea0d03d5394b480bb8bad9b06793617e5f50b6762df289403f1",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "수원시수원매탄6국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020296",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "수원시 수원매탄6 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:694be68e99c856cfbda3eee6b2ba64ac",
+      "applicationEnd": "2026-07-22",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-22",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020288&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "5c3cb3b3b2ea4f927eadf86a431adf75c4e1f615c18654611d4041e2aa513576",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "하남풍산1단지국민임대주택예비입주자모집공고(2026.7.6.)",
+      "panId": "2015122300020288",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "하남풍산1단지 국민임대주택 예비입주자 모집공고(2026. 7. 6.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:ee2a1d7b7bf1ffc3fb47affc80091906",
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020263&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "543cc09b43b0f1266670a41aacec9a0511bd2c25beea83d9ec1122b949ba88c8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "의왕시지역의왕내손국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020263",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "의왕시 지역 의왕내손 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:d33fc53e5fa79f84915484a6cd7c27c3",
+      "applicationEnd": "2026-07-23",
+      "applicationStart": "2026-07-21",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-21"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020260&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a33c54c601ed5fd464314de54343d8742dd90db42fae910e7c9a1cc0679865af",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "안산시안산고잔16,17단지국민임대주택예비입주자모집(2026.07.06)",
+      "panId": "2015122300020260",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "안산시 안산 고잔16,17단지 국민임대주택 예비입주자 모집(2026.07.06)",
+      "type": "국민임대"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:f63b4b57373bf961227fd1bef045990a",
+      "applicationEnd": "2026-11-24",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-23T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-04",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-24",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2cc88428ad77048ec0de851e72f133b0a9fc18b4e0d52bf8a5644c05fde6f916",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "안산신길2A-6블록신혼희망타운(공공분양)입주자모집공고",
+      "panId": "0000061189",
+      "postedAt": "2026-10-30",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "안산신길2 A-6블록 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    },
+    {
+      "alertId": "lh:e052c71d9604c96c277c9bce9a8ed399",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-09",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "cb2a104e0fc6315f7eae5c7c6b7d9ac49ab9429f618d5cf36e3e41f7f8587603",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "화성시동탄지역행복주택입주자모집공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "panId": "2015122300020958",
+      "postedAt": "2026-10-27",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "화성시 동탄지역 행복주택 입주자 모집 공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:288d47e21336d1fa0872d4ab95c1f0ab",
+      "applicationEnd": "2026-11-04",
+      "applicationStart": "2026-11-02",
+      "broadCandidate": false,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-04",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-03",
+          "start": "2026-11-02"
+        },
+        {
+          "end": "2026-11-04",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-02"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020923&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "05b699ee80817afeba3b8bfdea3b4acdba0a535699d66923e1003dfd82870cfa",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "2026년2차대구경북지역든든전세주택입주자모집공고(비분양전환형)",
+      "panId": "2015122300020923",
+      "postedAt": "2026-10-21",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "대구광역시 외",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(비분양전환형)",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:28bbdaa7a4fd4ee47241a3726147247c",
+      "applicationEnd": "2026-10-23",
+      "applicationStart": "2026-10-21",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-21"
+        },
+        {
+          "end": "2026-10-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
+          "start": "2026-10-21"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원",
+        "화성",
+        "오산"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300020802",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "13e538d1124534ccb8e623b7f523c8ffd46c88f57e0ef8d4d4ad5bd5c7ce7f79",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]든든전세매입임대주택예비입주자모집공고(비분양전환)",
+      "panId": "2015122300020927",
+      "postedAt": "2026-10-19",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[정정공고][경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:906619aa02a90d1497f0bcdac47dc7bd",
+      "applicationEnd": "2026-10-23",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-20"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2f6c1b3ceb253f668fa5b86dd1351183a9a6a0d87ba83446ec8c4907bcc71712",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "장애인자립특화형주택여기가입주자모집공고(경기도김포시)",
+      "panId": "2015122300020880",
+      "postedAt": "2026-10-07",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:6a5e64475ca6ecda8c87ec8de324fc71",
+      "applicationEnd": "2026-10-08",
+      "applicationStart": "2026-10-06",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-08",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-08",
+          "start": "2026-10-06"
+        },
+        {
+          "end": "2026-10-08",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-06"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "88cd59734928ddb37d20bdf6f53505011179564850a99730e210daff08ab3372",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "인천광역시,경기도부천시다자녀매입임대주택예비입주자모집공고",
+      "panId": "2015122300020811",
+      "postedAt": "2026-09-22",
+      "recruitmentKind": "예비입주자",
+      "region": "인천광역시 외",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:c3b9dd14fcc912a4f32ad3907c5068e6",
+      "applicationEnd": "2026-10-28",
+      "applicationStart": "2026-10-26",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-10-28",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-10-26"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원",
+        "화성",
+        "오산"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300020731",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "0f2ec7c8ad9e8c5d59f093c2f41cfb6877621f3d4b47a6732312882f8030c253",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[온라인접수불가,관할주거복지지사현장접수]경기남부지역본부2026년일반매입임대주택입주자모집공고",
+      "panId": "2015122300020769",
+      "postedAt": "2026-09-15",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "tracked": "gyeonggi-south-2026-general-purchase-rental",
+      "trackedSignals": {
+        "결과 발표": "한 정보 제공 홍보물 닫기 ※ 신청건수 : 현재 인터넷 청약신청자 현황을 의미합니다. 공급일정 접수기간 : 당첨자발표일 : 2026.12.09 계약기간 : 2026.12.09 ~ 2027.01.31 임대기간 2년, 재계약 14회 가능(입주자격 유지시 최장 30년까지 거주가능) 임대조건 시중임대료",
+        "물량변경": null,
+        "수원 잔여물량": null,
+        "신청 시작": "2026-10-26",
+        "신청 종료": "2026-10-28",
+        "열람기간": null,
+        "잔여주택 공개": null,
+        "정정공고": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고 지도 상세보기 닫기 이미지 확대보기 닫기 평면도 동영상보기 - 닫기"
+      },
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:cbc3f52e236e3f0a6aacd0a371ea014f",
+      "applicationEnd": "2026-09-21",
+      "applicationStart": "2026-09-17",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-15",
+          "start": "2026-09-17"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020703&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "fb788ea46f9623dbc4bf8870991f6b587f48ef1838223f11bb72796971d4a593",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]화성시·평택시신혼·신생아매입임대주택Ⅱ(전세형)예비입주자[후순번]모집공고",
+      "panId": "2015122300020703",
+      "postedAt": "2026-09-07",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[경기남부] 화성시·평택시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 [후순번] 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:3ea5799e87f5e06d95cc1a5f1dcfba17",
+      "applicationEnd": "2026-09-21",
+      "applicationStart": "2026-09-17",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-09-17"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020702&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "9bfa53093e4c990b4c46b8af4d4afb12926d5337feec530cbc43982dc30e3fd6",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]용인시신혼·신생아매입임대주택Ⅱ(전세형)예비입주자모집공고",
+      "panId": "2015122300020702",
+      "postedAt": "2026-09-07",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[경기남부] 용인시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:54e035bf3423d6ad74ba6b706886d91a",
+      "applicationEnd": "2026-09-21",
+      "applicationStart": "2026-09-17",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-09-17"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020699&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "d6041afe4e32688e9d0f6659db57a69e2dc601a8499ec9abeb29db529c5a5234",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기남부]용인시청년매입임대주택예비입주자모집공고",
+      "panId": "2015122300020699",
+      "postedAt": "2026-09-07",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[경기남부] 용인시 청년 매입임대주택 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:b0045cc606656d744cbfab37315f4336",
+      "applicationEnd": "2026-12-31",
+      "applicationStart": "2026-09-14",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-12-31",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-09-14"
+        },
+        {
+          "end": "2026-12-31",
+          "label": "ì ìì¤",
+          "resultAt": "2026-12-31",
+          "start": "2026-09-14"
+        }
+      ],
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002866&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "11cf208b057c60927bf4892fa40d5d71d404510a3fb3d49f7968a6bf1c4b498a",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "문산당동3단지내어린이집임차운영자선착순모집공고",
+      "panId": "LN-0002866",
+      "postedAt": "2026-09-04",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "commercial"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "(정정)문산당동3 단지내 어린이집 임차운영자 선착순 모집 공고",
+      "type": "임대상가(추첨)"
+    },
+    {
+      "alertId": "lh:23ae939b19d8da9990de0449a1e6a2e8",
+      "applicationEnd": "2026-09-09",
+      "applicationStart": "2026-09-14",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-09",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-10-30",
+          "start": "2026-09-07"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": true,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020689&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "57d46b16bfa72320dd68036dfa52c928adfefa0cd448e79419e4de18824db506",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[경기군포·안산·안성·화성시]26년2차기숙사형청년주택예비입주자모집공고",
+      "panId": "2015122300020689",
+      "postedAt": "2026-09-04",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고][경기 군포·안산·안성·화성시] 26년 2차 기숙사형 청년주택 예비입주자 모집공고",
+      "type": "매입임대"
+    },
+    {
+      "alertId": "lh:464ca57fc9aca5fd4ea480358e953e1d",
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-22",
+          "start": "2026-08-25"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020545&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "5d50d533d8757c90f88d35358487e7420ab0b3c3b60feaf6f848618591791681",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "남양주진접2A-4BL신혼희망타운행복주택최초입주자모집공고('26.08.13)",
+      "panId": "2015122300020545",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "남양주진접2 A-4BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.08.13)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:421dc727e32531166d3a621267336831",
+      "applicationEnd": "2026-08-27",
+      "applicationStart": "2026-08-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-27",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-08",
+          "start": "2026-08-25"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020531&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "6d51b6dc8b3d584e219a743afd462ab938b2941448575dfe1f67f76a0e7baf9f",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "이천장호원B2블록통합공공임대주택예비입주자모집공고",
+      "panId": "2015122300020531",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "이천장호원 B2블록 통합공공임대주택 예비입주자 모집공고",
+      "type": "통합공공임대"
+    },
+    {
+      "alertId": "lh:097d43987615eed59e1f17dca168604a",
+      "applicationEnd": "2026-08-20",
+      "applicationStart": "2026-08-18",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-20",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
+          "start": "2026-08-18"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020525&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "e23bf2bee79d4bd1e1012ef6a635395be0d177fe23dbe1f23570a705d476d5d8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "김포시행복주택입주자격완화예비입주자모집('26.08.06.)",
+      "panId": "2015122300020525",
+      "postedAt": "2026-08-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "김포시 행복주택 입주자격완화 예비입주자 모집('26.08.06.)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:e58f08aaf4c650c0da3547f2ea25e4ea",
+      "applicationEnd": "2026-08-13",
+      "applicationStart": "2026-08-11",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-13",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-17",
+          "start": "2026-08-11"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "d160a0935d037683d5515771b0f56025464d8233608583aa8c5d18c94e3bddc7",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "부천대장A5·A6블록신혼희망타운행복주택입주자최초모집",
+      "panId": "2015122300020448",
+      "postedAt": "2026-07-23",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "부천대장 A5·A6블록 신혼희망타운 행복주택 입주자 최초모집",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:8b2ddb25f34595444ec16030500c482f",
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020296&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "45ee0f8ce55baea0d03d5394b480bb8bad9b06793617e5f50b6762df289403f1",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "수원시수원매탄6국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020296",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "direct",
+      "title": "수원시 수원매탄6 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:694be68e99c856cfbda3eee6b2ba64ac",
+      "applicationEnd": "2026-07-22",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-22",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020288&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "5c3cb3b3b2ea4f927eadf86a431adf75c4e1f615c18654611d4041e2aa513576",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "하남풍산1단지국민임대주택예비입주자모집공고(2026.7.6.)",
+      "panId": "2015122300020288",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "하남풍산1단지 국민임대주택 예비입주자 모집공고(2026. 7. 6.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:ee2a1d7b7bf1ffc3fb47affc80091906",
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020263&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "543cc09b43b0f1266670a41aacec9a0511bd2c25beea83d9ec1122b949ba88c8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "의왕시지역의왕내손국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020263",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "의왕시 지역 의왕내손 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:d33fc53e5fa79f84915484a6cd7c27c3",
+      "applicationEnd": "2026-07-23",
+      "applicationStart": "2026-07-21",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-21"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020260&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-01T02:30:49+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a33c54c601ed5fd464314de54343d8742dd90db42fae910e7c9a1cc0679865af",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "안산시안산고잔16,17단지국민임대주택예비입주자모집(2026.07.06)",
+      "panId": "2015122300020260",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "안산시 안산 고잔16,17단지 국민임대주택 예비입주자 모집(2026.07.06)",
+      "type": "국민임대"
+    }
+  ],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -9786,6 +11879,12 @@
       "calendarSchedules": [
         {
           "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-04",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-24",
           "label": "ì ì",
           "resultAt": "",
           "start": "2026-11-16"
@@ -9820,6 +11919,20 @@
       "applicationEnd": "2026-12-01",
       "applicationStart": "2026-12-01",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-12-01",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-01",
+          "start": "2026-12-01"
+        },
+        {
+          "end": "2026-12-01",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-12-01"
+        }
+      ],
       "category": "land",
       "confirmedRegions": [],
       "correction": false,
@@ -9838,6 +11951,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "land"
       ],
       "status": "공고중",
@@ -10325,6 +12439,12 @@
           "end": "2026-11-12",
           "label": "ì ì",
           "resultAt": "",
+          "start": "2026-11-10"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-09",
           "start": "2026-11-10"
         }
       ],
@@ -11200,7 +13320,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -11586,6 +13705,12 @@
           "label": "ì ì",
           "resultAt": "",
           "start": "2026-10-21"
+        },
+        {
+          "end": "2026-10-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
+          "start": "2026-10-21"
         }
       ],
       "category": "rental",
@@ -11737,7 +13862,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -11840,7 +13964,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -11883,7 +14006,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -11928,7 +14050,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12259,7 +14380,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12302,7 +14422,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12457,7 +14576,7 @@
     },
     {
       "applicationEnd": "2026-10-23",
-      "applicationStart": "2026-10-20",
+      "applicationStart": "",
       "broadCandidate": true,
       "calendarSchedules": [
         {
@@ -12485,7 +14604,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -12558,7 +14676,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12601,7 +14718,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12801,7 +14917,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12872,7 +14987,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12915,7 +15029,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12958,7 +15071,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -12995,7 +15107,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -13238,7 +15349,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "수기추첨",
@@ -13281,7 +15391,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -13352,7 +15461,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -13438,7 +15546,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "commercial"
       ],
       "status": "접수마감",
@@ -13667,7 +15774,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -13710,7 +15816,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -13747,7 +15852,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "commercial"
       ],
       "status": "접수마감",
@@ -13896,7 +16000,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -13948,7 +16051,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
       "status": "접수마감",
@@ -14125,7 +16227,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -14197,6 +16298,12 @@
       "calendarSchedules": [
         {
           "end": "2026-10-08",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-08",
+          "start": "2026-10-06"
+        },
+        {
+          "end": "2026-10-08",
           "label": "ì ì",
           "resultAt": "",
           "start": "2026-10-06"
@@ -14257,7 +16364,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -14358,7 +16464,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -14543,7 +16648,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -14588,7 +16692,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -14642,7 +16745,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
       "status": "접수마감",
@@ -14688,7 +16790,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -14902,6 +17003,12 @@
           "end": "2026-10-28",
           "label": "ì ì",
           "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
           "start": "2026-10-26"
         }
       ],
@@ -15601,6 +17708,14 @@
       "applicationEnd": "2026-09-30",
       "applicationStart": "2026-09-30",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-30",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-18",
+          "start": "2026-09-30"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": false,
@@ -15619,6 +17734,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -15797,6 +17913,14 @@
       "applicationEnd": "2026-09-02",
       "applicationStart": "2026-08-31",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-02",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-08-31"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": true,
@@ -15815,6 +17939,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -15919,7 +18044,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "commercial"
       ],
       "status": "접수마감",
@@ -16079,6 +18203,14 @@
       "applicationEnd": "2026-09-23",
       "applicationStart": "2026-09-21",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-16",
+          "start": "2026-09-21"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": true,
@@ -16097,6 +18229,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16105,8 +18238,16 @@
     },
     {
       "applicationEnd": "2026-09-21",
-      "applicationStart": "2026-09-28",
+      "applicationStart": "2026-09-17",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-15",
+          "start": "2026-09-17"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [
         "화성"
@@ -16127,6 +18268,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16135,8 +18277,16 @@
     },
     {
       "applicationEnd": "2026-09-21",
-      "applicationStart": "2026-09-28",
+      "applicationStart": "2026-09-17",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-09-17"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": false,
@@ -16155,6 +18305,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16163,8 +18314,16 @@
     },
     {
       "applicationEnd": "2026-09-21",
-      "applicationStart": "2026-09-28",
+      "applicationStart": "2026-09-17",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
+          "start": "2026-09-17"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": false,
@@ -16183,6 +18342,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16193,6 +18353,14 @@
       "applicationEnd": "2026-09-30",
       "applicationStart": "2026-09-28",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-30",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-09-28"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": false,
@@ -16211,6 +18379,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16221,6 +18390,14 @@
       "applicationEnd": "2026-09-21",
       "applicationStart": "2026-09-21",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-16",
+          "start": "2026-09-21"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [
         "화성"
@@ -16241,6 +18418,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16369,6 +18547,12 @@
           "label": "ì ì",
           "resultAt": "",
           "start": "2026-09-14"
+        },
+        {
+          "end": "2026-12-31",
+          "label": "ì ìì¤",
+          "resultAt": "2026-12-31",
+          "start": "2026-09-14"
         }
       ],
       "category": "commercial",
@@ -16438,7 +18622,7 @@
     },
     {
       "applicationEnd": "2026-09-09",
-      "applicationStart": "2026-09-07",
+      "applicationStart": "2026-09-14",
       "broadCandidate": true,
       "calendarSchedules": [
         {
@@ -16468,7 +18652,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16560,6 +18743,14 @@
       "applicationEnd": "2026-09-18",
       "applicationStart": "2026-09-16",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-18",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-18",
+          "start": ""
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": false,
@@ -16578,6 +18769,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -16717,7 +18909,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
       "status": "접수마감",
@@ -18036,7 +20227,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -18079,7 +20269,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -18163,7 +20352,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
       "status": "접수마감",
@@ -18689,6 +20877,14 @@
       "applicationEnd": "2026-09-04",
       "applicationStart": "2026-08-31",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-04",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-03",
+          "start": ""
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": false,
@@ -18707,6 +20903,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -18949,6 +21146,14 @@
       "applicationEnd": "2026-09-02",
       "applicationStart": "2026-08-31",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-02",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-30",
+          "start": "2026-08-31"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [],
       "correction": false,
@@ -18967,6 +21172,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -19134,6 +21340,76 @@
       "status": "접수마감",
       "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
       "type": "매입임대"
+    },
+    {
+      "applicationEnd": "2026-08-28",
+      "applicationStart": "2026-08-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-22",
+          "start": "2026-08-25"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020545&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "남양주진접2A-4BL신혼희망타운행복주택최초입주자모집공고('26.08.13)",
+      "panId": "2015122300020545",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "남양주진접2 A-4BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.08.13)",
+      "type": "행복주택"
+    },
+    {
+      "applicationEnd": "2026-08-27",
+      "applicationStart": "2026-08-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-27",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-08",
+          "start": "2026-08-25"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020531&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "이천장호원B2블록통합공공임대주택예비입주자모집공고",
+      "panId": "2015122300020531",
+      "postedAt": "2026-08-13",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "이천장호원 B2블록 통합공공임대주택 예비입주자 모집공고",
+      "type": "통합공공임대"
     },
     {
       "applicationEnd": "",
@@ -19372,6 +21648,41 @@
       "type": "공공분양(신혼희망)"
     },
     {
+      "applicationEnd": "2026-08-20",
+      "applicationStart": "2026-08-18",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-20",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
+          "start": "2026-08-18"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020525&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "김포시행복주택입주자격완화예비입주자모집('26.08.06.)",
+      "panId": "2015122300020525",
+      "postedAt": "2026-08-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "김포시 행복주택 입주자격완화 예비입주자 모집('26.08.06.)",
+      "type": "행복주택"
+    },
+    {
       "applicationEnd": "",
       "applicationStart": "",
       "broadCandidate": true,
@@ -19491,7 +21802,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020515&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -19681,7 +21992,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020480&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -19809,7 +22120,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020466&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -19884,7 +22195,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020462&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -19950,7 +22261,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020387&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -20083,6 +22394,41 @@
       "status": "",
       "title": "화성동탄2 주거전용 단독주택용지 공급 공고 추첨결과 및 계약체결 안내사항 게시",
       "type": "주택용지"
+    },
+    {
+      "applicationEnd": "2026-08-13",
+      "applicationStart": "2026-08-11",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-08-13",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-17",
+          "start": "2026-08-11"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "부천대장A5·A6블록신혼희망타운행복주택입주자최초모집",
+      "panId": "2015122300020448",
+      "postedAt": "2026-07-23",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "부천대장 A5·A6블록 신혼희망타운 행복주택 입주자 최초모집",
+      "type": "행복주택"
     },
     {
       "applicationEnd": "",
@@ -20454,7 +22800,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020398&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -20952,7 +23298,7 @@
       "confirmedRegions": [],
       "correction": true,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020328&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -21081,6 +23427,78 @@
       "type": "국민임대"
     },
     {
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020296&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "수원시수원매탄6국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020296",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "수원시 수원매탄6 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
+      "applicationEnd": "2026-07-22",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-22",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020288&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "하남풍산1단지국민임대주택예비입주자모집공고(2026.7.6.)",
+      "panId": "2015122300020288",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "하남풍산1단지 국민임대주택 예비입주자 모집공고(2026. 7. 6.)",
+      "type": "국민임대"
+    },
+    {
       "applicationEnd": "2026-07-22",
       "applicationStart": "2026-07-21",
       "broadCandidate": true,
@@ -21186,6 +23604,76 @@
       ],
       "status": "접수마감",
       "title": "용인시 용인구갈8 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020263&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "의왕시지역의왕내손국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020263",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "의왕시 지역 의왕내손 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
+      "applicationEnd": "2026-07-23",
+      "applicationStart": "2026-07-21",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-21"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020260&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "안산시안산고잔16,17단지국민임대주택예비입주자모집(2026.07.06)",
+      "panId": "2015122300020260",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "안산시 안산 고잔16,17단지 국민임대주택 예비입주자 모집(2026.07.06)",
       "type": "국민임대"
     },
     {
@@ -21362,7 +23850,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020255&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -21401,7 +23889,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020240&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -21437,7 +23925,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020239&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -21707,7 +24195,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020173&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -21887,7 +24375,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020139&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -22341,7 +24829,7 @@
       ],
       "correction": true,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -22721,7 +25209,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020019&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -23359,7 +25847,7 @@
       "confirmedRegions": [],
       "correction": true,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019909&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -23395,7 +25883,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019878&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -23431,7 +25919,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019859&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -23989,7 +26477,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019773&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -24139,7 +26627,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019728&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -53250,7 +55738,853 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [],
+  "changed": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "0000061189",
+      "title": "안산신길2 A-6블록 신혼희망타운(공공분양) 입주자모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020958",
+      "title": "화성시 동탄지역 행복주택 입주자 모집 공고[입주자격완화/선계약후검증]('26.10.27.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020964&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020964",
+      "title": "[정정공고]익산부송3단지 50년 공공임대 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020945&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020945",
+      "title": "[정정공고][인천지역본부] 일반 매입임대주택 입주자 모집 공고(인천,부천)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020918&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020918",
+      "title": "[전북지역본부]2026년 2차 군산시 분양전환형 든든전세주택 입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020923&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020923",
+      "title": "2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(비분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020929&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020929",
+      "title": "[정정공고]2026년 2차 대구경북지역 든든전세주택 입주자 모집공고(분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020927",
+      "title": "[정정공고][경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008090&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "BN-0008090",
+      "title": "인천남동도시첨단산업단지 산업시설용지 7차 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020922&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020922",
+      "title": "[제주지역본부-제주시] 든든전세주택 (예비)입주자 모집 공고(분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020909&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020909",
+      "title": "양산시 행복주택 입주자격완화 예비입주자 모집공고(2026.10.15.공고)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020879&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020879",
+      "title": "음성금왕1 50년공공임대주택 예비입주자 모집 공고[2026.10.14]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020899&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020899",
+      "title": "충주신한강변 국민임대주택 예비입주자 자격완화 공고[2026.10.13]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020880",
+      "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020876&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020876",
+      "title": "[정정공고]2026년 3차 대구경북지역 신혼ㆍ신생아Ⅰ매입임대 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020842&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020842",
+      "title": "[제주지역본부-제주시] 청년 매입임대주택 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020835&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020835",
+      "title": "[제주지역본부-제주시] 든든전세주택 (예비)입주자 모집 공고(분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020834&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020834",
+      "title": "[제주지역본부-서귀포시] 든든전세주택 (예비)입주자 모집 공고(비분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020821&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020821",
+      "title": "[전북지역본부]2026년 3차 청년매입임대주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020815&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020815",
+      "title": "[전북지역본부]2026년 3차 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020814&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020814",
+      "title": "[전북지역본부]2026년 3차 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020841&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020841",
+      "title": "2026년 3차 대구경북지역 신혼ㆍ신생아Ⅱ(전세형) 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020839&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020839",
+      "title": "2026년 3차 대구경북(구미)지역 기숙사형 청년주택 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020838&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020838",
+      "title": "2026년 3차 대구경북지역 청년매입임대 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020787&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020787",
+      "title": "[대전충남] 2026년 9월 신혼·신생아 II (전세형) 매입임대주택 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020761&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020761",
+      "title": "[대전충남] 2026년 9월 신혼·신생아 I 매입임대주택 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020811&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020811",
+      "title": "인천광역시, 경기도 부천시 다자녀 매입임대주택 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020770&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020770",
+      "title": "[인천지역본부] 26년 2차 고령자 매입임대주택 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020768&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020768",
+      "title": "[인천지역본부] 26년 2차 일반 매입임대주택 예비입주자 모집(인천,부천)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020808&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020808",
+      "title": "[정정공고][인천]26년 7차 신혼·신생아Ⅱ(전세형) 예비입주자 모집공고(인천,부천)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020804&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020804",
+      "title": "제주 일도.삼도행복주택 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020819&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020819",
+      "title": "[정정공고][광주전남지역본부] 기숙사형 청년주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020798&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020798",
+      "title": "[인천지역본부] 26년 7차 청년 매입임대주택 예비입주자 모집공고(인천,부천)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020795&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020795",
+      "title": "[인천]26년 7차 신혼·신생아Ⅰ 예비입주자 모집공고(인천,부천)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020791&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020791",
+      "title": "[정정공고][부산울산]신혼부부Ⅰ 매입임대주택 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020790&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020790",
+      "title": "[부산]청년매입임대주택 예비입주자 모집 공고(복사)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020789&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020789",
+      "title": "[부산울산]신혼부부Ⅱ(전세형) 매입임대주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020784&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020784",
+      "title": "[광주전남지역본부] 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020778&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020778",
+      "title": "[충북지역본부]청년 매입임대주택 예비입주자 모집 공고(260917)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020777&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020777",
+      "title": "[광주전남지역본부] 신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020776&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020776",
+      "title": "[충북지역본부]신혼·신생아 매입임대주택Ⅰ 예비입주자 모집공고(260917)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020774&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020774",
+      "title": "[충북지역본부]신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고(260917)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020773&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020773",
+      "title": "[광주전남지역본부] 청년 매입임대주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020759&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020759",
+      "title": "[서울지역본부] 26년 3차 청년 매입임대주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020750&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020750",
+      "title": "[서울지역본부] 26년 3차 신혼·신생아 매입임대Ⅰ 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020749&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020749",
+      "title": "[서울지역본부] 26년 3차 신혼·신생아매입임대주택Ⅱ(전세형) 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020786&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020786",
+      "title": "[정정공고]칠곡북삼휴먼시아 국민임대주택 예비입주자 모집(45형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020809&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020809",
+      "title": "[정정공고]대구서부권 고령다산2 국민임대 입주자격완화 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020769",
+      "title": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020733&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020733",
+      "title": "전주시, 완주군 국민임대주택 예비입주자 모집 공고('26.9.15.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020726&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020726",
+      "title": "아산지역 국민임대주택 예비입주자 모집공고(2026.09.15)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020709&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020709",
+      "title": "경북서부지역(구미시, 김천시, 의성군) 국민임대 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020723&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020723",
+      "title": "[경남지역본부]26년 3차 신혼·신생아매입임대Ⅱ(전세형) 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020722&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020722",
+      "title": "[경남지역본부]26년 3차 신혼·신생아매입임대Ⅰ 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020717&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020717",
+      "title": "[경남지역본부]26년 3차 청년매입임대 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020705&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020705",
+      "title": "[전남광주통합특별시] 기존주택 등 매입임대주택 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020703&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020703",
+      "title": "[경기남부] 화성시·평택시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 [후순번] 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020702&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020702",
+      "title": "[경기남부] 용인시 신혼·신생아 매입임대주택Ⅱ(전세형) 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020699&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020699",
+      "title": "[경기남부] 용인시 청년 매입임대주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002866&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "calendarSchedules"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "LN-0002866",
+      "title": "(정정)문산당동3 단지내 어린이집 임차운영자 선착순 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020689&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020689",
+      "title": "[정정공고][경기 군포·안산·안성·화성시] 26년 2차 기숙사형 청년주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020654&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020654",
+      "title": "[정정공고][정정공고][경북 포항,경주,영천] 일반 매입임대 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020553&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020553",
+      "title": "[경기북부] 2026년 3차 비분양전환형 든든전세주택 입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020597&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020597",
+      "title": "[광주전남지역본부] 2026년 든든전세주택 입주자 모집공고(분양전환형)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020571&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "fields": [
+        "applicationStart"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "deadlineChanged"
+      ],
+      "panId": "2015122300020571",
+      "title": "[충북지역본부] 든든전세주택 입주자 모집공고(비분양전환)"
+    }
+  ],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -53352,6 +56686,12 @@
           "end": "2026-10-23",
           "label": "ì ì",
           "resultAt": "",
+          "start": "2026-10-21"
+        },
+        {
+          "end": "2026-10-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
           "start": "2026-10-21"
         }
       ],
@@ -53499,7 +56839,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
       "status": "접수마감",
@@ -53515,6 +56854,12 @@
           "end": "2026-10-28",
           "label": "ì ì",
           "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
           "start": "2026-10-26"
         }
       ],
@@ -54174,7 +57519,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020480&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -54213,7 +57558,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020462&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -54264,6 +57609,43 @@
       "type": "주택용지"
     },
     {
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020296&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "수원시수원매탄6국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020296",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "수원시 수원매탄6 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
       "applicationEnd": "2026-07-15",
       "applicationStart": "2026-07-13",
       "broadCandidate": true,
@@ -54282,7 +57664,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020240&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -54320,7 +57702,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020223&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -54448,7 +57830,7 @@
       ],
       "correction": true,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -55094,20 +58476,281 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020545&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020545",
+      "relatedPanId": "",
+      "title": "남양주진접2 A-4BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.08.13)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020531&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020531",
+      "relatedPanId": "",
+      "title": "이천장호원 B2블록 통합공공임대주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020524&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020524",
+      "relatedPanId": "",
+      "title": "광주하남1 영구임대주택 예비입주자 모집 공고(공고일: 2026.08.10.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020522&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020522",
+      "relatedPanId": "",
+      "title": "경산시 영구임대주택 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020525&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020525",
+      "relatedPanId": "",
+      "title": "김포시 행복주택 입주자격완화 예비입주자 모집('26.08.06.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020546&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "panId": "2015122300020546",
+      "relatedPanId": "",
+      "title": "[정정공고]인천 미추홀구.영종구 행복주택 예비입주자 모집(2026.08.05)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020451&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020451",
+      "relatedPanId": "",
+      "title": "[신규모집] 인천시청역 힐스테이트(백운주택 1구역 주택재개발정비사업) 행복주택 입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020314&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020314",
+      "relatedPanId": "",
+      "title": "서울공릉 신혼희망타운 행복주택"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020441&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020441",
+      "relatedPanId": "",
+      "title": "인제서화 고령자복지주택(국민임대) 추가 입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020439&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020439",
+      "relatedPanId": "",
+      "title": "인제서화 고령자복지주택(영구임대) 추가 입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020448",
+      "relatedPanId": "",
+      "title": "부천대장 A5·A6블록 신혼희망타운 행복주택 입주자 최초모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020393&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020393",
+      "relatedPanId": "",
+      "title": "영암,해남,장흥지역 국민임대주택 예비입주자 모집(2026.07.15.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020386&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020386",
+      "relatedPanId": "",
+      "title": "괴산동부 행복마을 국민임대주택 예비입주자 모집[2026.07.15]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020384&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020384",
+      "relatedPanId": "",
+      "title": "증평군지역 국민임대주택 예비입주자 모집[2026.07.15]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020367&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020367",
+      "relatedPanId": "",
+      "title": "경북서부지역(구미시, 김천시, 의성군) 국민임대 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020357&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020357",
+      "relatedPanId": "",
+      "title": "철원갈말2 행복주택 입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020325&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020325",
+      "relatedPanId": "",
+      "title": "부산연지자이2차 잔여세대 일반매각 공고 (선착순 동호지정)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020296&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020296",
+      "relatedPanId": "",
+      "title": "수원시 수원매탄6 국민임대 예비입주자 모집공고(2026.07.06.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020288&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020288",
+      "relatedPanId": "",
+      "title": "하남풍산1단지 국민임대주택 예비입주자 모집공고(2026. 7. 6.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020263&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020263",
+      "relatedPanId": "",
+      "title": "의왕시 지역 의왕내손 국민임대 예비입주자 모집공고(2026.07.06.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020260&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020260",
+      "relatedPanId": "",
+      "title": "안산시 안산 고잔16,17단지 국민임대주택 예비입주자 모집(2026.07.06)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020098&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020098",
+      "relatedPanId": "",
+      "title": "창원시 매입임대 잔여주택 일반매각 선착순 동호지정 공고(상시, 유주택자 계약가능)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020037&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020037",
+      "relatedPanId": "",
+      "title": "양산시 매입임대 잔여주택 일반매각 선착순 동호지정 공고(상시, 유주택자 계약가능)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019618&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "panId": "2015122300019618",
+      "relatedPanId": "",
+      "title": "[정정공고]대구경북 다세대주택 잔여세대 선착순 일반매각 공고 [유주택자·법인 계약가능]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019178&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "panId": "2015122300019178",
+      "relatedPanId": "",
+      "title": "[정정공고]전북권 다세대주택 분양전환 후 잔여세대 일반매각 공고(삼천리버빌 등 7개단지, 동호지정 계약)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019177&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "panId": "2015122300019177",
+      "relatedPanId": "",
+      "title": "[정정공고]전북권 임대주택 분양전환 후 잔여세대 일반매각 공고(동호지정 계약)"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 1252,
-      "checkedAt": "2026-10-31T21:54:28+09:00",
+      "calendarRowCount": 798,
+      "checkedAt": "2026-11-01T02:30:49+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 521,
+      "parsedCount": 342,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 521,
+      "totalCount": 342,
       "totalPages": 2
     },
     "documents": {
@@ -55248,7 +58891,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-10-31T21:54:28+09:00",
+  "syncedAt": "2026-11-01T02:30:49+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
@@ -55395,6 +59038,12 @@
           "label": "ì ì",
           "resultAt": "",
           "start": "2026-11-10"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-09",
+          "start": "2026-11-10"
         }
       ],
       "category": "rental",
@@ -55459,6 +59108,12 @@
       "applicationStart": "2026-11-02",
       "broadCandidate": false,
       "calendarSchedules": [
+        {
+          "end": "2026-11-04",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-03",
+          "start": "2026-11-02"
+        },
         {
           "end": "2026-11-04",
           "label": "ì ì",
@@ -55547,6 +59202,12 @@
           "end": "2026-10-23",
           "label": "ì ì",
           "resultAt": "",
+          "start": "2026-10-21"
+        },
+        {
+          "end": "2026-10-23",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-02",
           "start": "2026-10-21"
         }
       ],
@@ -55677,7 +59338,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -55962,7 +59622,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -56167,7 +59826,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -56264,7 +59922,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
       "status": "접수마감",
@@ -56369,7 +60026,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -56414,7 +60070,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "land"
       ],
       "status": "접수마감",
@@ -56460,7 +60115,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -56506,6 +60160,12 @@
           "end": "2026-10-28",
           "label": "ì ì",
           "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
           "start": "2026-10-26"
         }
       ],
@@ -56918,8 +60578,16 @@
     },
     {
       "applicationEnd": "2026-09-21",
-      "applicationStart": "2026-09-28",
+      "applicationStart": "2026-09-17",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-15",
+          "start": "2026-09-17"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [
         "화성"
@@ -56940,6 +60608,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -56950,6 +60619,14 @@
       "applicationEnd": "2026-09-21",
       "applicationStart": "2026-09-21",
       "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-09-21",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-16",
+          "start": "2026-09-21"
+        }
+      ],
       "category": "rental",
       "confirmedRegions": [
         "화성"
@@ -56970,6 +60647,7 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
+        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -57018,7 +60696,7 @@
     },
     {
       "applicationEnd": "2026-09-09",
-      "applicationStart": "2026-09-07",
+      "applicationStart": "2026-09-14",
       "broadCandidate": true,
       "calendarSchedules": [
         {
@@ -57048,7 +60726,6 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "rental"
       ],
       "status": "접수마감",
@@ -58006,7 +61683,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020499&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -58074,7 +61751,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020515&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -58180,7 +61857,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020480&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -58219,7 +61896,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020462&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -58257,7 +61934,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020387&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -58608,6 +62285,43 @@
       "type": "상가용지"
     },
     {
+      "applicationEnd": "2026-07-24",
+      "applicationStart": "2026-07-22",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-07-24",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-11",
+          "start": "2026-07-22"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020296&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "수원시수원매탄6국민임대예비입주자모집공고(2026.07.06.)",
+      "panId": "2015122300020296",
+      "postedAt": "2026-07-06",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar"
+      ],
+      "status": "접수마감",
+      "title": "수원시 수원매탄6 국민임대 예비입주자 모집공고(2026.07.06.)",
+      "type": "국민임대"
+    },
+    {
       "applicationEnd": "",
       "applicationStart": "",
       "broadCandidate": true,
@@ -58656,7 +62370,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020240&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -58814,7 +62528,7 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020223&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -59182,7 +62896,7 @@
       ],
       "correction": true,
       "correctionOf": "",
-      "currentlyListed": true,
+      "currentlyListed": false,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -64144,6 +67858,12 @@
           "end": "2026-10-28",
           "label": "ì ì",
           "resultAt": "",
+          "start": "2026-10-26"
+        },
+        {
+          "end": "2026-10-28",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-12-09",
           "start": "2026-10-26"
         }
       ],
