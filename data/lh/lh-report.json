@@ -10695,45 +10695,7 @@
       "type": "토지"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:37fbaf1739267f6b2553a2ddbfb2cb25",
-      "applicationEnd": "",
-      "applicationStart": "",
-      "broadCandidate": true,
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008135&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-11-01T08:47:31+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "f97e396d2243f2419cc40f11e5a4002470993923fc2f20b5f461937b7c167e2d",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "남양주양정역세권도시개발사업기업이전용지공급공고",
-      "panId": "BN-0008135",
-      "postedAt": "2026-10-30",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "전국",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "land"
-      ],
-      "status": "상담요청",
-      "suwonMatch": "broadCandidate",
-      "title": "남양주양정역세권 도시개발사업 기업이전용지 공급공고",
-      "type": "토지"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -10801,6 +10763,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008135&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -56694,25 +56657,14 @@
       "type": "매입임대"
     }
   ],
-  "new": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008135&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008135",
-      "relatedPanId": "",
-      "title": "남양주양정역세권 도시개발사업 기업이전용지 공급공고"
-    }
-  ],
+  "new": [],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 808,
-      "checkedAt": "2026-11-01T08:47:31+09:00",
+      "checkedAt": "2026-11-01T12:45:43+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -56859,7 +56811,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-01T08:47:31+09:00",
+  "syncedAt": "2026-11-01T12:45:43+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
