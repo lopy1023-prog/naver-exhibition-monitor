@@ -56664,7 +56664,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 808,
-      "checkedAt": "2026-11-01T12:45:43+09:00",
+      "checkedAt": "2026-11-01T19:49:43+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -56811,7 +56811,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-01T12:45:43+09:00",
+  "syncedAt": "2026-11-01T19:49:43+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
