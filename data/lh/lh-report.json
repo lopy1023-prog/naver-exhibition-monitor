@@ -15622,11 +15622,233 @@
       "suwonMatch": "broadCandidate",
       "title": "한양대학교 ERICA 캠퍼스혁신파크 산학연혁신허브 입점자 모집 공고",
       "type": "임대상가(공모ㆍ심사)"
-    }
-  ],
-  "alerts": [
+    },
     {
-      "alertId": "lh:ea7eb9815273c3653abaa166bdd7421d",
+      "alertId": "lh:3df1b9407d68a12844833dc907f9e7c2",
+      "applicationEnd": "2026-11-23",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-23"
+        },
+        {
+          "end": "2026-11-23",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-23",
+          "start": "2026-11-23"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008148&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "cc92fc6ff40bd947830725e56fd92a148b80c8a859ac60fe46d9eceead0d7d74",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남낙생근린생활시설용지및성남고등일반업무시설용지공급공고",
+      "panId": "BN-0008148",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남낙생 근린생활시설용지 및 성남고등 일반업무시설용지 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:4a188acb6fba85ad3271771c435992af",
+      "applicationEnd": "2026-11-23",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-23"
+        },
+        {
+          "end": "2026-11-23",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-23",
+          "start": "2026-11-23"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008147&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "db873a0c736d870fd2fae66dd0f97019db7bd7f04d3c6833bbcda708275804fe",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남고등근린생활시설,이천중리일반상업및점포겸용단독주택공급공고",
+      "panId": "BN-0008147",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남고등 근린생활시설, 이천중리 일반상업 및 점포겸용 단독주택 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:a53e03e0c9b6de3c86108e75c7eac793",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008139&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2b9e49f2192734ba54ab3c4d7d1a976c5b941efcabf5f96f278959a3b90c8a4e",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "파주운정도시지원시설용지선착순수의계약재공고[중개알선대상토지포함]",
+      "panId": "BN-0008139",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "파주운정 도시지원시설용지 선착순 수의계약 재공고[중개알선대상토지포함]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:30e21454ed4b06ae83d04915a867be59",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-05",
+      "broadCandidate": true,
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021004&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2b86335f118d0bdde1549b6764c4ead583527fad5b1c85f27466078e9c8e1b01",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "파주시중소기업체기관공급(행복주택)",
+      "panId": "2015122300021004",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "파주시 중소기업체 기관공급(행복주택)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:99dfc5d6ca6ec5a9d0f5ea0f62837a40",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "9109f062c6cc3776ed0359b8f10e156872c5869d7e9dd4c2a7ad5b4f6b348774",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "연천전곡1단지국민임대주택예비입주자모집공고(2026.11.05.)",
+      "panId": "2015122300020996",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:05be110e91b316b1e82dc43f82a696d3",
       "applicationEnd": "2026-11-05",
       "applicationStart": "2026-11-05",
       "broadCandidate": true,
@@ -15639,7 +15861,7 @@
         },
         {
           "end": "2026-11-05",
-          "label": "ê³µê³ ì¤",
+          "label": "ì ìì¤",
           "resultAt": "2026-11-05",
           "start": "2026-11-05"
         }
@@ -15650,25 +15872,79 @@
       "correctionOf": "",
       "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008106&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-11-05T06:15:15+09:00",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "58b6057b045866b0323af6c81e4d03f360745263a15ddfc14b6dadfd97cbb71b",
-      "kind": "receptionStart",
+      "eventSignature": "97b652ca3a15d5faf1d5422f2adb1796b52b7347c0c38066d4351b9072201e53",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
       "kinds": [
-        "receptionStarted"
+        "changed",
+        "statusChanged"
       ],
       "needsReview": false,
       "noticeFamily": "성남복정1지구근린생활시설·주차장용지재공급공고",
-      "officialStarts": [
-        "2026-11-05"
-      ],
       "panId": "BN-0008106",
       "postedAt": "2026-10-22",
-      "receptionEvidence": "officialStartDate",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
-      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고",
+      "type": "토지"
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "lh:3df1b9407d68a12844833dc907f9e7c2",
+      "applicationEnd": "2026-11-23",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-23"
+        },
+        {
+          "end": "2026-11-23",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-23",
+          "start": "2026-11-23"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008148&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "cc92fc6ff40bd947830725e56fd92a148b80c8a859ac60fe46d9eceead0d7d74",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남낙생근린생활시설용지및성남고등일반업무시설용지공급공고",
+      "panId": "BN-0008148",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
       "requiresSuwonReview": true,
       "reviewReason": [],
       "roomCount": null,
@@ -15679,62 +15955,414 @@
       ],
       "status": "공고중",
       "suwonMatch": "broadCandidate",
-      "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고",
+      "title": "성남낙생 근린생활시설용지 및 성남고등 일반업무시설용지 공급 공고",
       "type": "토지"
     },
     {
-      "alertId": "lh:42b25be0b5843ab323b9deaf6567ca21",
-      "applicationEnd": "2026-11-13",
-      "applicationStart": "2026-11-05",
+      "alertId": "lh:4a188acb6fba85ad3271771c435992af",
+      "applicationEnd": "2026-11-23",
+      "applicationStart": "2026-11-23",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-11-13",
+          "end": "2026-11-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-23"
+        },
+        {
+          "end": "2026-11-23",
           "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-30",
-          "start": ""
+          "resultAt": "2026-11-23",
+          "start": "2026-11-23"
         }
       ],
-      "category": "commercial",
+      "category": "land",
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020857&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
-      "detectedAt": "2026-11-05T06:15:15+09:00",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008147&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "8d04f630f139c53bbff74f31a70874e2dd45775680b84a581753c3605ccde30f",
-      "kind": "receptionStart",
+      "eventSignature": "db873a0c736d870fd2fae66dd0f97019db7bd7f04d3c6833bbcda708275804fe",
+      "kind": "new",
       "kinds": [
-        "receptionStarted"
+        "new"
       ],
       "needsReview": false,
-      "noticeFamily": "한양대학교ERICA캠퍼스혁신파크산학연혁신허브입점자모집공고",
-      "officialStarts": [
-        "2026-11-05"
-      ],
-      "panId": "2015122300020857",
-      "postedAt": "2026-09-30",
-      "receptionEvidence": "officialStartDate",
+      "noticeFamily": "성남고등근린생활시설,이천중리일반상업및점포겸용단독주택공급공고",
+      "panId": "BN-0008147",
+      "postedAt": "2026-11-05",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
-      "requiresEligibilityReview": true,
+      "relatedPanId": "",
       "requiresSuwonReview": true,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
-        "commercial"
+        "land"
       ],
       "status": "공고중",
       "suwonMatch": "broadCandidate",
-      "title": "한양대학교 ERICA 캠퍼스혁신파크 산학연혁신허브 입점자 모집 공고",
-      "type": "임대상가(공모ㆍ심사)"
+      "title": "성남고등 근린생활시설, 이천중리 일반상업 및 점포겸용 단독주택 공급 공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:a53e03e0c9b6de3c86108e75c7eac793",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008139&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2b9e49f2192734ba54ab3c4d7d1a976c5b941efcabf5f96f278959a3b90c8a4e",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "파주운정도시지원시설용지선착순수의계약재공고[중개알선대상토지포함]",
+      "panId": "BN-0008139",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "파주운정 도시지원시설용지 선착순 수의계약 재공고[중개알선대상토지포함]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:30e21454ed4b06ae83d04915a867be59",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-05",
+      "broadCandidate": true,
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021004&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2b86335f118d0bdde1549b6764c4ead583527fad5b1c85f27466078e9c8e1b01",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "파주시중소기업체기관공급(행복주택)",
+      "panId": "2015122300021004",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "파주시 중소기업체 기관공급(행복주택)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:99dfc5d6ca6ec5a9d0f5ea0f62837a40",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "9109f062c6cc3776ed0359b8f10e156872c5869d7e9dd4c2a7ad5b4f6b348774",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "연천전곡1단지국민임대주택예비입주자모집공고(2026.11.05.)",
+      "panId": "2015122300020996",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:05be110e91b316b1e82dc43f82a696d3",
+      "applicationEnd": "2026-11-05",
+      "applicationStart": "2026-11-05",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-05",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-05"
+        },
+        {
+          "end": "2026-11-05",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-05",
+          "start": "2026-11-05"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008106&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-05T10:30:01+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "97b652ca3a15d5faf1d5422f2adb1796b52b7347c0c38066d4351b9072201e53",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "성남복정1지구근린생활시설·주차장용지재공급공고",
+      "panId": "BN-0008106",
+      "postedAt": "2026-10-22",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고",
+      "type": "토지"
     }
   ],
   "broadCandidates": [
+    {
+      "applicationEnd": "2026-11-23",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-23"
+        },
+        {
+          "end": "2026-11-23",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-23",
+          "start": "2026-11-23"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008148&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "성남낙생근린생활시설용지및성남고등일반업무시설용지공급공고",
+      "panId": "BN-0008148",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "title": "성남낙생 근린생활시설용지 및 성남고등 일반업무시설용지 공급 공고",
+      "type": "토지"
+    },
+    {
+      "applicationEnd": "2026-11-23",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-23",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-23"
+        },
+        {
+          "end": "2026-11-23",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-23",
+          "start": "2026-11-23"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008147&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "성남고등근린생활시설,이천중리일반상업및점포겸용단독주택공급공고",
+      "panId": "BN-0008147",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "공고중",
+      "title": "성남고등 근린생활시설, 이천중리 일반상업 및 점포겸용 단독주택 공급 공고",
+      "type": "토지"
+    },
+    {
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008139&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "파주운정도시지원시설용지선착순수의계약재공고[중개알선대상토지포함]",
+      "panId": "BN-0008139",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "title": "파주운정 도시지원시설용지 선착순 수의계약 재공고[중개알선대상토지포함]",
+      "type": "토지"
+    },
+    {
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-05",
+      "broadCandidate": true,
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021004&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "파주시중소기업체기관공급(행복주택)",
+      "panId": "2015122300021004",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "공고중",
+      "title": "파주시 중소기업체 기관공급(행복주택)",
+      "type": "행복주택"
+    },
+    {
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "연천전곡1단지국민임대주택예비입주자모집공고(2026.11.05.)",
+      "panId": "2015122300020996",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
+      "type": "국민임대"
+    },
     {
       "applicationEnd": "2026-12-03",
       "applicationStart": "2026-12-03",
@@ -17925,7 +18553,7 @@
         },
         {
           "end": "2026-11-05",
-          "label": "ê³µê³ ì¤",
+          "label": "ì ìì¤",
           "resultAt": "2026-11-05",
           "start": "2026-11-05"
         }
@@ -17951,7 +18579,7 @@
         "calendar",
         "land"
       ],
-      "status": "공고중",
+      "status": "접수중",
       "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고",
       "type": "토지"
     },
@@ -60334,16 +60962,60 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020921&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=43&mi=1069",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008124&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "fields": [
+        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed"
+        "changed",
+        "statusChanged"
       ],
-      "panId": "2015122300020921",
-      "title": "한남대학교 캠퍼스혁신파크 산학연혁신허브동 임대상가(일반형) 입점자 모집공고"
+      "panId": "BN-0008124",
+      "title": "괴산미니복합타운 근린생활시설용지 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008116&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008116",
+      "title": "울산효문 지원시설용지 입찰 재공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008106&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008106",
+      "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008044&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008044",
+      "title": "인천검단지구 주거전용단독주택용지(E1) 재공급공고"
     }
   ],
   "collectionVersion": 2,
@@ -62238,129 +62910,101 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
-  "receptionStarts": [
+  "new": [
     {
-      "alertId": "lh:ea7eb9815273c3653abaa166bdd7421d",
-      "applicationEnd": "2026-11-05",
-      "applicationStart": "2026-11-05",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-05",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-05"
-        },
-        {
-          "end": "2026-11-05",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-05",
-          "start": "2026-11-05"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008106&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-11-05T06:15:15+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "58b6057b045866b0323af6c81e4d03f360745263a15ddfc14b6dadfd97cbb71b",
-      "kind": "receptionStart",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008148&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
       "kinds": [
-        "receptionStarted"
+        "new"
       ],
-      "needsReview": false,
-      "noticeFamily": "성남복정1지구근린생활시설·주차장용지재공급공고",
-      "officialStarts": [
-        "2026-11-05"
-      ],
-      "panId": "BN-0008106",
-      "postedAt": "2026-10-22",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "land"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고",
-      "type": "토지"
+      "panId": "BN-0008148",
+      "relatedPanId": "",
+      "title": "성남낙생 근린생활시설용지 및 성남고등 일반업무시설용지 공급 공고"
     },
     {
-      "alertId": "lh:42b25be0b5843ab323b9deaf6567ca21",
-      "applicationEnd": "2026-11-13",
-      "applicationStart": "2026-11-05",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-13",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-30",
-          "start": ""
-        }
-      ],
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020857&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=38&mi=1069",
-      "detectedAt": "2026-11-05T06:15:15+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "8d04f630f139c53bbff74f31a70874e2dd45775680b84a581753c3605ccde30f",
-      "kind": "receptionStart",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008147&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
       "kinds": [
-        "receptionStarted"
+        "new"
       ],
-      "needsReview": false,
-      "noticeFamily": "한양대학교ERICA캠퍼스혁신파크산학연혁신허브입점자모집공고",
-      "officialStarts": [
-        "2026-11-05"
+      "panId": "BN-0008147",
+      "relatedPanId": "",
+      "title": "성남고등 근린생활시설, 이천중리 일반상업 및 점포겸용 단독주택 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008143&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
       ],
-      "panId": "2015122300020857",
-      "postedAt": "2026-09-30",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "commercial"
+      "panId": "BN-0008143",
+      "relatedPanId": "",
+      "title": "경남 우주항공 국가산업단지 사천지구 산업시설용지 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008142&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
       ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "한양대학교 ERICA 캠퍼스혁신파크 산학연혁신허브 입점자 모집 공고",
-      "type": "임대상가(공모ㆍ심사)"
+      "panId": "BN-0008142",
+      "relatedPanId": "",
+      "title": "경남 우주항공 국가산업단지 진주지구 산업시설용지 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008139&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008139",
+      "relatedPanId": "",
+      "title": "파주운정 도시지원시설용지 선착순 수의계약 재공고[중개알선대상토지포함]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008138&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008138",
+      "relatedPanId": "",
+      "title": "강릉유천지구 준주거용지 재입찰 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021004&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300021004",
+      "relatedPanId": "",
+      "title": "파주시 중소기업체 기관공급(행복주택)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300020996",
+      "relatedPanId": "",
+      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)"
     }
   ],
+  "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 898,
-      "checkedAt": "2026-11-05T06:15:15+09:00",
+      "calendarRowCount": 912,
+      "checkedAt": "2026-11-05T10:30:01+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 369,
+      "parsedCount": 375,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 369,
+      "totalCount": 375,
       "totalPages": 2
     },
     "documents": {
@@ -62501,7 +63145,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-05T06:15:15+09:00",
+  "syncedAt": "2026-11-05T10:30:01+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-18",
