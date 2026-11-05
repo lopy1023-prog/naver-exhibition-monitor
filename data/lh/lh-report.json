@@ -16207,57 +16207,9 @@
       "suwonMatch": "broadCandidate",
       "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고",
       "type": "토지"
-    }
-  ],
-  "alerts": [
-    {
-      "alertId": "lh:6bc51b314c60c8cf4d9085118cd35d8b",
-      "applicationEnd": "2026-11-24",
-      "applicationStart": "2026-11-23",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-24",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-26",
-          "start": ""
-        }
-      ],
-      "category": "sale",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "detectedAt": "2026-11-05T17:27:40+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "58d5be62345df34bb108a915deb2c394525516ea89682daa97be4945ef1306c1",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "경기남부권(안성동인힐타운)다세대주택공가세대일반매각공고(무순위,무주택세대구성원)",
-      "panId": "2015122300021015",
-      "postedAt": "2026-11-05",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "sale"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
-      "type": "분양주택"
     },
     {
-      "alertId": "lh:e6870187fad7a355e557dd398d278f62",
+      "alertId": "lh:0e56e85c72facb68478a2b4ccfa12d66",
       "applicationEnd": "2026-11-24",
       "applicationStart": "2026-11-23",
       "broadCandidate": true,
@@ -16273,24 +16225,24 @@
       "confirmedRegions": [
         "수원"
       ],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "detectedAt": "2026-11-05T17:27:40+09:00",
+      "correction": true,
+      "correctionOf": "2015122300021010",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-06T01:45:45+09:00",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "440d76427996b204b808edb945fe38bb9734f39b1396ac69b23521cddaad81d2",
-      "kind": "new",
+      "eventSignature": "b6ad9a03ff54ce9cf3024fb1080a1b6c09343624dfb176bda7f70e9962b4993b",
+      "kind": "correction",
       "kinds": [
-        "new"
+        "correction"
       ],
       "needsReview": false,
       "noticeFamily": "경기남부권(수원광교)공가세대일반매각공고(무순위,무주택세대구성원)",
-      "panId": "2015122300021010",
+      "panId": "2015122300021027",
       "postedAt": "2026-11-05",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
-      "relatedPanId": "",
+      "relatedPanId": "2015122300021010",
       "requiresSuwonReview": false,
       "reviewReason": [],
       "roomCount": null,
@@ -16301,11 +16253,11 @@
       ],
       "status": "공고중",
       "suwonMatch": "direct",
-      "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
       "type": "분양주택"
     },
     {
-      "alertId": "lh:2eb135a1e373983750e792ac622ba5dd",
+      "alertId": "lh:6de591ac9b824b4606c609b9755406f2",
       "applicationEnd": "2026-11-24",
       "applicationStart": "2026-11-23",
       "broadCandidate": true,
@@ -16323,169 +16275,12 @@
       ],
       "correction": false,
       "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "detectedAt": "2026-11-05T17:27:40+09:00",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-06T01:45:45+09:00",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "6fc839b024cd90b1876096d7334b2347e81f27a65df1e8765495d78ec071445c",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "경기남부권(수원·용인광교)공가세대일반매각공고(무순위,유주택자가능)",
-      "panId": "2015122300021009",
-      "postedAt": "2026-11-05",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": false,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "sale"
-      ],
-      "status": "공고중",
-      "suwonMatch": "direct",
-      "title": "경기남부권(수원·용인 광교) 공가세대 일반매각 공고(무순위, 유주택자 가능)",
-      "type": "분양주택"
-    },
-    {
-      "alertId": "lh:0abbe1188758d3e1c5c27489b8d808a6",
-      "applicationEnd": "2026-11-27",
-      "applicationStart": "2026-11-25",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-27",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-25"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020973&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "detectedAt": "2026-11-05T17:27:40+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "cb3f91d98637c5ceb4cf180db040a7a3e0795ce32e01db9814a324d24b370e42",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "평택시평택송화국민임대예비입주자모집공고(2026.11.05)",
-      "panId": "2015122300020973",
-      "postedAt": "2026-11-05",
-      "recruitmentKind": "예비입주자",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "rental"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "평택시 평택송화 국민임대 예비입주자 모집공고(2026.11.05)",
-      "type": "국민임대"
-    },
-    {
-      "alertId": "lh:c3b88e59152db4f3a57cd378c223a40c",
-      "applicationEnd": "2026-11-16",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-16T17:00:00+09:00",
-          "label": "무순위",
-          "start": "2026-11-16T10:00:00+09:00"
-        }
-      ],
-      "applicationStart": "2026-11-16",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-16",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-16"
-        },
-        {
-          "end": "2026-11-16",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-23",
-          "start": "2026-11-16"
-        }
-      ],
-      "category": "rental",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061201&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "detectedAt": "2026-11-05T17:27:40+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "dae513c11f2d275b58da86048993737d787ed18700427fd192a1161bdadc3f69",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "needsReview": false,
-      "noticeFamily": "평택시.안성시지역10년공공임대주택[리츠]예비입주자모집공고(2026.11.05)",
-      "panId": "0000061201",
-      "postedAt": "2026-11-05",
-      "recruitmentKind": "예비입주자",
-      "region": "경기도",
-      "relatedPanId": "",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "rental"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "평택시.안성시 지역 10년 공공임대주택[리츠] 예비입주자 모집공고(2026.11.05)",
-      "type": "임대주택"
-    },
-    {
-      "alertId": "lh:3162643bdda8abc0a508c1152372edfd",
-      "applicationEnd": "2026-11-05",
-      "applicationStart": "2026-11-05",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-05",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-05"
-        },
-        {
-          "end": "2026-11-05",
-          "label": "ì ìë§ê°",
-          "resultAt": "2026-11-05",
-          "start": "2026-11-05"
-        }
-      ],
-      "category": "land",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008106&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-11-05T17:27:40+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "1f7505aaa913071285cf7c5f1c6eb219ab41c1cf452c4cfd1ad59e9ecd59ea9a",
+      "eventSignature": "53aa9ea0c01174f2213d341372e23efd8635fae106205dda481440d7bd5179d8",
       "fields": [
         "status",
         "detailTextHash"
@@ -16496,23 +16291,124 @@
         "statusChanged"
       ],
       "needsReview": false,
-      "noticeFamily": "성남복정1지구근린생활시설·주차장용지재공급공고",
-      "panId": "BN-0008106",
-      "postedAt": "2026-10-22",
+      "noticeFamily": "경기남부권(수원광교)공가세대일반매각공고(무순위,무주택세대구성원)",
+      "panId": "2015122300021010",
+      "postedAt": "2026-11-05",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
-      "requiresSuwonReview": true,
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "sale"
+      ],
+      "status": "정정공고중",
+      "suwonMatch": "direct",
+      "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "type": "분양주택"
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "lh:0e56e85c72facb68478a2b4ccfa12d66",
+      "applicationEnd": "2026-11-24",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": ""
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300021010",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-06T01:45:45+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "b6ad9a03ff54ce9cf3024fb1080a1b6c09343624dfb176bda7f70e9962b4993b",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "needsReview": false,
+      "noticeFamily": "경기남부권(수원광교)공가세대일반매각공고(무순위,무주택세대구성원)",
+      "panId": "2015122300021027",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "2015122300021010",
+      "requiresSuwonReview": false,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
-        "land"
+        "sale"
       ],
-      "status": "접수마감",
-      "suwonMatch": "broadCandidate",
-      "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고",
-      "type": "토지"
+      "status": "공고중",
+      "suwonMatch": "direct",
+      "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "type": "분양주택"
+    },
+    {
+      "alertId": "lh:6de591ac9b824b4606c609b9755406f2",
+      "applicationEnd": "2026-11-24",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": ""
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-06T01:45:45+09:00",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "53aa9ea0c01174f2213d341372e23efd8635fae106205dda481440d7bd5179d8",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "경기남부권(수원광교)공가세대일반매각공고(무순위,무주택세대구성원)",
+      "panId": "2015122300021010",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": false,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "sale"
+      ],
+      "status": "정정공고중",
+      "suwonMatch": "direct",
+      "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "type": "분양주택"
     }
   ],
   "broadCandidates": [
@@ -16643,9 +16539,48 @@
         }
       ],
       "category": "sale",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300021010",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "경기남부권(수원광교)공가세대일반매각공고(무순위,무주택세대구성원)",
+      "panId": "2015122300021027",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "type": "분양주택"
+    },
+    {
+      "applicationEnd": "2026-11-24",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": ""
+        }
+      ],
+      "category": "sale",
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -16684,6 +16619,7 @@
       ],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -16697,10 +16633,9 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
-      "status": "공고중",
+      "status": "정정공고중",
       "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
       "type": "분양주택"
     },
@@ -16722,6 +16657,7 @@
       ],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -16832,6 +16768,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020973&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -16881,6 +16818,7 @@
       "confirmedRegions": [],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061201&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -61500,7 +61438,7 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008116&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "fields": [
         "status",
         "detailTextHash"
@@ -61510,50 +61448,21 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "BN-0008116",
-      "title": "울산효문 지원시설용지 입찰 재공급 공고"
+      "panId": "2015122300021010",
+      "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008106&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020903&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "fields": [
-        "status",
-        "detailTextHash"
+        "status"
       ],
       "kind": "changed",
       "kinds": [
         "changed",
         "statusChanged"
       ],
-      "panId": "BN-0008106",
-      "title": "성남복정1지구 근린생활시설·주차장 용지 재공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008090&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "BN-0008090",
-      "title": "인천남동도시첨단산업단지 산업시설용지 7차 공급공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008044&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "BN-0008044",
-      "title": "인천검단지구 주거전용단독주택용지(E1) 재공급공고"
+      "panId": "2015122300020903",
+      "title": "홍성군 영구임대 예비자 모집공고"
     }
   ],
   "collectionVersion": 2,
@@ -61574,8 +61483,47 @@
       "confirmedRegions": [
         "수원"
       ],
+      "correction": true,
+      "correctionOf": "2015122300021010",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "경기남부권(수원광교)공가세대일반매각공고(무순위,무주택세대구성원)",
+      "panId": "2015122300021027",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "type": "분양주택"
+    },
+    {
+      "applicationEnd": "2026-11-24",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": ""
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [
+        "수원"
+      ],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -61589,10 +61537,9 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
-      "status": "공고중",
+      "status": "정정공고중",
       "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
       "type": "분양주택"
     },
@@ -61614,6 +61561,7 @@
       ],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -63526,164 +63474,24 @@
   ],
   "new": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432472&ccrCnntSysDsCd=02&mi=1079",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019969&ccrCnntSysDsCd=01&mi=1079",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "bbs:02:9102432472",
+      "panId": "bbs:01:7000019969",
       "relatedPanId": "",
-      "title": "[(정정)안내] 고양창릉 S-4블록 공공분양 선택품목 신청 및 계약체결 안내"
+      "title": "울산효문 지원시설용지 입찰 재공급 공고 개찰결과 및 계약체결 안내"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432471&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:02:9102432471",
-      "relatedPanId": "",
-      "title": "[강원지역본부] 26년 2차 일반 매입임대주택 1순위(일반) 및 2순위 공급대상주택 게시"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432454&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:02:9102432454",
-      "relatedPanId": "",
-      "title": "통영안정 영구임대주택 예비입주자 선정 안내('26.07.30. 공고)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432453&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:02:9102432453",
-      "relatedPanId": "",
-      "title": "진주평거(고령자복지) 영구임대주택 예비입주자 선정 안내('26.07.30. 공고)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019968&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:01:7000019968",
-      "relatedPanId": "",
-      "title": "인천검단지구 주거전용 단독주택용지(E1) 추첨결과 및 계약체결 안내"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008150&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008150",
-      "relatedPanId": "",
-      "title": "인천남동도시첨단산업단지 생활대책용지 재공급공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008140&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008140",
-      "relatedPanId": "",
-      "title": "제주동부 공공지원민간임대주택 공급촉진지구 협의양도인택지 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021026&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "kind": "correction",
       "kinds": [
         "correction"
       ],
-      "panId": "2015122300021026",
-      "relatedPanId": "2015122300021024",
-      "title": "[정정공고]인천논현2단지 국임임대주택 예비입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021025&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300021025",
-      "relatedPanId": "",
-      "title": "'26.11월 경주시, 영천시 국민임대주택 동호지정 입주자격 완화 입주자 모집(선계약 후검증)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021024&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300021024",
-      "relatedPanId": "",
-      "title": "인천논현2단지 국임임대주택 예비입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300021015",
-      "relatedPanId": "",
-      "title": "경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300021010",
-      "relatedPanId": "",
-      "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300021009",
-      "relatedPanId": "",
-      "title": "경기남부권(수원·용인 광교) 공가세대 일반매각 공고(무순위, 유주택자 가능)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020987&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020987",
-      "relatedPanId": "",
-      "title": "'26년 11월 인천시 남동구 국민임대주택 예비입주자 모집 공고(2026.11.05.)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020973&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "2015122300020973",
-      "relatedPanId": "",
-      "title": "평택시 평택송화 국민임대 예비입주자 모집공고(2026.11.05)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061201&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "0000061201",
-      "relatedPanId": "",
-      "title": "평택시.안성시 지역 10년 공공임대주택[리츠] 예비입주자 모집공고(2026.11.05)"
+      "panId": "2015122300021027",
+      "relatedPanId": "2015122300021010",
+      "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)"
     }
   ],
   "receptionStarts": [],
@@ -63691,14 +63499,14 @@
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 923,
-      "checkedAt": "2026-11-05T17:27:40+09:00",
+      "calendarRowCount": 924,
+      "checkedAt": "2026-11-06T01:45:45+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 382,
+      "parsedCount": 383,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 382,
+      "totalCount": 383,
       "totalPages": 2
     },
     "documents": {
@@ -63793,9 +63601,9 @@
       "checkedPages": 16,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1529,
+      "parsedCount": 1530,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1529,
+      "totalCount": 1530,
       "totalPages": 16
     },
     "supplyCommercial": {
@@ -63839,8 +63647,46 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-05T17:27:40+09:00",
+  "syncedAt": "2026-11-06T01:45:45+09:00",
   "targetRegions": [
+    {
+      "applicationEnd": "2026-11-24",
+      "applicationStart": "2026-11-23",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": ""
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [
+        "수원"
+      ],
+      "correction": true,
+      "correctionOf": "2015122300021010",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "directSuwon": true,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "경기남부권(수원광교)공가세대일반매각공고(무순위,무주택세대구성원)",
+      "panId": "2015122300021027",
+      "postedAt": "2026-11-05",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "type": "분양주택"
+    },
     {
       "applicationEnd": "2026-11-24",
       "applicationStart": "2026-11-23",
@@ -63859,6 +63705,7 @@
       ],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021010&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
@@ -63872,10 +63719,9 @@
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
-        "calendar",
         "sale"
       ],
-      "status": "공고중",
+      "status": "정정공고중",
       "title": "경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
       "type": "분양주택"
     },
@@ -63897,6 +63743,7 @@
       ],
       "correction": false,
       "correctionOf": "",
+      "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "directSuwon": true,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
