@@ -4,11 +4,11 @@
   "sourceUrl": "https://rss.blog.naver.com/naver_seller.xml",
   "sourceStatus": "ok",
   "sourceUsed": "rss",
-  "sourceLastCheckedAt": "2026-11-06T00:09:34.883Z",
-  "sourceLastSuccessAt": "2026-11-06T00:09:34.883Z",
+  "sourceLastCheckedAt": "2026-11-06T06:33:54.368Z",
+  "sourceLastSuccessAt": "2026-11-06T06:33:54.368Z",
   "latestLogNo": "224466186970",
   "postCount": 50,
-  "syncedAt": "2026-11-06T00:09:34.883Z",
+  "syncedAt": "2026-11-06T06:33:54.368Z",
   "posts": [
     {
       "position": 1,
@@ -404,7 +404,7 @@
     },
     {
       "position": 50,
-      "title": "[리빙][제안] 11월 네이버 라이프 위크ㅣ행사일정 11/23~11/29ㅣ제안마감 11/9(월)",
+      "title": "[리빙][제안] 11월 네이버 라이프 위크ㅣ행사일정 11/23~11/29ㅣ제안마감 11/11(수)",
       "logNo": "224456614865",
       "url": "https://blog.naver.com/naver_seller/224456614865",
       "publishedAt": "2026-10-28T05:09:22.000Z",
