@@ -2,7 +2,7 @@
   "baselineStart": "2026-08-16",
   "categories": {
     "commercial": {
-      "checkedAt": "2026-11-07T10:57:55+09:00",
+      "checkedAt": "2026-11-07T17:40:44+09:00",
       "checkedPages": 0,
       "complete": false,
       "error": "commercial: CollectionError: commercial: LH 첫 목록 응답이 정상 목록이 아님",
@@ -12,7 +12,7 @@
       "totalPages": null
     },
     "land": {
-      "checkedAt": "2026-11-07T10:57:55+09:00",
+      "checkedAt": "2026-11-07T17:40:44+09:00",
       "checkedPages": 0,
       "complete": false,
       "error": "land: CollectionError: land: LH 첫 목록 응답이 정상 목록이 아님",
@@ -22,7 +22,7 @@
       "totalPages": null
     },
     "presale": {
-      "checkedAt": "2026-11-07T10:57:55+09:00",
+      "checkedAt": "2026-11-07T17:40:44+09:00",
       "checkedPages": 0,
       "complete": false,
       "error": "presale: CollectionError: LH 목록 건수 표시를 찾지 못함: 응답 구조 변경 또는 오류 화면",
@@ -32,7 +32,7 @@
       "totalPages": null
     },
     "rental": {
-      "checkedAt": "2026-11-07T10:57:55+09:00",
+      "checkedAt": "2026-11-07T17:40:44+09:00",
       "checkedPages": 0,
       "complete": false,
       "error": "rental: CollectionError: rental: LH 첫 목록 응답이 정상 목록이 아님",
@@ -42,7 +42,7 @@
       "totalPages": null
     },
     "sale": {
-      "checkedAt": "2026-11-07T10:57:55+09:00",
+      "checkedAt": "2026-11-07T17:40:44+09:00",
       "checkedPages": 0,
       "complete": false,
       "error": "sale: CollectionError: sale: LH 첫 목록 응답이 정상 목록이 아님",
@@ -65,5 +65,5 @@
   "posts": [],
   "schemaVersion": 1,
   "sourceStatus": "error",
-  "syncedAt": "2026-11-07T10:57:58+09:00"
+  "syncedAt": "2026-11-07T17:40:46+09:00"
 }
