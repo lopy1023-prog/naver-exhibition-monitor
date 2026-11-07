@@ -62223,20 +62223,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020823&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020823",
-      "title": "경산진량우림필유 미분양매입 잔여세대 선착순 일반매각 공고"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -64252,7 +64239,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 939,
-      "checkedAt": "2026-11-08T00:12:26+09:00",
+      "checkedAt": "2026-11-08T04:27:26+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -64399,7 +64386,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-08T00:12:26+09:00",
+  "syncedAt": "2026-11-08T04:27:26+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-24",
