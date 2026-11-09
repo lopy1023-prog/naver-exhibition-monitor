@@ -17368,115 +17368,535 @@
       "suwonMatch": "broadCandidate",
       "title": "[정정공고]안산신길2 B-1블록 공공분양주택 입주자 모집공고",
       "type": "분양주택"
-    }
-  ],
-  "alerts": [
+    },
     {
-      "alertId": "lh:34f4863580e7598ed55731c81ba5df5a",
-      "applicationEnd": "2026-11-18",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-17T17:00:00+09:00",
-          "label": "다자녀특별(85㎡이하)",
-          "start": "2026-11-16T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-17T17:00:00+09:00",
-          "label": "신혼부부특별",
-          "start": "2026-11-16T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-17T17:00:00+09:00",
-          "label": "생애최초특별",
-          "start": "2026-11-16T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-17T17:00:00+09:00",
-          "label": "노부모부양특별(85㎡이하)",
-          "start": "2026-11-16T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-17T17:00:00+09:00",
-          "label": "기관추천",
-          "start": "2026-11-16T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-17T17:00:00+09:00",
-          "label": "신생아특별",
-          "start": "2026-11-16T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-18T17:00:00+09:00",
-          "label": "일반공급(우선)",
-          "start": "2026-11-18T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-18T17:00:00+09:00",
-          "label": "일반공급(추첨)",
-          "start": "2026-11-18T10:00:00+09:00"
-        },
-        {
-          "end": "2026-11-18T17:00:00+09:00",
-          "label": "신생아 우선공급",
-          "start": "2026-11-18T10:00:00+09:00"
-        }
+      "alertId": "lh:fdb9b1e1d1054ad078257f7824746a9c",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "BN-0007906",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008158&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "c66110b03c0f3d6153ed4197994f49ee9200958951b01d353177ab1e429a05c3",
+      "kind": "correction",
+      "kinds": [
+        "correction"
       ],
-      "applicationStart": "2026-11-09",
+      "needsReview": false,
+      "noticeFamily": "부천괴안근린생활시설,업무시설용지선착순수의계약공고[중개알선대상토지포함]",
+      "panId": "BN-0008158",
+      "postedAt": "2026-11-09",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "relatedPanId": "BN-0007906",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고] 부천괴안 근린생활시설, 업무시설용지 선착순 수의계약 공고[중개알선대상토지포함]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:eb03fd300d68cf9dedbb5035da499edf",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001340&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "3b11440c328031f991d30b63c96281371994a53e3ec668e535b52d23f750e3cf",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "과천지식정보타운S-11블록행복주택리츠단지내상가선착순수의계약공고",
+      "panId": "BN-0001340",
+      "postedAt": "2026-11-09",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "commercial"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "과천지식정보타운 S-11블록 행복주택리츠 단지내상가 선착순 수의계약 공고",
+      "type": "분양ㆍ(구)임대상가(입찰)"
+    },
+    {
+      "alertId": "lh:effd0d684e8ea494c5a1c6464ff56e84",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-11-18",
+          "end": "2026-11-12",
           "label": "ì ì",
           "resultAt": "",
-          "start": "2026-11-09"
-        },
-        {
-          "end": "2026-11-18",
-          "label": "ì ìì¤",
-          "resultAt": "2026-11-30",
-          "start": "2026-11-09"
+          "start": "2026-11-10"
         }
       ],
-      "category": "sale",
+      "category": "rental",
       "confirmedRegions": [],
-      "correction": true,
-      "correctionOf": "0000061196",
+      "correction": false,
+      "correctionOf": "",
       "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061205&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "detectedAt": "2026-11-09T15:08:38+09:00",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020960&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "7688b81a29f7aa4d916e088d004ac3da16216a23f0107217ba35451474522913",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
+      "eventSignature": "ad7024333bef234d577c8967f05a671c1c5524a630a4d00c9a3806faea10e454",
+      "kind": "receptionStart",
       "kinds": [
-        "changed",
-        "statusChanged"
+        "receptionStarted"
       ],
       "needsReview": false,
-      "noticeFamily": "안산신길2B-1블록공공분양주택입주자모집공고",
-      "panId": "0000061205",
-      "postedAt": "2026-11-04",
+      "noticeFamily": "과천지식정보타운S12블록행복주택입주자모집공고",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020960",
+      "postedAt": "2026-10-28",
+      "receptionEvidence": "officialStartDate",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
+      "requiresEligibilityReview": true,
       "requiresSuwonReview": true,
       "reviewReason": [],
       "roomCount": null,
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
-        "sale"
+        "rental"
       ],
-      "status": "접수중",
+      "status": "공고중",
       "suwonMatch": "broadCandidate",
-      "title": "[정정공고]안산신길2 B-1블록 공공분양주택 입주자 모집공고",
-      "type": "분양주택"
+      "title": "과천지식정보타운 S12블록 행복주택 입주자 모집공고",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:14edc72111cb95710b997129ea61599f",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-09",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "d1dcef6f5687c4c00c35b51ea74733fd721396c36d1ebe3270d6000b16e66e41",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "화성시동탄지역행복주택입주자모집공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020958",
+      "postedAt": "2026-10-27",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "화성시 동탄지역 행복주택 입주자 모집 공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:0949547ec0397fe93fb4b0fdfe0dbd6b",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020936&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "21f3da09b826b6c7f7efe179d6a66807b5c758aae3b33911477fed1b26364c51",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "구리갈매역세권A-1BL신혼희망타운행복주택최초입주자모집공고('26.10.27)",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020936",
+      "postedAt": "2026-10-27",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "구리갈매역세권 A-1BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.10.27)",
+      "type": "행복주택"
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "lh:fdb9b1e1d1054ad078257f7824746a9c",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "BN-0007906",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008158&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "c66110b03c0f3d6153ed4197994f49ee9200958951b01d353177ab1e429a05c3",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "needsReview": false,
+      "noticeFamily": "부천괴안근린생활시설,업무시설용지선착순수의계약공고[중개알선대상토지포함]",
+      "panId": "BN-0008158",
+      "postedAt": "2026-11-09",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "relatedPanId": "BN-0007906",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고] 부천괴안 근린생활시설, 업무시설용지 선착순 수의계약 공고[중개알선대상토지포함]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:eb03fd300d68cf9dedbb5035da499edf",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001340&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "3b11440c328031f991d30b63c96281371994a53e3ec668e535b52d23f750e3cf",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "과천지식정보타운S-11블록행복주택리츠단지내상가선착순수의계약공고",
+      "panId": "BN-0001340",
+      "postedAt": "2026-11-09",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "commercial"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "과천지식정보타운 S-11블록 행복주택리츠 단지내상가 선착순 수의계약 공고",
+      "type": "분양ㆍ(구)임대상가(입찰)"
+    },
+    {
+      "alertId": "lh:effd0d684e8ea494c5a1c6464ff56e84",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020960&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "ad7024333bef234d577c8967f05a671c1c5524a630a4d00c9a3806faea10e454",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "과천지식정보타운S12블록행복주택입주자모집공고",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020960",
+      "postedAt": "2026-10-28",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "과천지식정보타운 S12블록 행복주택 입주자 모집공고",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:14edc72111cb95710b997129ea61599f",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-09",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "d1dcef6f5687c4c00c35b51ea74733fd721396c36d1ebe3270d6000b16e66e41",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "화성시동탄지역행복주택입주자모집공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020958",
+      "postedAt": "2026-10-27",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "화성시 동탄지역 행복주택 입주자 모집 공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:0949547ec0397fe93fb4b0fdfe0dbd6b",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020936&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "21f3da09b826b6c7f7efe179d6a66807b5c758aae3b33911477fed1b26364c51",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "구리갈매역세권A-1BL신혼희망타운행복주택최초입주자모집공고('26.10.27)",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020936",
+      "postedAt": "2026-10-27",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "구리갈매역세권 A-1BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.10.27)",
+      "type": "행복주택"
     }
   ],
   "broadCandidates": [
+    {
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "BN-0007906",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008158&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "부천괴안근린생활시설,업무시설용지선착순수의계약공고[중개알선대상토지포함]",
+      "panId": "BN-0008158",
+      "postedAt": "2026-11-09",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "title": "[정정공고] 부천괴안 근린생활시설, 업무시설용지 선착순 수의계약 공고[중개알선대상토지포함]",
+      "type": "토지"
+    },
+    {
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001340&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "과천지식정보타운S-11블록행복주택리츠단지내상가선착순수의계약공고",
+      "panId": "BN-0001340",
+      "postedAt": "2026-11-09",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "전국",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "commercial"
+      ],
+      "status": "상담요청",
+      "title": "과천지식정보타운 S-11블록 행복주택리츠 단지내상가 선착순 수의계약 공고",
+      "type": "분양ㆍ(구)임대상가(입찰)"
+    },
     {
       "applicationEnd": "",
       "applicationStart": "",
@@ -62641,48 +63061,6 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020987&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020987",
-      "title": "'26년 11월 인천시 남동구 국민임대주택 예비입주자 모집 공고(2026.11.05.)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061205&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "0000061205",
-      "title": "[정정공고]안산신길2 B-1블록 공공분양주택 입주자 모집공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061198&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "0000061198",
-      "title": "인천가정2 B2블록 공공분양 잔여세대 입주자모집공고(순번추첨 동호지정)"
-    },
-    {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061197&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
       "fields": [
         "status",
@@ -62699,44 +63077,14 @@
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020965&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "fields": [
-        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed",
-        "statusChanged"
+        "changed"
       ],
       "panId": "2015122300020965",
       "title": "청주시 다자녀 매입임대주택 예비입주자 모집(261029공고)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002897&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "LN-0002897",
-      "title": "전주평화1단지 임대상가 입점자 모집공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020932&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged",
-        "additionalRecruitment"
-      ],
-      "panId": "2015122300020932",
-      "title": "도청이전신도시 RH10-2BL 국민임대주택 자격완화 추가모집(2026.10.27)"
     },
     {
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008091&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
@@ -62753,92 +63101,17 @@
       "title": "제주동부 공공지원민간임대주택 공급촉진지구 점포겸용 단독주택용지 재공급 공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020917&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432229&ccrCnntSysDsCd=02&mi=1080",
       "fields": [
-        "status",
-        "detailTextHash"
+        "attachments"
       ],
       "kind": "changed",
       "kinds": [
         "changed",
-        "statusChanged"
+        "attachmentChanged"
       ],
-      "panId": "2015122300020917",
-      "title": "완주삼례A-1 행복주택 입주자격완화 예비입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020916&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020916",
-      "title": "전주1산단(전주팔복) 행복주택 입주자격완화예비입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020441&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020441",
-      "title": "인제서화 고령자복지주택(국민임대) 추가 입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020439&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020439",
-      "title": "인제서화 고령자복지주택(영구임대) 추가 입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020149&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020149",
-      "title": "[정정공고]인제서화(고령자) 국민임대주택 입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020148&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020148",
-      "title": "[정정공고]인제서화 고령자복지주택(국민임대) 입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020147&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020147",
-      "title": "[정정공고]인제서화 고령자복지주택(영구임대) 입주자 모집"
+      "panId": "bbs:02:9102432229",
+      "title": "2026년 신축 매입임대주택 설계 및 시공 가이드라인(첨부자료 포함)"
     }
   ],
   "collectionVersion": 2,
@@ -64851,79 +65124,282 @@
   ],
   "new": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002901&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432482&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new",
+        "additionalRecruitment"
+      ],
+      "panId": "bbs:02:9102432482",
+      "relatedPanId": "",
+      "title": "인천가정2 A2블록 신혼희망타운 잔여세대 추가모집 청약접수 결과 안내"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008166&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "LN-0002901",
+      "panId": "BN-0008166",
       "relatedPanId": "",
-      "title": "울산달동 3단지 임대상가 입점자 모집공고"
+      "title": "[중단공고] [수의계약]포항블루밸리 임대전용산업단지 임대공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008153&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008164&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "BN-0008153",
+      "panId": "BN-0008164",
       "relatedPanId": "",
-      "title": "[부산만덕5지구] 근린생활시설용지 재공급 공고[3년분할 무이자]"
+      "title": "남청주현도 지원시설·근린생활시설용지 수의계약 공급 공고[중개알선대상토지포함]"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021031&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008162&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008162",
+      "relatedPanId": "",
+      "title": "청주지북 점포겸용 단독주택용지 및 상업용지 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008159&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008159",
+      "relatedPanId": "",
+      "title": "포항블루밸리 국가산업단지 2단계 산업시설용지 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008158&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "kind": "correction",
       "kinds": [
         "correction"
       ],
-      "panId": "2015122300021031",
-      "relatedPanId": "2015122300020987",
-      "title": "[정정공고]'26년 11월 인천시 남동구 국민임대주택 예비입주자 모집 공고(2026.11.05.)"
+      "panId": "BN-0008158",
+      "relatedPanId": "BN-0007906",
+      "title": "[정정공고] 부천괴안 근린생활시설, 업무시설용지 선착순 수의계약 공고[중개알선대상토지포함]"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021014&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008157&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "2015122300021014",
+      "panId": "BN-0008157",
       "relatedPanId": "",
-      "title": "삼척원당 영구임대상가 입점자 모집 공고"
+      "title": "광주전남 보유토지(광주효천1, 여천돌산, 고흥남계, 목포용해2) 선착순 수의계약 공급 공고(12~18개월 거치 포함 3~5년 무이자)"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021000&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001340&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "2015122300021000",
+      "panId": "BN-0001340",
       "relatedPanId": "",
-      "title": "서귀포혁신1 잔여세대 일반매각 공고 (무순위 공급)"
+      "title": "과천지식정보타운 S-11블록 행복주택리츠 단지내상가 선착순 수의계약 공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020975&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021011&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
       "kind": "new",
       "kinds": [
         "new"
       ],
-      "panId": "2015122300020975",
+      "panId": "2015122300021011",
       "relatedPanId": "",
-      "title": "제천장락1 50년공공임대주택 예비입주자 모집 공고[2026.11.09]"
+      "title": "원주시지역 영구임대주택 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102835629&ccrCnntSysDsCd=03&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:03:9102835629",
+      "relatedPanId": "",
+      "title": "[신청현황게시] 인천석남 어울림센터 행복주택 최초모집(`26.9.30. 공고) 청약접수 결과"
     }
   ],
-  "receptionStarts": [],
+  "receptionStarts": [
+    {
+      "alertId": "lh:effd0d684e8ea494c5a1c6464ff56e84",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020960&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "ad7024333bef234d577c8967f05a671c1c5524a630a4d00c9a3806faea10e454",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "과천지식정보타운S12블록행복주택입주자모집공고",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020960",
+      "postedAt": "2026-10-28",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "과천지식정보타운 S12블록 행복주택 입주자 모집공고",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:14edc72111cb95710b997129ea61599f",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-09",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [
+        "화성"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "d1dcef6f5687c4c00c35b51ea74733fd721396c36d1ebe3270d6000b16e66e41",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "화성시동탄지역행복주택입주자모집공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020958",
+      "postedAt": "2026-10-27",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "화성시 동탄지역 행복주택 입주자 모집 공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "type": "행복주택"
+    },
+    {
+      "alertId": "lh:0949547ec0397fe93fb4b0fdfe0dbd6b",
+      "applicationEnd": "2026-11-12",
+      "applicationStart": "2026-11-10",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-10"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020936&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "detectedAt": "2026-11-10T01:28:51+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "21f3da09b826b6c7f7efe179d6a66807b5c758aae3b33911477fed1b26364c51",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "구리갈매역세권A-1BL신혼희망타운행복주택최초입주자모집공고('26.10.27)",
+      "officialStarts": [
+        "2026-11-10"
+      ],
+      "panId": "2015122300020936",
+      "postedAt": "2026-10-27",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "구리갈매역세권 A-1BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.10.27)",
+      "type": "행복주택"
+    }
+  ],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 946,
-      "checkedAt": "2026-11-09T15:08:38+09:00",
+      "calendarRowCount": 952,
+      "checkedAt": "2026-11-10T01:28:51+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 389,
+      "parsedCount": 391,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 389,
+      "totalCount": 391,
       "totalPages": 2
     },
     "documents": {
@@ -65018,9 +65494,9 @@
       "checkedPages": 16,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1538,
+      "parsedCount": 1540,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1538,
+      "totalCount": 1540,
       "totalPages": 16
     },
     "supplyCommercial": {
@@ -65064,7 +65540,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-09T15:08:38+09:00",
+  "syncedAt": "2026-11-10T01:28:51+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-24",
