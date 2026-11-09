@@ -62430,7 +62430,21 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [],
+  "changed": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002898&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "LN-0002898",
+      "title": "사천벌리1주공 임대상가 입점자 모집공고"
+    }
+  ],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -64446,7 +64460,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 939,
-      "checkedAt": "2026-11-09T05:30:20+09:00",
+      "checkedAt": "2026-11-09T08:58:22+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -64593,7 +64607,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-09T05:30:20+09:00",
+  "syncedAt": "2026-11-09T08:58:22+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-24",
