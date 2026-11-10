@@ -18047,77 +18047,7 @@
       "type": "분양ㆍ(구)임대상가(입찰)"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:0848ae13ed9084df4824489ed7d5b6a2",
-      "applicationEnd": "2026-11-12",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-11",
-          "label": "최초입찰",
-          "start": "2026-11-11"
-        },
-        {
-          "end": "2026-11-12",
-          "label": "재입찰",
-          "start": "2026-11-12"
-        }
-      ],
-      "applicationStart": "2026-11-11",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-12",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-12",
-          "start": "2026-11-11"
-        },
-        {
-          "end": "2026-11-12",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-11"
-        }
-      ],
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001352&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
-      "detectedAt": "2026-11-11T00:46:36+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "d1834bd950888a94d3e4929d20952aba8843504f0b3f667cc3e5b458cfd46672",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "위례A2-7블록단지내상가신규분양공고",
-      "officialStarts": [
-        "2026-11-11"
-      ],
-      "panId": "BN-0001352",
-      "postedAt": "2026-10-27",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "위례A2-7블록 단지 내 상가 신규분양 공고",
-      "type": "분양ㆍ(구)임대상가(입찰)"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -63383,49 +63313,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061198&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "0000061198",
-      "title": "인천가정2 B2블록 공공분양 잔여세대 입주자모집공고(순번추첨 동호지정)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020965&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300020965",
-      "title": "청주시 다자녀 매입임대주택 예비입주자 모집(261029공고)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020850&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged",
-        "additionalRecruitment"
-      ],
-      "panId": "2015122300020850",
-      "title": "익산제3일반산단 행복주택 입주자격완화 추가모집(동호지정,선계약후검증)"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -65446,176 +65334,14 @@
       "type": "매입임대"
     }
   ],
-  "new": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432487&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:02:9102432487",
-      "relatedPanId": "",
-      "title": "[인천지역본부] 26-6차 청년 매입임대 예비자 발표일 연기 안내('26.8.27.공고)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432486&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:02:9102432486",
-      "relatedPanId": "",
-      "title": "[인천]26-6차 신혼·신생아Ⅰ,Ⅱ(전세형)매입임대 예비자 발표일 변경안내(08.27공고)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432485&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:02:9102432485",
-      "relatedPanId": "",
-      "title": "광주전남혁신 빛가람LH1단지 일반매각 공고 잔여세대 목록(2026.11.10 기준)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019973&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:01:7000019973",
-      "relatedPanId": "",
-      "title": "충남도청(내포)신도시 주차장용지 공급 공고 개찰 결과"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=7000019972&ccrCnntSysDsCd=01&mi=1079",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "bbs:01:7000019972",
-      "relatedPanId": "",
-      "title": "대전대동2 준주거용지 공급 공고 개찰 결과"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008170&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008170",
-      "relatedPanId": "",
-      "title": "괴산미니복합타운 근린생활시설용지 재공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008169&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008169",
-      "relatedPanId": "",
-      "title": "충주호암 업무시설용지 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008168&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "kind": "new",
-      "kinds": [
-        "new"
-      ],
-      "panId": "BN-0008168",
-      "relatedPanId": "",
-      "title": "청주동남 종교용지 및 주거전용단독주택용지 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021045&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "kind": "correction",
-      "kinds": [
-        "correction",
-        "additionalRecruitment"
-      ],
-      "panId": "2015122300021045",
-      "relatedPanId": "2015122300020850",
-      "title": "[정정공고]익산제3일반산단 행복주택 입주자격완화 추가모집(동호지정,선계약후검증)"
-    }
-  ],
-  "receptionStarts": [
-    {
-      "alertId": "lh:0848ae13ed9084df4824489ed7d5b6a2",
-      "applicationEnd": "2026-11-12",
-      "applicationSchedules": [
-        {
-          "end": "2026-11-11",
-          "label": "최초입찰",
-          "start": "2026-11-11"
-        },
-        {
-          "end": "2026-11-12",
-          "label": "재입찰",
-          "start": "2026-11-12"
-        }
-      ],
-      "applicationStart": "2026-11-11",
-      "broadCandidate": true,
-      "calendarSchedules": [
-        {
-          "end": "2026-11-12",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-12",
-          "start": "2026-11-11"
-        },
-        {
-          "end": "2026-11-12",
-          "label": "ì ì",
-          "resultAt": "",
-          "start": "2026-11-11"
-        }
-      ],
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001352&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
-      "detectedAt": "2026-11-11T00:46:36+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "d1834bd950888a94d3e4929d20952aba8843504f0b3f667cc3e5b458cfd46672",
-      "kind": "receptionStart",
-      "kinds": [
-        "receptionStarted"
-      ],
-      "needsReview": false,
-      "noticeFamily": "위례A2-7블록단지내상가신규분양공고",
-      "officialStarts": [
-        "2026-11-11"
-      ],
-      "panId": "BN-0001352",
-      "postedAt": "2026-10-27",
-      "receptionEvidence": "officialStartDate",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresEligibilityReview": true,
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "calendar",
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "위례A2-7블록 단지 내 상가 신규분양 공고",
-      "type": "분양ㆍ(구)임대상가(입찰)"
-    }
-  ],
+  "new": [],
+  "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 972,
-      "checkedAt": "2026-11-11T00:46:36+09:00",
+      "checkedAt": "2026-11-11T06:27:33+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -65762,7 +65488,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-11T00:46:36+09:00",
+  "syncedAt": "2026-11-11T06:27:33+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-24",
