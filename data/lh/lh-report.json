@@ -18527,10 +18527,396 @@
       "suwonMatch": "broadCandidate",
       "title": "위례A2-7블록 단지 내 상가 신규분양 공고",
       "type": "분양ㆍ(구)임대상가(입찰)"
+    },
+    {
+      "alertId": "lh:0e96927ccf9b52ce7381d772c1a443bd",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008176&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "9ce185098b9809e286ec446d70d6432e8444ff3c97a756c1a0be87135104d7a8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "부천대장근생선착순수의계약공급공고",
+      "panId": "BN-0008176",
+      "postedAt": "2026-11-12",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "부천대장 근생 선착순 수의계약 공급공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:a06aeac6d27a000a1b86adccaaf424c8",
+      "applicationEnd": "2026-11-13",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-13T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-12T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-12",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-13",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-19",
+          "start": "2026-11-12"
+        },
+        {
+          "end": "2026-11-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-12"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061200&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2e2ffbb47bf1529dd58456b22d1d934a4a571e89e709f76c29419e6d0025f152",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "고양지축B-1블록공공분양주택잔여세대추가입주자모집공고",
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061200",
+      "postedAt": "2026-11-03",
+      "receptionEvidence": "officialStatus",
+      "recruitmentKind": "잔여모집",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고",
+      "type": "분양주택"
+    },
+    {
+      "alertId": "lh:2474f2e647912d5f6871eedc04710836",
+      "applicationEnd": "2026-11-13",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-13T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-12T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-12",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-12"
+        },
+        {
+          "end": "2026-11-13",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-18",
+          "start": "2026-11-12"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061199&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "0a0af93cd77a0e5fa914ff36be0da6e560ca0b42bef69c71446bae4ede879f12",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "고양장항A-2,A-4,A-5블록신혼희망타운(공공분양)잔여세대추가입주자모집공고",
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061199",
+      "postedAt": "2026-11-03",
+      "receptionEvidence": "officialStatus",
+      "recruitmentKind": "잔여모집",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+      "type": "공공분양(신혼희망)"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:0e96927ccf9b52ce7381d772c1a443bd",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008176&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "9ce185098b9809e286ec446d70d6432e8444ff3c97a756c1a0be87135104d7a8",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "needsReview": false,
+      "noticeFamily": "부천대장근생선착순수의계약공급공고",
+      "panId": "BN-0008176",
+      "postedAt": "2026-11-12",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "부천대장 근생 선착순 수의계약 공급공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:a06aeac6d27a000a1b86adccaaf424c8",
+      "applicationEnd": "2026-11-13",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-13T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-12T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-12",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-13",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-19",
+          "start": "2026-11-12"
+        },
+        {
+          "end": "2026-11-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-12"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061200&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2e2ffbb47bf1529dd58456b22d1d934a4a571e89e709f76c29419e6d0025f152",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "고양지축B-1블록공공분양주택잔여세대추가입주자모집공고",
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061200",
+      "postedAt": "2026-11-03",
+      "receptionEvidence": "officialStatus",
+      "recruitmentKind": "잔여모집",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고",
+      "type": "분양주택"
+    },
+    {
+      "alertId": "lh:2474f2e647912d5f6871eedc04710836",
+      "applicationEnd": "2026-11-13",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-13T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-12T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-12",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-12"
+        },
+        {
+          "end": "2026-11-13",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-18",
+          "start": "2026-11-12"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061199&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "0a0af93cd77a0e5fa914ff36be0da6e560ca0b42bef69c71446bae4ede879f12",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "고양장항A-2,A-4,A-5블록신혼희망타운(공공분양)잔여세대추가입주자모집공고",
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061199",
+      "postedAt": "2026-11-03",
+      "receptionEvidence": "officialStatus",
+      "recruitmentKind": "잔여모집",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    }
+  ],
   "broadCandidates": [
+    {
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008176&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "부천대장근생선착순수의계약공급공고",
+      "panId": "BN-0008176",
+      "postedAt": "2026-11-12",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "title": "부천대장 근생 선착순 수의계약 공급공고",
+      "type": "토지"
+    },
     {
       "applicationEnd": "2026-11-25",
       "applicationSchedules": [
@@ -19559,7 +19945,7 @@
       "calendarSchedules": [
         {
           "end": "2026-11-13",
-          "label": "ê³µê³ ì¤",
+          "label": "ì ìì¤",
           "resultAt": "2026-11-19",
           "start": "2026-11-12"
         },
@@ -19591,7 +19977,7 @@
         "calendar",
         "sale"
       ],
-      "status": "공고중",
+      "status": "접수중",
       "title": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고",
       "type": "분양주택"
     },
@@ -19609,14 +19995,14 @@
       "calendarSchedules": [
         {
           "end": "2026-11-13",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-18",
+          "label": "ì ì",
+          "resultAt": "",
           "start": "2026-11-12"
         },
         {
           "end": "2026-11-13",
-          "label": "ì ì",
-          "resultAt": "",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-18",
           "start": "2026-11-12"
         }
       ],
@@ -19641,7 +20027,7 @@
         "calendar",
         "sale"
       ],
-      "status": "공고중",
+      "status": "접수중",
       "title": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
       "type": "공공분양(신혼희망)"
     },
@@ -63912,16 +64298,74 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020598&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061200&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "fields": [
+        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed"
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
       ],
-      "panId": "2015122300020598",
-      "title": "광주효천2 LH천년나무6단지 잔여세대 일반매각 공고(무순위 동호추첨)"
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061200",
+      "receptionEvidence": "officialStatus",
+      "requiresEligibilityReview": true,
+      "title": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061199&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
+      ],
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061199",
+      "receptionEvidence": "officialStatus",
+      "requiresEligibilityReview": true,
+      "title": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008134&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008134",
+      "title": "[부산명지1단계] 주차장용지(주20) 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008089&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008089",
+      "title": "행정중심복합도시 블록형단독주택용지 공급공고"
     }
   ],
   "collectionVersion": 2,
@@ -66031,20 +66475,224 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
-  "receptionStarts": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432493&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:02:9102432493",
+      "relatedPanId": "",
+      "title": "남양주진접2 B-1블록 중도금 대출 관련 안내"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002899&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "LN-0002899",
+      "relatedPanId": "",
+      "title": "부산금곡4단지 임대상가 입점자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008176&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008176",
+      "relatedPanId": "",
+      "title": "부천대장 근생 선착순 수의계약 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021051&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300021051",
+      "relatedPanId": "",
+      "title": "원주명륜2 영구임대주택 예비입주자 모집"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021049&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300021049",
+      "relatedPanId": "",
+      "title": "춘천시 철원군지역 행복주택 예비입주자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021029&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300021029",
+      "relatedPanId": "",
+      "title": "익산시(익산부송1, 익산동산)영구임대주택 예비입주자 모집공고"
+    }
+  ],
+  "receptionStarts": [
+    {
+      "alertId": "lh:a06aeac6d27a000a1b86adccaaf424c8",
+      "applicationEnd": "2026-11-13",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-13T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-12T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-12",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-13",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-19",
+          "start": "2026-11-12"
+        },
+        {
+          "end": "2026-11-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-12"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061200&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "2e2ffbb47bf1529dd58456b22d1d934a4a571e89e709f76c29419e6d0025f152",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "고양지축B-1블록공공분양주택잔여세대추가입주자모집공고",
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061200",
+      "postedAt": "2026-11-03",
+      "receptionEvidence": "officialStatus",
+      "recruitmentKind": "잔여모집",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고",
+      "type": "분양주택"
+    },
+    {
+      "alertId": "lh:2474f2e647912d5f6871eedc04710836",
+      "applicationEnd": "2026-11-13",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-13T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-12T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-12",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-13",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-12"
+        },
+        {
+          "end": "2026-11-13",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-18",
+          "start": "2026-11-12"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061199&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-12T12:40:10+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "0a0af93cd77a0e5fa914ff36be0da6e560ca0b42bef69c71446bae4ede879f12",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "additionalRecruitment",
+        "changed",
+        "receptionStarted",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "고양장항A-2,A-4,A-5블록신혼희망타운(공공분양)잔여세대추가입주자모집공고",
+      "officialStarts": [
+        "2026-11-12T10:00:00+09:00"
+      ],
+      "panId": "0000061199",
+      "postedAt": "2026-11-03",
+      "receptionEvidence": "officialStatus",
+      "recruitmentKind": "잔여모집",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    }
+  ],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 994,
-      "checkedAt": "2026-11-12T07:55:38+09:00",
+      "calendarRowCount": 999,
+      "checkedAt": "2026-11-12T12:40:10+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 403,
+      "parsedCount": 405,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 403,
+      "totalCount": 405,
       "totalPages": 2
     },
     "documents": {
@@ -66139,9 +66787,9 @@
       "checkedPages": 16,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1556,
+      "parsedCount": 1557,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1556,
+      "totalCount": 1557,
       "totalPages": 16
     },
     "supplyCommercial": {
@@ -66185,7 +66833,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-12T07:55:38+09:00",
+  "syncedAt": "2026-11-12T12:40:10+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-11-25",
