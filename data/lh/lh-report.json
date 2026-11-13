@@ -19217,9 +19217,144 @@
       "suwonMatch": "broadCandidate",
       "title": "구리갈매역세권 A-1BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.10.27)",
       "type": "행복주택"
+    },
+    {
+      "alertId": "lh:ed985ec8583575fecf8f02a3353778c0",
+      "applicationEnd": "2026-11-12",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-11",
+          "label": "최초입찰",
+          "start": "2026-11-11"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "재입찰",
+          "start": "2026-11-12"
+        }
+      ],
+      "applicationStart": "2026-11-11",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-12",
+          "start": "2026-11-11"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-11"
+        }
+      ],
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001352&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "detectedAt": "2026-11-13T09:40:16+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "75802638422a168c9d4f79dc8f8ba47569ef25f3e499a7238fc420c1bb6e4024",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "위례A2-7블록단지내상가신규분양공고",
+      "panId": "BN-0001352",
+      "postedAt": "2026-10-27",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "commercial"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "위례A2-7블록 단지 내 상가 신규분양 공고",
+      "type": "분양ㆍ(구)임대상가(입찰)"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:ed985ec8583575fecf8f02a3353778c0",
+      "applicationEnd": "2026-11-12",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-11",
+          "label": "최초입찰",
+          "start": "2026-11-11"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "재입찰",
+          "start": "2026-11-12"
+        }
+      ],
+      "applicationStart": "2026-11-11",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-12",
+          "label": "ì ìë§ê°",
+          "resultAt": "2026-11-12",
+          "start": "2026-11-11"
+        },
+        {
+          "end": "2026-11-12",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-11"
+        }
+      ],
+      "category": "commercial",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001352&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
+      "detectedAt": "2026-11-13T09:40:16+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "75802638422a168c9d4f79dc8f8ba47569ef25f3e499a7238fc420c1bb6e4024",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "위례A2-7블록단지내상가신규분양공고",
+      "panId": "BN-0001352",
+      "postedAt": "2026-10-27",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "commercial"
+      ],
+      "status": "접수마감",
+      "suwonMatch": "broadCandidate",
+      "title": "위례A2-7블록 단지 내 상가 신규분양 공고",
+      "type": "분양ㆍ(구)임대상가(입찰)"
+    }
+  ],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -64791,87 +64926,7 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021045&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged",
-        "additionalRecruitment"
-      ],
-      "panId": "2015122300021045",
-      "title": "[정정공고]익산제3일반산단 행복주택 입주자격완화 추가모집(동호지정,선계약후검증)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020983&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020983",
-      "title": "서귀포남원 어린이집 운영주체 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020982&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020982",
-      "title": "제주정든3 어린이집 운영주체 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020972&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020972",
-      "title": "[부산] 2026년 2차 일반 매입임대주택 입주자 모집 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020897&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020897",
-      "title": "여수미평1 영구임대주택 예비입주자 모집공고(모집공고일 : 2026.10.20.)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020850&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "fields": [
-        "status"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged",
-        "additionalRecruitment"
-      ],
-      "panId": "2015122300020850",
-      "title": "익산제3일반산단 행복주택 입주자격완화 추가모집(동호지정,선계약후검증)"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020706&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0001352&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=23&mi=1069",
       "fields": [
         "detailTextHash"
       ],
@@ -64879,8 +64934,21 @@
       "kinds": [
         "changed"
       ],
-      "panId": "2015122300020706",
-      "title": "[경남지역본부] 일반 매입임대주택 입주자 모집 공고(김해시, 밀양시)"
+      "panId": "BN-0001352",
+      "title": "위례A2-7블록 단지 내 상가 신규분양 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
+      "fields": [
+        "currentlyListed"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "inventoryUnavailable"
+      ],
+      "panId": "first:firstComeRentalCommercial:1a5eba03947e4e9f62188293",
+      "title": "서울수서KTX(행복) A1"
     }
   ],
   "collectionVersion": 2,
@@ -66990,20 +67058,42 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432506&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new",
+        "additionalRecruitment"
+      ],
+      "panId": "bbs:02:9102432506",
+      "relatedPanId": "",
+      "title": "남양주왕숙 A-2블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고 접수결과 게시"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008180&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "BN-0008180",
+      "relatedPanId": "",
+      "title": "남청주현도 일반산업단지 산업시설용지 공급 공고"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 1012,
-      "checkedAt": "2026-11-13T04:31:51+09:00",
+      "calendarRowCount": 1018,
+      "checkedAt": "2026-11-13T09:40:16+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 410,
+      "parsedCount": 411,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 410,
+      "totalCount": 411,
       "totalPages": 2
     },
     "documents": {
@@ -67059,11 +67149,11 @@
       "checkedPages": 1,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 83,
+      "parsedCount": 82,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "totalCount": 83,
+      "totalCount": 82,
       "totalPages": 1,
-      "uniqueCount": 83
+      "uniqueCount": 82
     },
     "firstComeSale": {
       "checkedPages": 1,
@@ -67098,9 +67188,9 @@
       "checkedPages": 16,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1570,
+      "parsedCount": 1571,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1570,
+      "totalCount": 1571,
       "totalPages": 16
     },
     "supplyCommercial": {
@@ -67144,7 +67234,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-13T04:31:51+09:00",
+  "syncedAt": "2026-11-13T09:40:16+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
