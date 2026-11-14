@@ -19692,48 +19692,7 @@
       "type": "임대상가(추첨)"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:8dc432c4413b3e2a4bab0eca8a27e8dc",
-      "applicationEnd": "2026-12-04",
-      "applicationStart": "2026-12-01",
-      "broadCandidate": true,
-      "category": "commercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021073&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "detectedAt": "2026-11-14T06:35:47+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "f594276aef1aba7eb8aa5a1e7fe7ae82e4a40f6217cb7a89ae20aad06b7a2a3e",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "needsReview": false,
-      "noticeFamily": "판교제2테크노밸리기업성장센터(F2블록)산업시설임대공급입점기업모집공고",
-      "panId": "2015122300021073",
-      "postedAt": "2026-11-13",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "commercial"
-      ],
-      "status": "공고중",
-      "suwonMatch": "broadCandidate",
-      "title": "판교 제2테크노밸리 기업성장센터(F2블록) 산업시설 임대공급 입점기업 모집공고",
-      "type": "임대상가(추첨)"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -65452,20 +65411,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021073&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300021073",
-      "title": "판교 제2테크노밸리 기업성장센터(F2블록) 산업시설 임대공급 입점기업 모집공고"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -67580,7 +67526,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1036,
-      "checkedAt": "2026-11-14T06:35:47+09:00",
+      "checkedAt": "2026-11-14T10:45:35+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -67727,7 +67673,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-14T06:35:47+09:00",
+  "syncedAt": "2026-11-14T10:45:35+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
