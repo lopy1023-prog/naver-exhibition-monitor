@@ -19690,9 +19690,496 @@
       "suwonMatch": "broadCandidate",
       "title": "판교 제2테크노밸리 기업성장센터(F2블록) 산업시설 임대공급 입점기업 모집공고",
       "type": "임대상가(추첨)"
+    },
+    {
+      "alertId": "lh:4c679bd2fc43b6472450634c5def452a",
+      "applicationEnd": "2026-11-27",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-26T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-26T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-26T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-08",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061204&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "172ef337a23191ffd49e7dc7a255b2b111d4b2f578728d250581bfe5cedfcb0a",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥거모아테라(시흥거모A-6BL)신혼희망타운(공공분양)입주자모집공고",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "0000061204",
+      "postedAt": "2026-11-06",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥 거모 아테라(시흥거모 A-6BL) 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    },
+    {
+      "alertId": "lh:e30dc46a5565b1dcac718242c670a0fe",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "30ab70706efdd6c10c2b3c284b746c55a76f9f0162a438ec66b5aaf7a98a1f04",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "연천전곡1단지국민임대주택예비입주자모집공고(2026.11.05.)",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "2015122300020996",
+      "postedAt": "2026-11-05",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:6557d370a940a797084a3052cbd0ecab",
+      "applicationEnd": "2026-11-18",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "category": "rental",
+      "confirmedRegions": [
+        "오산"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020896&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a92d34955221facc58e9b2d466242a4dea1371c36b41b95d7fac18920e5050be",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "오산세교27단지(A-6BL)영구임대입주자격완화(소득150%완화)예비입주자모집공고(2026.11.02)",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "2015122300020896",
+      "postedAt": "2026-11-02",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "오산세교2 7단지(A-6BL) 영구임대 입주자격완화(소득150%완화) 예비입주자 모집공고(2026.11.02)",
+      "type": "영구임대"
+    },
+    {
+      "alertId": "lh:2c0a1c76696de3fd879e5eda395dc967",
+      "applicationEnd": "2026-11-24",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-23T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-04",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-24",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "e37b637dc08e0318b6198f60c783289169db41c8748d4e31bb74d8d9d0f81536",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "안산신길2A-6블록신혼희망타운(공공분양)입주자모집공고",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "0000061189",
+      "postedAt": "2026-10-30",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "안산신길2 A-6블록 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "alertId": "lh:4c679bd2fc43b6472450634c5def452a",
+      "applicationEnd": "2026-11-27",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-26T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-26T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-26T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-08",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061204&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "172ef337a23191ffd49e7dc7a255b2b111d4b2f578728d250581bfe5cedfcb0a",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥거모아테라(시흥거모A-6BL)신혼희망타운(공공분양)입주자모집공고",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "0000061204",
+      "postedAt": "2026-11-06",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥 거모 아테라(시흥거모 A-6BL) 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    },
+    {
+      "alertId": "lh:e30dc46a5565b1dcac718242c670a0fe",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "30ab70706efdd6c10c2b3c284b746c55a76f9f0162a438ec66b5aaf7a98a1f04",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "연천전곡1단지국민임대주택예비입주자모집공고(2026.11.05.)",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "2015122300020996",
+      "postedAt": "2026-11-05",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:6557d370a940a797084a3052cbd0ecab",
+      "applicationEnd": "2026-11-18",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "category": "rental",
+      "confirmedRegions": [
+        "오산"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020896&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a92d34955221facc58e9b2d466242a4dea1371c36b41b95d7fac18920e5050be",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "오산세교27단지(A-6BL)영구임대입주자격완화(소득150%완화)예비입주자모집공고(2026.11.02)",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "2015122300020896",
+      "postedAt": "2026-11-02",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "오산세교2 7단지(A-6BL) 영구임대 입주자격완화(소득150%완화) 예비입주자 모집공고(2026.11.02)",
+      "type": "영구임대"
+    },
+    {
+      "alertId": "lh:2c0a1c76696de3fd879e5eda395dc967",
+      "applicationEnd": "2026-11-24",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-23T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-04",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-24",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "e37b637dc08e0318b6198f60c783289169db41c8748d4e31bb74d8d9d0f81536",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "안산신길2A-6블록신혼희망타운(공공분양)입주자모집공고",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "0000061189",
+      "postedAt": "2026-10-30",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "안산신길2 A-6블록 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    }
+  ],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -67520,13 +68007,257 @@
     }
   ],
   "new": [],
-  "receptionStarts": [],
+  "receptionStarts": [
+    {
+      "alertId": "lh:4c679bd2fc43b6472450634c5def452a",
+      "applicationEnd": "2026-11-27",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-26T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-26T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-27T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-26T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-27",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-27",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-08",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061204&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "172ef337a23191ffd49e7dc7a255b2b111d4b2f578728d250581bfe5cedfcb0a",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥거모아테라(시흥거모A-6BL)신혼희망타운(공공분양)입주자모집공고",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "0000061204",
+      "postedAt": "2026-11-06",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥 거모 아테라(시흥거모 A-6BL) 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    },
+    {
+      "alertId": "lh:e30dc46a5565b1dcac718242c670a0fe",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "30ab70706efdd6c10c2b3c284b746c55a76f9f0162a438ec66b5aaf7a98a1f04",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "연천전곡1단지국민임대주택예비입주자모집공고(2026.11.05.)",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "2015122300020996",
+      "postedAt": "2026-11-05",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
+      "type": "국민임대"
+    },
+    {
+      "alertId": "lh:6557d370a940a797084a3052cbd0ecab",
+      "applicationEnd": "2026-11-18",
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "category": "rental",
+      "confirmedRegions": [
+        "오산"
+      ],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020896&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "a92d34955221facc58e9b2d466242a4dea1371c36b41b95d7fac18920e5050be",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "오산세교27단지(A-6BL)영구임대입주자격완화(소득150%완화)예비입주자모집공고(2026.11.02)",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "2015122300020896",
+      "postedAt": "2026-11-02",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "rental"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "오산세교2 7단지(A-6BL) 영구임대 입주자격완화(소득150%완화) 예비입주자 모집공고(2026.11.02)",
+      "type": "영구임대"
+    },
+    {
+      "alertId": "lh:2c0a1c76696de3fd879e5eda395dc967",
+      "applicationEnd": "2026-11-24",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "예비신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "신혼부부",
+          "start": "2026-11-23T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-24T17:00:00+09:00",
+          "label": "한부모가족",
+          "start": "2026-11-23T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-16",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-24",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-12-04",
+          "start": "2026-11-16"
+        },
+        {
+          "end": "2026-11-24",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-16"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "detectedAt": "2026-11-16T03:54:26+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "e37b637dc08e0318b6198f60c783289169db41c8748d4e31bb74d8d9d0f81536",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "안산신길2A-6블록신혼희망타운(공공분양)입주자모집공고",
+      "officialStarts": [
+        "2026-11-16"
+      ],
+      "panId": "0000061189",
+      "postedAt": "2026-10-30",
+      "receptionEvidence": "officialStartDate",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "안산신길2 A-6블록 신혼희망타운(공공분양) 입주자모집공고",
+      "type": "공공분양(신혼희망)"
+    }
+  ],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1036,
-      "checkedAt": "2026-11-15T21:07:37+09:00",
+      "checkedAt": "2026-11-16T03:54:26+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -67673,7 +68404,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-15T21:07:37+09:00",
+  "syncedAt": "2026-11-16T03:54:26+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
