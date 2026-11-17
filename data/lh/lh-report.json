@@ -32060,20 +32060,68 @@
       "suwonMatch": "broadCandidate",
       "title": "[5년 무이자 분할납부]파주운정3 주거전용 단독주택용지 공급공고",
       "type": "토지"
-    }
-  ],
-  "alerts": [
+    },
     {
-      "alertId": "lh:2fcbedd4ce2d69670257db695d11411b",
-      "applicationEnd": "2026-11-17",
-      "applicationStart": "2026-11-16",
+      "alertId": "lh:bf42874fbb1e4205b683b7cb46f87666",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "BN-0007981",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008192&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "ef203c753b70f6197fc7e9421924ad5158d738436c9efd6289aa89f56c26ef56",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[중개알선대상]시흥장현,시흥거모,시흥하중업무시설용지선착순수의계약공급공고[1년거치포함5년무이자]",
+      "panId": "BN-0008192",
+      "postedAt": "2026-11-17",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "BN-0007981",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고] [중개알선 대상]시흥장현, 시흥거모, 시흥하중 업무시설용지 선착순 수의계약 공급공고[1년 거치 포함 5년 무이자]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:aebbdc3b14a2f8310d80cd021971d656",
+      "applicationEnd": "2026-11-26",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-26T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-25T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-25",
       "broadCandidate": true,
       "calendarSchedules": [
         {
-          "end": "2026-11-17",
+          "end": "2026-11-26",
           "label": "ì ì",
           "resultAt": "",
-          "start": "2026-11-16"
+          "start": "2026-11-25"
+        },
+        {
+          "end": "2026-11-26",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-30",
+          "start": "2026-11-25"
         }
       ],
       "category": "rental",
@@ -32081,11 +32129,11 @@
       "correction": false,
       "correctionOf": "",
       "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "detectedAt": "2026-11-17T05:41:29+09:00",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "4e2c91f1d58ba896dc13785034e9053446e522847fa745c2cea5bf65a13eb99e",
+      "eventSignature": "bd1784094b5f7d1ae45c4903c75da96b0dfdb98945d9f561ce522b54e5ee2575",
       "fields": [
         "detailTextHash"
       ],
@@ -32094,9 +32142,9 @@
         "changed"
       ],
       "needsReview": false,
-      "noticeFamily": "연천전곡1단지국민임대주택예비입주자모집공고(2026.11.05.)",
-      "panId": "2015122300020996",
-      "postedAt": "2026-11-05",
+      "noticeFamily": "파주운정A4BL(별하람3)10년공공임대주택리츠예비입주자모집(무순위)",
+      "panId": "0000061212",
+      "postedAt": "2026-11-16",
       "recruitmentKind": "예비입주자",
       "region": "경기도",
       "requiresSuwonReview": true,
@@ -32107,20 +32155,20 @@
         "calendar",
         "rental"
       ],
-      "status": "접수마감",
+      "status": "공고중",
       "suwonMatch": "broadCandidate",
-      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
-      "type": "국민임대"
+      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
+      "type": "임대주택"
     },
     {
-      "alertId": "lh:a5dd60700a13edbd12e74d85623e70ef",
+      "alertId": "lh:54c44f1e9ca98513a4e519ca5027f15b",
       "applicationEnd": "2026-11-17",
       "applicationStart": "2026-11-17",
       "broadCandidate": true,
       "calendarSchedules": [
         {
           "end": "2026-11-17",
-          "label": "ê³µê³ ì¤",
+          "label": "ì ìì¤",
           "resultAt": "2026-11-17",
           "start": "2026-11-17"
         },
@@ -32137,22 +32185,126 @@
       "correctionOf": "",
       "currentlyListed": true,
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008083&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-11-17T05:41:29+09:00",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "e189ba0b53e3092f1fb5c13b64efb1d3bada4418bfdb35bb65c41acf44d798bb",
+      "eventSignature": "33aa41ae32c5acd029b0be4086700d65026213ceba9854802ee996c84bb8a385",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[5년무이자분할납부]파주운정3주거전용단독주택용지공급공고",
+      "panId": "BN-0008083",
+      "postedAt": "2026-10-27",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "[5년 무이자 분할납부]파주운정3 주거전용 단독주택용지 공급공고",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:647a6fd9ab582f87d45fa6b54c05b7b4",
+      "applicationEnd": "2026-11-17",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신혼부부특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "생애최초특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "기관추천",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신생아특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(우선)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "신생아 우선공급",
+          "start": "2026-11-17T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-02",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-26",
+          "start": "2026-11-02"
+        },
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-02"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "0000061186",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061195&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "bf15f946627340753fb9abf5a980663bc9180364561de5eb777ee56210629c55",
       "kind": "receptionStart",
       "kinds": [
         "receptionStarted"
       ],
       "needsReview": false,
-      "noticeFamily": "[5년무이자분할납부]파주운정3주거전용단독주택용지공급공고",
+      "noticeFamily": "시흥거모S-1블록공공분양주택입주자모집공고",
       "officialStarts": [
-        "2026-11-17"
+        "2026-11-17T10:00:00+09:00"
       ],
-      "panId": "BN-0008083",
+      "panId": "0000061195",
       "postedAt": "2026-10-27",
-      "receptionEvidence": "officialStartDate",
+      "receptionEvidence": "officialStartTime",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
       "requiresEligibilityReview": true,
@@ -32162,15 +32314,510 @@
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고]시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "type": "분양주택"
+    },
+    {
+      "alertId": "lh:fb41ee878ea43c93a134baf68989e09d",
+      "applicationEnd": "2026-11-17",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신혼부부특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "생애최초특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "기관추천",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신생아특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(우선)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "신생아 우선공급",
+          "start": "2026-11-17T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-02",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-02"
+        },
+        {
+          "end": "2026-11-17",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": "2026-11-02"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061186&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "6f362aeed35a01608335e96c4879dcabb6455a6a18a86036e94f61b7ac6db4f2",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥거모S-1블록공공분양주택입주자모집공고",
+      "officialStarts": [
+        "2026-11-17T10:00:00+09:00"
+      ],
+      "panId": "0000061186",
+      "postedAt": "2026-10-23",
+      "receptionEvidence": "officialStartTime",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "sale"
+      ],
+      "status": "정정공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "type": "분양주택"
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "lh:bf42874fbb1e4205b683b7cb46f87666",
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "BN-0007981",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008192&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "ef203c753b70f6197fc7e9421924ad5158d738436c9efd6289aa89f56c26ef56",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[중개알선대상]시흥장현,시흥거모,시흥하중업무시설용지선착순수의계약공급공고[1년거치포함5년무이자]",
+      "panId": "BN-0008192",
+      "postedAt": "2026-11-17",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "relatedPanId": "BN-0007981",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
         "land"
+      ],
+      "status": "상담요청",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고] [중개알선 대상]시흥장현, 시흥거모, 시흥하중 업무시설용지 선착순 수의계약 공급공고[1년 거치 포함 5년 무이자]",
+      "type": "토지"
+    },
+    {
+      "alertId": "lh:aebbdc3b14a2f8310d80cd021971d656",
+      "applicationEnd": "2026-11-26",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-26T17:00:00+09:00",
+          "label": "무순위",
+          "start": "2026-11-25T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-25",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-26",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-25"
+        },
+        {
+          "end": "2026-11-26",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-30",
+          "start": "2026-11-25"
+        }
+      ],
+      "category": "rental",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "bd1784094b5f7d1ae45c4903c75da96b0dfdb98945d9f561ce522b54e5ee2575",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "needsReview": false,
+      "noticeFamily": "파주운정A4BL(별하람3)10년공공임대주택리츠예비입주자모집(무순위)",
+      "panId": "0000061212",
+      "postedAt": "2026-11-16",
+      "recruitmentKind": "예비입주자",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "rental"
       ],
       "status": "공고중",
       "suwonMatch": "broadCandidate",
+      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
+      "type": "임대주택"
+    },
+    {
+      "alertId": "lh:54c44f1e9ca98513a4e519ca5027f15b",
+      "applicationEnd": "2026-11-17",
+      "applicationStart": "2026-11-17",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-17",
+          "start": "2026-11-17"
+        },
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-17"
+        }
+      ],
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008083&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "33aa41ae32c5acd029b0be4086700d65026213ceba9854802ee996c84bb8a385",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "needsReview": false,
+      "noticeFamily": "[5년무이자분할납부]파주운정3주거전용단독주택용지공급공고",
+      "panId": "BN-0008083",
+      "postedAt": "2026-10-27",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "land"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
       "title": "[5년 무이자 분할납부]파주운정3 주거전용 단독주택용지 공급공고",
       "type": "토지"
+    },
+    {
+      "alertId": "lh:647a6fd9ab582f87d45fa6b54c05b7b4",
+      "applicationEnd": "2026-11-17",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신혼부부특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "생애최초특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "기관추천",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신생아특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(우선)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "신생아 우선공급",
+          "start": "2026-11-17T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-02",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-26",
+          "start": "2026-11-02"
+        },
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-02"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "0000061186",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061195&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "bf15f946627340753fb9abf5a980663bc9180364561de5eb777ee56210629c55",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥거모S-1블록공공분양주택입주자모집공고",
+      "officialStarts": [
+        "2026-11-17T10:00:00+09:00"
+      ],
+      "panId": "0000061195",
+      "postedAt": "2026-10-27",
+      "receptionEvidence": "officialStartTime",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "calendar",
+        "sale"
+      ],
+      "status": "접수중",
+      "suwonMatch": "broadCandidate",
+      "title": "[정정공고]시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "type": "분양주택"
+    },
+    {
+      "alertId": "lh:fb41ee878ea43c93a134baf68989e09d",
+      "applicationEnd": "2026-11-17",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신혼부부특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "생애최초특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "기관추천",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신생아특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(우선)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "신생아 우선공급",
+          "start": "2026-11-17T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-02",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-02"
+        },
+        {
+          "end": "2026-11-17",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": "2026-11-02"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061186&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "6f362aeed35a01608335e96c4879dcabb6455a6a18a86036e94f61b7ac6db4f2",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥거모S-1블록공공분양주택입주자모집공고",
+      "officialStarts": [
+        "2026-11-17T10:00:00+09:00"
+      ],
+      "panId": "0000061186",
+      "postedAt": "2026-10-23",
+      "receptionEvidence": "officialStartTime",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "sale"
+      ],
+      "status": "정정공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "type": "분양주택"
     }
   ],
   "broadCandidates": [
+    {
+      "applicationEnd": "",
+      "applicationStart": "",
+      "broadCandidate": true,
+      "category": "land",
+      "confirmedRegions": [],
+      "correction": true,
+      "correctionOf": "BN-0007981",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008192&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "needsReview": false,
+      "noticeFamily": "[중개알선대상]시흥장현,시흥거모,시흥하중업무시설용지선착순수의계약공급공고[1년거치포함5년무이자]",
+      "panId": "BN-0008192",
+      "postedAt": "2026-11-17",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "land"
+      ],
+      "status": "상담요청",
+      "title": "[정정공고] [중개알선 대상]시흥장현, 시흥거모, 시흥하중 업무시설용지 선착순 수의계약 공급공고[1년 거치 포함 5년 무이자]",
+      "type": "토지"
+    },
     {
       "applicationEnd": "",
       "applicationStart": "",
@@ -34652,7 +35299,7 @@
       "calendarSchedules": [
         {
           "end": "2026-11-17",
-          "label": "ê³µê³ ì¤",
+          "label": "ì ìì¤",
           "resultAt": "2026-11-17",
           "start": "2026-11-17"
         },
@@ -34684,7 +35331,7 @@
         "calendar",
         "land"
       ],
-      "status": "공고중",
+      "status": "접수중",
       "title": "[5년 무이자 분할납부]파주운정3 주거전용 단독주택용지 공급공고",
       "type": "토지"
     },
@@ -79996,7 +80643,21 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021031&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021070&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300021070",
+      "title": "부산광역시 국민임대주택 예비입주자 정례모집 공고(2026.11.16.)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
       "fields": [
         "detailTextHash"
       ],
@@ -80004,11 +80665,67 @@
       "kinds": [
         "changed"
       ],
-      "panId": "2015122300021031",
-      "title": "[정정공고]'26년 11월 인천시 남동구 국민임대주택 예비입주자 모집 공고(2026.11.05.)"
+      "panId": "0000061212",
+      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021014&ccrCnntSysDsCd=03&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008170&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008170",
+      "title": "괴산미니복합타운 근린생활시설용지 재공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021030&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "2015122300021030",
+      "title": "[정정공고][정정공고]'26.11월 경주시, 영천시 국민임대주택 동호지정 입주자격 완화 입주자 모집(선계약 후검증)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008133&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008133",
+      "title": "계룡대실·보령명천 일반상업 및 주차장용지 재공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008083&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008083",
+      "title": "[5년 무이자 분할납부]파주운정3 주거전용 단독주택용지 공급공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002894&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
       "fields": [
         "status"
       ],
@@ -80017,27 +80734,11 @@
         "changed",
         "statusChanged"
       ],
-      "panId": "2015122300021014",
-      "title": "삼척원당 영구임대상가 입점자 모집 공고"
+      "panId": "LN-0002894",
+      "title": "여천무선1 임대상가 입점자 모집공고"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008140&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "fields": [
-        "applicationEnd",
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged",
-        "deadlineChanged"
-      ],
-      "panId": "BN-0008140",
-      "title": "제주동부 공공지원민간임대주택 공급촉진지구 협의양도인택지 공급 공고"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/1/lfn_getTabChange.do?mi=201526",
       "fields": [
         "detailTextHash"
       ],
@@ -80045,8 +80746,8 @@
       "kinds": [
         "changed"
       ],
-      "panId": "2015122300020996",
-      "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)"
+      "panId": "first:firstComeSale:aafc11a4497833f90d00f6cd",
+      "title": "아산배방업무4(행복) 주상복합2"
     }
   ],
   "collectionVersion": 2,
@@ -82158,58 +82859,115 @@
   ],
   "new": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432520&ccrCnntSysDsCd=02&mi=1079",
-      "kind": "new",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008192&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "kind": "correction",
       "kinds": [
-        "new"
+        "correction"
       ],
-      "panId": "bbs:02:9102432520",
-      "relatedPanId": "",
-      "title": "2026년11월5일공고 인천시 남동구 국민임대주택 예비입주자 청약률및마감안내(11.16)"
+      "panId": "BN-0008192",
+      "relatedPanId": "BN-0007981",
+      "title": "[정정공고] [중개알선 대상]시흥장현, 시흥거모, 시흥하중 업무시설용지 선착순 수의계약 공급공고[1년 거치 포함 5년 무이자]"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021100&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+      "kind": "correction",
+      "kinds": [
+        "correction"
+      ],
+      "panId": "2015122300021100",
+      "relatedPanId": "2015122300021070",
+      "title": "[정정공고]부산광역시 국민임대주택 예비입주자 정례모집 공고(2026.11.16.)"
     }
   ],
   "receptionStarts": [
     {
-      "alertId": "lh:a5dd60700a13edbd12e74d85623e70ef",
+      "alertId": "lh:647a6fd9ab582f87d45fa6b54c05b7b4",
       "applicationEnd": "2026-11-17",
-      "applicationStart": "2026-11-17",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신혼부부특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "생애최초특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "기관추천",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신생아특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(우선)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "신생아 우선공급",
+          "start": "2026-11-17T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-02",
       "broadCandidate": true,
       "calendarSchedules": [
         {
           "end": "2026-11-17",
-          "label": "ê³µê³ ì¤",
-          "resultAt": "2026-11-17",
-          "start": "2026-11-17"
+          "label": "ì ìì¤",
+          "resultAt": "2026-11-26",
+          "start": "2026-11-02"
         },
         {
           "end": "2026-11-17",
           "label": "ì ì",
           "resultAt": "",
-          "start": "2026-11-17"
+          "start": "2026-11-02"
         }
       ],
-      "category": "land",
+      "category": "sale",
       "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
+      "correction": true,
+      "correctionOf": "0000061186",
       "currentlyListed": true,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008083&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
-      "detectedAt": "2026-11-17T05:41:29+09:00",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061195&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
       "directSuwon": false,
       "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "e189ba0b53e3092f1fb5c13b64efb1d3bada4418bfdb35bb65c41acf44d798bb",
+      "eventSignature": "bf15f946627340753fb9abf5a980663bc9180364561de5eb777ee56210629c55",
       "kind": "receptionStart",
       "kinds": [
         "receptionStarted"
       ],
       "needsReview": false,
-      "noticeFamily": "[5년무이자분할납부]파주운정3주거전용단독주택용지공급공고",
+      "noticeFamily": "시흥거모S-1블록공공분양주택입주자모집공고",
       "officialStarts": [
-        "2026-11-17"
+        "2026-11-17T10:00:00+09:00"
       ],
-      "panId": "BN-0008083",
+      "panId": "0000061195",
       "postedAt": "2026-10-27",
-      "receptionEvidence": "officialStartDate",
+      "receptionEvidence": "officialStartTime",
       "recruitmentKind": "공고 내용 확인 필요",
       "region": "경기도",
       "requiresEligibilityReview": true,
@@ -82219,12 +82977,115 @@
       "roomCountStatus": "확인 필요",
       "sourceNames": [
         "calendar",
-        "land"
+        "sale"
       ],
-      "status": "공고중",
+      "status": "접수중",
       "suwonMatch": "broadCandidate",
-      "title": "[5년 무이자 분할납부]파주운정3 주거전용 단독주택용지 공급공고",
-      "type": "토지"
+      "title": "[정정공고]시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "type": "분양주택"
+    },
+    {
+      "alertId": "lh:fb41ee878ea43c93a134baf68989e09d",
+      "applicationEnd": "2026-11-17",
+      "applicationSchedules": [
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신혼부부특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "생애최초특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "기관추천",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-16T17:00:00+09:00",
+          "label": "신생아특별",
+          "start": "2026-11-16T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(우선)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17T10:00:00+09:00"
+        },
+        {
+          "end": "2026-11-17T17:00:00+09:00",
+          "label": "신생아 우선공급",
+          "start": "2026-11-17T10:00:00+09:00"
+        }
+      ],
+      "applicationStart": "2026-11-02",
+      "broadCandidate": true,
+      "calendarSchedules": [
+        {
+          "end": "2026-11-17",
+          "label": "ì ì",
+          "resultAt": "",
+          "start": "2026-11-02"
+        },
+        {
+          "end": "2026-11-17",
+          "label": "ê³µê³ ì¤",
+          "resultAt": "2026-11-26",
+          "start": "2026-11-02"
+        }
+      ],
+      "category": "sale",
+      "confirmedRegions": [],
+      "correction": false,
+      "correctionOf": "",
+      "currentlyListed": true,
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061186&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "detectedAt": "2026-11-17T12:12:46+09:00",
+      "directSuwon": false,
+      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
+      "eventSignature": "6f362aeed35a01608335e96c4879dcabb6455a6a18a86036e94f61b7ac6db4f2",
+      "kind": "receptionStart",
+      "kinds": [
+        "receptionStarted"
+      ],
+      "needsReview": false,
+      "noticeFamily": "시흥거모S-1블록공공분양주택입주자모집공고",
+      "officialStarts": [
+        "2026-11-17T10:00:00+09:00"
+      ],
+      "panId": "0000061186",
+      "postedAt": "2026-10-23",
+      "receptionEvidence": "officialStartTime",
+      "recruitmentKind": "공고 내용 확인 필요",
+      "region": "경기도",
+      "requiresEligibilityReview": true,
+      "requiresSuwonReview": true,
+      "reviewReason": [],
+      "roomCount": null,
+      "roomCountStatus": "확인 필요",
+      "sourceNames": [
+        "sale"
+      ],
+      "status": "정정공고중",
+      "suwonMatch": "broadCandidate",
+      "title": "시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "type": "분양주택"
     }
   ],
   "schemaVersion": 1,
@@ -82232,7 +83093,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1139,
-      "checkedAt": "2026-11-17T05:41:29+09:00",
+      "checkedAt": "2026-11-17T12:12:46+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -82304,9 +83165,9 @@
       "checkedPages": 1,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 14,
+      "parsedCount": 13,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/1/lfn_getTabChange.do?mi=201526",
-      "totalCount": 14,
+      "totalCount": 13,
       "totalPages": 1,
       "uniqueCount": 12
     },
@@ -82362,11 +83223,11 @@
       "checkedPages": 2,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 113,
+      "parsedCount": 111,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/sp/list.do?sUppAisTpCd=06&mi=1042",
-      "totalCount": 113,
+      "totalCount": 111,
       "totalPages": 2,
-      "uniqueCount": 112
+      "uniqueCount": 110
     },
     "supplySale": {
       "checkedPages": 1,
@@ -82379,7 +83240,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-17T05:41:29+09:00",
+  "syncedAt": "2026-11-17T12:12:46+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
