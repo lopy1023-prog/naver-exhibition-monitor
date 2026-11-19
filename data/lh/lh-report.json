@@ -83259,7 +83259,74 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [],
+  "changed": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002906&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "LN-0002906",
+      "title": "인천만수주공7단지 임대상가 입점자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008143&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008143",
+      "title": "경남 우주항공 국가산업단지 사천지구 산업시설용지 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=BN-0008142&ccrCnntSysDsCd=01&uppAisTpCd=01&aisTpCd=01&mi=1062",
+      "fields": [
+        "status",
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "BN-0008142",
+      "title": "경남 우주항공 국가산업단지 진주지구 산업시설용지 공급 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=LN-0002896&ccrCnntSysDsCd=04&uppAisTpCd=22&aisTpCd=24&mi=1069",
+      "fields": [
+        "status"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "statusChanged"
+      ],
+      "panId": "LN-0002896",
+      "title": "여수문수 임대상가 입점자 모집공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020961&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020961",
+      "title": "충남권(아산시, 보령시, 천안시, 공주시) 미분양매입 일반매각 잔여세대 선착순 동·호 지정 공고"
+    }
+  ],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -85502,14 +85569,35 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432529&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:02:9102432529",
+      "relatedPanId": "",
+      "title": "[2026년 서울특별시 영구임대주택] 예비입주자 모집공고 신청 양식 등 게시"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "2015122300021109",
+      "relatedPanId": "",
+      "title": "2026년 서울특별시 영구임대주택 예비입주자 모집"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1222,
-      "checkedAt": "2026-11-19T04:08:20+09:00",
+      "checkedAt": "2026-11-19T10:15:17+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -85610,9 +85698,9 @@
       "checkedPages": 16,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1596,
+      "parsedCount": 1597,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1596,
+      "totalCount": 1597,
       "totalPages": 16
     },
     "supplyCommercial": {
@@ -85656,7 +85744,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-19T04:08:20+09:00",
+  "syncedAt": "2026-11-19T10:15:17+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
