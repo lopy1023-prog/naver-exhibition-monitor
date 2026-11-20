@@ -83615,46 +83615,28 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020993&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020565&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
       "fields": [
-        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed",
-        "statusChanged"
+        "changed"
       ],
-      "panId": "2015122300020993",
-      "title": "평창장평 통합공공임대주택(고령자복지형) 입주자 모집"
+      "panId": "2015122300020565",
+      "title": "횡성우천2 통합공공임대주택(일자리연계형) 추가 입주자 모집"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020992&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020231&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
       "fields": [
-        "status",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed",
-        "statusChanged"
+        "changed"
       ],
-      "panId": "2015122300020992",
-      "title": "평창장평 통합공공임대주택(일반형) 입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020917&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "fields": [
-        "status",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "statusChanged"
-      ],
-      "panId": "2015122300020917",
-      "title": "완주삼례A-1 행복주택 입주자격완화 예비입주자 모집"
+      "panId": "2015122300020231",
+      "title": "[정정공고]횡성우천2 통합공공임대주택(일자리연계형) 입주자 모집"
     }
   ],
   "collectionVersion": 2,
@@ -85950,7 +85932,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1248,
-      "checkedAt": "2026-11-21T01:24:49+09:00",
+      "checkedAt": "2026-11-21T07:45:55+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -86097,7 +86079,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-21T01:24:49+09:00",
+  "syncedAt": "2026-11-21T07:45:55+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-12-02",
