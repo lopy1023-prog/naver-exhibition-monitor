@@ -83613,7 +83613,81 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [],
+  "changed": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021007&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "fields": [
+        "attachments"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed",
+        "attachmentChanged"
+      ],
+      "panId": "2015122300021007",
+      "title": "정읍수성1 영구임대주택 입주자격완화 예비입주자 모집 공고"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020906&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020906",
+      "title": "광주전남혁신 빛가람LH3단지 잔여세대 일반매각 공고(상시, 선착순 동호지정)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020799&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020799",
+      "title": "광주전남혁신 빛가람LH1단지 잔여세대 일반매각 공고(상시, 선착순 동호지정)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020606&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020606",
+      "title": "무안 오룡마을 남악휴먼시아 잔여세대 일반매각 공고(상시, 유주택)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020425&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "2015122300020425",
+      "title": "광주전남혁신 빛가람LH3단지 잔여세대 일반매각 공고(상시, 선착순 동호지정)"
+    },
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/1/lfn_getTabChange.do?mi=201526",
+      "fields": [
+        "detailTextHash"
+      ],
+      "kind": "changed",
+      "kinds": [
+        "changed"
+      ],
+      "panId": "first:firstComeSale:4f8af2d8093f57b24c4c7d36",
+      "title": "익산평화(08,주환) 1"
+    }
+  ],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -85900,14 +85974,25 @@
       "type": "매입임대"
     }
   ],
-  "new": [],
+  "new": [
+    {
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/view.do?bbsSn=9102432535&ccrCnntSysDsCd=02&mi=1079",
+      "kind": "new",
+      "kinds": [
+        "new"
+      ],
+      "panId": "bbs:02:9102432535",
+      "relatedPanId": "",
+      "title": "울산다운2 A-9 신혼희망타운(공공분양) 잔여세대 동호표 알림(‘26.11.20.기준)"
+    }
+  ],
   "receptionStarts": [],
   "schemaVersion": 1,
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1242,
-      "checkedAt": "2026-11-20T02:56:31+09:00",
+      "checkedAt": "2026-11-20T09:28:52+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -86008,9 +86093,9 @@
       "checkedPages": 17,
       "complete": true,
       "currentPage": 1,
-      "parsedCount": 1601,
+      "parsedCount": 1602,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/noti/an/list.do?slBbsKdCd=03&mi=1079",
-      "totalCount": 1601,
+      "totalCount": 1602,
       "totalPages": 17
     },
     "supplyCommercial": {
@@ -86054,7 +86139,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-20T02:56:31+09:00",
+  "syncedAt": "2026-11-20T09:28:52+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-12-02",
