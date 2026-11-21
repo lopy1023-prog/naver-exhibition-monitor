@@ -83615,7 +83615,7 @@
   ],
   "changed": [
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020565&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021090&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "fields": [
         "detailTextHash"
       ],
@@ -83623,20 +83623,22 @@
       "kinds": [
         "changed"
       ],
-      "panId": "2015122300020565",
-      "title": "횡성우천2 통합공공임대주택(일자리연계형) 추가 입주자 모집"
+      "panId": "2015122300021090",
+      "title": "음성군 국민임대 예비입주자 모집"
     },
     {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020231&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021008&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
       "fields": [
+        "applicationStart",
         "detailTextHash"
       ],
       "kind": "changed",
       "kinds": [
-        "changed"
+        "changed",
+        "deadlineChanged"
       ],
-      "panId": "2015122300020231",
-      "title": "[정정공고]횡성우천2 통합공공임대주택(일자리연계형) 입주자 모집"
+      "panId": "2015122300021008",
+      "title": "경북서부지역(구미시, 김천시, 의성군) 국민임대 예비입주자 모집"
     }
   ],
   "collectionVersion": 2,
@@ -85931,14 +85933,14 @@
   "sourceStatus": "ok",
   "supplementalSources": {
     "calendar": {
-      "calendarRowCount": 1248,
-      "checkedAt": "2026-11-21T07:45:55+09:00",
+      "calendarRowCount": 1253,
+      "checkedAt": "2026-11-21T12:33:17+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
-      "parsedCount": 490,
+      "parsedCount": 492,
       "sourceUrl": "https://apply.lh.or.kr/lhapply/apply/sc/list.do?mi=1312",
-      "totalCount": 490,
+      "totalCount": 492,
       "totalPages": 2
     },
     "documents": {
@@ -86079,7 +86081,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-21T07:45:55+09:00",
+  "syncedAt": "2026-11-21T12:33:17+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-12-02",
