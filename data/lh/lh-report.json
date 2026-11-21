@@ -83613,34 +83613,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021090&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed"
-      ],
-      "panId": "2015122300021090",
-      "title": "음성군 국민임대 예비입주자 모집"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021008&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-      "fields": [
-        "applicationStart",
-        "detailTextHash"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "deadlineChanged"
-      ],
-      "panId": "2015122300021008",
-      "title": "경북서부지역(구미시, 김천시, 의성군) 국민임대 예비입주자 모집"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -85934,7 +85907,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1253,
-      "checkedAt": "2026-11-21T12:33:17+09:00",
+      "checkedAt": "2026-11-21T20:43:14+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -86081,7 +86054,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-21T12:33:17+09:00",
+  "syncedAt": "2026-11-21T20:43:14+09:00",
   "targetRegions": [
     {
       "applicationEnd": "2026-12-02",
