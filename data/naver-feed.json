@@ -4,11 +4,11 @@
   "sourceUrl": "https://rss.blog.naver.com/naver_seller.xml",
   "sourceStatus": "ok",
   "sourceUsed": "rss",
-  "sourceLastCheckedAt": "2026-11-25T02:20:34.861Z",
-  "sourceLastSuccessAt": "2026-11-25T02:20:34.861Z",
+  "sourceLastCheckedAt": "2026-11-25T12:42:41.300Z",
+  "sourceLastSuccessAt": "2026-11-25T12:42:41.300Z",
   "latestLogNo": "224483057992",
   "postCount": 50,
-  "syncedAt": "2026-11-25T02:20:34.861Z",
+  "syncedAt": "2026-11-25T12:42:41.300Z",
   "posts": [
     {
       "position": 1,
@@ -268,7 +268,7 @@
     },
     {
       "position": 33,
-      "title": "[디지털/가전][제안] 12월 릴랙스데이 | 행사일정 12/10~12/25 | 제안마감 11/24(화)",
+      "title": "[디지털/가전][제안] 12월 릴랙스데이 | 행사일정 12/10~12/25 | 제안마감 11/27(금)",
       "logNo": "224480220552",
       "url": "https://blog.naver.com/naver_seller/224480220552",
       "publishedAt": "2026-11-17T01:32:20.000Z",
