@@ -41325,131 +41325,7 @@
       "type": "임대상가"
     }
   ],
-  "alerts": [
-    {
-      "alertId": "lh:bf89b9b0a66dd2be10196d8a2827da5d",
-      "applicationEnd": "2026-12-31",
-      "applicationStart": "2026-04-06",
-      "broadCandidate": true,
-      "category": "firstComeRentalCommercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": false,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "detectedAt": "2026-11-28T11:37:07+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "4fda9a32220dbd96e6eb9fe150b44e13c1abb0066618d93763b399f5a8d93be9",
-      "fields": [
-        "currentlyListed"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "inventoryUnavailable"
-      ],
-      "needsReview": false,
-      "noticeFamily": "남양주금곡1",
-      "panId": "first:firstComeRentalCommercial:c573ba3aeb9c2be1219e9d59",
-      "postedAt": "",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "firstComeRentalCommercial"
-      ],
-      "status": "",
-      "suwonMatch": "broadCandidate",
-      "title": "남양주금곡 1",
-      "type": "임대상가"
-    },
-    {
-      "alertId": "lh:e148431f1df943fbd5222e3fd7afce27",
-      "applicationEnd": "2026-12-31",
-      "applicationStart": "2026-04-06",
-      "broadCandidate": true,
-      "category": "firstComeRentalCommercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": false,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "detectedAt": "2026-11-28T11:37:07+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "2603005873206467e68cdaaa8186abfc3435006a1e9336b641dca467aa26df0b",
-      "fields": [
-        "currentlyListed"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "inventoryUnavailable"
-      ],
-      "needsReview": false,
-      "noticeFamily": "남양주금곡1",
-      "panId": "first:firstComeRentalCommercial:97facfa319e029584badf329",
-      "postedAt": "",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "firstComeRentalCommercial"
-      ],
-      "status": "",
-      "suwonMatch": "broadCandidate",
-      "title": "남양주금곡 1",
-      "type": "임대상가"
-    },
-    {
-      "alertId": "lh:b6ca280a1b6b1dbe0b2c643517e31908",
-      "applicationEnd": "2026-12-31",
-      "applicationStart": "2026-04-06",
-      "broadCandidate": true,
-      "category": "firstComeRentalCommercial",
-      "confirmedRegions": [],
-      "correction": false,
-      "correctionOf": "",
-      "currentlyListed": false,
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "detectedAt": "2026-11-28T11:37:07+09:00",
-      "directSuwon": false,
-      "eligibilityStatus": "개별 공고의 자격·순위·대상자별 접수 일정 확인 필요",
-      "eventSignature": "3d47727f09c3f8e585235f4b0fac7f9deb831268d6be9fbfabb0cde93ea02141",
-      "fields": [
-        "currentlyListed"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "inventoryUnavailable"
-      ],
-      "needsReview": false,
-      "noticeFamily": "남양주금곡1",
-      "panId": "first:firstComeRentalCommercial:6065ebd3856c3e7a5df2c659",
-      "postedAt": "",
-      "recruitmentKind": "공고 내용 확인 필요",
-      "region": "경기도",
-      "requiresSuwonReview": true,
-      "reviewReason": [],
-      "roomCount": null,
-      "roomCountStatus": "확인 필요",
-      "sourceNames": [
-        "firstComeRentalCommercial"
-      ],
-      "status": "",
-      "suwonMatch": "broadCandidate",
-      "title": "남양주금곡 1",
-      "type": "임대상가"
-    }
-  ],
+  "alerts": [],
   "broadCandidates": [
     {
       "applicationEnd": "",
@@ -91216,47 +91092,7 @@
       "type": "선착순 계약"
     }
   ],
-  "changed": [
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "fields": [
-        "currentlyListed"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "inventoryUnavailable"
-      ],
-      "panId": "first:firstComeRentalCommercial:c573ba3aeb9c2be1219e9d59",
-      "title": "남양주금곡 1"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "fields": [
-        "currentlyListed"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "inventoryUnavailable"
-      ],
-      "panId": "first:firstComeRentalCommercial:97facfa319e029584badf329",
-      "title": "남양주금곡 1"
-    },
-    {
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/bor_ctrt_psb_dst/4/lfn_getTabChange.do?mi=31381",
-      "fields": [
-        "currentlyListed"
-      ],
-      "kind": "changed",
-      "kinds": [
-        "changed",
-        "inventoryUnavailable"
-      ],
-      "panId": "first:firstComeRentalCommercial:6065ebd3856c3e7a5df2c659",
-      "title": "남양주금곡 1"
-    }
-  ],
+  "changed": [],
   "collectionVersion": 2,
   "directSuwon": [
     {
@@ -93791,7 +93627,7 @@
   "supplementalSources": {
     "calendar": {
       "calendarRowCount": 1317,
-      "checkedAt": "2026-11-28T11:37:07+09:00",
+      "checkedAt": "2026-11-28T19:53:42+09:00",
       "checkedDays": 61,
       "checkedPages": 2,
       "complete": true,
@@ -93938,7 +93774,7 @@
       "uniqueCount": 95
     }
   },
-  "syncedAt": "2026-11-28T11:37:07+09:00",
+  "syncedAt": "2026-11-28T19:53:42+09:00",
   "targetRegions": [
     {
       "applicationEnd": "",
